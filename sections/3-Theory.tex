@@ -1,0 +1,237 @@
+\section{Theory}
+
+The method of this study is being made possible from the theory that is displayed in this section. 
+
+
+
+
+% \textit{Don't know were to put this}
+% \subsection{Relationship Between Designer and Developer}%
+% \label{sub:Relationship Between Designer and Developer}
+% To create a great product the collaboration between designers and developers is essential.
+
+% \textit{"Without the proper alignment and synergy of skillsets, the user experience you provide your users will lack efficiency, engagement, and value."} - Khamdamova, \cite{RelationshipDesignersDevelopers} 
+
+The process of creating a web-application is typically done in three major steps: 
+\begin{itemize}
+  \item Design
+  \item Develop
+  \item Publish
+\end{itemize}
+
+The tool that this project is creating is will almost follow these three steps except the last one. Instead of publishing however the components that will be generated need to be distributed between designer and developer. Therefor \textbf{\textit{publish}}, for this project is replaced by \textbf{\textit{distribute}}.
+
+All these steps are often, if not always, done iteratively within them selfs and as a whole cycle. However there must be some sort of design to start a meaningful and useful development effort. If there is nothing that has been developed there is nothing to publish. So therefore these three must be done in order. 
+
+The tool that this project produced has a part in all these three steps.\\ 
+Design(Figma) --\textgreater Develop(Figma API, FigmaConverter) --\textgreater Distribute(package manager (NPM)).\\
+In this section we will dive deeper in how to traverse these steps, and how it is possible to automate it.
+
+% Often this is done iteratively through all three steps. For this project to create a tool that can automate the process of making design components to functional code these main areas must be considered. 
+
+
+\subsection{Design}%
+\label{sub:Design}
+The design work of a project is largely held at the start of the project. Where the project team is in contact with the customer and hash out what the application and system will look like. With software there is often hard for a customer to know what they want and what is possible to do. This is a part of the design segment of the project and often needs some iterations to get things done. 
+
+A fairly regular way of making the design of websites is to first create prototypes with very low details and then build in details from there. This is Low Fidelity (LoFi) to High Fidelity (HiFi) prototyping. Where the customer can be a part of the steps to create something that they want and can be done. The medium with which these prototypes are created varies but most often than not a User Interface (UI) design application is used to make the final HiFi-prototype. This HiFi-prototype is visually accurate with the final product meaning that all colors, typographies and layout are complete. This then needs to be translated into code by the developer.
+
+\subsubsection{UI Design Applications}%
+\label{ssub:Apps}
+User interface design is often the first step in build an application. This is done to ensure the customer that the product is going to look as they want it to and that the team building the application is on the same page. \textbf{(Komma överens)}.  Sketch \cite{sketchDigitalDesignToolkit} was released in 2010 and was one of the first UI design applications and lead the marked for may years. In latter years applications like Figma \cite{figmaFigmaCollaborativeInterface} (released 2016) and Adobe XD \cite{adobeAdobeXDFast}(released 2015) has come to take over Sketches overwhelming dominance. 
+
+In this thesis Figma is the tool that is being looked at because this tool is already being used by Knowit. Figma is also one of few design applications that have an open API which makes this project possible. 
+
+ 
+% Since the early 10's the UI design applications have been around to make this easier.
+
+
+% Assesemnt of Figma vs Sketch \cite{SketchVsFigma0200} 
+
+
+
+
+\subsubsection{Figma}%
+\label{sub:Figma}
+Figma is a UI Design application which is web based. Meaning that the whole program is run over network. 
+
+Figma has an open REST-API, (Representational State Transfer), that supply's the information of the Figma document over the Internet \cite{figmaFigma, RepresentationalStateTransfer2021}. Figma is also web-based meaning that the program runs over a network connection. Because of this the API is constantly updated after each change in the design, which great for collaboration and getting the API constantly updated.
+
+\subsubsection{Figma Components}%
+\label{ssub:Figma Components}
+
+Figma also allows its users to create components. This is a set of elements that is combined to a component. This is for example a button that could be used in many different places around the UI. A component is a great use case for this because when a component is made all its copies or children \textit{"looks"} at the original component. This means that if a change is needed to be done to that component the original is the only one that is needed to be changed.
+
+\subsubsection{Figma Styles}%
+\label{ssub:Styles}
+Figma has a feature that let's the user store color, text and effect styles. These are a way for the user to store default styles for their design. This style can later be used in many different elements. For example if the default color for a design is green the user can store this green color as a color style. If the user changes its mind after a while and they want the default color for a design to be blue. The only thing that the users then needs to do is to change the color style and all the elements that uses this default color will change its color. The same principle extends to typographies and effects such as shadows and blurs too. 
+
+
+
+
+\subsection{Competitors}%
+\label{sub:Competitors}
+The idea of making a design program generate functional code is not new. In this section some of the competitors of this genre of programs will be brought up and compared.
+
+\subsubsection{Webflow}
+Webflow was founded in 2013 and is a product from the famous program Y Combinator. Webflow allows the user to design, create and publish a website all from their program. Webflow is, as Figma, a network based application that works form a web browser. 
+
+
+
+Webflows website: \cite{ResponsiveWebDesign} 
+
+\subsubsection{Visly}%
+\label{ssub:Visly}
+Visly website: \cite{vislyVisly} 
+Visly is was founded in 2018 and is very similar to Figma in how the user designs the product. Visly uses the design to create React components \cite{facebookincReactJavaScriptLibrary}. React is a component based JavaScript framework made by Facebook. Visly essentially makes it possible to create these components visually.
+
+\subsubsection{Bravo}%
+\label{ssub:Bravo}
+
+Build Native IOS och Android apps with Figma. Think this can be the closest to the what I'm trying to do. 
+
+\subsubsection{Comparison}%
+\label{ssub:Comparison}
+
+
+
+% \subsubsection{Components}%
+% \label{sub:Components}
+
+\subsection{Develop}%
+\label{sub:Develop}
+
+Most modern websites is run with DHTML (Dynamic HTML), which is built by HTML, CSS and JavaScript.  
+
+% All websites that is run through web-browsers all use three main languages. HTML, CSS and JavaScript. HTML for the content of the site, CSS for styling the content and JavaScript for manipulating the content and/or making other \textit{calculations}??. These three languages are from now on going to be referred to as the native browser languages.
+
+
+In modern web design there are a lot of different frameworks and languages that makes it easier for developers to make create products but all these tools have the one thing in common. They all convert to one of the native browser languages. 
+
+One of the goals of the thesis is to create a tool that could be used in as many projects as possible. Knowit is, as explained in the intro, a fairly large company and has a lot of different projects with lots of different frameworks.   
+
+
+\subsubsection{REST API}%
+\label{sub:REST API}
+REST stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and is a architectural style of distributed hypermedia systems. That was created by Roy Fielding in 2000 with the release of his dissertation \cite{fieldingFieldingDissertationCHAPTER}. For an API to be called \textit{RESTful} it needs to fill six requirements \cite{restfulapi.netWhatREST}.
+\begin{enumerate}
+  \item Client–server - the UI and data storage are separated
+  \item Stateless –  The server does not store any information of the client. The client must provide all information for every request. 
+  \item Cacheable - \textit{Cache constraints require that the data within a response to a request be implicitly or explicitly labeled as cacheable or non-cacheable. If a response is cacheable, then a client cache is given the right to reuse that response data for later, equivalent requests.} - SIMPLIFY
+  \item Uniform interface – \textit{By applying the software engineering principle of generality to the component interface, the overall system architecture is simplified and the visibility of interactions is improved. In order to obtain a uniform interface, multiple architectural constraints are needed to guide the behavior of components. REST is defined by four interface constraints: identification of resources; manipulation of resources through representations; self-descriptive messages; and, hypermedia as the engine of application state.} - SIMPLIFY
+  \item Layered system -  This architecture consists of hierarchical layers that constrains what each components can do, such as a component can only interact with the layer that it is on.
+  \item  Code on demand (optional) - This allows the client to download and execute applets or scripts and there for extending client functionality
+\end{enumerate}
+
+
+% \cite{RepresentationalStateTransfer2021} 
+ 
+All of these requirements makes light weight and very easy to understand and thereby introducing fewer problems into the system.  
+
+\subsubsection{Syntactically Awesome Style Sheets (SASS)}%
+\label{sub:sass}
+SASS is an extension language to CSS that makes CSS supercharged. With SASS it is possible to have the stylesheet split up into multiple files, create functions, etc. SASS is then compiled to regular CSS so the browser is able to understand it. SASS is also called a preprocessor for CSS because of this.  SASS has two different syntaxes, the indented syntax commonly referred to just SASS and Sassy CSS (SCSS). The indented syntax was the original syntax for SASS and is only dependent on indentation. SCSS syntax is very similar to regular CSS but with the qualities of SASS. Because of the resembles of normal CSS SCSS is the most easy to learn and most popular of the two syntaxes. For this project SCSS will be used because of the resembles to CSS.
+
+\paragraph{Variables}
+Variables in a stylesheet is useful especially when dealing with colors. Often a website has a set color scheme from the design. This can easily be set as a variable if the colors needs to be changed for some reason. Then there is only one entry that needs to be changed. Regular CSS do support variables but they are a little "clunky". To set a variable you set two dashes infront of the variable name. The clunky part of this impolementation is that you cannot use this variable as it is later on in the code. You have to surround the variable with \textit{"var()"}. An example of this can be seen below.
+
+\begin{lstlisting}[style=htmlcssjs]
+--MyColorVariable: #ff9a67; 
+
+div{
+  background-color: var(--MyColorVariable);
+}
+\end{lstlisting}
+
+What SCSS 
+
+
+\paragraph{Mixins}
+
+
+% \subsubsection{CSS Methodologies}%
+% \label{ssub:methodologies}
+
+% Explanation for BEM\cite{contributorsBEMBlockElement} 
+
+% \subsubsection{SCSS}%
+% \label{ssub:SCSS}
+% \cite{SassSyntacticallyAwesome} 
+
+% \subsubsection{Webpack}%
+% \label{sub:Webpack}
+
+
+
+\subsubsection{Web Components}%
+\label{sub:Web Components}
+Web components are custom made components that are reusable.
+
+Web components are built in to HTML5 which makes them work natively in all major browsers and in congestion with all frameworks. Which makes web components the perfect candidate for this project. 
+
+This \cite{WebComponentsMDN} could be very useful.
+
+\paragraph{Custom Elements}
+\label{ssub:Custom Elements}
+
+A set of JavaScript APIs that allow you to define custom elements and their behavior, which can then be used as desired in your user interface.
+
+
+\paragraph{Shadow DOM}%
+\label{ssub:Shadow DOM}
+A set of JavaScript APIs for attaching an encapsulated "shadow" DOM tree to an element - which is rendered separately from the main document DOM - and controlling associated functionality. In this way, you can keep an element's features private, so they can be scripted and styled without the fear of collision with other parts of the document.
+
+\paragraph{HTML Templates}%
+\label{ssub:HMTL Templates}
+The \textless template \textgreater and \textless slot\textgreater elements enable you to write markup templates that are not displayed in the rendered page. These can then be reused multiple times as the basis of a custom element's structure.
+
+\subsubsection{LitElements}%
+\label{ssub:LitElements}
+LitElement is a great light weight class to simplify making web components\cite{polymerLitElement}. LitElement is built by the Polymer Project \cite{polymerPolymerProject}, which is a group of engineers from the Google Chrome team. LitElement combines functionality from custom elements, shadow DOM and HTML templates to a class that make it easy to create these web components with concise and malleable code.
+
+
+% \subsubsection{Recursive functions}%
+% \label{ssub:Recursive functions}
+% A small but very powerful caviat of programming is recursive fucntions. This is when a funcions calls itself inside said function.
+
+
+\subsection{Distribute}%
+\label{sub:Distribute}
+To be able to use the components created from the designer the developers need to be able to get a hold of them. A lot of reusable code that is crated for the web can be accessed from the internet with the help of package managers.
+
+\subsubsection{Package Manager}%
+\label{sub:Package Manager}
+\cite{PackageManager2020} 
+
+A package manager is a way to install and update programs with ease. The package manager that this project will use is Node Package Manager (NPM) which is the worlds largest software registry\cite{NpmNpmDocs}.
+
+
+\subsection{Semi-Structured Interviews}%
+\label{sub:inteviews}
+This tool is involved with people in many different areas of expertise, form designers to front-end developers to back-end developers. To get a clear view of of how these people work to create the best tool for them the semi-structured interview was used. 
+
+For collecting data from the employees of Knowit semi-structured interviews were used \cite{galletta2013mastering}. 
+
+
+\subsection{User testing}%
+\label{sub:User testing}
+User testing or usability testing is a very broad term. As Lewis \cite{lewis2006usability} described it: Usability testing, in general, involves representative users attempting representative tasks in representative environments, on early prototypes or working versions of computer interfaces.
+
+Why do we need user testing?
+When to use it??
+
+
+
+
+\cite{nielsen1994estimating} 
+
+\cite{nielsen1994heuristic} 
+
+
+\subsection{A/B Testing}%
+\label{sub:A/B Testing}
+
+
+\subsection{Statistical analysis}%
+\label{sub:Statistical analysis}
+

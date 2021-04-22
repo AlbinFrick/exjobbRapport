@@ -1,0 +1,751 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{cohen2004introduction}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4c413160abaa666575a0b3ecf9260ef6}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=048b1f2e564a0184874d61f6c7e2918e}{%
+           family={Lindvall},
+           familyi={L\bibinitperiod},
+           given={Mikael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a5c7130c73954e14db011f0b8a4b2f44}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Patricia},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{32b8ecdeb5db99182081752ac2d3e1cf}
+      \strng{fullhash}{32b8ecdeb5db99182081752ac2d3e1cf}
+      \strng{bibnamehash}{32b8ecdeb5db99182081752ac2d3e1cf}
+      \strng{authorbibnamehash}{32b8ecdeb5db99182081752ac2d3e1cf}
+      \strng{authornamehash}{32b8ecdeb5db99182081752ac2d3e1cf}
+      \strng{authorfullhash}{32b8ecdeb5db99182081752ac2d3e1cf}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Computers, Vol 83}
+      \field{number}{03}
+      \field{shortjournal}{Adv. Comput.}
+      \field{title}{An Introduction to Agile Methods.}
+      \field{volume}{62}
+      \field{year}{2004}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 66}
+      \range{pages}{66}
+    \endentry
+    \entry{fanguyComprehensiveGuideDesign}{online}{}
+      \name{author}{1}{}{%
+        {{hash=50caa373bc4487c86beaeb49e71896db}{%
+           family={Fanguy},
+           familyi={F\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{50caa373bc4487c86beaeb49e71896db}
+      \strng{fullhash}{50caa373bc4487c86beaeb49e71896db}
+      \strng{bibnamehash}{50caa373bc4487c86beaeb49e71896db}
+      \strng{authorbibnamehash}{50caa373bc4487c86beaeb49e71896db}
+      \strng{authornamehash}{50caa373bc4487c86beaeb49e71896db}
+      \strng{authorfullhash}{50caa373bc4487c86beaeb49e71896db}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{{$<$}p{$>$}By utilizing a collection of repeatable components and a set of standards guiding the use of those components, companies are changing the pace of creation and innovation within their teams.{$<$}/p{$>$}}
+      \field{langid}{american}
+      \field{title}{A Comprehensive Guide to Design Systems | {{Inside Design Blog}}}
+      \field{urlday}{28}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/BKWHQX4K/guide-to-design-systems.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.invisionapp.com/inside-design/guide-to-design-systems/
+      \endverb
+      \verb{url}
+      \verb https://www.invisionapp.com/inside-design/guide-to-design-systems/
+      \endverb
+    \endentry
+    \entry{babichSimpleDesignTips2020}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9cac386feba4a607877226b8f91b3338}{%
+           family={Babich},
+           familyi={B\bibinitperiod},
+           given={Nick},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Medium}%
+      }
+      \strng{namehash}{9cac386feba4a607877226b8f91b3338}
+      \strng{fullhash}{9cac386feba4a607877226b8f91b3338}
+      \strng{bibnamehash}{9cac386feba4a607877226b8f91b3338}
+      \strng{authorbibnamehash}{9cac386feba4a607877226b8f91b3338}
+      \strng{authornamehash}{9cac386feba4a607877226b8f91b3338}
+      \strng{authorfullhash}{9cac386feba4a607877226b8f91b3338}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cars are box containers that hold pieces of information. Recently this simple UI component became an essential part of the web and mobile…}
+      \field{day}{22}
+      \field{hour}{10}
+      \field{langid}{english}
+      \field{minute}{16}
+      \field{month}{6}
+      \field{second}{24}
+      \field{title}{Simple {{Design Tips}} for {{Crafting Better UI Cards}}}
+      \field{urlday}{28}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/GI6HDAT2/simple-design-tips-for-crafting-better-ui-cards-19c1ac31a44e.html
+      \endverb
+      \verb{urlraw}
+      \verb https://uxplanet.org/simple-design-tips-for-crafting-better-ui-cards-19c1ac31a44e
+      \endverb
+      \verb{url}
+      \verb https://uxplanet.org/simple-design-tips-for-crafting-better-ui-cards-19c1ac31a44e
+      \endverb
+    \endentry
+    \entry{sketchDigitalDesignToolkit}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4dbea7a3d6ec42e000074e34713ec776}{%
+           family={Sketch},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Sketch}%
+      }
+      \strng{namehash}{4dbea7a3d6ec42e000074e34713ec776}
+      \strng{fullhash}{4dbea7a3d6ec42e000074e34713ec776}
+      \strng{bibnamehash}{4dbea7a3d6ec42e000074e34713ec776}
+      \strng{authorbibnamehash}{4dbea7a3d6ec42e000074e34713ec776}
+      \strng{authornamehash}{4dbea7a3d6ec42e000074e34713ec776}
+      \strng{authorfullhash}{4dbea7a3d6ec42e000074e34713ec776}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Sketch is a design toolkit built to help you create your best work — from your earliest ideas, through to final artwork.}
+      \field{langid}{english}
+      \field{title}{The Digital Design Toolkit}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/TV3BIPL8/www.sketch.com.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sketch.com/
+      \endverb
+      \verb{url}
+      \verb https://www.sketch.com/
+      \endverb
+    \endentry
+    \entry{figmaFigmaCollaborativeInterface}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a86fc3430821f57f16c0c8b000acf401}{%
+           family={Figma},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{fullhash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{bibnamehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{authorbibnamehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{authornamehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{authorfullhash}{a86fc3430821f57f16c0c8b000acf401}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Figma: The Collaborative Interface Design Tool.}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/TSMBP672/www.figma.com.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.figma.com/
+      \endverb
+      \verb{url}
+      \verb https://www.figma.com/
+      \endverb
+    \endentry
+    \entry{adobeAdobeXDFast}{online}{}
+      \name{author}{1}{}{%
+        {{hash=71f698950c9cdadc3d19bb7411177a78}{%
+           family={Adobe},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Adobe}%
+      }
+      \strng{namehash}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{fullhash}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{bibnamehash}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{authorbibnamehash}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{authornamehash}{71f698950c9cdadc3d19bb7411177a78}
+      \strng{authorfullhash}{71f698950c9cdadc3d19bb7411177a78}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Download Adobe XD free with the starter plan. XD is your UI/UX design solution for designing websites and mobile apps. Design, prototype, and share for free.}
+      \field{langid}{swedish}
+      \field{title}{Adobe XD | Fast \& Powerful UI/UX Design \& Collaboration Tool}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/GBDIZQ2V/xd.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.adobe.com/se/products/xd.html
+      \endverb
+      \verb{url}
+      \verb https://www.adobe.com/se/products/xd.html
+      \endverb
+    \endentry
+    \entry{figmaFigma}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a86fc3430821f57f16c0c8b000acf401}{%
+           family={Figma},
+           familyi={F\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Figma}%
+      }
+      \strng{namehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{fullhash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{bibnamehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{authorbibnamehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{authornamehash}{a86fc3430821f57f16c0c8b000acf401}
+      \strng{authorfullhash}{a86fc3430821f57f16c0c8b000acf401}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Figma}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/FQ8QMND9/api.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.figma.com/developers/api
+      \endverb
+      \verb{url}
+      \verb https://www.figma.com/developers/api
+      \endverb
+    \endentry
+    \entry{RepresentationalStateTransfer2021}{inreference}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Representational state transfer (REST) is a de-facto standard for a software architecture for interactive applications that typically use multiple Web services. In order to be used in a REST-based application, a Web Service needs to meet certain constraints; such a Web Service is called RESTful. A RESTful Web service is required to provide an application access to its Web resources in a textual representation and support reading and modification of them with a stateless protocol and a predefined set of operations. By being RESTful, Web Services provide interoperability between the computer systems on the internet that provide these services. REST offers an alternative to, for instance, SOAP as method of access to a Web Service."Web resources" were first defined on the World Wide Web as documents or files identified by their URLs. However, today they have a much more generic and abstract definition that encompasses every thing, entity, or action that can be identified, named, addressed, handled, or performed, in any way whatsoever, on the Web. In a RESTful Web service, requests made to a resource's URI will elicit a response with a payload formatted in HTML, XML, JSON, or some other format. The response can confirm that some alteration has been made to the resource state, and the response can provide hypertext links to other related resources. When HTTP is used, as is most common, the operations (HTTP methods) available are GET, HEAD, POST, PUT, PATCH, DELETE, CONNECT, OPTIONS and TRACE.By using a stateless protocol and standard operations, RESTful systems aim for fast performance, reliability, and the ability to grow by reusing components that can be managed and updated without affecting the system as a whole, even while it is running. The term representational state transfer was introduced and defined in 2000 by Roy Fielding in his doctoral dissertation. Fielding's dissertation explained the REST principles that were known as the "HTTP object model" beginning in 1994, and were used in designing the HTTP 1.1 and Uniform Resource Identifiers (URI) standards. The term is intended to evoke an image of how a well-designed Web application behaves: it is a network of Web resources (a virtual state-machine) where the user progresses through the application by selecting resource identifiers such as http://www.example.com/articles/21 and resource operations such as GET or POST (application state transitions), resulting in the next resource's representation (the next application state) being transferred to the end user for their use.}
+      \field{annotation}{Page Version ID: 1004990383}
+      \field{booktitle}{Wikipedia}
+      \field{day}{5}
+      \field{hour}{11}
+      \field{langid}{english}
+      \field{minute}{46}
+      \field{month}{2}
+      \field{second}{12}
+      \field{timezone}{Z}
+      \field{title}{Representational State Transfer}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/YYSXHH9A/index.html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Representational_state_transfer&oldid=1004990383
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Representational_state_transfer&oldid=1004990383
+      \endverb
+    \endentry
+    \entry{ResponsiveWebDesign}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{title}{Responsive Web Design Tool, {{CMS}}, and Hosting Platform | {{Webflow}}}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://webflow.com/
+      \endverb
+      \verb{url}
+      \verb https://webflow.com/
+      \endverb
+    \endentry
+    \entry{vislyVisly}{online}{}
+      \name{author}{1}{}{%
+        {{hash=077ce4c5f733b3a3eb7f0e3861e85a4f}{%
+           family={Visly},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{fullhash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{bibnamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{authorbibnamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{authornamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{authorfullhash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Visly}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/IDDIKLYR/visly.app.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.visly.app
+      \endverb
+      \verb{url}
+      \verb https://www.visly.app
+      \endverb
+    \endentry
+    \entry{facebookincReactJavaScriptLibrary}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6a2c4d8b39538e1ab369a0cf62a49e46}{%
+           family={Inc},
+           familyi={I\bibinitperiod},
+           given={Facebook},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \strng{fullhash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \strng{bibnamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \strng{authorbibnamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \strng{authornamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \strng{authorfullhash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A JavaScript library for building user interfaces}
+      \field{langid}{english}
+      \field{title}{React – {{A JavaScript}} Library for Building User Interfaces}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/U6ZXWZ3Q/reactjs.org.html
+      \endverb
+      \verb{urlraw}
+      \verb https://reactjs.org/
+      \endverb
+      \verb{url}
+      \verb https://reactjs.org/
+      \endverb
+    \endentry
+    \entry{fieldingFieldingDissertationCHAPTER}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6055872081cf3b6db6ba40e9af2fad9}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{fullhash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{bibnamehash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{authorbibnamehash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{authornamehash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{authorfullhash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fielding {{Dissertation}}: {{CHAPTER}} 5: {{Representational State Transfer}} ({{REST}})}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/T95I4UDK/rest_arch_style.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+      \endverb
+      \verb{url}
+      \verb https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+      \endverb
+    \endentry
+    \entry{restfulapi.netWhatREST}{online}{}
+      \name{author}{1}{}{%
+        {{hash=68f278f6460b521815dd0d789b6ba337}{%
+           family={{restfulapi.net}},
+           familyi={r\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {REST API Tutorial}%
+      }
+      \strng{namehash}{68f278f6460b521815dd0d789b6ba337}
+      \strng{fullhash}{68f278f6460b521815dd0d789b6ba337}
+      \strng{bibnamehash}{68f278f6460b521815dd0d789b6ba337}
+      \strng{authorbibnamehash}{68f278f6460b521815dd0d789b6ba337}
+      \strng{authornamehash}{68f278f6460b521815dd0d789b6ba337}
+      \strng{authorfullhash}{68f278f6460b521815dd0d789b6ba337}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{REST is an architecture style for designing networked applications. REST is a lightweight alternative to mechanisms like RPC (Remote Procedure Calls) and Web Services (SOAP) etc.}
+      \field{langid}{american}
+      \field{title}{What Is {{REST}}}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/8WL7GDD4/restfulapi.net.html
+      \endverb
+      \verb{urlraw}
+      \verb https://restfulapi.net/
+      \endverb
+      \verb{url}
+      \verb https://restfulapi.net/
+      \endverb
+    \endentry
+    \entry{WebComponentsMDN}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Web {{Components}} | {{MDN}}}
+      \field{urlday}{9}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/P3EDPZKW/Web_Components.html
+      \endverb
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Web_Components
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Web_Components
+      \endverb
+    \endentry
+    \entry{polymerLitElement}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9237abac42b5b675539f76850aed3356}{%
+           family={Polymer},
+           familyi={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9237abac42b5b675539f76850aed3356}
+      \strng{fullhash}{9237abac42b5b675539f76850aed3356}
+      \strng{bibnamehash}{9237abac42b5b675539f76850aed3356}
+      \strng{authorbibnamehash}{9237abac42b5b675539f76850aed3356}
+      \strng{authornamehash}{9237abac42b5b675539f76850aed3356}
+      \strng{authorfullhash}{9237abac42b5b675539f76850aed3356}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{LitElement}}}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/66EK7QKQ/lit-element.polymer-project.org.html
+      \endverb
+      \verb{urlraw}
+      \verb https://lit-element.polymer-project.org/
+      \endverb
+      \verb{url}
+      \verb https://lit-element.polymer-project.org/
+      \endverb
+    \endentry
+    \entry{polymerPolymerProject}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6ac9fb6e69374501bea0bcad9749c0a7}{%
+           family={{polymer}},
+           familyi={p\bibinitperiod}}}%
+      }
+      \strng{namehash}{6ac9fb6e69374501bea0bcad9749c0a7}
+      \strng{fullhash}{6ac9fb6e69374501bea0bcad9749c0a7}
+      \strng{bibnamehash}{6ac9fb6e69374501bea0bcad9749c0a7}
+      \strng{authorbibnamehash}{6ac9fb6e69374501bea0bcad9749c0a7}
+      \strng{authornamehash}{6ac9fb6e69374501bea0bcad9749c0a7}
+      \strng{authorfullhash}{6ac9fb6e69374501bea0bcad9749c0a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Polymer {{Project}}}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/GAZT7PE6/www.polymer-project.org.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.polymer-project.org/
+      \endverb
+      \verb{url}
+      \verb https://www.polymer-project.org/
+      \endverb
+    \endentry
+    \entry{PackageManager2020}{inreference}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner.A package manager deals with packages, distributions of software and data in archive files. Packages contain metadata, such as the software's name, description of its purpose, version number, vendor, checksum (preferably a cryptographic hash function), and a list of dependencies necessary for the software to run properly. Upon installation, metadata is stored in a local package database. Package managers typically maintain a database of software dependencies and version information to prevent software mismatches and missing prerequisites. They work closely with software repositories, binary repository managers, and app stores. Package managers are designed to eliminate the need for manual installs and updates. This can be particularly useful for large enterprises whose operating systems are typically consisting of hundreds or even tens of thousands of distinct software packages.}
+      \field{annotation}{Page Version ID: 996441348}
+      \field{booktitle}{Wikipedia}
+      \field{day}{26}
+      \field{hour}{17}
+      \field{langid}{english}
+      \field{minute}{5}
+      \field{month}{12}
+      \field{second}{54}
+      \field{timezone}{Z}
+      \field{title}{Package Manager}
+      \field{urlday}{10}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/W6LY2E3W/index.html
+      \endverb
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Package_manager&oldid=996441348
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Package_manager&oldid=996441348
+      \endverb
+    \endentry
+    \entry{NpmNpmDocs}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Documentation for the npm registry, website, and command-line interface}
+      \field{title}{About Npm | Npm {{Docs}}}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/CVMSJ5CH/about-npm.html
+      \endverb
+      \verb{urlraw}
+      \verb https://docs.npmjs.com/about-npm
+      \endverb
+      \verb{url}
+      \verb https://docs.npmjs.com/about-npm
+      \endverb
+    \endentry
+    \entry{galletta2013mastering}{book}{}
+      \name{author}{1}{}{%
+        {{hash=20b258878efe6c64698d087654b2d213}{%
+           family={Galletta},
+           familyi={G\bibinitperiod},
+           given={Anne},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {NYU press}%
+      }
+      \strng{namehash}{20b258878efe6c64698d087654b2d213}
+      \strng{fullhash}{20b258878efe6c64698d087654b2d213}
+      \strng{bibnamehash}{20b258878efe6c64698d087654b2d213}
+      \strng{authorbibnamehash}{20b258878efe6c64698d087654b2d213}
+      \strng{authornamehash}{20b258878efe6c64698d087654b2d213}
+      \strng{authorfullhash}{20b258878efe6c64698d087654b2d213}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mastering the Semi-Structured Interview and beyond: {{From}} Research Design to Analysis and Publication}
+      \field{volume}{18}
+      \field{year}{2013}
+      \field{dateera}{ce}
+    \endentry
+    \entry{lewis2006usability}{article}{}
+      \name{author}{1}{}{%
+        {{hash=f106a761a58d4041d103c16ce4f11cf1}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={James\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{f106a761a58d4041d103c16ce4f11cf1}
+      \strng{fullhash}{f106a761a58d4041d103c16ce4f11cf1}
+      \strng{bibnamehash}{f106a761a58d4041d103c16ce4f11cf1}
+      \strng{authorbibnamehash}{f106a761a58d4041d103c16ce4f11cf1}
+      \strng{authornamehash}{f106a761a58d4041d103c16ce4f11cf1}
+      \strng{authorfullhash}{f106a761a58d4041d103c16ce4f11cf1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Handbook of human factors and ergonomics}
+      \field{title}{Usability Testing}
+      \field{volume}{12}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{e30}
+      \range{pages}{-1}
+    \endentry
+    \entry{nielsen1994estimating}{article}{}
+      \name{author}{1}{}{%
+        {{hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International journal of human-computer studies}
+      \field{number}{3}
+      \field{title}{Estimating the Number of Subjects Needed for a Thinking Aloud Test}
+      \field{volume}{41}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{pages}{385\bibrangedash 397}
+      \range{pages}{13}
+    \endentry
+    \entry{nielsen1994heuristic}{article}{}
+      \name{author}{1}{}{%
+        {{hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons, New York, NY}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Heuristic Evaluation, w: {{Nielsen}} j., Mack {{RL}} (Eds.), Usability Inspection Methods}
+      \field{year}{1994}
+      \field{dateera}{ce}
+    \endentry
+    \entry{taivalsaari2008web}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=589905c4a0a0935b2fd77abfe437d5f9}{%
+           family={Taivalsaari},
+           familyi={T\bibinitperiod},
+           given={Antero},
+           giveni={A\bibinitperiod}}}%
+        {{hash=5d7740b6e2ec0fb41f72f451e980670b}{%
+           family={Mikkonen},
+           familyi={M\bibinitperiod},
+           given={Tommi},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0cd22b3537a2646f31f9d0af1bdec9cb}{%
+           family={Ingalls},
+           familyi={I\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c8d93284d72e8f24a292cc0c706ce31b}{%
+           family={Palacz},
+           familyi={P\bibinitperiod},
+           given={Krzysztof},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{f2ee577cf10f3b47f1035c5415ad8843}
+      \strng{fullhash}{6a6a31c0b321f419f1d9addd1643a51d}
+      \strng{bibnamehash}{6a6a31c0b321f419f1d9addd1643a51d}
+      \strng{authorbibnamehash}{6a6a31c0b321f419f1d9addd1643a51d}
+      \strng{authornamehash}{f2ee577cf10f3b47f1035c5415ad8843}
+      \strng{authorfullhash}{6a6a31c0b321f419f1d9addd1643a51d}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2008 34th Euromicro Conference Software Engineering and Advanced Applications}
+      \field{title}{Web Browser as an Application Platform}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{pages}{293\bibrangedash 302}
+      \range{pages}{10}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
