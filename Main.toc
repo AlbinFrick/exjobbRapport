@@ -11,76 +11,80 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3}Demarcations}{3}{subsection.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Theory}{4}{section.2}%
+\contentsline {section}{\numberline {2}Background}{5}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Design}{4}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Theory}{6}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.1}UI Design Applications}{5}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {3.1}Design}{6}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2}Figma}{5}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.1}UI Design Applications}{7}{subsubsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3}Figma Components}{5}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.2}Figma}{7}{subsubsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.4}Figma Styles}{5}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.3}Figma Components}{7}{subsubsection.3.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Competitors}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {3.1.4}Figma Styles}{7}{subsubsection.3.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Webflow}{6}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {3.2}Competitors}{8}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2}Visly}{6}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Webflow}{8}{subsubsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3}Bravo}{6}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.2}Visly}{8}{subsubsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.4}Comparison}{6}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.3}Bravo}{8}{subsubsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Develop}{6}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.4}Comparison}{8}{subsubsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1}REST API}{6}{subsubsection.2.3.1}%
+\contentsline {subsection}{\numberline {3.3}Develop}{8}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.2}Syntactically Awesome Style Sheets (SASS)}{7}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.1}REST API}{8}{subsubsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {2.3.2.1}Variables}{7}{paragraph.2.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}JavaScript and TypeScript}{9}{subsubsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {2.3.2.2}Mixins}{8}{paragraph.2.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}Syntactically Awesome Style Sheets (SASS)}{10}{subsubsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.3}Web Components}{8}{subsubsection.2.3.3}%
+\contentsline {paragraph}{\numberline {3.3.3.1}Variables}{10}{paragraph.3.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {2.3.3.1}Custom Elements}{8}{paragraph.2.3.3.1}%
+\contentsline {paragraph}{\numberline {3.3.3.2}Mixins}{10}{paragraph.3.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {2.3.3.2}Shadow DOM}{8}{paragraph.2.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.4}Web Components}{10}{subsubsection.3.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {2.3.3.3}HTML Templates}{8}{paragraph.2.3.3.3}%
+\contentsline {paragraph}{\numberline {3.3.4.1}Custom Elements}{10}{paragraph.3.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.4}LitElements}{8}{subsubsection.2.3.4}%
+\contentsline {paragraph}{\numberline {3.3.4.2}Shadow DOM}{11}{paragraph.3.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Distribute}{9}{subsection.2.4}%
+\contentsline {paragraph}{\numberline {3.3.4.3}HTML Templates}{11}{paragraph.3.3.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.1}Package Manager}{9}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {3.3.5}LitElements}{11}{subsubsection.3.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Semi-Structured Interviews}{9}{subsection.2.5}%
+\contentsline {subsection}{\numberline {3.4}Distribute}{11}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}User testing}{9}{subsection.2.6}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}A/B Testing}{9}{subsection.2.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.8}Statistical analysis}{9}{subsection.2.8}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Method}{10}{section.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Workflow}{10}{subsection.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Literature study}{10}{subsection.3.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Creating the tool}{10}{subsection.3.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Interviews from Knowit}{11}{subsection.3.4}%
+\contentsline {subsubsection}{\numberline {3.4.1}Package Manager}{11}{subsubsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5}User testing}{11}{subsection.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6} Finalized Prototype }{11}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.6}A/B Testing}{12}{subsection.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7} AB Testing }{11}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.7}Statistical analysis}{12}{subsection.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Result}{12}{section.4}%
+\contentsline {section}{\numberline {4}Method}{13}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Discussion}{13}{section.5}%
+\contentsline {subsection}{\numberline {4.1}Workflow and Actions taken}{13}{subsection.4.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Literature study}{13}{subsection.4.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Creating the tool}{13}{subsection.4.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Semi-Structured Interviews}{14}{subsection.4.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5}Interviews from Knowit}{14}{subsection.4.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6}User testing}{15}{subsection.4.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.7} Finalized Prototype }{15}{subsection.4.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.8} AB Testing }{15}{subsection.4.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Result}{16}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Discussion}{17}{section.6}%

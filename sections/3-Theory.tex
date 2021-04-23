@@ -128,6 +128,15 @@ REST stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and i
  
 All of these requirements makes light weight and very easy to understand and thereby introducing fewer problems into the system.  
 
+
+\subsubsection{JavaScript and TypeScript}%
+\label{ssub:JavaScript and TypeScript}
+
+JavaScript is a programming language that reports its error much later than many other languages. Variables can take any shape in JavaScript. That is for instance a number or a string. This can at first seem as something good that the language is highly dynamic but this is also very error prone. Where most of the errors are discovered after the program is run. 
+
+\textit{Incremental testing is required. Due to its highly permissive, error-tolerant nature, JavaScript programming requires an incremental, evolutionary approach to testing as well. Since errors are reported much later than usual, by the time an error is reported it is often surprisingly difficult to pinpoint the original location of the error. Error detection is made harder by the dynamic nature of JavaScript, for instance, by the option to change some of the system features on the fly. Furthermore, in the absence of strong, static typing, it is possible to execute a program and only at runtime realize that some parts of the program are missing. For all these reasons, the best way to write JavaScript programs is to proceed step by step, by writing (and immediately testing) each new piece of code. If such an incremental, evolutionary approach is not used, debugging and testing can become quite tedious even for relatively small JavaScript applications.} \cite{taivalsaari2008web} 
+
+
 \subsubsection{Syntactically Awesome Style Sheets (SASS)}%
 \label{sub:sass}
 SASS is an extension language to CSS that makes CSS supercharged. With SASS it is possible to have the stylesheet split up into multiple files, create functions, etc. SASS is then compiled to regular CSS so the browser is able to understand it. SASS is also called a preprocessor for CSS because of this.  SASS has two different syntaxes, the indented syntax commonly referred to just SASS and Sassy CSS (SCSS). The indented syntax was the original syntax for SASS and is only dependent on indentation. SCSS syntax is very similar to regular CSS but with the qualities of SASS. Because of the resembles of normal CSS SCSS is the most easy to learn and most popular of the two syntaxes. For this project SCSS will be used because of the resembles to CSS.
@@ -195,6 +204,7 @@ LitElement is a great light weight class to simplify making web components\cite{
 % A small but very powerful caviat of programming is recursive fucntions. This is when a funcions calls itself inside said function.
 
 
+
 \subsection{Distribute}%
 \label{sub:Distribute}
 To be able to use the components created from the designer the developers need to be able to get a hold of them. A lot of reusable code that is crated for the web can be accessed from the internet with the help of package managers.
@@ -206,11 +216,11 @@ To be able to use the components created from the designer the developers need t
 A package manager is a way to install and update programs with ease. The package manager that this project will use is Node Package Manager (NPM) which is the worlds largest software registry\cite{NpmNpmDocs}.
 
 
-\subsection{Semi-Structured Interviews}%
-\label{sub:inteviews}
-This tool is involved with people in many different areas of expertise, form designers to front-end developers to back-end developers. To get a clear view of of how these people work to create the best tool for them the semi-structured interview was used. 
+% \subsection{Semi-Structured Interviews}%
+% \label{sub:inteviews}
+% This tool is involved with people in many different areas of expertise, form designers to front-end developers to back-end developers. To get a clear view of of how these people work to create the best tool for them the semi-structured interview was used. 
 
-For collecting data from the employees of Knowit semi-structured interviews were used \cite{galletta2013mastering}. 
+% For collecting data from the employees of Knowit semi-structured interviews were used \cite{galletta2013mastering}. 
 
 
 \subsection{User testing}%
