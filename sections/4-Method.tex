@@ -36,7 +36,7 @@ The subject at hand was thoroughly
 
 Meetings with Knowit and where discussions of what could be possible to do under the 20 weeks of work that should be carried out. As seen from the literature study the big problem was how to condense the elements in from the code to easly be used. 
 
-Identifying te tools that should be used.
+Identifying the tools that should be used.
 \begin{itemize}
   \item TypeScript - for building the tool.
   \item Exploring Figmas API.
@@ -48,33 +48,46 @@ To build the tool an experimental approach with \textbf{TypeScript} was used. Th
 
 To understand what could be done with Figmas API it first had to be examined. The website \url{https://www.figma.com/developers/api} was read through and also some initial HTTP-requests where sent to the API, using platform Postman \cite{PostmanCollaborationPlatform}. The initial response from the API where quite large. This meant that setting the TypeScript types correct for all values in the response would take alot of time. To mitigate this the Visual Studio Code \cite{VisualStudioCode} extension quicktype\cite{ConvertJSONSwift} was used to generate types from the JSON response. 
 
-From the response we could see that most, or at least enough, of the data were the same as styling in CSS. This meant that styling elements with CSS was possible from the API. Styling is one thing but how do we build the skeleton of the page? the HTML. HTML was born 28 years ago. Back then modularity and component compatibility where not important. The first suggestion to solve this issue was to build a separate HTML-file and then use that as a sub-file to the main HTML-file. This could've worked for a static page with some browsers. But the requirements for the project are that the components can be used for all frameworks too. This is where LitElement and web-components comes in. 
+From the response we could see that most, or at least enough, of the data were the same as styling in CSS. This meant that styling elements with CSS was possible from the API. Styling is one thing but how do we build the skeleton of the page? the HTML. HTML was born 28 years ago. Back then modularity and component compatibility where not important. The first suggestion to solve this issue was to build a separate HTML-file and then use that as a sub-file to the main HTML-file. This could've worked for a static page with some browsers. But the requirements for the project are that the components can be used for all frameworks too. To solve this the tool LitElement was used. LitElement (\ref{ssub:LitElement}) is a class that builds web-components (\ref{ssub:Custom Elements}), HTML templates (\ref{ssub:HMTL Templates}) and shadow-DOM (\ref{ssub:Shadow DOM}). Which combined makes for a really good way of building components. LitElement is a class in TypeScript and JavaScript where we choose to use the TypeScript version to keep the program code consistent. 
 
-Knowit uses a supercharged version of CSS called SCSS in most of their projects (section \ref{ssub:sass}). SCSS handles variables in a more intuitive way than regular  CSS which made it the clear choice for storing styling variables moving forward.
+\textit{Should mention that the coding method used is object-oriented, but don't know where}
+
+The information from Figmas API is stored as classes of colors, typographies, and components. Where the components can contain the other two. 
+
+To build the HTML inside the LitElement the data-object from Figmas API where run through a recursive function that is run on the component and all it's children (elements).
+
+For the first ''attempt'' styling where done in a similar way but because of the nature of the shadow-DOM every CSS-attribute where assigns a property which was reachable from outside the component. This was later redesigned because of the fact that the user could not add a new CSS-attribute to the component if they wished to. To fix this the CSS-attributes where stored in maps \cite{ArrayPrototypeMap} and then pushed in to a style element. Instead of creating a property for each style attribute, only one property for each element is created. If the user wishes to add and/or change the styling of an component they target the element as an attribute to the component and inputs regular CSS. The component then creates a duplicate of the styling map for the targeted element and inserts the new styling attributes to the component.
 
 
 
 
 
 
-\subsection{Semi-Structured Interviews}%
+knowit uses a supercharged version of css called scss in most of their projects (section \ref{sub:sass}). scss handles variables in a more intuitive way than regular  css which made it the clear choice for storing styling variables moving forward.
+
+
+
+
+
+
+\subsection{semi-structured interviews}%
 \label{sub:inteviews}
-This tool is involved with people in many different areas of expertise, form designers to front-end developers to back-end developers. To get a clear view of of how these people work to create the best tool for them the semi-structured interview was used. 
+this tool is involved with people in many different areas of expertise, form designers to front-end developers to back-end developers. to get a clear view of of how these people work to create the best tool for them the semi-structured interview was used. 
 
-For collecting data from the employees of Knowit semi-structured interviews were used \cite{galletta2013mastering}. 
-
-
-\subsection{Interviews from Knowit}%
-\label{sub:}
-To get an understanding of what the tool should be able to do and how it should operate. Semi-structured interviews were held with (??seven??) employees of Knowit.
+for collecting data from the employees of knowit semi-structured interviews were used \cite{galletta2013mastering}. 
 
 
-\subsection{User testing}%
-\label{sub:userTesting}
+% \subsection{interviews from knowit}%
+% \label{sub:}
+% to get an understanding of what the tool should be able to do and how it should operate. semi-structured interviews were held with (??seven??) employees of knowit.
 
-kooihoih
-\subsection{ Finalized Prototype }%
-\label{sub:finalizingPrototype}
 
-\subsection{ AB Testing }%
-\label{sub:mABTesting}
+\subsection{user testing}%
+\label{sub:usertesting}
+the user testing 
+
+\subsection{ finalized prototype }%
+\label{sub:finalizingprototype}
+
+\subsection{ ab testing }%
+\label{sub:mabtesting}

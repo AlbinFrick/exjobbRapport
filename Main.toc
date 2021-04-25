@@ -55,7 +55,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {3.3.4.3}HTML Templates}{11}{paragraph.3.3.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.5}LitElements}{11}{subsubsection.3.3.5}%
+\contentsline {subsubsection}{\numberline {3.3.5}LitElement}{11}{subsubsection.3.3.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4}Distribute}{11}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
@@ -75,15 +75,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.3}Creating the tool}{13}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Semi-Structured Interviews}{14}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.4}semi-structured interviews}{15}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}Interviews from Knowit}{14}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.5}user testing}{15}{subsection.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6}User testing}{15}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.6} finalized prototype }{15}{subsection.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7} Finalized Prototype }{15}{subsection.4.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.8} AB Testing }{15}{subsection.4.8}%
+\contentsline {subsection}{\numberline {4.7} ab testing }{15}{subsection.4.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Result}{16}{section.5}%
 \defcounter {refsection}{0}\relax 

@@ -783,6 +783,45 @@
       \verb https://quicktype.io/
       \endverb
     \endentry
+    \entry{ArrayPrototypeMap}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Array.Prototype.Map() - {{JavaScript}} | {{MDN}}}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/ILWPPJ8X/map.html
+      \endverb
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+      \endverb
+    \endentry
+    \entry{BrollopGoogleMina}{online}{}
+      \list{organization}{1}{%
+        {Google My Maps}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bröllop}
+      \field{title}{Bröllop – {{Google Mina}} Kartor}
+      \field{urlday}{25}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.google.com/maps/d/viewer?mid=1bCMUkm7kToEtmOpZbvGEEstq_5gX4xg2
+      \endverb
+      \verb{url}
+      \verb https://www.google.com/maps/d/viewer?mid=1bCMUkm7kToEtmOpZbvGEEstq_5gX4xg2
+      \endverb
+    \endentry
     \entry{galletta2013mastering}{book}{}
       \name{author}{1}{}{%
         {{hash=20b258878efe6c64698d087654b2d213}{%

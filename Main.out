@@ -20,7 +20,7 @@
 \BOOKMARK [3][-]{subsubsection.3.3.2}{JavaScript and TypeScript}{subsection.3.3}% 20
 \BOOKMARK [3][-]{subsubsection.3.3.3}{Syntactically Awesome Style Sheets \(SASS\)}{subsection.3.3}% 21
 \BOOKMARK [3][-]{subsubsection.3.3.4}{Web Components}{subsection.3.3}% 22
-\BOOKMARK [3][-]{subsubsection.3.3.5}{LitElements}{subsection.3.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.3.5}{LitElement}{subsection.3.3}% 23
 \BOOKMARK [2][-]{subsection.3.4}{Distribute}{section.3}% 24
 \BOOKMARK [3][-]{subsubsection.3.4.1}{Package Manager}{subsection.3.4}% 25
 \BOOKMARK [2][-]{subsection.3.5}{User testing}{section.3}% 26
@@ -30,10 +30,9 @@
 \BOOKMARK [2][-]{subsection.4.1}{Workflow and Actions taken}{section.4}% 30
 \BOOKMARK [2][-]{subsection.4.2}{Literature study}{section.4}% 31
 \BOOKMARK [2][-]{subsection.4.3}{Creating the tool}{section.4}% 32
-\BOOKMARK [2][-]{subsection.4.4}{Semi-Structured Interviews}{section.4}% 33
-\BOOKMARK [2][-]{subsection.4.5}{Interviews from Knowit}{section.4}% 34
-\BOOKMARK [2][-]{subsection.4.6}{User testing}{section.4}% 35
-\BOOKMARK [2][-]{subsection.4.7}{ Finalized Prototype }{section.4}% 36
-\BOOKMARK [2][-]{subsection.4.8}{ AB Testing }{section.4}% 37
-\BOOKMARK [1][-]{section.5}{Result}{}% 38
-\BOOKMARK [1][-]{section.6}{Discussion}{}% 39
+\BOOKMARK [2][-]{subsection.4.4}{semi-structured interviews}{section.4}% 33
+\BOOKMARK [2][-]{subsection.4.5}{user testing}{section.4}% 34
+\BOOKMARK [2][-]{subsection.4.6}{ finalized prototype }{section.4}% 35
+\BOOKMARK [2][-]{subsection.4.7}{ ab testing }{section.4}% 36
+\BOOKMARK [1][-]{section.5}{Result}{}% 37
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 38
