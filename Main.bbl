@@ -137,6 +137,88 @@
       \verb https://www.invisionapp.com/inside-design/guide-to-design-systems/
       \endverb
     \endentry
+    \entry{ResponsiveWebDesign}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{title}{Responsive Web Design Tool, {{CMS}}, and Hosting Platform | {{Webflow}}}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://webflow.com/
+      \endverb
+      \verb{url}
+      \verb https://webflow.com/
+      \endverb
+    \endentry
+    \entry{vislyVisly}{online}{}
+      \name{author}{1}{}{%
+        {{hash=077ce4c5f733b3a3eb7f0e3861e85a4f}{%
+           family={Visly},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{fullhash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{bibnamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{authorbibnamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{authornamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{authorfullhash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Visly}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/IDDIKLYR/visly.app.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.visly.app
+      \endverb
+      \verb{url}
+      \verb https://www.visly.app
+      \endverb
+    \endentry
+    \entry{facebookincReactJavaScriptLibrary}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6a2c4d8b39538e1ab369a0cf62a49e46}{%
+           family={Inc},
+           familyi={I\bibinitperiod},
+           given={Facebook},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \strng{fullhash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \strng{bibnamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \strng{authorbibnamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \strng{authornamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \strng{authorfullhash}{6a2c4d8b39538e1ab369a0cf62a49e46}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A JavaScript library for building user interfaces}
+      \field{langid}{english}
+      \field{title}{React – {{A JavaScript}} Library for Building User Interfaces}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/U6ZXWZ3Q/reactjs.org.html
+      \endverb
+      \verb{urlraw}
+      \verb https://reactjs.org/
+      \endverb
+      \verb{url}
+      \verb https://reactjs.org/
+      \endverb
+    \endentry
     \entry{sketchDigitalDesignToolkit}{online}{}
       \name{author}{1}{}{%
         {{hash=4dbea7a3d6ec42e000074e34713ec776}{%
@@ -152,8 +234,8 @@
       \strng{authorbibnamehash}{4dbea7a3d6ec42e000074e34713ec776}
       \strng{authornamehash}{4dbea7a3d6ec42e000074e34713ec776}
       \strng{authorfullhash}{4dbea7a3d6ec42e000074e34713ec776}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Sketch is a design toolkit built to help you create your best work — from your earliest ideas, through to final artwork.}
@@ -186,8 +268,8 @@
       \strng{authornamehash}{a86fc3430821f57f16c0c8b000acf401}
       \strng{authorfullhash}{a86fc3430821f57f16c0c8b000acf401}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Figma: The Collaborative Interface Design Tool.}
@@ -220,8 +302,8 @@
       \strng{authorbibnamehash}{71f698950c9cdadc3d19bb7411177a78}
       \strng{authornamehash}{71f698950c9cdadc3d19bb7411177a78}
       \strng{authorfullhash}{71f698950c9cdadc3d19bb7411177a78}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Download Adobe XD free with the starter plan. XD is your UI/UX design solution for designing websites and mobile apps. Design, prototype, and share for free.}
@@ -257,8 +339,8 @@
       \strng{authornamehash}{a86fc3430821f57f16c0c8b000acf401}
       \strng{authorfullhash}{a86fc3430821f57f16c0c8b000acf401}
       \field{extraname}{2}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Figma}
@@ -277,8 +359,8 @@
       \endverb
     \endentry
     \entry{RepresentationalStateTransfer2021}{inreference}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{abstract}{Representational state transfer (REST) is a de-facto standard for a software architecture for interactive applications that typically use multiple Web services. In order to be used in a REST-based application, a Web Service needs to meet certain constraints; such a Web Service is called RESTful. A RESTful Web service is required to provide an application access to its Web resources in a textual representation and support reading and modification of them with a stateless protocol and a predefined set of operations. By being RESTful, Web Services provide interoperability between the computer systems on the internet that provide these services. REST offers an alternative to, for instance, SOAP as method of access to a Web Service."Web resources" were first defined on the World Wide Web as documents or files identified by their URLs. However, today they have a much more generic and abstract definition that encompasses every thing, entity, or action that can be identified, named, addressed, handled, or performed, in any way whatsoever, on the Web. In a RESTful Web service, requests made to a resource's URI will elicit a response with a payload formatted in HTML, XML, JSON, or some other format. The response can confirm that some alteration has been made to the resource state, and the response can provide hypertext links to other related resources. When HTTP is used, as is most common, the operations (HTTP methods) available are GET, HEAD, POST, PUT, PATCH, DELETE, CONNECT, OPTIONS and TRACE.By using a stateless protocol and standard operations, RESTful systems aim for fast performance, reliability, and the ability to grow by reusing components that can be managed and updated without affecting the system as a whole, even while it is running. The term representational state transfer was introduced and defined in 2000 by Roy Fielding in his doctoral dissertation. Fielding's dissertation explained the REST principles that were known as the "HTTP object model" beginning in 1994, and were used in designing the HTTP 1.1 and Uniform Resource Identifiers (URI) standards. The term is intended to evoke an image of how a well-designed Web application behaves: it is a network of Web resources (a virtual state-machine) where the user progresses through the application by selecting resource identifiers such as http://www.example.com/articles/21 and resource operations such as GET or POST (application state transitions), resulting in the next resource's representation (the next application state) being transferred to the end user for their use.}
       \field{annotation}{Page Version ID: 1004990383}
@@ -305,88 +387,6 @@
       \endverb
       \verb{url}
       \verb https://en.wikipedia.org/w/index.php?title=Representational_state_transfer&oldid=1004990383
-      \endverb
-    \endentry
-    \entry{ResponsiveWebDesign}{online}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
-      \field{labeltitlesource}{title}
-      \field{title}{Responsive Web Design Tool, {{CMS}}, and Hosting Platform | {{Webflow}}}
-      \field{urlday}{26}
-      \field{urlmonth}{2}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://webflow.com/
-      \endverb
-      \verb{url}
-      \verb https://webflow.com/
-      \endverb
-    \endentry
-    \entry{vislyVisly}{online}{}
-      \name{author}{1}{}{%
-        {{hash=077ce4c5f733b3a3eb7f0e3861e85a4f}{%
-           family={Visly},
-           familyi={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \strng{fullhash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \strng{bibnamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \strng{authorbibnamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \strng{authornamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \strng{authorfullhash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Visly}
-      \field{urlday}{3}
-      \field{urlmonth}{3}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/albin/Zotero/storage/IDDIKLYR/visly.app.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.visly.app
-      \endverb
-      \verb{url}
-      \verb https://www.visly.app
-      \endverb
-    \endentry
-    \entry{facebookincReactJavaScriptLibrary}{online}{}
-      \name{author}{1}{}{%
-        {{hash=6a2c4d8b39538e1ab369a0cf62a49e46}{%
-           family={Inc},
-           familyi={I\bibinitperiod},
-           given={Facebook},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
-      \strng{fullhash}{6a2c4d8b39538e1ab369a0cf62a49e46}
-      \strng{bibnamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
-      \strng{authorbibnamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
-      \strng{authornamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
-      \strng{authorfullhash}{6a2c4d8b39538e1ab369a0cf62a49e46}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A JavaScript library for building user interfaces}
-      \field{langid}{english}
-      \field{title}{React – {{A JavaScript}} Library for Building User Interfaces}
-      \field{urlday}{18}
-      \field{urlmonth}{3}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/albin/Zotero/storage/U6ZXWZ3Q/reactjs.org.html
-      \endverb
-      \verb{urlraw}
-      \verb https://reactjs.org/
-      \endverb
-      \verb{url}
-      \verb https://reactjs.org/
       \endverb
     \endentry
     \entry{fieldingFieldingDissertationCHAPTER}{online}{}
@@ -800,26 +800,6 @@
       \endverb
       \verb{url}
       \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
-      \endverb
-    \endentry
-    \entry{BrollopGoogleMina}{online}{}
-      \list{organization}{1}{%
-        {Google My Maps}%
-      }
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Bröllop}
-      \field{title}{Bröllop – {{Google Mina}} Kartor}
-      \field{urlday}{25}
-      \field{urlmonth}{4}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.google.com/maps/d/viewer?mid=1bCMUkm7kToEtmOpZbvGEEstq_5gX4xg2
-      \endverb
-      \verb{url}
-      \verb https://www.google.com/maps/d/viewer?mid=1bCMUkm7kToEtmOpZbvGEEstq_5gX4xg2
       \endverb
     \endentry
     \entry{galletta2013mastering}{book}{}

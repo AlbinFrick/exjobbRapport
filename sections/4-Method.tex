@@ -52,18 +52,27 @@ From the response we could see that most, or at least enough, of the data were t
 
 \textit{Should mention that the coding method used is object-oriented, but don't know where}
 
-The information from Figmas API is stored as classes of colors, typographies, and components. Where the components can contain the other two. 
+The information from Figmas API is stored as classes of colors, typographies, and components. Where the components class can contain the other two.  The strategy was to generate a string that contained the LitElement. Essentaially the program generated code as a string. This string is later written into a new file.
 
+\subsubsection{Building the skeleton of the component}%
+\label{ssub:building the skeleton of the component}
 To build the HTML inside the LitElement the data-object from Figmas API where run through a recursive function that is run on the component and all it's children (elements).
 
+\subsubsection{Styling the Component}%
+\label{ssub:Styling the component}
 For the first ''attempt'' styling where done in a similar way but because of the nature of the shadow-DOM every CSS-attribute where assigns a property which was reachable from outside the component. This was later redesigned because of the fact that the user could not add a new CSS-attribute to the component if they wished to. To fix this the CSS-attributes where stored in maps \cite{ArrayPrototypeMap} and then pushed in to a style element. Instead of creating a property for each style attribute, only one property for each element is created. If the user wishes to add and/or change the styling of an component they target the element as an attribute to the component and inputs regular CSS. The component then creates a duplicate of the styling map for the targeted element and inserts the new styling attributes to the component.
 
 
+\subsubsection{Variables}%
+\label{ssub:Variables}
+Figma has a feature called styles. This a way for the user too store and reuse, colors, texts and effects. This is somehting that is also very normal to do in a developer environment. Therefore a decision was made to create a SCSS \textit{variable} file where these would be stored. Because of the time constraint of the project only colors and texts where implmented. This was done similar to the components where the ''code'' for the SCSS variables where written to a string that later were written into a SCSS file. 
 
 
+\subsubsection{Userguide}%
+\label{ssub:Userguide}
+The program built does not have a graphical user inteface, again because of the time constraint. The user is instead using a command-line interface (CLI) instead. This makes it a bit harder to learn because there are no visual queues of what to input to the program. To solve this a userguide was created in the form of a README on GitHub. This userguide was written as the program were developed. When the program was functional usertesting where preformed to test the validity of the userguide and if there were any prototype breaking bugs. \textit{ \textbf{there was and they were fixed... atleast soon.} }
 
-
-knowit uses a supercharged version of css called scss in most of their projects (section \ref{sub:sass}). scss handles variables in a more intuitive way than regular  css which made it the clear choice for storing styling variables moving forward.
+% knowit uses a supercharged version of css called scss in most of their projects (section \ref{sub:sass}). scss handles variables in a more intuitive way than regular  css which made it the clear choice for storing styling variables moving forward.
 
 
 
