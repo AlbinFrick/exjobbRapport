@@ -24,7 +24,7 @@
 \BOOKMARK [3][-]{subsubsection.3.2.6}{LitElement}{subsection.3.2}% 24
 \BOOKMARK [2][-]{subsection.3.3}{Distribute}{section.3}% 25
 \BOOKMARK [3][-]{subsubsection.3.3.1}{Package Manager}{subsection.3.3}% 26
-\BOOKMARK [2][-]{subsection.3.4}{User testing}{section.3}% 27
+\BOOKMARK [2][-]{subsection.3.4}{Usability testing}{section.3}% 27
 \BOOKMARK [2][-]{subsection.3.5}{A/B Testing}{section.3}% 28
 \BOOKMARK [2][-]{subsection.3.6}{Statistical analysis}{section.3}% 29
 \BOOKMARK [1][-]{section.4}{Method}{}% 30
@@ -41,3 +41,4 @@
 \BOOKMARK [2][-]{subsection.4.7}{ ab testing }{section.4}% 41
 \BOOKMARK [1][-]{section.5}{Result}{}% 42
 \BOOKMARK [1][-]{section.6}{Discussion}{}% 43
+\BOOKMARK [2][-]{subsection.6.1}{Future Work}{section.6}% 44

@@ -2204,13 +2204,14 @@
     <bcf:citekey order="18">PackageManager2020</bcf:citekey>
     <bcf:citekey order="19">NpmNpmDocs</bcf:citekey>
     <bcf:citekey order="20">lewis2006usability</bcf:citekey>
-    <bcf:citekey order="21">nielsen1994estimating</bcf:citekey>
-    <bcf:citekey order="22">nielsen1994heuristic</bcf:citekey>
-    <bcf:citekey order="23">PostmanCollaborationPlatform</bcf:citekey>
-    <bcf:citekey order="24">VisualStudioCode</bcf:citekey>
-    <bcf:citekey order="25">ConvertJSONSwift</bcf:citekey>
-    <bcf:citekey order="26">ArrayPrototypeMap</bcf:citekey>
-    <bcf:citekey order="27">galletta2013mastering</bcf:citekey>
+    <bcf:citekey order="21">lazar2017research</bcf:citekey>
+    <bcf:citekey order="22">nielsen1994estimating</bcf:citekey>
+    <bcf:citekey order="23">nielsen1994heuristic</bcf:citekey>
+    <bcf:citekey order="24">PostmanCollaborationPlatform</bcf:citekey>
+    <bcf:citekey order="25">VisualStudioCode</bcf:citekey>
+    <bcf:citekey order="26">ConvertJSONSwift</bcf:citekey>
+    <bcf:citekey order="27">ArrayPrototypeMap</bcf:citekey>
+    <bcf:citekey order="28">galletta2013mastering</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

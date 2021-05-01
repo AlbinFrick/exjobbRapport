@@ -662,6 +662,41 @@
       \field{pages}{e30}
       \range{pages}{-1}
     \endentry
+    \entry{lazar2017research}{book}{}
+      \name{author}{3}{}{%
+        {{hash=175d78d4e118a77f3ba5b6d04fb21a0b}{%
+           family={Lazar},
+           familyi={L\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b73f0dbfc4f08d029262a61ea0678972}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Jinjuan\bibnamedelima Heidi},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=caf03a46fc0673b901b4fe9a3b6cf8a9}{%
+           family={Hochheiser},
+           familyi={H\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann}%
+      }
+      \strng{namehash}{5eed39c0ebbb27994ef601fd658e1351}
+      \strng{fullhash}{5eed39c0ebbb27994ef601fd658e1351}
+      \strng{bibnamehash}{5eed39c0ebbb27994ef601fd658e1351}
+      \strng{authorbibnamehash}{5eed39c0ebbb27994ef601fd658e1351}
+      \strng{authornamehash}{5eed39c0ebbb27994ef601fd658e1351}
+      \strng{authorfullhash}{5eed39c0ebbb27994ef601fd658e1351}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Research Methods in Human-Computer Interaction}
+      \field{year}{2017}
+      \field{dateera}{ce}
+    \endentry
     \entry{nielsen1994estimating}{article}{}
       \name{author}{1}{}{%
         {{hash=753054f71283d85f82cda8e35daf6bac}{%
