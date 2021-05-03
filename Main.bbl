@@ -662,6 +662,36 @@
       \field{pages}{e30}
       \range{pages}{-1}
     \endentry
+    \entry{nielsen1993mathematical}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f5e0d418f5c3737f54ae9933b0cfc7fe}{%
+           family={Landauer},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima K},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2a5683ee7c93ce6cb8b96e419ed5e5a}
+      \strng{fullhash}{f2a5683ee7c93ce6cb8b96e419ed5e5a}
+      \strng{bibnamehash}{f2a5683ee7c93ce6cb8b96e419ed5e5a}
+      \strng{authorbibnamehash}{f2a5683ee7c93ce6cb8b96e419ed5e5a}
+      \strng{authornamehash}{f2a5683ee7c93ce6cb8b96e419ed5e5a}
+      \strng{authorfullhash}{f2a5683ee7c93ce6cb8b96e419ed5e5a}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the {{INTERACT}}'93 and {{CHI}}'93 Conference on {{Human}} Factors in Computing Systems}
+      \field{title}{A Mathematical Model of the Finding of Usability Problems}
+      \field{year}{1993}
+      \field{dateera}{ce}
+      \field{pages}{206\bibrangedash 213}
+      \range{pages}{8}
+    \endentry
     \entry{lazar2017research}{book}{}
       \name{author}{3}{}{%
         {{hash=175d78d4e118a77f3ba5b6d04fb21a0b}{%
@@ -854,8 +884,8 @@
       \strng{authorbibnamehash}{20b258878efe6c64698d087654b2d213}
       \strng{authornamehash}{20b258878efe6c64698d087654b2d213}
       \strng{authorfullhash}{20b258878efe6c64698d087654b2d213}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mastering the Semi-Structured Interview and beyond: {{From}} Research Design to Analysis and Publication}
