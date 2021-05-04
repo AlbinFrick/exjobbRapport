@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.6)  4 MAY 2021 00:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.6)  4 MAY 2021 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -683,9 +683,13 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 157.
  [10]
-[11]) [12] (./sections/4-Method.tex [13] [14]) [15] [16]
-(./sections/5-Result.tex) [17] (./sections/6-Discussion.tex) [18]
-(./sections/7-References.tex)
+[11]
+
+LaTeX Warning: Citation 'virzi1992refining' on page 12 undefined on input line 
+247.
+
+) [12] (./sections/4-Method.tex [13] [14]) [15] [16] (./sections/5-Result.tex)
+[17] (./sections/6-Discussion.tex) [18] (./sections/7-References.tex)
 Overfull \hbox (18.33621pt too wide) in paragraph at lines 161--161
 \OT1/cmr/m/n/10 able: []$\OT1/cmtt/m/n/10 https : / / en . wikipedia . org / w 
 / index . php ? title = Representational _
@@ -729,6 +733,15 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 5C4B284AF5C0943991AC331DC84C6426;3028.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                Main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
@@ -756,10 +769,10 @@ exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
 live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texli
 ve/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Main.pdf (24 pages, 427110 bytes).
+Output written on Main.pdf (24 pages, 427740 bytes).
 PDF statistics:
- 543 PDF objects out of 1000 (max. 8388607)
- 497 compressed objects within 5 object streams
+ 542 PDF objects out of 1000 (max. 8388607)
+ 496 compressed objects within 5 object streams
  121 named destinations out of 1000 (max. 500000)
  366 words of extra memory for PDF output out of 10000 (max. 10000000)
 
