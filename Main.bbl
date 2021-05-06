@@ -662,6 +662,36 @@
       \field{pages}{e30}
       \range{pages}{-1}
     \endentry
+    \entry{virzi1992refining}{article}{}
+      \name{author}{1}{}{%
+        {{hash=778847b8041a6131fe1132c7733a2863}{%
+           family={Virzi},
+           familyi={V\bibinitperiod},
+           given={Robert\bibnamedelima A},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Sage CA: Los Angeles, CA}%
+      }
+      \strng{namehash}{778847b8041a6131fe1132c7733a2863}
+      \strng{fullhash}{778847b8041a6131fe1132c7733a2863}
+      \strng{bibnamehash}{778847b8041a6131fe1132c7733a2863}
+      \strng{authorbibnamehash}{778847b8041a6131fe1132c7733a2863}
+      \strng{authornamehash}{778847b8041a6131fe1132c7733a2863}
+      \strng{authorfullhash}{778847b8041a6131fe1132c7733a2863}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Human factors}
+      \field{number}{4}
+      \field{title}{Refining the Test Phase of Usability Evaluation: {{How}} Many Subjects Is Enough?}
+      \field{volume}{34}
+      \field{year}{1992}
+      \field{dateera}{ce}
+      \field{pages}{457\bibrangedash 468}
+      \range{pages}{12}
+    \endentry
     \entry{nielsen1993mathematical}{inproceedings}{}
       \name{author}{2}{}{%
         {{hash=753054f71283d85f82cda8e35daf6bac}{%

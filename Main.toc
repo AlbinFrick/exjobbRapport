@@ -69,34 +69,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.5}A/B Testing}{12}{subsection.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.6}Statistical analysis}{12}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.6}Statistical analysis}{13}{subsection.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Method}{13}{section.4}%
+\contentsline {subsection}{\numberline {3.7}Interviews}{13}{subsection.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Workflow and Actions taken}{13}{subsection.4.1}%
+\contentsline {section}{\numberline {4}Method}{14}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Literature study}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.1}Workflow and Actions taken}{14}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Creating the tool}{13}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.2}Literature study}{14}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.1}Building the skeleton of the component}{14}{subsubsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3}Creating the tool}{14}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.2}Styling the Component}{15}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.1}Building the skeleton of the component}{15}{subsubsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.3}Variables}{15}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.2}Styling the Component}{16}{subsubsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.4}Userguide}{15}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.3}Variables}{16}{subsubsection.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}semi-structured interviews}{15}{subsection.4.4}%
+\contentsline {subsubsection}{\numberline {4.3.4}Userguide}{16}{subsubsection.4.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5}user testing}{15}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.4}semi-structured interviews}{16}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6} finalized prototype }{16}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.5}Usability Testing}{16}{subsection.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.7} ab testing }{16}{subsection.4.7}%
+\contentsline {subsection}{\numberline {4.6} finalized prototype }{17}{subsection.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Result}{17}{section.5}%
+\contentsline {subsection}{\numberline {4.7} ab testing }{17}{subsection.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Discussion}{18}{section.6}%
+\contentsline {section}{\numberline {5}Result}{18}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Future Work}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {5.1}Initial interviews}{18}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}User Testing}{18}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.1}Iteration one}{18}{subsubsection.5.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.2.2}Iteration two}{19}{subsubsection.5.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Discussion}{20}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.1}Future Work}{20}{subsection.6.1}%

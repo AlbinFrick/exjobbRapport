@@ -28,18 +28,23 @@
 \BOOKMARK [3][-]{subsubsection.3.4.1}{Sufficient Amount of Test Users}{subsection.3.4}% 28
 \BOOKMARK [2][-]{subsection.3.5}{A/B Testing}{section.3}% 29
 \BOOKMARK [2][-]{subsection.3.6}{Statistical analysis}{section.3}% 30
-\BOOKMARK [1][-]{section.4}{Method}{}% 31
-\BOOKMARK [2][-]{subsection.4.1}{Workflow and Actions taken}{section.4}% 32
-\BOOKMARK [2][-]{subsection.4.2}{Literature study}{section.4}% 33
-\BOOKMARK [2][-]{subsection.4.3}{Creating the tool}{section.4}% 34
-\BOOKMARK [3][-]{subsubsection.4.3.1}{Building the skeleton of the component}{subsection.4.3}% 35
-\BOOKMARK [3][-]{subsubsection.4.3.2}{Styling the Component}{subsection.4.3}% 36
-\BOOKMARK [3][-]{subsubsection.4.3.3}{Variables}{subsection.4.3}% 37
-\BOOKMARK [3][-]{subsubsection.4.3.4}{Userguide}{subsection.4.3}% 38
-\BOOKMARK [2][-]{subsection.4.4}{semi-structured interviews}{section.4}% 39
-\BOOKMARK [2][-]{subsection.4.5}{user testing}{section.4}% 40
-\BOOKMARK [2][-]{subsection.4.6}{ finalized prototype }{section.4}% 41
-\BOOKMARK [2][-]{subsection.4.7}{ ab testing }{section.4}% 42
-\BOOKMARK [1][-]{section.5}{Result}{}% 43
-\BOOKMARK [1][-]{section.6}{Discussion}{}% 44
-\BOOKMARK [2][-]{subsection.6.1}{Future Work}{section.6}% 45
+\BOOKMARK [2][-]{subsection.3.7}{Interviews}{section.3}% 31
+\BOOKMARK [1][-]{section.4}{Method}{}% 32
+\BOOKMARK [2][-]{subsection.4.1}{Workflow and Actions taken}{section.4}% 33
+\BOOKMARK [2][-]{subsection.4.2}{Literature study}{section.4}% 34
+\BOOKMARK [2][-]{subsection.4.3}{Creating the tool}{section.4}% 35
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Building the skeleton of the component}{subsection.4.3}% 36
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Styling the Component}{subsection.4.3}% 37
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Variables}{subsection.4.3}% 38
+\BOOKMARK [3][-]{subsubsection.4.3.4}{Userguide}{subsection.4.3}% 39
+\BOOKMARK [2][-]{subsection.4.4}{semi-structured interviews}{section.4}% 40
+\BOOKMARK [2][-]{subsection.4.5}{Usability Testing}{section.4}% 41
+\BOOKMARK [2][-]{subsection.4.6}{ finalized prototype }{section.4}% 42
+\BOOKMARK [2][-]{subsection.4.7}{ ab testing }{section.4}% 43
+\BOOKMARK [1][-]{section.5}{Result}{}% 44
+\BOOKMARK [2][-]{subsection.5.1}{Initial interviews}{section.5}% 45
+\BOOKMARK [2][-]{subsection.5.2}{User Testing}{section.5}% 46
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Iteration one}{subsection.5.2}% 47
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Iteration two}{subsection.5.2}% 48
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 49
+\BOOKMARK [2][-]{subsection.6.1}{Future Work}{section.6}% 50
