@@ -12,24 +12,6 @@ The method of this study is being made possible from the theory that is displaye
 
 % \textit{"Without the proper alignment and synergy of skillsets, the user experience you provide your users will lack efficiency, engagement, and value."} - Khamdamova, \cite{RelationshipDesignersDevelopers} 
 
-% The process of creating a web-application is typically done in three major steps: 
-% \begin{itemize}
-%   \item Design
-%   \item Develop
-%   \item Publish
-% \end{itemize}
-
-% The tool that this project is creating is will almost follow these three steps except the last one. Instead of publishing however the components that will be generated need to be distributed between designer and developer. Therefor \textbf{\textit{publish}}, for this project is replaced by \textbf{\textit{distribute}}.
-
-% All these steps are often, if not always, done iteratively within them selfs and as a whole cycle. However there must be some sort of design to start a meaningful and useful development effort. If there is nothing that has been developed there is nothing to publish. So therefore these three must be done in order. 
-
-% The tool that this project produced has a part in all these three steps.\\ 
-% Design(Figma) --\textgreater Develop(Figma API, FigmaConverter) --\textgreater Distribute(package manager (NPM)).\\
-% In this section we will dive deeper in how to traverse these steps, and how it is possible to automate it.
-
-% Often this is done iteratively through all three steps. For this project to create a tool that can automate the process of making design components to functional code these main areas must be considered. 
-
-
 \subsection{Design}%
 \label{sub:Design}
 The design work of a project is largely held at the start of the project. Where the project team is in contact with the customer and hash out what the application and system will look like. With software there is often hard for a customer to know what they want and what is possible to do. This is a part of the design segment of the project and often needs some iterations to get things done. 
@@ -102,12 +84,18 @@ Figma has a feature that let's the user store color, text and effect styles. The
 \subsection{Develop}%
 \label{sub:Develop}
 
-Most modern websites is run with DHTML (Dynamic HTML), which is built by HTML, CSS and JavaScript.  
+To develop something from a design is essentially to make the design functional with code. A design is often more like a picture rather then an application. A website is almost always built using the three main language of the web, which is HTML, CSS and JavaScript. HTML is a \textit{"tagging"} language which means that every thing is built with tags. HTML is often referred to as the body of a website. This is where the majority of the information of the web pages is stored.
+CSS is the clothes to the body. CSS is what defines the style for the website, such as sizes, paddings and colors to mention a few things.\\ 
+\textit{"CSS describes how HTML elements are to be displayed on screen, paper, or in other media"}\cite{CSSIntroduction}.\\
+JavaScript is a scripting language that enables us to create complex features on web pages. JavaScript enables us to update content dynamically, essentially making the body move.
+
+
+% Most websites is built with HTML, CSS and JavaScript. This the foundational languages which the web rests upon. HTML is often referred to as the skeleton of the website. HTML \textit{"tagging"} language which fills the websites information.
 
 % All websites that is run through web-browsers all use three main languages. HTML, CSS and JavaScript. HTML for the content of the site, CSS for styling the content and JavaScript for manipulating the content and/or making other \textit{calculations}??. These three languages are from now on going to be referred to as the native browser languages.
 
 
-In modern web design there are a lot of different frameworks and languages that makes it easier for developers to make create products but all these tools have the one thing in common. They all convert to one of the native browser languages. 
+In modern web design there are a lot of different frameworks and languages that makes it easier for developers to make create products but all these tools have the one thing in common. They all convert to one of the three browser languages mentioned above. 
 
 One of the goals of the thesis is to create a tool that could be used in as many projects as possible. Knowit is, as explained in the intro, a fairly large company and has a lot of different projects with lots of different frameworks.   
 
@@ -118,8 +106,9 @@ REST stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and i
 \begin{enumerate}
   \item Client–server - the UI and data storage are separated
   \item Stateless –  The server does not store any information of the client. The client must provide all information for every request. 
-  \item Cacheable - \textit{Cache constraints require that the data within a response to a request be implicitly or explicitly labeled as cacheable or non-cacheable. If a response is cacheable, then a client cache is given the right to reuse that response data for later, equivalent requests.} - SIMPLIFY
-  \item Uniform interface – \textit{By applying the software engineering principle of generality to the component interface, the overall system architecture is simplified and the visibility of interactions is improved. In order to obtain a uniform interface, multiple architectural constraints are needed to guide the behavior of components. REST is defined by four interface constraints: identification of resources; manipulation of resources through representations; self-descriptive messages; and, hypermedia as the engine of application state.} - SIMPLIFY
+  \item Cacheable - A response can be explicitly or implicitly labeled as cacheable or non-cacheable. If the the response is cacheable the client has the right to store and reuse the response data for later.
+  \item Uniform interface – Simplifies and decouples the architecture between clients and servers, which enables each part to evolve independently. This is guided by four principles: Resource-Based, Manipulation of Resources Through Representation, Self-descriptive Messages 
+  , Hypermedia as the Engine of Application State \cite{WhatREST} .
   \item Layered system -  This architecture consists of hierarchical layers that constrains what each components can do, such as a component can only interact with the layer that it is on.
   \item  Code on demand (optional) - This allows the client to download and execute applets or scripts and there for extending client functionality
 \end{enumerate}
@@ -134,35 +123,61 @@ All of these requirements makes it light weight and very easy to understand and 
 \subsubsection{JavaScript and TypeScript}%
 \label{ssub:JavaScript and TypeScript}
 
-JavaScript is a programming language that reports its error much later than many other languages. Variables can take any shape in JavaScript. That is for instance a number or a string. This can at first seem as something good that the language is highly dynamic but this is also very error prone. Where most of the errors are discovered after the program is run. 
+JavaScript is a programming language that reports its error much later than many other languages. Variables can take any shape in JavaScript. That is for instance a number or a string. This can at first seem as something good that the language is highly dynamic but this is also very error prone. Where most of the errors are discovered after the program is run. This results in being obliged to test running the code after every change \cite{taivalsaari2008web}. To solve some of these problems TypeScript was created. TypeScript is an open source programming language which is built upon JavaScript. TypeScript allows to create types for variables, functions, etc., and thereby helps to find more errors before runtime. TypeScript is then complied back to JavaScript before it's run and can thereby be used everywhere JavaScript is used.
 
-\textit{Incremental testing is required. Due to its highly permissive, error-tolerant nature, JavaScript programming requires an incremental, evolutionary approach to testing as well. Since errors are reported much later than usual, by the time an error is reported it is often surprisingly difficult to pinpoint the original location of the error. Error detection is made harder by the dynamic nature of JavaScript, for instance, by the option to change some of the system features on the fly. Furthermore, in the absence of strong, static typing, it is possible to execute a program and only at runtime realize that some parts of the program are missing. For all these reasons, the best way to write JavaScript programs is to proceed step by step, by writing (and immediately testing) each new piece of code. If such an incremental, evolutionary approach is not used, debugging and testing can become quite tedious even for relatively small JavaScript applications.} \cite{taivalsaari2008web} 
+
+% \textit{Incremental testing is required. Due to its highly permissive, error-tolerant nature, JavaScript programming requires an incremental, evolutionary approach to testing as well. Since errors are reported much later than usual, by the time an error is reported it is often surprisingly difficult to pinpoint the original location of the error. Error detection is made harder by the dynamic nature of JavaScript, for instance, by the option to change some of the system features on the fly. Furthermore, in the absence of strong, static typing, it is possible to execute a program and only at runtime realize that some parts of the program are missing. For all these reasons, the best way to write JavaScript programs is to proceed step by step, by writing (and immediately testing) each new piece of code. If such an incremental, evolutionary approach is not used, debugging and testing can become quite tedious even for relatively small JavaScript applications.} 
 
 
 \subsubsection{Node.js}%
 \label{ssub:Node}
-Node.js is an open source project that lets its users run code on the server asynchronously. Which is a vey efficient way of running JavaScript code without a browser. 
+Node.js is an open source project that lets its users run code on the server asynchronously. Which is a way efficient way of running JavaScript code without a browser. Node.js is designed to handle HTTP effectively. Streaming and low latency has therefore been a high priority.
+
 
 \subsubsection{Syntactically Awesome Style Sheets (SASS)}%
 \label{sub:sass}
 SASS is an extension language to CSS that makes CSS supercharged. With SASS it is possible to have the stylesheet split up into multiple files, create functions, etc. SASS is then compiled to regular CSS so the browser is able to understand it. SASS is also called a preprocessor for CSS because of this.  SASS has two different syntaxes, the indented syntax commonly referred to just SASS and Sassy CSS (SCSS). The indented syntax was the original syntax for SASS and is only dependent on indentation. SCSS syntax is very similar to regular CSS but with the qualities of SASS. Because of the resembles of normal CSS SCSS is the most easy to learn and most popular of the two syntaxes. For this project SCSS will be used because of the resembles to CSS.
 
 \paragraph{Variables}
-Variables in a stylesheet is useful especially when dealing with colors. Often a website has a set color scheme from the design. This can easily be set as a variable if the colors needs to be changed for some reason. Then there is only one entry that needs to be changed. Regular CSS do support variables but they are a little "clunky". To set a variable you set two dashes infront of the variable name. The clunky part of this impolementation is that you cannot use this variable as it is later on in the code. You have to surround the variable with \textit{"var()"}. An example of this can be seen below.
+Variables in a stylesheet is useful especially when dealing with colors. Often a website has a set color scheme from the design. This can easily be set as a variable if the colors needs to be changed for some reason. Then there is only one entry that needs to be changed. Regular CSS do support variables but they are a little "clunky". To set a variable you set two dashes infront of the variable name. The variable must also be within a selector. To make the variable golobally reachable through out the CSS file it can be placed under the :root-psuedo element. The clunky part of this implementaion is that you cannot use this variable as it is later on in the code. You have to surround the variable with \textit{"var()"}. An example of this can be seen below.
 
 \begin{lstlisting}[style=htmlcssjs]
---MyColorVariable: #ff9a67; 
+
+:root{
+  --myColorVariable: #ff9a67; 
+}
 
 div{
-  background-color: var(--MyColorVariable);
+  background-color: var(--myColorVariable);
 }
 \end{lstlisting}
 
-What SCSS 
 
 
-\paragraph{Mixins}
+SCSS makes this much more intuitive with defining the variable globally without a selector and locally just inside one. A variable is assign using the ''\$'' character.
 
+\begin{lstlisting}[style=htmlcssjs]
+\$myColorVariable: #ff9a67; 
+
+div{
+  background-color: \$myColorVariable;
+}
+\end{lstlisting}
+
+
+\paragraph{Mixin and Include}
+Often when writing CSS code you run into the problem of duplication of code. SASS has a solution to this called mixins. Mixins lets you store multiple CSS rules in a variable/function that can be used multiple times throughout the stylesheet. To use the mixin you need to include it in your code, both mixins and includes are signified with the @ before the word. Below is an example of centering all children in an element with a mixin.
+
+\begin{lstlisting}[style=htmlcssjs]
+@mixin centered {
+  display: grid;
+  place-items: center;
+}; 
+
+div{
+  @include centered; 
+}
+\end{lstlisting}
 
 % \subsubsection{CSS Methodologies}%
 % \label{ssub:methodologies}
@@ -180,29 +195,24 @@ What SCSS
 
 \subsubsection{Web Components}%
 \label{sub:Web Components}
-Web components are custom made components that are reusable.
-
-Web components are built in to HTML5 which makes them work natively in all major browsers and in congestion with all frameworks. Which makes web components the perfect candidate for this project. 
-
-This \cite{WebComponentsMDN} could be very useful.
+Web Components are a set of different JavaScript APIs together with HTML features that makes it possible to create reusable custom elements\cite{WebComponentsMDN}. These elements is encapsulated away from the rest of the code. These web components are supported by all major browsers. Because web components are run natively on HTML, CSS and JavaScript they are compatible with all JavaScript frameworks, such as React, Vue and Angular. To make this possible there are three main technologies at work; Custom elements, shadow DOM and HTML Templates.
 
 \paragraph{Custom Elements}
-\label{ssub:Custom Elements}
-
-A set of JavaScript APIs that allow you to define custom elements and their behavior, which can then be used as desired in your user interface.
-
+A set of JavaScript APIs that allow you to define custom elements and their behavior. This is a way to encapsulate functionality on the HTML page rather then having everything nested together.
 
 \paragraph{Shadow DOM}%
 \label{ssub:Shadow DOM}
-A set of JavaScript APIs for attaching an encapsulated "shadow" DOM tree to an element - which is rendered separately from the main document DOM - and controlling associated functionality. In this way, you can keep an element's features private, so they can be scripted and styled without the fear of collision with other parts of the document.
+Shadow DOM is also a set of JavaScript APIs that lets you attach a encapsulated ''shadow'' DOM tree to an element. This ''shadow'' DOM is attached to the main document DOM like a branch. The difference from a normal branch is that the main DOM is not aware about the ''shadow'' DOMs data or functionality and vice versa. The ''shadow'' DOM is then essentially its own tree with its own stylesheet that cannot be modified or overwritten from main DOM.\\
+\todo{Lägga till bild?}
 
 \paragraph{HTML Templates}%
 \label{ssub:HMTL Templates}
-The \textless template \textgreater and \textless slot\textgreater elements enable you to write markup templates that are not displayed in the rendered page. These can then be reused multiple times as the basis of a custom element's structure.
+The HTML \textit{template}-tag and \textit{slot}-tag enables you to write markup templates that are not displayed in the rendered page. Which then can be reused throughout the HTML page. HTML templates is what enables web componets to be reused multiple times, with different instances, in the DOM tree.
 
 \subsubsection{LitElement}%
 \label{ssub:LitElement}
-LitElement is a great light weight class to simplify making web components\cite{polymerLitElement}. LitElement is built by the Polymer Project \cite{polymerPolymerProject}, which is a group of engineers from the Google Chrome team. LitElement combines functionality from custom elements, shadow DOM and HTML templates to a class that make it easy to create these web components with concise and malleable code.
+Instead of creating web components the usual way by manually initiating custom elements, the shadow DOM and HTML templates, we can use LitElement.
+LitElement is a great light weight class to simplify making web components\cite{polymerLitElement}. LitElement is built by the Polymer Project \cite{polymerPolymerProject}, which is a group of engineers from the Google Chrome team. LitElement combines functionality from the web components technologies to a class that make it easy to create these web components with concise and malleable code.
 
 
 % \subsubsection{Recursive functions}%
@@ -211,16 +221,23 @@ LitElement is a great light weight class to simplify making web components\cite{
 
 
 
+
+
 \subsection{Distribute}%
 \label{sub:Distribute}
-To be able to use the components created from the designer the developers need to be able to get a hold of them. A lot of reusable code that is crated for the web can be accessed from the internet with the help of package managers.
+After a component has been designed and developed the components should be used in a project. Often the created component is used by more then one part and therefore it should be distributed easily. There is a lot of ways to distribute a component but the most widely used way is to use a package manager.
 
+
+% To be able to use the components created from the designer the developers need to be able to get a hold of them. A lot of reusable code that is crated for the web can be accessed from the internet with the help of package managers.
 \subsubsection{Package Manager}%
 \label{sub:Package Manager}
 \cite{PackageManager2020} 
 
-A package manager is a way to install and update programs with ease. The package manager that this project will use is Node Package Manager (NPM) which is the worlds largest software registry\cite{NpmNpmDocs}.
+A package manager is a way to install and update programs with ease. The package manager that this project will use is Node Package Manager (NPM) which is the world's largest software registry\cite{NpmNpmDocs}. A package manager lets you bundle your code up to a package and distribute it over the Internet. NPM has a very easy interface whereas if you want to install something you can just type: 
 
+\begin{lstlisting}[style=htmlcssjs]
+\$npm install PACKAGE-NAME
+\end{lstlisting}
 
 % \subsection{Semi-Structured Interviews}%
 % \label{sub:inteviews}
@@ -229,25 +246,32 @@ A package manager is a way to install and update programs with ease. The package
 % For collecting data from the employees of Knowit semi-structured interviews were used \cite{galletta2013mastering}. 
 
 
-\subsection{Usability testing}%
-\label{sub:User testing}
-Usability testing or "user research" is a very broad term. As Lewis \cite{lewis2006usability} described it: Usability testing, in general, involves representative users attempting representative tasks in representative environments, on early prototypes or working versions of computer interfaces.
+
+
+\subsection{Testing}%
+\label{sub:Testing}
+When a product has been created it's a good idea to test the product before going out to production. Testing can mean many different thing but almost all forms of testing have the common gene of making sure the assumptions taken when creating the product is verified. 
+
+\subsubsection{Usability testing}%
+\label{ssub:User testing}
+Usability testing or "user research" is a very broad term. As Lewis \cite{lewis2006usability} described it: "Usability testing, in general, involves representative users attempting representative tasks in representative environments, on early prototypes or working versions of computer interfaces."
 
 Usability testing is essentially done to find flaws in an interface by putting the user in the environment of using the interface. Usability testing is done in all stages of development. From paper prototypes to screen mock-ups with no functionality to implemented existing systems. 
 
-Usability testing can be considered a cousin to traditional research methods. When similarities can be found in experimental design with measurement of task performance and time performance, surveys and, observation techniques from ethnography. The participants in usability testing, as in traditional research, must remain anonymous, be informed of their rights and have the ability to leave the research at any time. 
-What separates usability testing from traditional research is often the end goals. Where usability testing has an industrial approach where there isn't 
+Usability testing can be considered a cousin to traditional research methods. When similarities can be found in experimental design with measurement of task performance and time performance, surveys, and observation techniques from ethnography. The participants in usability testing, as in traditional research, must remain anonymous, be informed of their rights and have the ability to leave the research at any time. 
+What separates usability testing from traditional research is often the end goals. For usability testing the end goals is to create the best product possible, with the time and resources at hand, while the traditional research methods wants to find answers to questions that is universal for the field researched. 
 
-Wixson proclaims that usability testing is closer to engineering than traditional research because usability testing, as engineering, is involved with creating a successful product, with limited time, and resources. Often in a real world scenario the prototype will be changed between each test to fix the flaws that were found during the test. The next test will then be used to test the fix simultaneously as the test is searching for different flaws. This is, in most if not all traditional research, considered unacceptable. 
+Wixson proclaims in his study that usability testing is closer to engineering than traditional research \cite{wixon2003evaluating}. Usability testing, as engineering, is involved with creating a successful product, with limited time, and resources. Often in a real world scenario the prototype will be changed between each test to fix the flaws that were found during the test. The next test will then be used to verify the fixed flaws simultaneously as it searches for further flaws. This is, in most if not all traditional research, considered unacceptable. 
 
-To get more credible data out of a test and not just use the test for improve the product. The test environment should be kept as close the the same for each user. This is closer to the experimental design approach. 
+To get more credible data out of a test and not just for improving the product the test environment should be kept as similar as possible for each user. This is closer to the experimental design approach. 
 
-The majority of data that is collected from a usability test is qualititive. Some quaintitative data such as time performance and task performance can also be collected. As mentioned before the biggest end goal for a usability test is to uncover flaws in the user interface. 
+Usability testing can collect quantitative data such as time- and task performance. However the majority of data that is collected is qualitative. As mentioned before the biggest end goal for a usability test is to uncover flaws in the user interface which is often subjective for the user.
 
-\textit{"Often in industry, schedule and resource issues, rather than theoretical discussions of methodology, drive the development process (Wixon, 2003)."}
+\textit{"Often in industry, schedule and resource issues, rather than theoretical discussions of methodology, drive the development process \cite{wixon2003evaluating}."}
 
-\subsubsection{Sufficient Amount of Test Users}%
+\paragraph{Sufficient Amount of Test Users}
 \label{ssub:Sufficient Amount of Test Users}
+
 In the realm of usability testing it is widely accepted that the most effecient amount of users for usability testing is five people \cite{virzi1992refining}. Where 80 percent of the interface flaws will be found with five users. Nielsen and Landauer also asserted the number five but later in 1993 suggested that the number of test users depend on the size of the project\cite{nielsen1993mathematical}. Nielsen and Landauer suggests seven testers for a small project and 15 testers for a medium-to-large project. 
 
 
@@ -257,23 +281,63 @@ So instead of saying, “how many users must you have?,” maybe the correct que
 
 
 
-\cite{nielsen1994estimating} 
+% \cite{nielsen1994estimating} 
 
-\cite{nielsen1994heuristic} 
+% \cite{nielsen1994heuristic} 
 
 
-\subsection{A/B Testing}%
+
+
+\subsubsection{A/B Testing}%
 \label{sub:A/B Testing}
 A/B testing, or bucket testing, is a user experience (UX) research method where two variants of a program/interface is tested. These two variants is referred as  A and B, hence the name A/B testing. The A and the B variant is tested on the user and then their responses is compared and evaluated. Often just a small change is made in a UI and evaluated on a lot of people 
  
-
-A/B testing is verified using two-sample hypothesis testing from the field of statistics.
-
+A/B testing is verified using two-sample hypothesis testing from the field of statistics. This means that decisions be made completely based on data. Then there is no guessing on where to go next.
 
 
-\subsection{Statistical analysis}%
+
+
+\subsubsection{Statistical Analysis}%
 \label{sub:Statistical analysis}
+When data has been collected a statistical analysis needs to be done to be able to make any ''hard'' conclusions. A lot of decisions need to be made when analyzing the collected data. What statistical method to be used, the confidence threshold and how the interpretation and significance of the test results should be. If wrong method are used or if the interpretation of the results are inappropriate the conclusions drawn from the study can be erroneous \cite{lazar2017research}. 
 
-\subsection{Interviews}%
-\label{sub:Interviews}
 
+\textbf{Preparing Data:} before we can do anything with the data often the data must be cleaned and organized.\\
+\textbf{Descriptive statistic:} when the data has been cleaned and organized it can be a good idea to run some tests on the data to understand the nature of it. This can unfold what patterns or tendency's lays in the data. This makes it easier to choose the correct statistical method for the collected data at hand.\\
+% Skillnad mellan analys och resultat: Analys = laga mat, Resultat = servera mat.
+\textbf{Analyze:} when we understand the nature of the data we can analyze the data with the help of a statistical analysis method. This method could be a T- or F-tests, chi squared test, etc. depending of the data collected.\\ 
+\textbf{Results:} when the analysis is done the results must interpreted according to the methods used.\\
+
+
+% \paragraph{Preparing Data}%
+% \label{ssub:Preparing Data}
+% \textbf{Cleaning data}
+% \textbf{Organizing}
+
+% \paragraph{What does the data look like?}%
+% \label{ssub:data look like}
+% \textbf{Tendency's}
+% \textbf{Patterns}
+% \textbf{What statistical method should be used?}
+
+% \paragraph{Analyze and compare}%
+% \label{ssub:Analyze and compare}
+
+% \paragraph{Summary and results}%
+% \label{ssub:Summary and results}
+
+% \begin{itemize}
+%   \item Preparing data
+%     \begin{itemize}
+%       \item Cleaning data
+%       \item Organizing 
+%     \end{itemize}
+%   \item What does the data look like?
+%     \begin{itemize}
+%       \item Tendency's
+%       \item Patterns
+%       \item What methods should be used?
+%     \end{itemize}
+%   \item Analyze and compare
+%   \item Summary and results
+% \end{itemize}

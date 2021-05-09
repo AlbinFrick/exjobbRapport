@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.6)  6 MAY 2021 15:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.6)  9 MAY 2021 15:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -493,13 +493,22 @@ Package: titlesec 2019/10/16 v2.13 Sectioning titles
 \titlewidthlast=\dimen145
 \titlewidthfirst=\dimen146
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 147.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/upquote/upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
@@ -542,24 +551,24 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 (./Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 143.
-LaTeX Font Info:    ... okay on input line 143.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
 \AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 143.
+Package hyperref Info: Link coloring OFF on input line 146.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -571,9 +580,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count396
 )
-LaTeX Info: Redefining \ref on input line 143.
-LaTeX Info: Redefining \pageref on input line 143.
-LaTeX Info: Redefining \nameref on input line 143.
+LaTeX Info: Redefining \ref on input line 146.
+LaTeX Info: Redefining \pageref on input line 146.
+LaTeX Info: Redefining \nameref on input line 146.
  (./Main.out) (./Main.out)
 \@outlinefile=\write4
 \openout4 = `Main.out'.
@@ -616,8 +625,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Main.bbl' found.
 
 (./Main.bbl)
-Package biblatex Info: Reference section=0 on input line 143.
-Package biblatex Info: Reference segment=0 on input line 143.
+Package biblatex Info: Reference section=0 on input line 146.
+Package biblatex Info: Reference segment=0 on input line 146.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
@@ -642,7 +651,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.98 ...ion}{\numberline {5}Result}{18}{section.5}
+l.98 ...ine {5.2}User Testing}{20}{subsection.5.2}
                                                   % [2])
 \tf@toc=\write5
 \openout5 = `Main.toc'.
@@ -654,26 +663,41 @@ een already used, duplicate ignored
 l.26 \newpage
               [3] [1]) (./sections/1-Intro.tex [2] [3]) [4]
 (./sections/2-Background.tex
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 2
-1.
-
-(/usr/local/texlive/2020/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 21.
-<images/flow.png, id=279, 1352.05125pt x 769.87625pt>
+<images/flow.png, id=294, 1352.05125pt x 769.87625pt>
 File: images/flow.png Graphic file (type png)
 <use images/flow.png>
-Package pdftex.def Info: images/flow.png  used on input line 27.
+Package pdftex.def Info: images/flow.png  used on input line 26.
 (pdftex.def)             Requested size: 276.00105pt x 157.15605pt.
  [5pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.35 
-      <./images/flow.png>]) [6] (./sections/3-Theory.tex [7] [8] [9]
+l.36 
+      <./images/flow.png>]
+<images/webflow.png, id=308, 1927.2pt x 1013.7875pt>
+File: images/webflow.png Graphic file (type png)
+<use images/webflow.png>
+Package pdftex.def Info: images/webflow.png  used on input line 42.
+(pdftex.def)             Requested size: 276.00105pt x 145.1778pt.
+<images/visly.png, id=310, 2052.66875pt x 1168.365pt>
+File: images/visly.png Graphic file (type png)
+<use images/visly.png>
+Package pdftex.def Info: images/visly.png  used on input line 53.
+(pdftex.def)             Requested size: 276.00105pt x 157.08066pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.57 
+      <./images/webflow.png>]) [7pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.155 \newpage
+               <./images/visly.png>] (./sections/3-Theory.tex [8] [9] [10]
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
@@ -681,102 +705,109 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 157.
- [10]
-[11] [12]) [13] (./sections/4-Method.tex [14] [15]
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 151.
+LaTeX Font Info:    Trying to load font information for TS1+cmtt on input line 
+160.
 
-LaTeX Warning: Reference `sub:Interviews' on page 16 undefined on input line 84
-.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/base/ts1cmtt.fd
+File: ts1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [11] [12]
+[13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 305--310
 
-) [16] [17] (./sections/5-Result.tex [18]) [19] (./sections/6-Discussion.tex)
-[20] (./sections/7-References.tex)
-Overfull \hbox (18.33621pt too wide) in paragraph at lines 161--161
+ []
+
+) [15] (./sections/4-Method.tex [16]
+
+LaTeX Warning: Reference `ssub:Custom Elements' on page 17 undefined on input l
+ine 42.
+
+[17] [18]) [19] (./sections/5-Result.tex [20]) [21]
+(./sections/6-Discussion.tex) [22] (./sections/7-References.tex)
+Overfull \hbox (18.33621pt too wide) in paragraph at lines 164--164
 \OT1/cmr/m/n/10 able: []$\OT1/cmtt/m/n/10 https : / / en . wikipedia . org / w 
 / index . php ? title = Representational _
  []
 
-[21]
-Overfull \hbox (3.59633pt too wide) in paragraph at lines 161--161
+[23]
+Overfull \hbox (5.12904pt too wide) in paragraph at lines 164--164
+[]\OT1/cmr/m/n/10 (). \  What is REST?" [On-line]. Avail-able: []$\OT1/cmtt/m/n
+/10 https : / / www . restapitutorial .
+ []
+
+
+Overfull \hbox (3.59633pt too wide) in paragraph at lines 164--164
 []\OT1/cmr/m/n/10 (). \  Web Com-po-nents | MDN," [On-line]. Avail-able: []$\OT
 1/cmtt/m/n/10 https : / / developer .
  []
 
 
-Overfull \hbox (2.74843pt too wide) in paragraph at lines 161--161
+Overfull \hbox (2.74843pt too wide) in paragraph at lines 164--164
 \OT1/cmtt/m/n/10 mozilla . org / en -[] US / docs / Web / Web _ Components$[] \
 OT1/cmr/m/n/10 (vis-ited on 02/09/2021). 
  []
 
 
-Overfull \hbox (10.04294pt too wide) in paragraph at lines 161--161
+Overfull \hbox (10.04294pt too wide) in paragraph at lines 164--164
 []\OT1/cmr/m/n/10 polymer. (). \  Poly-mer Project," [On-line]. Avail-able: []$
 \OT1/cmtt/m/n/10 https : / / www . polymer -[]
  []
 
 
-Overfull \hbox (7.49355pt too wide) in paragraph at lines 161--161
+Overfull \hbox (7.49355pt too wide) in paragraph at lines 164--164
 []\OT1/cmr/m/n/10 J. R. Lewis, \  Us-abil-ity test-ing," \OT1/cmr/m/it/10 Hand-
 book of hu-man fac-tors and er-gonomics\OT1/cmr/m/n/10 ,
  []
 
-[22]
-Overfull \hbox (21.89944pt too wide) in paragraph at lines 161--161
+[24]
+Overfull \hbox (21.89944pt too wide) in paragraph at lines 164--164
 \OT1/cmr/m/n/10 man, [On-line]. Avail-able: []$\OT1/cmtt/m/n/10 https : / / www
  . postman . com/$[] \OT1/cmr/m/n/10 (vis-ited on 04/23/2021). 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 163.
-[23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 163.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+[25]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 163.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 163.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: D2581C09C235E16B0CBE41C5CA20A397;3291.
 
-
-Package rerunfilecheck Warning: File `Main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Main.out':
-(rerunfilecheck)             Before: FD40CFE199353E6B74D3B4A50331B788;3096
-(rerunfilecheck)             After:  9FBDAC3F4E471302C90F088C87EA93A9;3369.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 163.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
  ) 
 Here is how much of TeX's memory you used:
- 16184 strings out of 480608
- 275719 string characters out of 5903631
- 960583 words of memory out of 5000000
- 31702 multiletter control sequences out of 15000+600000
- 539848 words of font info for 49 fonts, out of 8000000 for 9000
+ 16632 strings out of 480608
+ 281283 string characters out of 5903631
+ 977866 words of memory out of 5000000
+ 32122 multiletter control sequences out of 15000+600000
+ 539786 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,7n,79p,2693b,2068s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,7n,79p,2693b,2088s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
 /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></u
 sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/t
-exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/te
-xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/tex
-live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texli
-ve/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Main.pdf (26 pages, 431463 bytes).
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
+r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
+local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
+al/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
+texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/t
+exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
+Output written on Main.pdf (28 pages, 6526387 bytes).
 PDF statistics:
- 564 PDF objects out of 1000 (max. 8388607)
- 515 compressed objects within 6 object streams
- 129 named destinations out of 1000 (max. 500000)
- 374 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 629 PDF objects out of 1000 (max. 8388607)
+ 575 compressed objects within 6 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 408 words of extra memory for PDF output out of 10000 (max. 10000000)
 

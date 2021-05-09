@@ -153,37 +153,6 @@
       \verb https://webflow.com/
       \endverb
     \endentry
-    \entry{vislyVisly}{online}{}
-      \name{author}{1}{}{%
-        {{hash=077ce4c5f733b3a3eb7f0e3861e85a4f}{%
-           family={Visly},
-           familyi={V\bibinitperiod}}}%
-      }
-      \strng{namehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \strng{fullhash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \strng{bibnamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \strng{authorbibnamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \strng{authornamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \strng{authorfullhash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Visly}
-      \field{urlday}{3}
-      \field{urlmonth}{3}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/albin/Zotero/storage/IDDIKLYR/visly.app.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.visly.app
-      \endverb
-      \verb{url}
-      \verb https://www.visly.app
-      \endverb
-    \endentry
     \entry{facebookincReactJavaScriptLibrary}{online}{}
       \name{author}{1}{}{%
         {{hash=6a2c4d8b39538e1ab369a0cf62a49e46}{%
@@ -198,8 +167,8 @@
       \strng{authorbibnamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
       \strng{authornamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
       \strng{authorfullhash}{6a2c4d8b39538e1ab369a0cf62a49e46}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A JavaScript library for building user interfaces}
@@ -234,8 +203,8 @@
       \strng{authorbibnamehash}{4dbea7a3d6ec42e000074e34713ec776}
       \strng{authornamehash}{4dbea7a3d6ec42e000074e34713ec776}
       \strng{authorfullhash}{4dbea7a3d6ec42e000074e34713ec776}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Sketch is a design toolkit built to help you create your best work — from your earliest ideas, through to final artwork.}
@@ -268,8 +237,8 @@
       \strng{authornamehash}{a86fc3430821f57f16c0c8b000acf401}
       \strng{authorfullhash}{a86fc3430821f57f16c0c8b000acf401}
       \field{extraname}{1}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Figma: The Collaborative Interface Design Tool.}
@@ -302,8 +271,8 @@
       \strng{authorbibnamehash}{71f698950c9cdadc3d19bb7411177a78}
       \strng{authornamehash}{71f698950c9cdadc3d19bb7411177a78}
       \strng{authorfullhash}{71f698950c9cdadc3d19bb7411177a78}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Download Adobe XD free with the starter plan. XD is your UI/UX design solution for designing websites and mobile apps. Design, prototype, and share for free.}
@@ -389,6 +358,25 @@
       \verb https://en.wikipedia.org/w/index.php?title=Representational_state_transfer&oldid=1004990383
       \endverb
     \endentry
+    \entry{CSSIntroduction}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{{{CSS Introduction}}}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/6GQVWFQZ/css_intro.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.w3schools.com/css/css_intro.asp
+      \endverb
+      \verb{url}
+      \verb https://www.w3schools.com/css/css_intro.asp
+      \endverb
+    \endentry
     \entry{fieldingFieldingDissertationCHAPTER}{online}{}
       \name{author}{1}{}{%
         {{hash=c6055872081cf3b6db6ba40e9af2fad9}{%
@@ -456,6 +444,25 @@
       \endverb
       \verb{url}
       \verb https://restfulapi.net/
+      \endverb
+    \endentry
+    \entry{WhatREST}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{What Is {{REST}}?}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/J7I94YKH/whatisrest.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.restapitutorial.com/lessons/whatisrest.html#
+      \endverb
+      \verb{url}
+      \verb https://www.restapitutorial.com/lessons/whatisrest.html#
       \endverb
     \endentry
     \entry{taivalsaari2008web}{inproceedings}{}
@@ -614,8 +621,8 @@
       \endverb
     \endentry
     \entry{NpmNpmDocs}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{abstract}{Documentation for the npm registry, website, and command-line interface}
       \field{title}{About Npm | Npm {{Docs}}}
@@ -661,6 +668,36 @@
       \field{dateera}{ce}
       \field{pages}{e30}
       \range{pages}{-1}
+    \endentry
+    \entry{wixon2003evaluating}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4d07abd669ba921106d63b04a8590dc8}{%
+           family={Wixon},
+           familyi={W\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {ACM New York, NY, USA}%
+      }
+      \strng{namehash}{4d07abd669ba921106d63b04a8590dc8}
+      \strng{fullhash}{4d07abd669ba921106d63b04a8590dc8}
+      \strng{bibnamehash}{4d07abd669ba921106d63b04a8590dc8}
+      \strng{authorbibnamehash}{4d07abd669ba921106d63b04a8590dc8}
+      \strng{authornamehash}{4d07abd669ba921106d63b04a8590dc8}
+      \strng{authorfullhash}{4d07abd669ba921106d63b04a8590dc8}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{interactions}
+      \field{number}{4}
+      \field{title}{Evaluating Usability Methods: Why the Current Literature Fails the Practitioner}
+      \field{volume}{10}
+      \field{year}{2003}
+      \field{dateera}{ce}
+      \field{pages}{28\bibrangedash 34}
+      \range{pages}{7}
     \endentry
     \entry{virzi1992refining}{article}{}
       \name{author}{1}{}{%
@@ -757,69 +794,59 @@
       \field{year}{2017}
       \field{dateera}{ce}
     \endentry
-    \entry{nielsen1994estimating}{article}{}
+    \entry{rombautsKarlRombautsFigmaSCSSGenerator2021}{software}{}
       \name{author}{1}{}{%
-        {{hash=753054f71283d85f82cda8e35daf6bac}{%
-           family={Nielsen},
-           familyi={N\bibinitperiod},
-           given={Jakob},
-           giveni={J\bibinitperiod}}}%
+        {{hash=2984162063c06da3c0165584311f7e50}{%
+           family={Rombauts},
+           familyi={R\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
-      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
-      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
-      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
-      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
-      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
-      \field{extraname}{1}
+      \strng{namehash}{2984162063c06da3c0165584311f7e50}
+      \strng{fullhash}{2984162063c06da3c0165584311f7e50}
+      \strng{bibnamehash}{2984162063c06da3c0165584311f7e50}
+      \strng{authorbibnamehash}{2984162063c06da3c0165584311f7e50}
+      \strng{authornamehash}{2984162063c06da3c0165584311f7e50}
+      \strng{authorfullhash}{2984162063c06da3c0165584311f7e50}
       \field{sortinit}{2}
       \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{International journal of human-computer studies}
-      \field{number}{3}
-      \field{title}{Estimating the Number of Subjects Needed for a Thinking Aloud Test}
-      \field{volume}{41}
-      \field{year}{1994}
+      \field{abstract}{Contribute to KarlRombauts/Figma-SCSS-Generator development by creating an account on GitHub.}
+      \field{day}{29}
+      \field{hour}{14}
+      \field{minute}{33}
+      \field{month}{4}
+      \field{origday}{27}
+      \field{orighour}{4}
+      \field{origminute}{38}
+      \field{origmonth}{12}
+      \field{origsecond}{41}
+      \field{origtimezone}{Z}
+      \field{origyear}{2018}
+      \field{second}{52}
+      \field{timezone}{Z}
+      \field{title}{{{KarlRombauts}}/{{Figma}}-{{SCSS}}-{{Generator}}}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{year}{2021}
       \field{dateera}{ce}
-      \field{pages}{385\bibrangedash 397}
-      \range{pages}{13}
-    \endentry
-    \entry{nielsen1994heuristic}{article}{}
-      \name{author}{1}{}{%
-        {{hash=753054f71283d85f82cda8e35daf6bac}{%
-           family={Nielsen},
-           familyi={N\bibinitperiod},
-           given={Jakob},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {John Wiley \& Sons, New York, NY}%
-      }
-      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
-      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
-      \strng{bibnamehash}{753054f71283d85f82cda8e35daf6bac}
-      \strng{authorbibnamehash}{753054f71283d85f82cda8e35daf6bac}
-      \strng{authornamehash}{753054f71283d85f82cda8e35daf6bac}
-      \strng{authorfullhash}{753054f71283d85f82cda8e35daf6bac}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Heuristic Evaluation, w: {{Nielsen}} j., Mack {{RL}} (Eds.), Usability Inspection Methods}
-      \field{year}{1994}
-      \field{dateera}{ce}
+      \field{origdateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/KarlRombauts/Figma-SCSS-Generator
+      \endverb
+      \verb{url}
+      \verb https://github.com/KarlRombauts/Figma-SCSS-Generator
+      \endverb
     \endentry
     \entry{PostmanCollaborationPlatform}{online}{}
       \list{organization}{1}{%
         {Postman}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{abstract}{Postman makes API development easy. Our platform offers the tools to simplify each step of the API building process and streamlines collaboration so you can create better APIs faster.}
       \field{langid}{english}
@@ -839,8 +866,8 @@
       \endverb
     \endentry
     \entry{VisualStudioCode}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{abstract}{Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.~ Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.}
       \field{langid}{english}
@@ -860,8 +887,8 @@
       \endverb
     \endentry
     \entry{ConvertJSONSwift}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{title}{Convert {{JSON}} to {{Swift}}, {{C}}\#, {{TypeScript}}, {{Objective}}-{{C}}, {{Go}}, {{Java}}, {{C}}++ and More • Quicktype}
       \field{urlday}{23}
@@ -879,8 +906,8 @@
       \endverb
     \endentry
     \entry{ArrayPrototypeMap}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{title}{Array.Prototype.Map() - {{JavaScript}} | {{MDN}}}
       \field{urlday}{25}
@@ -895,6 +922,30 @@
       \endverb
       \verb{url}
       \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+      \endverb
+    \endentry
+    \entry{BuildSoftwareBetter}{online}{}
+      \list{organization}{1}{%
+        {GitHub}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{abstract}{GitHub is where people build software. More than 65 million people use GitHub to discover, fork, and contribute to over 200 million projects.}
+      \field{langid}{english}
+      \field{title}{Build Software Better, Together}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/MUURNSSY/github.com.html
+      \endverb
+      \verb{urlraw}
+      \verb https://github.com
+      \endverb
+      \verb{url}
+      \verb https://github.com
       \endverb
     \endentry
     \entry{galletta2013mastering}{book}{}
