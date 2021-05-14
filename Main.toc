@@ -115,8 +115,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.3}Usability testing}{24}{subsection.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}A/B testing}{24}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.4}A/B testing}{25}{subsection.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusion}{24}{section.7}%
+\contentsline {section}{\numberline {7}Conclusion}{25}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Future Work}{24}{section.8}%
+\contentsline {section}{\numberline {8}Future Work}{25}{section.8}%
