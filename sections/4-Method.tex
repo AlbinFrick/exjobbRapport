@@ -56,10 +56,13 @@ For the first ''attempt'' styling where done in a similar way but because of the
 \label{ssub:Variables}
 Figma has a feature called styles. This a way for the user too store and reuse, colors, texts and effects. This is somehting that is also very normal to do in a developer environment. Therefore a decision was made to create a SCSS \textit{variable} file where these would be stored. Because of the time constraint of the project only colors and texts where implmented. This was done similar to the components where the ''code'' for the SCSS variables where written to a string that later were written into a SCSS file. 
 
-
+\subsubsection{Open Source}%
+\label{ssub:Open Source}
+One of Knowits initial requirements where that the software produced should be open source (see section \ref{ssub:Open Source}). The project was handed access to Knowit experience norrlands github page. The software was uploaded publicly to this github repository. The MIT\cite{MITLicenseOpen} open source license where then attached to the repository stating that the software is free to use but has not liability or warranty.
+ 
 \subsubsection{Userguide}%
 \label{ssub:Userguide}
-The program built does not have a graphical user inteface, again because of the time constraint. The user is instead using a command-line interface (CLI) instead. This makes it a bit harder to learn because there are no visual queues of what to input to the program. To solve this a userguide was created in the form of a README on GitHub\cite{BuildSoftwareBetter}. 
+The program built does not have a graphical user inteface, again because of the time constraint. The user is instead using a command-line interface (CLI). This makes it a bit harder to learn because there are no visual queues of what to input to the program. To solve this a user guide was created in the form of a README on GitHub\cite{BuildSoftwareBetter}. Alon side the prototype itself this user guide was altered after the usability tests.
 
 % knowit uses a supercharged version of css called scss in most of their projects (section \ref{sub:sass}). scss handles variables in a more intuitive way than regular  css which made it the clear choice for storing styling variables moving forward.
 
@@ -85,9 +88,13 @@ Because of the broad nature of the tool created it was important to get particip
 
 \subsection{Usability Testing}%
 \label{sub:usertesting}
+To make great product it must have great functionality but also great usability. These test where done to make sure that the prototype was usable for somebody else than the author. Furthermore to set up the prototype for further testing regarding the effectiveness of the prototype.
+
 Two iterations of usability testing was carried out on nine participants, four the first iteration and five the second. The participants had to have a background in web development, NPM, and Figma.  Therefore the participants chosen for the tests where employees of Knowit and students from the interaction and design program in University of Umeå. The test were laid out as a scenario with four different tasks. The participant first got a link to the GitHub repository where the tool and the user guide were situated. The tasks were to create a viable Figma component that could be converted to a web component using the created tool. There after the participant should install the tool on their computer. Use the tool to convert the Figma component and then insert the component, using NPM locally, in a test project supplied by the test administrator.
 
 This was a way to test the whole chain from design to component usage for the tool and to determine what was working and not in the user guide. After the tasks where done the questions about the experience where asked. Finally the test administrator opened up for suggestions regarding improvements of the tool or the user guide. 
+
+The test script was altered after the first iteration to target more features of the prototype. The questions from the first iteration where still asked. This to confirm that the changes made between iteration one and two were effective. 
 
 
 \subsection{ A/B Testing }%
@@ -96,4 +103,5 @@ This was a way to test the whole chain from design to component usage for the to
 \todo{This was not done because of time constraints}\\
 \todo{Ska jag skriva past tense eller inte?}
 
-To get the tool statistically verified as effective in real world use, A/B tests will be performed. 10 tests will be done with two participants in each test. The two participants is complied by one designer and one developer that work together to get the tasks done. Therefore the tests demands 10 designers and 10 developers. The test participants will get a design of a web page written out on a document. The participants task is then together design and code the website. Once with the tool created in this project and once without it. If they create the page without the tool first or second will be randomized for each test to try to dampened the learning effect. When the test have been performed a statistical analysis, section \ref{sub:Statistical analysis}, will be performed to see what the data can say about the tool.
+To have a metric that can be measured, discussed, and statistically verifiable whether or not the prototype is effective in real world use, A/B tests will be performed. A number tests will be done with two participants in each test. The two participants is complied by one designer and one developer that work together to get the tasks done. The test participants will get a design of a web page written out on a document. The participants task is then together design and code the website. Once with the tool created in this project and once without it. If they create the page without the tool first or second will be randomized for each test to try to dampened the learning effect. When the test have been performed a statistical analysis, section \ref{sub:Statistical analysis}, will be performed to see what the data can say about the tool.
+

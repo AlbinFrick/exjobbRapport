@@ -924,6 +924,25 @@
       \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
       \endverb
     \endentry
+    \entry{MITLicenseOpen}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{title}{The {{MIT License}} | {{Open Source Initiative}}}
+      \field{urlday}{12}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/WRHYTN8C/MIT.html
+      \endverb
+      \verb{urlraw}
+      \verb https://opensource.org/licenses/MIT
+      \endverb
+      \verb{url}
+      \verb https://opensource.org/licenses/MIT
+      \endverb
+    \endentry
     \entry{BuildSoftwareBetter}{online}{}
       \list{organization}{1}{%
         {GitHub}%

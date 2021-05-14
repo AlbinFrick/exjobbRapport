@@ -1,17 +1,20 @@
 \section{Result}
-\begin{itemize}
-   \item Introduction of the first prototype
-   \item First test iteration 
-      \item evaluation of test. 
-      \item what is changed and what is kept?
+% \begin{itemize}
+%    \item Introduction of the first prototype
+%    \item First test iteration 
+%       \item evaluation of test. 
+%       \item what is changed and what is kept?
 
-   \item Second test iteration 
-      \item evaluation of test. 
-      \item what is changed and what is kept?
-\end{itemize}
+%    \item Second test iteration 
+%       \item evaluation of test. 
+%       \item what is changed and what is kept?
+% \end{itemize}
 
-For the first period of time a prototype was made. Because of the uncertainty of how the system should be built a experimental model of programming was used. Where the discovery of the how the different parts of the system works was done continuously throughout the implementation. This meant that there aren't any results to show for the first part of the project. 
-(Kan nog ta bort detta. Ville bara få ut det.)
+In this section the results from the project will be presented. These results are in sections of prototyping, interviews, and usability testing.
+
+\subsection{Prototype}%
+\label{sub:Prototype}
+The prototype created in this project can create web components dynamically from a Figma document, create SCSS variables and mixins from Figmas colors and text styles. The components, variables and mixins are ready to be used as a package out of the box with NPM. This prototype is available on Knowit-experience-norrlands GitHub page and are free to use and modify under the MIT open source license.
 
 \subsection{Initial interviews}%
 \label{sub:Initial interviews}
@@ -24,7 +27,7 @@ From the other side of the competence spectra there more a more positive approac
 
 \subsection{User Testing}%
 \label{sub:User Testing}
-When the tool was functional two(three) usability tests where done to ensure that the tool was usable for more than just the author. The thought is that a developer should be able to use the tool with just the userguide (README) from github.com.
+When the tool was functional two usability tests where done to ensure that the tool was usable for more than just the author. The thought is that a developer should be able to use the tool with just the userguide (README) from github.com.
 
 \subsubsection{Iteration one}%
 \label{ssub:Iteration one}
@@ -34,23 +37,46 @@ The first iteration of the test gave a list of flaws with the interface.
    \item Hard to differentiate between explanations for Figma and for the program.
    \item When setting up a new Figma document all users had a hard time to what they were allowed to names their document to.
    \item TypeScript must be installed globally to run the TypeScript compiler. This was not mentioned in the documentation. 
-   \item sp
+      \begin{itemize}
+         \item When the generation has been completed the TypeScript files must be compiled using the \textit{tsc}-command. This needs to be done to use as a package but was misunderstood.
+      \end{itemize}
+   \item When creating a local NPM -package there was no way for the users to understand what the name for the package was. 
+   \item When styling the parent of the component the target string is the components name in camel case which was not described. The styling of the parent can also be done with the regular \textit{Style} attribute, which was suggested by one of the users.
 \end{itemize}
 
-
-\begin{itemize}
-   \item 
-   \item Visa tydligare att Auto-Layout är ett dependency. Visa vad den gör också.
-   \item Visa tydligt var gränsen går mellan "Figma förklaringar" och programmet.
-   \item Visa att man får välja namnet på sitt dokument.
-   \item Skriv att TypeScript måste vara installat globalt.
-   \item Förklara tydligare hur tsc fungerar och varför det behövs.
-   \item Vid NPM förklara tydligare hur man lägger upp/länkar packet. (package-name)
-   \item Styling för föräldren kan skrivas med "style" eller "compName" (camelcase istället för dashed)
-\end{itemize}
+All of the flaws found could be corrected for the next iteration of the test. The questions after each test revealed that the users thought the prototype had a logical flow but that there was quite a high learning curve. They liked the use of pictures in the user guide and suggesting to add more if possible.  
 
 \subsubsection{Iteration two}%
 \label{ssub:Iteration two}
+
+The second iteration of the test had five participants, where one was a developer from Knowit and four were students of Interaction and Design studying in the University of Umeå. In addition to the first iteration task about Figma styles where added. The second iteration also gave a list of flaws.
+
+
+\begin{itemize}
+   \item The users found it hard to find the Auto-layout in Figma.
+      \begin{itemize}
+         \item The importance of Auto-layout was understood during the second iteration.
+      \end{itemize}
+   \item When creating a Figma access-token, users now found where to create the token but not how to do it.
+   \item When using color and text styles the users found it hard how to implement them. They often confused the implementation of the two. 
+   \item When styling or changing text on the component the examples are based on an image at the start of the user guide. This was not understood by the users that the image in the start was connected to the examples. A suggestion from the user was to duplicate the image and show it again further down.
+   \item Most users had a hard time understanding why and when to compile the TypeScript component files. A suggestion from a user was incorporate the compilation within the \textit{''convert''}-script.
+   \item 
+\end{itemize}
+
+\begin{itemize}
+   \item Lägga till en bild innan man öppnat AL
+   \item Lägga till en text för att man måste klicka enter för att få ett access-token.
+   \item Separata exemple för text och color styles
+   \item Upprepa exempel komponenten längre ner för att visa att t.ex. title och textBox står för något.
+   \item Ändra convert skriptet så att det tar hand om tsc
+   \item Förtydliga att man ska använda Kebab-case vid användning.
+   \item Lägga till error meddelande om man skriver samma dokumentnamn.
+   \item eventuellt lägga alla delar med större headings för att hitta bättre.
+\end{itemize}
+
+
+
 
 
 
