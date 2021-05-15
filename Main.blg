@@ -1,17 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
 [0] Config.pm:307> INFO - Logfile is 'Main.blg'
-[98] biber-darwin:322> INFO - === Wed May 12, 2021, 12:56:52
-[119] Biber.pm:415> INFO - Reading 'Main.bcf'
-[222] Biber.pm:943> INFO - Found 33 citekeys in bib section 0
-[236] Biber.pm:4256> INFO - Processing section 0
-[236] Utils.pm:75> INFO - Globbing data source 'bibLibrary.bib'
-[236] Utils.pm:91> INFO - Globbed data source 'bibLibrary.bib' to bibLibrary.bib
-[247] Biber.pm:4455> INFO - Looking for bibtex format file 'bibLibrary.bib' for section 0
-[249] bibtex.pm:1653> INFO - LaTeX decoding ...
-[298] bibtex.pm:1471> INFO - Found BibTeX data source 'bibLibrary.bib'
-[410] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[410] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[410] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[410] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[432] bbl.pm:652> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
-[445] bbl.pm:755> INFO - Output to Main.bbl
+[103] biber-darwin:322> INFO - === Sun May 16, 2021, 00:20:32
+[121] Biber.pm:415> INFO - Reading 'Main.bcf'
+[223] Biber.pm:943> INFO - Found 33 citekeys in bib section 0
+[241] Biber.pm:4256> INFO - Processing section 0
+[251] Utils.pm:75> INFO - Globbing data source 'bibLibrary.bib'
+[251] Utils.pm:91> INFO - Globbed data source 'bibLibrary.bib' to bibLibrary.bib
+[280] Biber.pm:4455> INFO - Looking for bibtex format file 'bibLibrary.bib' for section 0
+[284] bibtex.pm:1653> INFO - LaTeX decoding ...
+[345] bibtex.pm:1471> INFO - Found BibTeX data source 'bibLibrary.bib'
+[503] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[503] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[503] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[503] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[530] bbl.pm:652> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
+[543] bbl.pm:755> INFO - Output to Main.bbl
