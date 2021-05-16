@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.6)  16 MAY 2021 00:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.6)  16 MAY 2021 11:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -786,9 +786,6 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-
-Package biblatex Warning: Please rerun LaTeX.
-
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
@@ -797,7 +794,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 159.
 Here is how much of TeX's memory you used:
  16651 strings out of 480608
  281630 string characters out of 5903631
- 977939 words of memory out of 5000000
+ 978863 words of memory out of 5000000
  32133 multiletter control sequences out of 15000+600000
  539786 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -816,7 +813,7 @@ exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/te
 xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt8.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb>
-Output written on Main.pdf (30 pages, 6539790 bytes).
+Output written on Main.pdf (30 pages, 6539830 bytes).
 PDF statistics:
  669 PDF objects out of 1000 (max. 8388607)
  612 compressed objects within 7 object streams
