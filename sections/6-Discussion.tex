@@ -1,7 +1,7 @@
 \section{Discussion}
 % Discussion about the results and why it turned out the way it did. Hopefully this created a great tool that will take over the world
 
-In this section a discussion about the results of the study will be taken place. Furthermore a discussion on what could have been done differently. What was done well and what could have been improved for all the stages of the study. The prototype that was produced, the usability, and the A/B testing that unfortunatly could not be executed.
+In this section a discussion about the results of the study will be taken place. Furthermore a discussion on what could have been done differently. What was done well and what could have been improved for all the stages of the study. The prototype that was produced, the usability, and the A/B testing that unfortunately could not be executed.
 
 
 \subsection{The Prototype}%
@@ -11,12 +11,9 @@ There was a lot of problems that needed to be solved where the biggest one was; 
 
 Web component are as explained in the theory a mixture of three technologies, custom elements, shadow DOM, and HTML templates. This would work natively for all frameworks and static pages. The problem with doing it this way is that there is complicated to make these components loosely couple between projects. The LitElement class from Polymer was the solution. This also made the creation of the components much easier. A problem with LitElement was that to use them you need to handle \textit{open imports}. This is when the import does not target a file or a function from a module. This is only supported when running in node.js not in browsers at the moment. To combat that a bundler must be used, such as Webpack or Rollup.This was not optimal but the upside of LitElement still trumped this downside. This answers two of the research questions stated at the beginning of the project: \textit{Can components be built that works for all JavaScript frameworks and static pages?} and \textit{Is it possible to automate the whole process from UI design program to browser runnable code?}.
 
-
 One of the biggest struggles with creating the tool was to make sure that the prototype built the right amount of elements in the right place. This was solved with recursive functions that ''digs'' down to the ''youngest'' child and builds the elements from there an goes from generation to generation. This is a good way of building the components but it can become a performance taxing function if the components becomes to big. This has not been tested but there has been indications that there needs to be done optimization of these functions to make the prototype viable for bigger components and projects.
 
 The prototype has some features that unfortunately was not tested. Such as slotting. Where the user can decide a slot in the component where you can insert en element or another component into it. This feature was thought to be necessary to do the required task in later tests which was wrong. The time spent on developing the feature could have gone to testing which would have been more efficient.
-
-
 
 \subsection{Interviews}%
 \label{sub:Interviews}
@@ -58,9 +55,9 @@ This thesis had five research questions.
   \item Does this tool speed up the development process and if so how much?
 \end{itemize}
 
-The three first of the questions could be answered through researching web technologies, creating a prototype that converts Figma components to web components, and run usability test the prototype. As of the last two research questions there was not enough time test them properly. However the thesis supplies steps on how to get these answers through A/B testing.
+The three first of the questions could be answered through researching web technologies, creating a prototype that converts Figma components to web components, and run usability test the prototype. The last two research questions did not get answered. However the thesis supplies steps on how to get these answers through A/B testing.
 
-
+The indications from users and interviewees have been positive to what the prototype can do and can become a create tool for developers and designers.
 
 \section{Future Work}%
 \label{sub:Future Work}
