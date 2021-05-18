@@ -14,15 +14,15 @@ The method of this study is being made possible from the theory that is displaye
 
 \subsection{Design}%
 \label{sub:Design}
-The design work of a project is largely held at the start of the project. Where the project team is in contact with the customer and hash out what the application and system will look like. With software there is often hard for a customer to know what they want and what is possible to do. This is a part of the design segment of the project and often needs some iterations to get things done. 
+The design work of a project is largely held at the start of the project. Where the project team is in contact with the customer and hash out what the application and system will look like. With software, there is often hard for a customer to know what they want and what is possible to do. This is a part of the design segment of the project and often needs some iterations to get things done. 
 
-A fairly regular way of making the design of websites is to first create prototypes with very low details and then build in details from there. This is Low Fidelity (LoFi) to High Fidelity (HiFi) prototyping. Where the customer can be a part of the steps to create something that they want and can be done. The medium with which these prototypes are created varies but most often than not a User Interface (UI) design application is used to make the final HiFi-prototype. This HiFi-prototype is visually accurate with the final product meaning that all colors, typographies and layout are complete. This then needs to be translated into code by the developer.
+A fairly regular way of making the design of websites is to first create prototypes with very low details and then build in details from there. This is Low Fidelity (LoFi) to High Fidelity (HiFi) prototyping. Where the customer can be a part of the steps to create something that they want and can be done. The medium with which these prototypes are created varies but most often than not a User Interface (UI) design application is used to make the final HiFi prototype. This HiFi prototype is visually accurate with the final product meaning that all colors, typographies, and layout are complete. This then needs to be translated into code by the developer.
 
 \subsubsection{UI Design Applications}%
 \label{ssub:Apps}
-User interface design is often the first step in build an application. This is done to ensure the customer that the product is going to look as they want it to and that the team building the application is on the same page. \textbf{(Komma överens)}.  Sketch \cite{sketchDigitalDesignToolkit} was released in 2010 and was one of the first UI design applications and lead the marked for may years. In latter years applications like Figma \cite{figmaFigmaCollaborativeInterface} (released 2016) and Adobe XD \cite{adobeAdobeXDFast}(released 2015) has come to take over Sketches overwhelming dominance. 
+User interface design is often the first step in build an application. This is done to ensure the customer that the product is going to look as they want it to and that the team building the application is on the same page. Sketch \cite{sketchDigitalDesignToolkit} was released in 2010 and was one of the first UI design applications and lead the market for many years. In latter years applications like Figma \cite{figmaFigmaCollaborativeInterface} (released 2016) and Adobe XD \cite{adobeAdobeXDFast}(released 2015) have come to take over Sketch's overwhelming dominance. 
 
-In this thesis Figma is the tool that is being looked at because this tool is already being used by Knowit. Figma is also one of few design applications that have an open API which makes this project possible. 
+In this thesis, Figma is the tool that is being looked at because this tool is already being used by Knowit. Figma is also one of few design applications that have an open API which makes this project possible. 
 
  
 % Since the early 10's the UI design applications have been around to make this easier.
@@ -35,18 +35,18 @@ In this thesis Figma is the tool that is being looked at because this tool is al
 
 \subsubsection{Figma}%
 \label{sub:Figma}
-Figma is a UI Design application which is web based. Meaning that the whole program is run over network. 
+Figma is a UI Design application that is web-based. Meaning that the whole program is run over the network. 
 
 Figma has an open REST-API, (Representational State Transfer), that supply's the information of the Figma document over the Internet \cite{figmaFigma, RepresentationalStateTransfer2021}. Figma is also web-based meaning that the program runs over a network connection. Because of this the API is constantly updated after each change in the design, which great for collaboration and getting the API constantly updated.
 
 \subsubsection{Figma Components}%
 \label{ssub:Figma Components}
 
-Figma also allows its users to create components. This is a set of elements that is combined to a component. This is for example a button that could be used in many different places around the UI. A component is a great use case for this because when a component is made all its copies or children \textit{"looks"} at the original component. This means that if a change is needed to be done to that component the original is the only one that is needed to be changed.
+Figma also allows its users to create components. This is a set of elements that is combined into a component. This is for example a button that could be used in many different places around the UI. A component is a great use case for this because when a component is made all its copies or children \textit{"look"} at the original component. This means that if a change is needed to be done to that component the original is the only one that is needed to be changed.
 
 \subsubsection{Figma Styles}%
 \label{ssub:Styles}
-Figma has a feature that let's the user store color, text and effect styles. These are a way for the user to store default styles for their design. This style can later be used in many different elements. For example if the default color for a design is green the user can store this green color as a color style. If the user changes its mind after a while and they want the default color for a design to be blue. The only thing that the users then needs to do is to change the color style and all the elements that uses this default color will change its color. The same principle extends to typographies and effects such as shadows and blurs too. 
+Figma has a feature that lets the user store color, text, and effect styles. These are a way for the user to store default styles for their design. This style can later be used in many different elements. For example, if the default color for a design is green the user can store this green color as a color style. If the user changes their mind after a while and wants the default color for a design to be blue. The only thing that the users then need to do is to change the color style and all the elements that use this default color will change its color. The same principle extends to typographies and effects such as shadows and blurs too. 
 
 
 
@@ -83,9 +83,8 @@ Figma has a feature that let's the user store color, text and effect styles. The
 
 \subsection{Develop}%
 \label{sub:Develop}
-
-To develop something from a design is essentially to make the design functional with code. A design is often more like a picture rather then an application. A website is almost always built using the three main language of the web, which is HTML, CSS and JavaScript. HTML is a \textit{"tagging"} language which means that every thing is built with tags. HTML is often referred to as the body of a website. This is where the majority of the information of the web pages is stored.
-CSS is the clothes to the body. CSS is what defines the style for the website, such as sizes, paddings and colors to mention a few things.\\ 
+Developing something from a design is essential to make the design functional with code. A design is often more like a picture rather than an application. A website is almost always built using the three main languages of the web, which are HTML, CSS, and JavaScript. HTML is a \textit{"tagging"} language which means that everything is built with tags. HTML is often referred to as the body of a website. This is where the majority of the information on the web pages is stored.
+CSS is the clothes to the body. CSS is what defines the style for the website, such as sizes, paddings, and colors to mention a few things.\\ 
 \textit{"CSS describes how HTML elements are to be displayed on screen, paper, or in other media"}\cite{CSSIntroduction}.\\
 JavaScript is a scripting language that enables us to create complex features on web pages. JavaScript enables us to update content dynamically, essentially making the body move.
 
@@ -95,48 +94,50 @@ JavaScript is a scripting language that enables us to create complex features on
 % All websites that is run through web-browsers all use three main languages. HTML, CSS and JavaScript. HTML for the content of the site, CSS for styling the content and JavaScript for manipulating the content and/or making other \textit{calculations}??. These three languages are from now on going to be referred to as the native browser languages.
 
 
-In modern web design there are a lot of different frameworks and languages that makes it easier for developers to make create products but all these tools have the one thing in common. They all convert to one of the three browser languages mentioned above. 
+In modern web design, there are a lot of different frameworks and languages that make it easier for developers to make create products but all these tools have one thing in common. They all convert to one of the three browser languages mentioned above. 
 
 One of the goals of the thesis is to create a tool that could be used in as many projects as possible. Knowit is, as explained in the intro, a fairly large company and has a lot of different projects with lots of different frameworks.   
 
 
 \subsubsection{REST API}%
 \label{sub:REST API}
-REST stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and is a architectural style of distributed hypermedia systems. That was created by Roy Fielding in 2000 with the release of his dissertation \cite{fieldingFieldingDissertationCHAPTER}. For an API to be called \textit{RESTful} it needs to fill six requirements \cite{restfulapi.netWhatREST}.
+REST stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and is anarchitectural style of distributed hypermedia systems. That was created by Roy Fielding in 2000 with the release of his dissertation \cite{fieldingFieldingDissertationCHAPTER}. For an API to be called \textit{RESTful} it needs to fill six requirements \cite{restfulapi.netWhatREST}.
 \begin{enumerate}
-  \item Client–server - the UI and data storage are separated
-  \item Stateless –  The server does not store any information of the client. The client must provide all information for every request. 
-  \item Cacheable - A response can be explicitly or implicitly labeled as cacheable or non-cacheable. If the the response is cacheable the client has the right to store and reuse the response data for later.
-  \item Uniform interface – Simplifies and decouples the architecture between clients and servers, which enables each part to evolve independently. This is guided by four principles: Resource-Based, Manipulation of Resources Through Representation, Self-descriptive Messages 
-  , Hypermedia as the Engine of Application State \cite{WhatREST} .
-  \item Layered system -  This architecture consists of hierarchical layers that constrains what each components can do, such as a component can only interact with the layer that it is on.
-  \item  Code on demand (optional) - This allows the client to download and execute applets or scripts and there for extending client functionality
+  \item Client-server - the UI and data storage are separated
+  \item Stateless -  The server does not store any information about the client. The client must provide all information for every request. 
+  \item Cacheable - A response can be explicitly or implicitly labeled as cacheable or non-cacheable. If the response is cacheable the client has the right to store and reuse the response data for later.
+  \item Uniform interface - Simplifies and decouples the architecture between clients and servers, which enables each part to evolve independently. This is guided by four principles: Resource-Based, Manipulation of Resources Through Representation, Self-descriptive Messages, Hypermedia as the Engine of Application State \cite{WhatREST}.
+  \item Layered system -  This architecture consists of hierarchical layers that constrain what each component can do, such as; a component can only interact with the layer that it is on.
+  \item  Code on demand (optional) - This allows the client to download and execute applets or scripts and therefore extending client functionality
 \end{enumerate}
 
 
 % \cite{RepresentationalStateTransfer2021} 
  
-All of these requirements makes it light weight and very easy to understand and thereby introducing fewer problems into the system.  
+All of these requirements make it lightweight and very easy to understand and thereby introducing fewer problems into the system.  
+
 
 
 
 \subsubsection{JavaScript and TypeScript}%
 \label{ssub:JavaScript and TypeScript}
 
-JavaScript is a programming language that reports its error much later than many other languages. Variables can take any shape in JavaScript. That is for instance a number or a string. This can at first seem as something good that the language is highly dynamic but this is also very error prone. Where most of the errors are discovered after the program is run. This results in being obliged to test running the code after every change \cite{taivalsaari2008web}. To solve some of these problems TypeScript was created. TypeScript is an open source programming language which is built upon JavaScript. TypeScript allows to create types for variables, functions, etc., and thereby helps to find more errors before runtime. TypeScript is then complied back to JavaScript before it's run and can thereby be used everywhere JavaScript is used.
+JavaScript is a programming language that reports its error much later than many other languages. Variables can take any shape in JavaScript. That is for instance a number or a string. This can at first seem as something good that the language is highly dynamic but this is also very error prone. Where most of the errors are discovered after the program is run. This results in being obliged to test running the code after every change \cite{taivalsaari2008web}. To solve some of these problems TypeScript was created. TypeScript is an open-source programming language that is built upon JavaScript. TypeScript allows to create types for variables, functions, etc. and thereby helps to find more errors before runtime. TypeScript then complies back to JavaScript before it's run and can thereby be used everywhere JavaScript is used.
 
 
 % \textit{Incremental testing is required. Due to its highly permissive, error-tolerant nature, JavaScript programming requires an incremental, evolutionary approach to testing as well. Since errors are reported much later than usual, by the time an error is reported it is often surprisingly difficult to pinpoint the original location of the error. Error detection is made harder by the dynamic nature of JavaScript, for instance, by the option to change some of the system features on the fly. Furthermore, in the absence of strong, static typing, it is possible to execute a program and only at runtime realize that some parts of the program are missing. For all these reasons, the best way to write JavaScript programs is to proceed step by step, by writing (and immediately testing) each new piece of code. If such an incremental, evolutionary approach is not used, debugging and testing can become quite tedious even for relatively small JavaScript applications.} 
 
 
+
 \subsubsection{Node.js}%
 \label{ssub:Node}
-Node.js is an open source project that lets its users run code on the server asynchronously. Which is a way efficient way of running JavaScript code without a browser. Node.js is designed to handle HTTP effectively. Streaming and low latency has therefore been a high priority.
+Node.js is an open-source project that lets its users run code on the server asynchronously. Which is a way efficient way of running JavaScript code without a browser. Node.js is designed to handle HTTP effectively. Streaming and low latency have therefore been a high priority.
+
 
 
 \subsubsection{Syntactically Awesome Style Sheets (SASS)}%
 \label{sub:sass}
-SASS is an extension language to CSS that makes CSS supercharged. With SASS it is possible to have the stylesheet split up into multiple files, create functions, etc. SASS is then compiled to regular CSS so the browser is able to understand it. SASS is also called a preprocessor for CSS because of this.  SASS has two different syntaxes, the indented syntax commonly referred to just SASS and Sassy CSS (SCSS). The indented syntax was the original syntax for SASS and is only dependent on indentation. SCSS syntax is very similar to regular CSS but with the qualities of SASS. Because of the resembles of normal CSS SCSS is the most easy to learn and most popular of the two syntaxes. For this project SCSS will be used because of the resembles to CSS.
+SASS is an extension language to CSS that makes CSS supercharged. With SASS it is possible to have the stylesheet split up into multiple files, create functions, etc. SASS is then compiled to regular CSS so the browser can understand it. SASS is also called a preprocessor for CSS because of this. SASS has two different syntaxes, the indented syntax commonly referred to just SASS and Sassy CSS (SCSS). The indented syntax was the original syntax for SASS and is only dependent on indentation. SCSS syntax is very similar to regular CSS but with the qualities of SASS. Because of the resembles of normal CSS SCSS is the easiest to learn and most popular of the two syntaxes. For this project, SCSS will be used because the resembles to CSS.
 
 \paragraph{Variables}
 Variables in a stylesheet is useful especially when dealing with colors. Often a website has a set color scheme from the design. This can easily be set as a variable if the colors needs to be changed for some reason. Then there is only one entry that needs to be changed. Regular CSS do support variables but they are a little "clunky". To set a variable you set two dashes infront of the variable name. The variable must also be within a selector. To make the variable golobally reachable through out the CSS file it can be placed under the :root-psuedo element. The clunky part of this implementaion is that you cannot use this variable as it is later on in the code. You have to surround the variable with \textit{"var()"}. An example of this can be seen below.
@@ -190,6 +191,7 @@ div{
 
 % \subsubsection{Webpack}%
 % \label{sub:Webpack}
+
 
 
 
