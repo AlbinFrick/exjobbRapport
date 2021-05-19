@@ -10,42 +10,42 @@
 %       \item what is changed and what is kept?
 % \end{itemize}
 
-In this section the results from the project will be presented. These results are in sections of prototyping, interviews, and usability testing.
+In this section, the results from the project will be presented. These results are in sections of prototyping, interviews, and usability testing.
 
 \subsection{Prototype}%
 \label{sub:Prototype}
-The prototype created in this project can create web components dynamically from a Figma document, create SCSS variables and mixins from Figmas colors and text styles. The components, variables and mixins are ready to be used as a package out of the box with NPM. This prototype is available on Knowit-experience-norrlands GitHub page and are free to use and modify under the MIT open source license.
+The prototype created in this project can create web components dynamically from a Figma document, create SCSS variables, and mixins from Figmas colors and text styles. The components, variables, and mixins are ready to be used as a package out of the box with NPM. This prototype is available on Knowit-experience-norrlands GitHub page and is free to use and modify under the MIT open source license.
 
 The prototype has been usability tested and has shown indications of being arbitrarily usable for all basic functions.
 
 \subsection{Initial interviews}%
 \label{sub:Initial interviews}
-The interviews where done get a sense of how this tool could be structured around the employees work flow.
+The interviews were done to get a sense of how this tool could be structured around the employee's workflow.
 
-From the interviews there was found that majority liked the idea and thought that it could be a useful tool. The interviewees that worked with back-end where the one's with most hesitation. There where a lot of uncertainty whether or not a tool like this could be useful. The main concerns were the responsiveness of the components and to have a link between Figma and the components directly.
+From the interviews, there was found that the majority liked the idea and thought that it could be a useful tool. The interviewees that worked with back-end were the ones with the most hesitation. There where a lot of uncertainty about whether or not a tool like this could be useful. The main concerns were the responsiveness of the components and to have a link between Figma and the components directly.
 
 From the other side of the  spectra there more a more positive approach. These are the designers of the almost daily work with Figma. They thought that the tool was interesting and that it could potentially help with communication between them and the developers.
 
-There was no objection on the implementation at the time because this way of working is a lot different from what they were used to.  
+There was no objection to the implementation at the time because this way of working is a lot different from what they were used to.  
 
 
 \subsection{User Testing}%
 \label{sub:User Testing}
-When the tool was functional two usability tests where done to ensure that the tool was usable for more than just the author. The thought is that a developer should be able to use the tool with just the userguide (README) from github.com.
+When the tool was functional two usability tests were done to ensure that the tool was usable for more than just the author. The thought is that a developer should be able to use the tool with just the user guide (README) from github.com.
 
 \subsubsection{Iteration one}%
 \label{ssub:Iteration one}
 The first iteration of the test gave a list of flaws with the interface.
 \begin{itemize}
    \item The importance of the Auto-layout feature in Figma. The line about it was read but not understood that it was a dependency for the program. 
-   \item Hard to differentiate between explanations for Figma and for the program.
-   \item When setting up a new Figma document all users had a hard time to what they were allowed to names their document to.
+   \item Hard to differentiate between explanations for Figma and the program.
+   \item When setting up a new Figma document all users had a hard time to what they were allowed to names their document too.
    \item TypeScript must be installed globally to run the TypeScript compiler. This was not mentioned in the documentation. 
       \begin{itemize}
          \item When the generation has been completed the TypeScript files must be compiled using the \textit{tsc}-command. This needs to be done to use as a package but was misunderstood.
       \end{itemize}
    \item When creating a local NPM -package there was no way for the users to understand what the name for the package was. 
-   \item When styling the parent of the component the target string is the components name in camel case which was not described. The styling of the parent can also be done with the regular \textit{Style} attribute, which was suggested by one of the users.
+   \item When styling the parent of the component the target string is the component's name in camel-case which was not described. The styling of the parent can also be done with the regular \textit{Style} attribute, which was suggested by one of the users.
 \end{itemize}
 
 All of the flaws found could be corrected for the next iteration of the test. The questions after each test revealed that the users thought the prototype had a logical flow but that there was quite a high learning curve. They liked the use of pictures in the user guide and suggesting to add more if possible.  
@@ -53,7 +53,7 @@ All of the flaws found could be corrected for the next iteration of the test. Th
 \subsubsection{Iteration two}%
 \label{ssub:Iteration two}
 
-The second iteration of the test had five participants, where one was a developer from Knowit and four were students of Interaction and Design studying in the University of Umeå. In addition to the first iteration task about Figma styles where added. The second iteration also gave a list of flaws.
+The second iteration of the test had five participants, where one was a developer from Knowit and four were students of Interaction and Design studying in the University of Umeå. In addition to the first iteration task about Figma styles were added. The second iteration also gave a list of flaws.
 
 
 \begin{itemize}
@@ -61,10 +61,10 @@ The second iteration of the test had five participants, where one was a develope
       \begin{itemize}
          \item The importance of Auto-layout was understood during the second iteration.
       \end{itemize}
-   \item When creating a Figma access-token, users now found where to create the token but not how to do it.
+   \item When creating a Figma access token, users now found where to create the token but not how to do it.
    \item When using color and text styles the users found it hard how to implement them. They often confused the implementation of the two. 
    \item When styling or changing text on the component the examples are based on an image at the start of the user guide. This was not understood by the users that the image in the start was connected to the examples. A suggestion from the user was to duplicate the image and show it again further down.
-   \item Most users had a hard time understanding why and when to compile the TypeScript component files. A suggestion from a user was incorporate the compilation within the \textit{''convert''}-script.
+   \item Most users had a hard time understanding why and when to compile the TypeScript component files. A suggestion from a user was to incorporate the compilation within the \textit{''convert''}-script.
    \item Two users found thought that the components should be used with camelCase instead of kebab-case when initiating the component in the HTML.
    \item Some users found it hard to find different headings in the user guide. Their suggestion was to make the headings bigger and thought it not to be necessary to have them nested.
 \end{itemize}
