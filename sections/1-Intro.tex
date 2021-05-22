@@ -1,11 +1,13 @@
-\section{Acknowledgments}
+\section*{Acknowledgments}
 Throughout the writing of this thesis, I have received a lot of support and assistance.
 
 First of all, I would like to thank my supervisor, Mattias Andersson, whose expertise has been invaluable throughout the thesis. Your patience and insightful feedback brought my work to a higher level.
 
 I would also like to thank the employees of Knowit Experience Norrland, who have enabled me to write this thesis. Thank you for your warm welcome, answers to all my questions, and high availability.
 
-Last but not least, I would like to thank my fantastic parents and lovely fiance who have helped me hold the right course.
+I would like to thank my fellow students and colleagues at the University of Umeå, who have given me valuable feedback for the thesis and the usability test done.  
+
+Last but not least, I would like to thank my fantastic parents, wonderful sisters, and lovely fiance. Without you, I would not have been able to complete my thesis. Thank you for your immense patient, feedback, and support.
 
 \section{Introduction}
 % In the early 90's when the internet was starting to take shape there were not much thought behind the design of websites. The focus was to distribute information. As time has past and the Internet has grown to be apart of almost all industries and is a big part of a lot of peoples lives, design starts to matter. Today designing and building websites is a  \$??? industry.  
@@ -13,12 +15,11 @@ Last but not least, I would like to thank my fantastic parents and lovely fiance
 % With the rise of the agile project work form \cite{cohen2004introduction}, where the product is being developed iteratively, the communication between developers and designers must be on point for the project to move fast and smooth.
 
 
+When building applications for companies, the workflow can become complex and hard to manage. Most often, the projects are carried out with an agile work form\cite{cohen2004introduction}. Agile work form means that the product is evolving, with a tight connection with the customer. Before development starts, some research needs to be done to find what the customer wants, how the application should be implemented, and how it should appear. When working on a big project in general, the design and the implementation of the product are done by different competence groups, mainly designers and developers. 
 
-When building applications for companies there's a lot of moving parts. Most often the project is worked with an agile work form \cite{cohen2004introduction}. This means that the product is evolving, with a tight connection with the customer. Before development starts some research needs to be done to find what the customer wants, how the application should be implemented, and how it should look. When working on a big project the design and the implementation of the product are done by different competence groups, mainly designers, and developers. 
+Communication between designers and developers is essential to creating a good user experience (UX). The communication problem between designers and developers can be compared to the typical \textit{impedance mismatch problem} in the data storage realm. Designers and developers are trying to achieve the same thing but see information differently. The front-end developer is trying to figure out how the design should be written in code. How the design elements should or should not affect each other, how each of them should be positioned, and so forth. The designers see the relationship between the elements, how the dynamic of contrast, colors, and white space is set for the whole application. 
 
-The communication (and or relationship?) between these two parts are essential to creating a good user experience (UX). The communication problem between designers and developers can be compared to the common \textit{impedance mismatch problem} in the data storage realm. Designers and developers are trying to achieve the same thing but see information differently. The front-end developer is trying to figure out how the design should be written in code. How the design elements should or shouldn't affect each other, how each of them should be positioned, etc. The designers see the relationship between the elements, how the dynamic of contrast, colors, and white space is set for the whole application. 
-
-In later years most development is done around components. Whereas components are design and/or functional elements in the application. A component could be a button, a navigation bar, a card\cite{babichSimpleDesignTips2020}, etc. This is done to save code meaning that all components can be reused throughout a UI and between UI's. Many companies create big libraries of these components to be used within different projects. This works great for when the design languages. However when a consulting firms clients often do not have the same design language. This results in that the consulting firm's often need to redesign their components between projects. 
+In later years most development for web applications is modular and built up by components. Components are design and/or functional elements in the application. A component could be a button, a navigation bar, a card\cite{babichSimpleDesignTips2020}, etc. Making components is done to save code, meaning that all components can be reused throughout a UI and between UI's. Many companies create extensive libraries of these components to be used within different projects. Using components libraries works well when the design language is the same for all projects. However, when a consulting firm's clients often do not have the same design language. The differences in design result in that the consulting firms often need to redesign their components between projects. 
 
 
 
@@ -26,29 +27,32 @@ In later years most development is done around components. Whereas components ar
 
 
 \subsection{The Company \& the Problem}
-Knowit is an IT company with about 2600 employees with facilities in Sweden, Norway, Denmark, Finland, and Germany. Knowit has three main branches, Experience, Insight, and Solutions. These branches tackle different types of problems, enforce user experience with the customers brand (Experience), create system solutions to help customers digitalize (Solutions), and management-consulting (Insight). This project was done under the Experience branch to help them with an important part of initiating projects.
+% Knowit is an IT company with about 2600 employees in Sweden, Norway, Denmark, Finland, and Germany. Knowit has three main branches, Experience, Insight, and Solutions. These branches handle different types of problems, enforce user experience with the customers brand (Experience), create system solutions to help customers digitalize (Solutions), and management-consulting (Insight). This project was carried out under the Experience branch as an important building block for being able to find a more effective way to initiate new web building projects.
 
-This branch is consulting firm for customers that need a digital tool with high availability, accessibility, and great user experience. Every project under Knowit experience is run by teams of designers and developers. Where the designers make the design for the applications, including general designing guidelines, for each project. Then the developers implement the design to a functioning application.  
+% This branch is a consulting firm for customers that need digital tools with high availability, accessibility, and good user experience. Every project under Knowit experience is run by teams including designers and developers. 
 
-The problem that has arisen is that the design and setup are very similar for each project. This is setting up a color palette, typography, and basic components such as buttons, forms, etc. When the designer has done this the developer needs to convert this to code. This process is often very similar for every project but needs to be redone because most projects do not use the same frameworks and/or tools. 
+% Where the designers make the design for the applications, including general designing guidelines, for each project. Then the developers implement the design to a functioning application.  
+
+% The problem that has arisen is that the design and setup are very similar for each project. This is setting up a color palette, typography, and basic components such as buttons, forms, etc. When the designer has done this the developer needs to convert this to code. This process is often very similar for every project but needs to be redone because most projects do not use the same frameworks and/or tools. 
+
+Knowit is an IT company with about 2600 employees in Sweden, Norway, Den- mark, Finland, and Germany. Knowit has three main branches, Experience, Insight, and Solutions. These branches handle different types of problems, enforce user experience with the customers brand (Experience), create system solutions to help customers digitalize (Solutions), and management-consulting (Insight). This project was carried out under the Experience branch as an important building block to find a more effective way to initiate new website building projects. 
+
+This branch is a consulting firm for customers that need digital tools with high availability, accessibility, and good user experience. Teams, including designers and developers, run every project under the Knowit experience branch. The designers make the design for the applications, including general designing guidelines, for each project, then the developers implement the design to a functioning application. 
+
+The problem that has arisen is that the setup is very similar for each project. The setup consists of setting up a color palette, typography, and fundamental components such as buttons, forms, etc. When the designer has done this, the developer needs to convert this to code. This process is often similar for each project but needs to be redone because most projects do not use the same frameworks and tools. 
 
 \subsubsection{Knowit Initial Requirements}%
 \label{ssub:Knowit Initial Requirements}
-The initial requirements from Knowit were to make a design system\cite{fanguyComprehensiveGuideDesign} to solve the problem at hand. The following are those requirements: 
+The initial idea from Knowit was to make a design system\cite{fanguyComprehensiveGuideDesign} that followed the following requirements:
 \begin{itemize}
   \item The system needs to be applicable for all types of projects.
-  \item The system needs to be modular, you can choose to just use parts of it.
+  \item The system needs to be modular. The choice to use parts of it must be an option.
   \item It has to be easy to change global parameters such as colors, fonts, margins, etc.
-  \item The system will be open source and easy to make changes to.
+  \item The system must be open source.
   \item The system needs thorough documentation.
 \end{itemize}
 
-After some research, the conclusion was made that there would not be enough time to administrate the design system after it was built. Therefore the angle of attack was changed to focus on the making of components. The before mentioned requirements still stood but instead of building a design system, we wanted to build an automated process to generate code from a design. 
-
-
-
-
-
+After some research, we concluded that there would not be enough time to administrate the design system after this project. Therefore the focus of the thesis was changed from making a design system to streamline the creation of components. This change was significant, but the before-mentioned requirements still stood for the new idea. 
 
 % \subsection{Aim}%
 % \label{sub:Aim}
@@ -57,26 +61,22 @@ After some research, the conclusion was made that there would not be enough time
 
 \subsection{Objective}
 \label{sub:Objective}
-Most applications are built by components such as buttons, forms, cards\cite{babichSimpleDesignTips2020}, etc. These components are often redesigned and rebuilt from project to project making it bothersome but necessary work.
-
-% The problem that this thesis is trying to solve is to make
+Most applications are built by components such as buttons, forms, cards\cite{babichSimpleDesignTips2020}, etc. These components often need to be redesigned and rebuilt from project to project, making it bothersome but necessary work. 
 
 This study aims to make this setup time extensively more efficient with a tool that generates components. 
 
-To make this possible the following research questions must be answered:
+To reach the aim of the study, we need to answer the five questions stated below:  
+
 \begin{itemize}
   \item Is it possible to automate the whole process from UI design program to browser runnable code? 
- \item Can components be built that works for all JavaScript frameworks and static pages?
-  \item How can a user-friendly tool be built that automates component generation?  
-  \item Will automation between design and development increase communication between designers and developers?
-  \item Does this tool speed up the development process and if so how much?
-  % \item Could this tool make administration more efficient?
+  \item Can components be built that works for all JavaScript frameworks and static pages? 
+  \item How can a user-friendly tool be built that automates component generation? 
+  \item Will automation between design and development increase communication between designers and developers? 
+  \item Does this tool speed up the development process, and if so, how much?
 \end{itemize}
-
 
 \subsection{Demarcations}%
 \label{sub:Demarcations}
-This automation could be used to create a whole component library and be a part of a whole design system. This project was done under a limited time of 20 weeks. Therefore only a basic component generator will be produced. With \textit{basic} components, the only things that will be taken into account are shape, color, typography, and layout. More advanced styling such as gradients, SVGs, etc. will not be a part of the prototype. The prototype will not have full accessibility because  the elements used to build the components were only divs, for containers, and/or p-tags, for texts.
-The focus was on the data flow from the design tool to usable code and therefore the component itself was not required to be perfect. 
+This automation could be used to create a whole component library and be a part of a whole design system. This project was done under a limited time of 20 weeks. Therefore only a fundamental component generator will be produced. With these fundamental components, the only things that need to be considered are shape, color, typography, and layout. More advanced styling, such as gradients, SVGs, etc., will not be a part of the prototype. The prototype will not have full accessibility because the HTML elements used to build the components will be divs for containers and p-tags for texts. The focus for the prototype was on how the data flows from the design software to usable code.
 
 
