@@ -1,6 +1,6 @@
 \section{Theory}
 
-The method of this study is being made possible from the theory displayed in this section. This section will go through all theory surrounding the building and testing of the prototype built in this thesis. These theories are: 
+The method of this study is being made possible from the theory displayed in this section. This section will go through all theory surrounding the building and testing the prototype built in this thesis. These theories are: 
 \begin{itemize}
   \item Design
   \item Design software
@@ -21,15 +21,19 @@ The method of this study is being made possible from the theory displayed in thi
 
 \subsection{Design}%
 \label{sub:Design}
-The design work of a project is largely held at the start of the project. Where the project team is in contact with the customer and hash out what the application and system will look like. With software, there is often hard for a customer to know what they want and what is possible to do. This is a part of the design segment of the project and often needs some iterations to get things done. 
+The design work of a project is primarily held at the start of the project. The project team is in contact with the customer and hash out what functionality and appearance the application will have. With software, it is often hard for customers to know what they want and what is possible to do. Therefore this design segment is often done in iterations.
 
-A fairly regular way of making the design of websites is to first create prototypes with very low details and then build in details from there. This is Low Fidelity (LoFi) to High Fidelity (HiFi) prototyping. Where the customer can be a part of the steps to create something that they want and can be done. The medium with which these prototypes are created varies but most often than not a User Interface (UI) design application is used to make the final HiFi prototype. This HiFi prototype is visually accurate with the final product meaning that all colors, typographies, and layout are complete. This then needs to be translated into code by the developer.
+A fairly common way of making the design of websites is first to create prototypes with little details, called low fidelity prototypes. More details are added to the prototype through iterations until the design could be mistaken for an actual application. This is called a high-fidelity prototype.
+
+The medium with which these prototypes are created varies, but a User Interface (UI) design application is often used to make the final high fidelity prototype. This high-fidelity prototype is visually accurate with the final product meaning that all colors, typographies, and layout are complete. The design prototype then needs to be translated into code by the developer. 
 
 \subsubsection{UI Design Applications}%
 \label{ssub:Apps}
-User interface design is often the first step in build an application. This is done to ensure the customer that the product is going to look as they want it to and that the team building the application is on the same page. Sketch \cite{sketchDigitalDesignToolkit} was released in 2010 and was one of the first UI design applications and lead the market for many years. In latter years applications like Figma \cite{figmaFigmaCollaborativeInterface} (released 2016) and Adobe XD \cite{adobeAdobeXDFast}(released 2015) have come to take over Sketch's overwhelming dominance. 
+User interface (UI) design is often the first step in building an application. By designing the UI first, the designer can collaborate with the customer iteratively until they have a design agreed upon to move forward to development.
 
-In this thesis, Figma is the tool that is being looked at because this tool is already being used by Knowit. Figma is also one of few design applications that have an open API which makes this project possible. 
+Sketch\cite{sketchDigitalDesignToolkit} was released in 2010 and was one of the first UI design applications and lead the market for many years. In later years applications such as Figma\cite{figmaFigmaCollaborativeInterface}  (released 2016) and Adobe XD\cite{adobeAdobeXDFast} (released 2015) have come to overtake Sketch's dominance. 
+
+In this thesis, Figma is the UI design application that is used because Knowit is already using this tool. Figma is also one of few design applications that have an open API which makes this project possible. 
 
  
 % Since the early 10's the UI design applications have been around to make this easier.
@@ -42,20 +46,51 @@ In this thesis, Figma is the tool that is being looked at because this tool is a
 
 \subsubsection{Figma}%
 \label{sub:Figma}
-Figma is a UI Design application that is web-based. Meaning that the whole program is run over the network. 
+Figma is a UI Design application that is web-based, which means that the whole program is run over a network. 
 
-Figma has an open REST-API, (Representational State Transfer), that supply's the information of the Figma document over the Internet \cite{figmaFigma, RepresentationalStateTransfer2021}. Figma is also web-based meaning that the program runs over a network connection. Because of this the API is constantly updated after each change in the design, which great for collaboration and getting the API constantly updated.
+Figma has an open REST-API (Representational State Transfer) that supplies the information of the Figma document over the Internet\cite{figmaFigma, RepresentationalStateTransfer2021} ( \textit{\todo{Yes men i första hand till en...ja vadå?}} - server?). Figma is also web-based, meaning that Figma itself also runs over a network connection. The API is then constantly updated after each design change, which is great for collaboration and keeping the REST-API updated.
 
-\subsubsection{Figma Components}%
+\paragraph{Figma Components}%
 \label{ssub:Figma Components}
+Figma also allows its users to create components. A component is a set of elements that are combined. Figures \ref{fig:images/cardComp} and \ref{fig:images/cardCompElements} show an example of a card\cite{babichSimpleDesignTips2020} component in Figma. The card component consists of four elements, two text elements, and two frame elements. 
 
-Figma also allows its users to create components. This is a set of elements that is combined into a component. This is for example a button that could be used in many different places around the UI. A component is a great use case for this because when a component is made all its copies or children \textit{"look"} at the original component. This means that if a change is needed to be done to that component the original is the only one that is needed to be changed.
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.48\textwidth}
+    \includegraphics[width=\linewidth]{images/cardComp.png}
+    \caption{Figma component}
+    \label{fig:images/cardComp}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.48\textwidth}
+    \includegraphics[width=\linewidth]{images/cardCompElements.png}
+    \caption{Elements of a component}
+    \label{fig:images/cardCompElements}
+  \end{minipage}
+\end{figure}
 
-\subsubsection{Figma Styles}%
+
+When copying a component, the copied component is \textit{attached} to the original component. When making changes to the original component, all \textit{attached} components will get the updates. The attached components can be changed without affecting the original component. 
+
+\paragraph{Figma Styles}%
 \label{ssub:Styles}
-Figma has a feature that lets the user store color, text, and effect styles. These are a way for the user to store default styles for their design. This style can later be used in many different elements. For example, if the default color for a design is green the user can store this green color as a color style. If the user changes their mind after a while and wants the default color for a design to be blue. The only thing that the users then need to do is to change the color style and all the elements that use this default color will change its color. The same principle extends to typographies and effects such as shadows and blurs too. 
 
+Figma has a feature that lets the user store colors, texts, and effects as \textit{styles}. This is a way for the user to store default styles for their design.  For example, if the default color for a design is green, the user can store this green color as a color style. The user can use the color style throughout their user interface (UI). If they later want to change the default color for the UI, they only need to change the color of the color \textit{style}, not all colored elements individually. Effectively the changes between figure \ref{fig:images/layoutBlue} and \ref{fig:images/layoutGreen} are from changing the color style. The same principle extends to typographies and effects such as shadows and blurs. 
 
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.48\textwidth}
+    \includegraphics[width=\linewidth]{images/layoutBlue.png}
+    \caption{UI with blue color style}
+    \label{fig:images/layoutBlue}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.48\textwidth}
+    \includegraphics[width=\linewidth]{images/layoutGreen.png}
+    \caption{UI with green color style}
+    \label{fig:images/layoutGreen}
+  \end{minipage}
+\end{figure}
 
 
 
@@ -90,46 +125,37 @@ Figma has a feature that lets the user store color, text, and effect styles. The
 
 \subsection{Develop}%
 \label{sub:Develop}
-Developing something from a design is essential to make the design functional with code. A design is often more like a picture rather than an application. A website is almost always built using the three main languages of the web, which are HTML, CSS, and JavaScript. HTML is a \textit{"tagging"} language which means that everything is built with tags. HTML is often referred to as the body of a website. This is where the majority of the information on the web pages is stored.
-CSS is the clothes to the body. CSS is what defines the style for the website, such as sizes, paddings, and colors to mention a few things.\\ 
+
+Developing something from a design is essential to make the design functional with code. A design is often more like an image rather than an application. A website is usually built using the three main languages of the web: HTML, CSS, and JavaScript. HTML is a \textit{''tagging''} language meaning all code is written with tags. All information is written between or in opening and closing tags. An opening tag signifies a tag with  <\textit{nameOfTag}> and a closing tag </\textit{nameOfTag}>. Within the opening tag, attributes can be assigned, such as a class or an id. 
+HTML is often referred to as the body of a website. This is where the majority of the information on the web pages is stored. CSS is the clothes to the body. CSS is what defines the style for the website, such as sizes, paddings, and colors.\\
 \textit{"CSS describes how HTML elements are to be displayed on screen, paper, or in other media"}\cite{CSSIntroduction}.\\
-JavaScript is a scripting language that enables us to create complex features on web pages. JavaScript enables us to update content dynamically, essentially making the body move.
+JavaScript is a scripting language that enables us to create complex features on web pages. JavaScript enables us to update the content of the website dynamically. 
 
+In modern web design, many different frameworks and languages make it easier for developers to create products.  All these tools have one thing in common. They all convert to the three browser languages mentioned above. 
 
-% Most websites is built with HTML, CSS and JavaScript. This the foundational languages which the web rests upon. HTML is often referred to as the skeleton of the website. HTML \textit{"tagging"} language which fills the websites information.
-
-% All websites that is run through web-browsers all use three main languages. HTML, CSS and JavaScript. HTML for the content of the site, CSS for styling the content and JavaScript for manipulating the content and/or making other \textit{calculations}??. These three languages are from now on going to be referred to as the native browser languages.
-
-
-In modern web design, there are a lot of different frameworks and languages that make it easier for developers to make create products but all these tools have one thing in common. They all convert to one of the three browser languages mentioned above. 
-
-One of the goals of the thesis is to create a tool that could be used in as many projects as possible. Knowit is, as explained in the intro, a fairly large company and has a lot of different projects with lots of different frameworks.   
+One of the thesis objectives is to create a tool that could be used in as many projects as possible. Knowit is, as explained in the intro, a large company that has many different projects using lots of different frameworks. 
 
 
 \subsubsection{REST API}%
 \label{sub:REST API}
-REST stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and is anarchitectural style of distributed hypermedia systems. That was created by Roy Fielding in 2000 with the release of his dissertation \cite{fieldingFieldingDissertationCHAPTER}. For an API to be called \textit{RESTful} it needs to fill six requirements \cite{restfulapi.netWhatREST}.
+REST stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and is anarchitectural style of distributed hypermedia systems. Roy Fielding created this in 2000 with the release of his dissertation [12]. For an API to be called RESTful, it needs to fill the following six requirements [13]. 
+
 \begin{enumerate}
-  \item Client-server - the UI and data storage are separated
-  \item Stateless -  The server does not store any information about the client. The client must provide all information for every request. 
-  \item Cacheable - A response can be explicitly or implicitly labeled as cacheable or non-cacheable. If the response is cacheable the client has the right to store and reuse the response data for later.
-  \item Uniform interface - Simplifies and decouples the architecture between clients and servers, which enables each part to evolve independently. This is guided by four principles: Resource-Based, Manipulation of Resources Through Representation, Self-descriptive Messages, Hypermedia as the Engine of Application State \cite{WhatREST}.
-  \item Layered system -  This architecture consists of hierarchical layers that constrain what each component can do, such as; a component can only interact with the layer that it is on.
-  \item  Code on demand (optional) - This allows the client to download and execute applets or scripts and therefore extending client functionality
+  \item Client-server - the UI and data storage are separated:w. 
+  \item Stateless - The server does not store any information about the client. The client must provide all information for every request. 
+  \item Cacheable - A response can be explicitly or implicitly labeled as cacheable or non-cacheable. If the response is cacheable, the client has the right to store and reuse the response data for later. 
+  \item Uniform interface - Simplifies and decouples the architecture between clients and servers, which enables each part to evolve independently. Four principles guide this: Resource-Based, Manipulation of Resources Through Representation, Self-descriptive Messages, Hypermedia as the Engine of Application State [14]. 
+  \item Layered system - This architecture consists of hierarchical layers that constrain what each component can do, such as; a component can only interact with the layer it is on. 
+  \item Code on demand (optional) - This allows the client to download and execute applets or scripts and therefore extending client functionality 
 \end{enumerate}
 
-
-% \cite{RepresentationalStateTransfer2021} 
- 
-All of these requirements make it lightweight and very easy to understand and thereby introducing fewer problems into the system.  
-
-
+These requirements make it lightweight and easy to understand and thereby introduce fewer problems into the system. 
 
 
 \subsubsection{JavaScript and TypeScript}%
 \label{ssub:JavaScript and TypeScript}
 
-JavaScript is a programming language that reports its error much later than many other languages. Variables can take any shape in JavaScript. That is for instance a number or a string. This can at first seem as something good that the language is highly dynamic but this is also very error prone. Where most of the errors are discovered after the program is run. This results in being obliged to test running the code after every change \cite{taivalsaari2008web}. To solve some of these problems TypeScript was created. TypeScript is an open-source programming language that is built upon JavaScript. TypeScript allows to create types for variables, functions, etc. and thereby helps to find more errors before runtime. TypeScript then complies back to JavaScript before it's run and can thereby be used everywhere JavaScript is used.
+JavaScript is a programming language that reports its error much later than many other languages. Variables can take any shape in JavaScript. That is, for instance, a number or a string. This can at first seem as good that the language is highly dynamic and flexible. This flexibility is also very error-prone, where most of the errors are discovered after the code is run. This results in being obliged to test running the code after every change\cite{taivalsaari2008web}. TypeScript was created to fix the error-prone nature of JavaScript. TypeScript is an open-source programming language that is built upon JavaScript. TypeScript allows for the creation of types for variables, functions, etc., and thereby helps to find more errors before runtime. TypeScript then complies back to JavaScript before it is run and can thereby run everywhere JavaScript run.  
 
 
 % \textit{Incremental testing is required. Due to its highly permissive, error-tolerant nature, JavaScript programming requires an incremental, evolutionary approach to testing as well. Since errors are reported much later than usual, by the time an error is reported it is often surprisingly difficult to pinpoint the original location of the error. Error detection is made harder by the dynamic nature of JavaScript, for instance, by the option to change some of the system features on the fly. Furthermore, in the absence of strong, static typing, it is possible to execute a program and only at runtime realize that some parts of the program are missing. For all these reasons, the best way to write JavaScript programs is to proceed step by step, by writing (and immediately testing) each new piece of code. If such an incremental, evolutionary approach is not used, debugging and testing can become quite tedious even for relatively small JavaScript applications.} 
@@ -138,16 +164,20 @@ JavaScript is a programming language that reports its error much later than many
 
 \subsubsection{Node.js}%
 \label{ssub:Node}
-Node.js is an open-source project that lets its users run code on the server asynchronously. Which is a way efficient way of running JavaScript code without a browser. Node.js is designed to handle HTTP effectively. Streaming and low latency have therefore been a high priority.
-
+Node.js is an open-source project that lets its users run code on the server asynchronously. This allows for a more efficient way of running JavaScript code without a browser. Node.js is designed to handle HTTP effectively. Streaming and low latency have therefore been a high priority. 
 
 
 \subsubsection{Syntactically Awesome Style Sheets (SASS)}%
 \label{sub:sass}
-SASS is an extension language to CSS that makes CSS supercharged. With SASS it is possible to have the stylesheet split up into multiple files, create functions, etc. SASS is then compiled to regular CSS so the browser can understand it. SASS is also called a preprocessor for CSS because of this. SASS has two different syntaxes, the indented syntax commonly referred to just SASS and Sassy CSS (SCSS). The indented syntax was the original syntax for SASS and is only dependent on indentation. SCSS syntax is very similar to regular CSS but with the qualities of SASS. Because of the resembles of normal CSS SCSS is the easiest to learn and most popular of the two syntaxes. For this project, SCSS will be used because the resembles to CSS.
+SASS is an extension language to CSS that adds more functionality to regular CSS. With SASS, it is possible to have a stylesheet split up into multiple files, create functions, etc. SASS is then compiled to regular CSS so the browser can understand it. SASS is also called a preprocessor for CSS because of this. SASS has two different syntaxes; the indented syntax, commonly referred to as SASS, and Sassy CSS, referred to as SCSS. The indented syntax was the original syntax for SASS and is only dependent on indentation. SCSS syntax is very similar to regular CSS but with the qualities of SASS. Because of the resembles of standard CSS, SCSS is the easiest to learn and most famous of the two syntaxes. For this project, SCSS will be used because it resembles CSS. 
 
 \paragraph{Variables}
-Variables in a stylesheet are useful, especially when dealing with colors. Often a website has a set color scheme from the design. This can easily be set as a variable if the colors need to be changed for some reason. Then there is only one entry that needs to be changed. Regular CSS do support variables but they are a little "clunky". To set a variable you set two dashes in front of the variable name. The variable must also be within a selector. To make the variable globally reachable throughout the CSS file it can be placed under the :root-pseudo element. The clunky part of this implementation is that you cannot use this variable as it is later on in the code. You have to surround the variable with \textit{"var()"}. An example of this can be seen below.
+Variables in a stylesheet are helpful, especially when dealing with colors. Often websites have color schemes from their design. By assigning each color to a variable, only one row of code needs to be changed if the color scheme is updated. Regular CSS does support variables, but they can be cumbersome to use, especially if the variables will be used globally in the stylesheet.
+
+To style an element in CSS, we must first target the element with a CSS selector. A selector could be an HTML element such as a div or a heading. CSS also has additional selectors called pseudo-elements. Pseudo-elements are defined by a colon before their name, such as :after, :before, and :root. These elements do not add additional data to the website but help the developer to style it. 
+
+A variable in CSS is defined by adding two dashed before the variable name.  The variable must also be defined within a selector and thereby only operate within that selector. The :root pseudo-element can be used to define variables globally within the stylesheet. When using the variables, they must be put inside the var()-function to work.
+Below an example of defining and using a variable can be seen. 
 
 \begin{lstlisting}[style=htmlcssjs]
 
@@ -161,8 +191,8 @@ div{
 \end{lstlisting}
 
 
+SCSS variables are not required to be defined within a selector, making them globally reachable within the stylesheet by default. The dollar-sign (''\$'') is used to define an SCSS variable. We can use an SCSS variable by simply adding the variable where we want to use it. The example below is achieving the same result as the previous example.
 
-SCSS makes this much more intuitive with defining the variable globally without a selector and locally just inside one. A variable is assigned using the ''\$'' character.
 
 \begin{lstlisting}[style=htmlcssjs]
 \$myColorVariable: #ff9a67; 
@@ -174,7 +204,7 @@ div{
 
 
 \paragraph{Mixin and Include}
-Often when writing CSS code you run into the problem of duplication of code. SASS has a solution to this called mixins. Mixins let you store multiple CSS rules in a variable/function that can be used multiple times throughout the stylesheet. To use the mixin you need to include it in your code, both mixins and includes are signified with the @ before the word. Below is an example of centering all children in an element with a mixin.
+CSS is notoriously known for having many code duplications. These duplications occur when the same styling for different elements is needed. SCSS has a solution to this called mixins. A mixin is a sort of function that stores multiple CSS rules defined with @mixin before the function name and used with @include. Below is an example of centering all children in an element with a mixin. 
 
 \begin{lstlisting}[style=htmlcssjs]
 @mixin centered {
@@ -204,24 +234,32 @@ div{
 
 \subsubsection{Web Components}%
 \label{sub:Web Components}
-Web Components are a set of different JavaScript APIs together with HTML features that makes it possible to create reusable custom elements\cite{WebComponentsMDN}. These elements are encapsulated away from the rest of the code. These web components are supported by all major browsers. Because web components are run natively on HTML, CSS, and JavaScript they are compatible with all JavaScript frameworks, such as React, Vue, and Angular. To make this possible there are three main technologies at work; Custom elements, shadow DOM, and HTML Templates.
+Web Components are a set of different JavaScript APIs and HTML features that make it possible to create reusable custom elements\cite{WebComponentsMDN}. These elements are encapsulated away from the rest of the code. All major browsers support these web components. Because web components are run natively on HTML, CSS, and JavaScript, they are compatible with all JavaScript frameworks, such as React, Vue, and Angular. Web components are built with three technologies: Custom elements, shadow DOM, and HTML Templates. 
 
 \paragraph{Custom Elements}
-A set of JavaScript APIs that allow you to define custom elements and their behavior. This is a way to encapsulate functionality on the HTML page rather than having everything nested together.
+With the help of a set of JavaScript APIs, we can define custom elements and their behavior. By creating custom elements, we can encapsulate HTML functionality outside of the main page itself. By doing this, the HTML code becomes much more readable. 
 
 \paragraph{Shadow DOM}%
 \label{ssub:Shadow DOM}
-Shadow DOM is also a set of JavaScript APIs that lets you attach an encapsulated ''shadow'' DOM tree to an element. This ''shadow'' DOM is attached to the main document DOM like a branch. The difference from a normal branch is that the main DOM is not aware of the ''shadow'' DOMs data or functionality and vice versa. The ''shadow'' DOM is then essentially its own tree with its own stylesheet that cannot be modified or overwritten from the main DOM.\\
-\todo{Lägga till bild?}
+When the browser reads in an HTML page, a document object model tree (DOM tree) is created.  In figure \ref{fig:shadow}, we can see this tree. Shadow DOM is a set of JavaScript APIs that lets us attach an encapsulated ''shadow'' DOM tree to an existing node in the DOM tree. This ''shadow'' DOM extends the main document DOM like a branch. The difference from a regular branch is that the main DOM is not aware of the ''shadow'' DOMs data or functionality and vice versa. The ''shadow'' DOM is then essentially its own tree with its own stylesheet that cannot be modified or overwritten from the main DOM.\\
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{images/shadow.png}
+  \caption{Depiction of a shadow DOM attached to the main DOM}%
+  \label{fig:shadow}
+\end{figure}
+
+\todo{Lägga till bättre bild}
+
+
 
 \paragraph{HTML Templates}%
 \label{ssub:HMTL Templates}
-The HTML \textit{template}-tag and \textit{slot}-tag enable you to write markup templates that are not displayed on the rendered page. Which then can be reused throughout the HTML page. HTML templates are what enable web components to be reused multiple times, with different instances, in the DOM tree.
+The HTML \textit{template}-tag and \textit{slot}-tag enable you to write markup templates that are not displayed on the rendered HTML page. Which then can be reused throughout the HTML page. HTML templates enable web components to be reused multiple times, with different instances, in the DOM tree.
 
 \subsubsection{LitElement}%
 \label{ssub:LitElement}
-Instead of creating web components the usual way by manually initiating custom elements, the shadow DOM, and HTML templates, we can use LitElement.
-LitElement is a great lightweight class to simplify making web components\cite{polymerLitElement}. LitElement is built by the Polymer Project \cite{polymerPolymerProject}, which is a group of engineers from the Google Chrome team. LitElement combines functionality from the web components technologies to a class that makes it easy to create these web components with concise and malleable code.
+Web components can be manually built using custom elements, shadow DOM, and HTML templates mentioned above. A group of engineers from the Google Chrome team in the Polymer Project \cite{polymerPolymerProject} have built a lightweight class called LitElement. LitElement combines functionality from the web components technologies to a class that makes it easy to create web components with concise and malleable code.
 
 
 % \subsubsection{Recursive functions}%
@@ -232,9 +270,10 @@ LitElement is a great lightweight class to simplify making web components\cite{p
 
 
 
+
 \subsection{Distribute}%
 \label{sub:Distribute}
-After a component has been designed and developed the components should be used in a project. Often the created component is used by more than one part and therefore it should be distributed easily. There is a lot of ways to distribute a component but the most widely used way is to use a package manager.
+After a component has been designed and developed, the components can now be used in a project. Often the created component is used by more than one part, and therefore it should be distributed seamlessly. There are many ways to distribute a component, but the most widely used way is to use a package manager.
 
 
 % To be able to use the components created from the designer the developers need to be able to get a hold of them. A lot of reusable code that is crated for the web can be accessed from the internet with the help of package managers.
@@ -262,6 +301,7 @@ Making software open-source is quite easy. The source code for the software must
 % This tool is involved with people in many different areas of expertise, form designers to front-end developers to back-end developers. To get a clear view of of how these people work to create the best tool for them the semi-structured interview was used. 
 
 % For collecting data from the employees of Knowit semi-structured interviews were used \cite{galletta2013mastering}. 
+
 
 
 

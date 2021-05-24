@@ -13,43 +13,41 @@
 \BOOKMARK [2][-]{subsection.3.1}{Design}{section.3}% 13
 \BOOKMARK [3][-]{subsubsection.3.1.1}{UI Design Applications}{subsection.3.1}% 14
 \BOOKMARK [3][-]{subsubsection.3.1.2}{Figma}{subsection.3.1}% 15
-\BOOKMARK [3][-]{subsubsection.3.1.3}{Figma Components}{subsection.3.1}% 16
-\BOOKMARK [3][-]{subsubsection.3.1.4}{Figma Styles}{subsection.3.1}% 17
-\BOOKMARK [2][-]{subsection.3.2}{Develop}{section.3}% 18
-\BOOKMARK [3][-]{subsubsection.3.2.1}{REST API}{subsection.3.2}% 19
-\BOOKMARK [3][-]{subsubsection.3.2.2}{JavaScript and TypeScript}{subsection.3.2}% 20
-\BOOKMARK [3][-]{subsubsection.3.2.3}{Node.js}{subsection.3.2}% 21
-\BOOKMARK [3][-]{subsubsection.3.2.4}{Syntactically Awesome Style Sheets \(SASS\)}{subsection.3.2}% 22
-\BOOKMARK [3][-]{subsubsection.3.2.5}{Web Components}{subsection.3.2}% 23
-\BOOKMARK [3][-]{subsubsection.3.2.6}{LitElement}{subsection.3.2}% 24
-\BOOKMARK [2][-]{subsection.3.3}{Distribute}{section.3}% 25
-\BOOKMARK [3][-]{subsubsection.3.3.1}{Package Manager}{subsection.3.3}% 26
-\BOOKMARK [3][-]{subsubsection.3.3.2}{Open Source}{subsection.3.3}% 27
-\BOOKMARK [2][-]{subsection.3.4}{Testing}{section.3}% 28
-\BOOKMARK [3][-]{subsubsection.3.4.1}{Usability testing}{subsection.3.4}% 29
-\BOOKMARK [3][-]{subsubsection.3.4.2}{A/B Testing}{subsection.3.4}% 30
-\BOOKMARK [3][-]{subsubsection.3.4.3}{Statistical Analysis}{subsection.3.4}% 31
-\BOOKMARK [1][-]{section.4}{Method}{}% 32
-\BOOKMARK [2][-]{subsection.4.1}{Initial Research}{section.4}% 33
-\BOOKMARK [2][-]{subsection.4.2}{Creating the tool}{section.4}% 34
-\BOOKMARK [3][-]{subsubsection.4.2.1}{Building the skeleton of the component}{subsection.4.2}% 35
-\BOOKMARK [3][-]{subsubsection.4.2.2}{Styling the Component}{subsection.4.2}% 36
-\BOOKMARK [3][-]{subsubsection.4.2.3}{Variables}{subsection.4.2}% 37
-\BOOKMARK [3][-]{subsubsection.4.2.4}{Open Source}{subsection.4.2}% 38
-\BOOKMARK [3][-]{subsubsection.4.2.5}{Userguide}{subsection.4.2}% 39
-\BOOKMARK [2][-]{subsection.4.3}{Semi-Structured Interviews}{section.4}% 40
-\BOOKMARK [2][-]{subsection.4.4}{Usability Testing}{section.4}% 41
-\BOOKMARK [2][-]{subsection.4.5}{ A/B Testing }{section.4}% 42
-\BOOKMARK [1][-]{section.5}{Result}{}% 43
-\BOOKMARK [2][-]{subsection.5.1}{Prototype}{section.5}% 44
-\BOOKMARK [2][-]{subsection.5.2}{Initial interviews}{section.5}% 45
-\BOOKMARK [2][-]{subsection.5.3}{User Testing}{section.5}% 46
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Iteration one}{subsection.5.3}% 47
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Iteration two}{subsection.5.3}% 48
-\BOOKMARK [1][-]{section.6}{Discussion}{}% 49
-\BOOKMARK [2][-]{subsection.6.1}{The Prototype}{section.6}% 50
-\BOOKMARK [2][-]{subsection.6.2}{Interviews}{section.6}% 51
-\BOOKMARK [2][-]{subsection.6.3}{Usability testing}{section.6}% 52
-\BOOKMARK [2][-]{subsection.6.4}{A/B testing}{section.6}% 53
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 54
-\BOOKMARK [1][-]{section.8}{Future Work}{}% 55
+\BOOKMARK [2][-]{subsection.3.2}{Develop}{section.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.2.1}{REST API}{subsection.3.2}% 17
+\BOOKMARK [3][-]{subsubsection.3.2.2}{JavaScript and TypeScript}{subsection.3.2}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Node.js}{subsection.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Syntactically Awesome Style Sheets \(SASS\)}{subsection.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.5}{Web Components}{subsection.3.2}% 21
+\BOOKMARK [3][-]{subsubsection.3.2.6}{LitElement}{subsection.3.2}% 22
+\BOOKMARK [2][-]{subsection.3.3}{Distribute}{section.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Package Manager}{subsection.3.3}% 24
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Open Source}{subsection.3.3}% 25
+\BOOKMARK [2][-]{subsection.3.4}{Testing}{section.3}% 26
+\BOOKMARK [3][-]{subsubsection.3.4.1}{Usability testing}{subsection.3.4}% 27
+\BOOKMARK [3][-]{subsubsection.3.4.2}{A/B Testing}{subsection.3.4}% 28
+\BOOKMARK [3][-]{subsubsection.3.4.3}{Statistical Analysis}{subsection.3.4}% 29
+\BOOKMARK [1][-]{section.4}{Method}{}% 30
+\BOOKMARK [2][-]{subsection.4.1}{Initial Research}{section.4}% 31
+\BOOKMARK [2][-]{subsection.4.2}{Creating the tool}{section.4}% 32
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Building the skeleton of the component}{subsection.4.2}% 33
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Styling the Component}{subsection.4.2}% 34
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Variables}{subsection.4.2}% 35
+\BOOKMARK [3][-]{subsubsection.4.2.4}{Open Source}{subsection.4.2}% 36
+\BOOKMARK [3][-]{subsubsection.4.2.5}{Userguide}{subsection.4.2}% 37
+\BOOKMARK [2][-]{subsection.4.3}{Semi-Structured Interviews}{section.4}% 38
+\BOOKMARK [2][-]{subsection.4.4}{Usability Testing}{section.4}% 39
+\BOOKMARK [2][-]{subsection.4.5}{ A/B Testing }{section.4}% 40
+\BOOKMARK [1][-]{section.5}{Result}{}% 41
+\BOOKMARK [2][-]{subsection.5.1}{Prototype}{section.5}% 42
+\BOOKMARK [2][-]{subsection.5.2}{Initial interviews}{section.5}% 43
+\BOOKMARK [2][-]{subsection.5.3}{User Testing}{section.5}% 44
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Iteration one}{subsection.5.3}% 45
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Iteration two}{subsection.5.3}% 46
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 47
+\BOOKMARK [2][-]{subsection.6.1}{The Prototype}{section.6}% 48
+\BOOKMARK [2][-]{subsection.6.2}{Interviews}{section.6}% 49
+\BOOKMARK [2][-]{subsection.6.3}{Usability testing}{section.6}% 50
+\BOOKMARK [2][-]{subsection.6.4}{A/B testing}{section.6}% 51
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 52
+\BOOKMARK [1][-]{section.8}{Future Work}{}% 53
