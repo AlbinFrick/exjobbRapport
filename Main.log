@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.6)  24 MAY 2021 03:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.6)  25 MAY 2021 01:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,17 +484,259 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-(/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2020/03/19 v4.46 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
+)
+\XKV@depth=\count387
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+\@glsmfirst=\toks23
+\@glsmrest=\toks24
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip72
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen142
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen143
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count388
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count389
+\leftroot@=\count390
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count391
+\DOTSCASE@=\count392
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen144
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count393
+\c@MaxMatrixCols=\count394
+\dotsspace@=\muskip21
+\c@parentequation=\count395
+\dspbrk@lvl=\count396
+\tag@help=\toks26
+\row@=\count397
+\column@=\count398
+\maxfields@=\count399
+\andhelp@=\toks27
+\eqnshift@=\dimen145
+\alignsep@=\dimen146
+\tagshift@=\dimen147
+\tagwidth@=\dimen148
+\totwidth@=\dimen149
+\lineht@=\dimen150
+\@envbody=\toks28
+\multlinegap=\skip73
+\multlinetaggap=\skip74
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count400
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count401
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count402
+\FP@xia=\count403
+\FP@xib=\count404
+\FP@xfa=\count405
+\FP@xfb=\count406
+\FP@rega=\count407
+\FP@regb=\count408
+\FP@regs=\count409
+\FP@times=\count410
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count411
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks30
+\@dtl@tmpcount=\count412
+\dtl@tmplength=\skip75
+\dtl@sortresult=\count413
+\@dtl@numgrpsepcount=\count414
+\@dtl@datatype=\count415
+\dtl@codeA=\count416
+\dtl@codeB=\count417
+\@dtl@foreach@level=\count418
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries-compat
+ible-307.sty
+Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2019/11/30 v1.4 (NLCT) Track Languages
+
+(/usr/local/texlive/2020/texmf-dist/tex/generic/tracklang/tracklang.tex))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries-english/glossaries-eng
+lish.ldf
+File: glossaries-english.ldf 2014/11/23 v1.0
+)
+\gls@level=\count419
+\@gls@tmpb=\toks31
+\gls@tmplen=\skip76
+\glskeylisttok=\toks32
+\glslabeltok=\toks33
+\glsshorttok=\toks34
+\glslongtok=\toks35
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
+av.sty
+Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
+ty
+Package: glossary-list 2020/03/19 v4.46 (NLCT)
+\glslistdottedwidth=\skip77
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
+ty
+Package: glossary-long 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip78
+\LTright=\skip79
+\LTpre=\skip80
+\LTpost=\skip81
+\LTchunksize=\count420
+\LTcapwidth=\dimen151
+\LT@head=\box49
+\LT@firsthead=\box50
+\LT@foot=\box51
+\LT@lastfoot=\box52
+\LT@cols=\count421
+\LT@rows=\count422
+\c@LT@tables=\count423
+\c@LT@chunks=\count424
+\LT@p@ftn=\toks36
+)
+\glsdescwidth=\skip82
+\glspagelistwidth=\skip83
+)
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-super.
+sty
+Package: glossary-super 2020/03/19 v4.46 (NLCT)
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count425
+\ST@wd=\dimen152
+\ST@rightskip=\skip84
+\ST@leftskip=\skip85
+\ST@parfillskip=\skip86
+\ST@pageleft=\dimen153
+\ST@headht=\dimen154
+\ST@tailht=\dimen155
+\ST@pagesofar=\dimen156
+\ST@pboxht=\dimen157
+\ST@lineht=\dimen158
+\ST@prevht=\dimen159
+\ST@toadd=\dimen160
+\ST@dimen=\dimen161
+\ST@pbox=\box53
+))
+(/usr/local/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
+ty
+Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+\glstreeindent=\skip87
+))
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `Main.glo'.
+
+Package glossaries Info: Writing glossary file Main.glo on input line 20.
+\glo@acronym@file=\write6
+\openout6 = `Main.acn'.
+
+Package glossaries Info: Writing glossary file Main.acn on input line 20.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2019/10/16 v2.13 Sectioning titles
-\ttl@box=\box47
-\beforetitleunit=\skip72
-\aftertitleunit=\skip73
-\ttl@plus=\dimen142
-\ttl@minus=\dimen143
-\ttl@toksa=\toks21
-\titlewidth=\dimen144
-\titlewidthlast=\dimen145
-\titlewidthfirst=\dimen146
+\ttl@box=\box54
+\beforetitleunit=\skip88
+\aftertitleunit=\skip89
+\ttl@plus=\dimen162
+\ttl@minus=\dimen163
+\ttl@toksa=\toks37
+\titlewidth=\dimen164
+\titlewidthlast=\dimen165
+\titlewidthfirst=\dimen166
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -521,24 +763,24 @@ tim
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ))
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count387
-\lst@gtempboxa=\box48
-\lst@token=\toks22
-\lst@length=\count388
-\lst@currlwidth=\dimen147
-\lst@column=\count389
-\lst@pos=\count390
-\lst@lostspace=\dimen148
-\lst@width=\dimen149
-\lst@newlines=\count391
-\lst@lineno=\count392
-\lst@maxwidth=\dimen150
+\lst@mode=\count426
+\lst@gtempboxa=\box55
+\lst@token=\toks38
+\lst@length=\count427
+\lst@currlwidth=\dimen167
+\lst@column=\count428
+\lst@pos=\count429
+\lst@lostspace=\dimen168
+\lst@width=\dimen169
+\lst@newlines=\count430
+\lst@lineno=\count431
+\lst@maxwidth=\dimen170
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count393
-\lst@skipnumbers=\count394
-\lst@framebox=\box49
+\c@lstnumber=\count432
+\lst@skipnumbers=\count433
+\lst@framebox=\box56
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
@@ -551,8 +793,8 @@ Package csquotes Info: Redefining alias 'default' -> 'english'.
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count395
-\l__pdf_internal_box=\box50
+\l__kernel_color_stack_int=\count434
+\l__pdf_internal_box=\box57
 )
 (./Main.aux
 
@@ -561,24 +803,24 @@ LaTeX Warning: Label `ssub:Open Source' multiply defined.
 )
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 147.
-LaTeX Font Info:    ... okay on input line 147.
-\AtBeginShipoutBox=\box51
-Package hyperref Info: Link coloring OFF on input line 147.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 180.
+LaTeX Font Info:    ... okay on input line 180.
+\AtBeginShipoutBox=\box58
+Package hyperref Info: Link coloring OFF on input line 180.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -589,29 +831,29 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count396
+\c@section@level=\count435
 )
-LaTeX Info: Redefining \ref on input line 147.
-LaTeX Info: Redefining \pageref on input line 147.
-LaTeX Info: Redefining \nameref on input line 147.
+LaTeX Info: Redefining \ref on input line 180.
+LaTeX Info: Redefining \pageref on input line 180.
+LaTeX Info: Redefining \nameref on input line 180.
  (./Main.out) (./Main.out)
-\@outlinefile=\write4
-\openout4 = `Main.out'.
+\@outlinefile=\write7
+\openout7 = `Main.out'.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count397
-\scratchdimen=\dimen151
-\scratchbox=\box52
-\nofMPsegments=\count398
-\nofMParguments=\count399
-\everyMPshowfont=\toks23
-\MPscratchCnt=\count400
-\MPscratchDim=\dimen152
-\MPnumerator=\count401
-\makeMPintoPDFobject=\count402
-\everyMPtoPDFconversion=\toks24
+\scratchcounter=\count436
+\scratchdimen=\dimen171
+\scratchbox=\box59
+\nofMPsegments=\count437
+\nofMParguments=\count438
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count439
+\MPscratchDim=\dimen172
+\MPnumerator=\count440
+\makeMPintoPDFobject=\count441
+\everyMPtoPDFconversion=\toks40
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -636,64 +878,56 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Main.bbl' found.
 
 (./Main.bbl)
-Package biblatex Info: Reference section=0 on input line 147.
-Package biblatex Info: Reference segment=0 on input line 147.
-\c@lstlisting=\count403
- (./sections/0-FrontPage.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 17.
- [1
+Package biblatex Info: Reference section=0 on input line 180.
+Package biblatex Info: Reference segment=0 on input line 180.
+\c@lstlisting=\count442
+ (./sections/0-FrontPage.tex [1
+
+\openout4 = `Main.ist'.
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./Main
-.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 6.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+.tocpdfTeX warning (ext4): destination with the same identifier (name{page.}) h
+as been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.102 ...rline {5.1}Prototype}{21}{subsection.5.1}
+l.102 ...rline {5.1}Prototype}{23}{subsection.5.1}
                                                   % [2])
-\tf@toc=\write5
-\openout5 = `Main.toc'.
+\tf@toc=\write8
+\openout8 = `Main.toc'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.26 \newpage
-              [3] [1]) (./sections/1-Intro.tex [2] [3])
-(./sections/2-Background.tex [4]
-<images/flow.png, id=318, 1352.05125pt x 769.87625pt>
+              [3] [1]) (./sections/1-Intro.tex (./Main.gls) (./Main.acr)
+[2] [3
+
+] [4]) (./sections/2-Background.tex [5]
+<images/flow.png, id=330, 1352.05125pt x 769.87625pt>
 File: images/flow.png Graphic file (type png)
 <use images/flow.png>
 Package pdftex.def Info: images/flow.png  used on input line 28.
 (pdftex.def)             Requested size: 276.00105pt x 157.15605pt.
- [5]
-<images/webflow.png, id=330, 1927.2pt x 1013.7875pt>
+ [6]
+<images/webflow.png, id=343, 1927.2pt x 1013.7875pt>
 File: images/webflow.png Graphic file (type png)
 <use images/webflow.png>
 Package pdftex.def Info: images/webflow.png  used on input line 45.
 (pdftex.def)             Requested size: 276.00105pt x 145.1778pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.1})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.49 
       <./images/flow.png>]
-<images/visly.png, id=340, 2052.66875pt x 1168.365pt>
+<images/visly.png, id=352, 2052.66875pt x 1168.365pt>
 File: images/visly.png Graphic file (type png)
 <use images/visly.png>
 Package pdftex.def Info: images/visly.png  used on input line 56.
 (pdftex.def)             Requested size: 276.00105pt x 157.08066pt.
- [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -708,19 +942,19 @@ s been already used, duplicate ignored
 l.73 T
       he disadvantages of both of these competitors are that they are locked...
  <./images/webflow.png> <./images/visly.png>]) (./sections/3-Theory.tex
-[8]
-<images/cardComp.png, id=361, 1045.9075pt x 596.2275pt>
+[9]
+<images/cardComp.png, id=373, 1045.9075pt x 596.2275pt>
 File: images/cardComp.png Graphic file (type png)
 <use images/cardComp.png>
 Package pdftex.def Info: images/cardComp.png  used on input line 60.
 (pdftex.def)             Requested size: 165.59853pt x 94.3976pt.
-<images/cardCompElements.png, id=362, 443.6575pt x 243.91125pt>
+<images/cardCompElements.png, id=374, 443.6575pt x 243.91125pt>
 File: images/cardCompElements.png Graphic file (type png)
 <use images/cardCompElements.png>
 Package pdftex.def Info: images/cardCompElements.png  used on input line 66.
 (pdftex.def)             Requested size: 165.59853pt x 91.03848pt.
- [9pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
- has been already used, duplicate ignored
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.4}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
@@ -732,37 +966,35 @@ l.74
                                                   \fi \fi 
 l.74 
       <./images/cardComp.png> <./images/cardCompElements.png>]
-<images/layoutBlue.png, id=379, 462.72874pt x 344.28625pt>
+<images/layoutBlue.png, id=392, 462.72874pt x 344.28625pt>
 File: images/layoutBlue.png Graphic file (type png)
 <use images/layoutBlue.png>
 Package pdftex.def Info: images/layoutBlue.png  used on input line 83.
 (pdftex.def)             Requested size: 165.59853pt x 123.21272pt.
-<images/layoutGreen.png, id=380, 466.74374pt x 348.30125pt>
+<images/layoutGreen.png, id=393, 466.74374pt x 348.30125pt>
 File: images/layoutGreen.png Graphic file (type png)
 <use images/layoutGreen.png>
 Package pdftex.def Info: images/layoutGreen.png  used on input line 89.
 (pdftex.def)             Requested size: 165.59853pt x 123.57605pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
+ [11pdfTeX warning (ext4): destination with the same identifier (name{figure.6}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.134 I
-       n modern web design, many different frameworks and languages make it ...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) ha
-s been already used, duplicate ignored
+l.133 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.134 I
-       n modern web design, many different frameworks and languages make it ...
- <./images/layoutBlue.png> <./images/layoutGreen.png>]
+l.133 
+       <./images/layoutBlue.png> <./images/layoutGreen.png>]
 Overfull \hbox (0.17184pt too wide) in paragraph at lines 147--148
 \T1/cmr/m/n/10 prin-ci-ples guide this: Resource-Based, Ma-nip-u-la-tion of Re-
 sources Through
  []
 
-[11] (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+[12] (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
@@ -773,11 +1005,11 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-) [12]
+) [13]
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <8> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 189.
- [13]
-<images/shadow.png, id=445, 1111.15125pt x 510.90875pt>
+ [14]
+<images/shadow.png, id=460, 1111.15125pt x 510.90875pt>
 File: images/shadow.png Graphic file (type png)
 <use images/shadow.png>
 Package pdftex.def Info: images/shadow.png  used on input line 247.
@@ -787,71 +1019,66 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--250
 
  []
 
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.278 
-       <./images/shadow.png>] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 363--368
+l.277 
+       <./images/shadow.png>] [16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 367--372
 
  []
 
-) (./sections/4-Method.tex [17] [18]
+) (./sections/4-Method.tex [18] [19]
 
-LaTeX Warning: Reference `ssub:Custom Elements' on page 19 undefined on input l
+LaTeX Warning: Reference `ssub:Custom Elements' on page 20 undefined on input l
 ine 42.
 
-[19] [20]) (./sections/5-Result.tex [21] [22]) (./sections/6-Discussion.tex
-[23] [24] [25] [26] [27]) (./sections/7-References.tex [28])
-Overfull \hbox (18.25261pt too wide) in paragraph at lines 158--158
+[20] [21]) (./sections/5-Result.tex [22] [23] [24])
+(./sections/6-Discussion.tex [25] [26] [27] [28] [29])
+(./sections/7-References.tex [30])
+Overfull \hbox (18.25261pt too wide) in paragraph at lines 191--191
 \T1/cmr/m/n/10 able: []$\T1/cmtt/m/n/10 https : / / en . wikipedia . org / w / 
 index . php ? title = Representational _
  []
 
-[29]
-Overfull \hbox (2.26979pt too wide) in paragraph at lines 158--158
-[]\T1/cmr/m/n/10 (). ^^P  What is REST?^^Q [On-line]. Avail-able: []$\T1/cmtt/m
-/n/10 https : / / www . restapitutorial .
- []
-
-
-Overfull \hbox (2.66766pt too wide) in paragraph at lines 158--158
+[31]
+Overfull \hbox (2.66766pt too wide) in paragraph at lines 191--191
 \T1/cmtt/m/n/10 mozilla . org / en -[] US / docs / Web / Web _ Components$[] \T
 1/cmr/m/n/10 (vis-ited on 02/09/2021). 
  []
 
 
-Overfull \hbox (7.18211pt too wide) in paragraph at lines 158--158
+Overfull \hbox (7.18211pt too wide) in paragraph at lines 191--191
 []\T1/cmr/m/n/10 polymer. (). ^^P  Poly-mer Project,^^Q [On-line]. Avail-able: 
 []$\T1/cmtt/m/n/10 https : / / www . polymer -[]
  []
 
 
-Overfull \hbox (5.74435pt too wide) in paragraph at lines 158--158
+Overfull \hbox (5.74435pt too wide) in paragraph at lines 191--191
 []\T1/cmr/m/n/10 J. R. Lewis, ^^P  Us-abil-ity test-ing,^^Q \T1/cmr/m/it/10 Han
 d-book of hu-man fac-tors and er-gonomics\T1/cmr/m/n/10 ,
  []
 
-[30]
-Overfull \hbox (20.70201pt too wide) in paragraph at lines 158--158
+
+Overfull \hbox (20.70201pt too wide) in paragraph at lines 191--191
 \T1/cmr/m/n/10 man, [On-line]. Avail-able: []$\T1/cmtt/m/n/10 https : / / www .
  postman . com/$[] \T1/cmr/m/n/10 (vis-ited on 04/23/2021). 
  []
 
-
-Overfull \hbox (6.26332pt too wide) in paragraph at lines 158--158
+[32]
+Overfull \hbox (6.26332pt too wide) in paragraph at lines 191--191
 []\T1/cmr/m/n/10 (). ^^P  Ar-ray.prototype.map() - JavaScript | MDN,^^Q [On-lin
 e]. Avail-able: []$\T1/cmtt/m/n/10 https :
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
-[31]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 193.
+[33]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 193.
  (./Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 193.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 193.
 Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 7BD40A0572E80051F21FDABD2FFEBAA9;3514.
 
@@ -864,16 +1091,16 @@ LaTeX Warning: There were multiply-defined labels.
 Package logreq Info: Writing requests to 'Main.run.xml'.
 \openout1 = `Main.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 193.
  ) 
 Here is how much of TeX's memory you used:
- 16895 strings out of 480608
- 284075 string characters out of 5903631
- 982770 words of memory out of 5000000
- 32352 multiletter control sequences out of 15000+600000
- 547429 words of font info for 51 fonts, out of 8000000 for 9000
+ 23455 strings out of 480608
+ 405070 string characters out of 5903631
+ 1147562 words of memory out of 5000000
+ 38766 multiletter control sequences out of 15000+600000
+ 548557 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,8n,79p,2693b,2473s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,8n,132p,2693b,2653s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<
 /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx0900.pfb></u
@@ -890,10 +1117,10 @@ ve/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive
 0/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2020/
 texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb></usr/local/texlive/2020/te
 xmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on Main.pdf (34 pages, 6829261 bytes).
+Output written on Main.pdf (36 pages, 6830190 bytes).
 PDF statistics:
- 712 PDF objects out of 1000 (max. 8388607)
- 640 compressed objects within 7 object streams
- 170 named destinations out of 1000 (max. 500000)
+ 716 PDF objects out of 1000 (max. 8388607)
+ 642 compressed objects within 7 object streams
+ 171 named destinations out of 1000 (max. 500000)
  465 words of extra memory for PDF output out of 10000 (max. 10000000)
 

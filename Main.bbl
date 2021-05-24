@@ -377,94 +377,6 @@
       \verb https://www.w3schools.com/css/css_intro.asp
       \endverb
     \endentry
-    \entry{fieldingFieldingDissertationCHAPTER}{online}{}
-      \name{author}{1}{}{%
-        {{hash=c6055872081cf3b6db6ba40e9af2fad9}{%
-           family={Fielding},
-           familyi={F\bibinitperiod},
-           given={Roy},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{c6055872081cf3b6db6ba40e9af2fad9}
-      \strng{fullhash}{c6055872081cf3b6db6ba40e9af2fad9}
-      \strng{bibnamehash}{c6055872081cf3b6db6ba40e9af2fad9}
-      \strng{authorbibnamehash}{c6055872081cf3b6db6ba40e9af2fad9}
-      \strng{authornamehash}{c6055872081cf3b6db6ba40e9af2fad9}
-      \strng{authorfullhash}{c6055872081cf3b6db6ba40e9af2fad9}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Fielding {{Dissertation}}: {{CHAPTER}} 5: {{Representational State Transfer}} ({{REST}})}
-      \field{urlday}{11}
-      \field{urlmonth}{3}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/albin/Zotero/storage/T95I4UDK/rest_arch_style.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
-      \endverb
-      \verb{url}
-      \verb https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
-      \endverb
-    \endentry
-    \entry{restfulapi.netWhatREST}{online}{}
-      \name{author}{1}{}{%
-        {{hash=68f278f6460b521815dd0d789b6ba337}{%
-           family={{restfulapi.net}},
-           familyi={r\bibinitperiod}}}%
-      }
-      \list{organization}{1}{%
-        {REST API Tutorial}%
-      }
-      \strng{namehash}{68f278f6460b521815dd0d789b6ba337}
-      \strng{fullhash}{68f278f6460b521815dd0d789b6ba337}
-      \strng{bibnamehash}{68f278f6460b521815dd0d789b6ba337}
-      \strng{authorbibnamehash}{68f278f6460b521815dd0d789b6ba337}
-      \strng{authornamehash}{68f278f6460b521815dd0d789b6ba337}
-      \strng{authorfullhash}{68f278f6460b521815dd0d789b6ba337}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{REST is an architecture style for designing networked applications. REST is a lightweight alternative to mechanisms like RPC (Remote Procedure Calls) and Web Services (SOAP) etc.}
-      \field{langid}{american}
-      \field{title}{What Is {{REST}}}
-      \field{urlday}{11}
-      \field{urlmonth}{3}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/albin/Zotero/storage/8WL7GDD4/restfulapi.net.html
-      \endverb
-      \verb{urlraw}
-      \verb https://restfulapi.net/
-      \endverb
-      \verb{url}
-      \verb https://restfulapi.net/
-      \endverb
-    \endentry
-    \entry{WhatREST}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labeltitlesource}{title}
-      \field{title}{What Is {{REST}}?}
-      \field{urlday}{8}
-      \field{urlmonth}{5}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/albin/Zotero/storage/J7I94YKH/whatisrest.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.restapitutorial.com/lessons/whatisrest.html#
-      \endverb
-      \verb{url}
-      \verb https://www.restapitutorial.com/lessons/whatisrest.html#
-      \endverb
-    \endentry
     \entry{taivalsaari2008web}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=589905c4a0a0935b2fd77abfe437d5f9}{%
@@ -527,37 +439,6 @@
       \verb https://developer.mozilla.org/en-US/docs/Web/Web_Components
       \endverb
     \endentry
-    \entry{polymerLitElement}{online}{}
-      \name{author}{1}{}{%
-        {{hash=9237abac42b5b675539f76850aed3356}{%
-           family={Polymer},
-           familyi={P\bibinitperiod}}}%
-      }
-      \strng{namehash}{9237abac42b5b675539f76850aed3356}
-      \strng{fullhash}{9237abac42b5b675539f76850aed3356}
-      \strng{bibnamehash}{9237abac42b5b675539f76850aed3356}
-      \strng{authorbibnamehash}{9237abac42b5b675539f76850aed3356}
-      \strng{authornamehash}{9237abac42b5b675539f76850aed3356}
-      \strng{authorfullhash}{9237abac42b5b675539f76850aed3356}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{{{LitElement}}}
-      \field{urlday}{26}
-      \field{urlmonth}{2}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/albin/Zotero/storage/66EK7QKQ/lit-element.polymer-project.org.html
-      \endverb
-      \verb{urlraw}
-      \verb https://lit-element.polymer-project.org/
-      \endverb
-      \verb{url}
-      \verb https://lit-element.polymer-project.org/
-      \endverb
-    \endentry
     \entry{polymerPolymerProject}{online}{}
       \name{author}{1}{}{%
         {{hash=6ac9fb6e69374501bea0bcad9749c0a7}{%
@@ -589,40 +470,9 @@
       \verb https://www.polymer-project.org/
       \endverb
     \endentry
-    \entry{PackageManager2020}{inreference}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A package manager or package-management system is a collection of software tools that automates the process of installing, upgrading, configuring, and removing computer programs for a computer's operating system in a consistent manner.A package manager deals with packages, distributions of software and data in archive files. Packages contain metadata, such as the software's name, description of its purpose, version number, vendor, checksum (preferably a cryptographic hash function), and a list of dependencies necessary for the software to run properly. Upon installation, metadata is stored in a local package database. Package managers typically maintain a database of software dependencies and version information to prevent software mismatches and missing prerequisites. They work closely with software repositories, binary repository managers, and app stores. Package managers are designed to eliminate the need for manual installs and updates. This can be particularly useful for large enterprises whose operating systems are typically consisting of hundreds or even tens of thousands of distinct software packages.}
-      \field{annotation}{Page Version ID: 996441348}
-      \field{booktitle}{Wikipedia}
-      \field{day}{26}
-      \field{hour}{17}
-      \field{langid}{english}
-      \field{minute}{5}
-      \field{month}{12}
-      \field{second}{54}
-      \field{timezone}{Z}
-      \field{title}{Package Manager}
-      \field{urlday}{10}
-      \field{urlmonth}{2}
-      \field{urlyear}{2021}
-      \field{year}{2020}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/albin/Zotero/storage/W6LY2E3W/index.html
-      \endverb
-      \verb{urlraw}
-      \verb https://en.wikipedia.org/w/index.php?title=Package_manager&oldid=996441348
-      \endverb
-      \verb{url}
-      \verb https://en.wikipedia.org/w/index.php?title=Package_manager&oldid=996441348
-      \endverb
-    \endentry
     \entry{NpmNpmDocs}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labeltitlesource}{title}
       \field{abstract}{Documentation for the npm registry, website, and command-line interface}
       \field{title}{About Npm | Npm {{Docs}}}
@@ -657,8 +507,8 @@
       \strng{authorbibnamehash}{f106a761a58d4041d103c16ce4f11cf1}
       \strng{authornamehash}{f106a761a58d4041d103c16ce4f11cf1}
       \strng{authorfullhash}{f106a761a58d4041d103c16ce4f11cf1}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Handbook of human factors and ergonomics}
@@ -668,6 +518,41 @@
       \field{dateera}{ce}
       \field{pages}{e30}
       \range{pages}{-1}
+    \endentry
+    \entry{lazar2017research}{book}{}
+      \name{author}{3}{}{%
+        {{hash=175d78d4e118a77f3ba5b6d04fb21a0b}{%
+           family={Lazar},
+           familyi={L\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b73f0dbfc4f08d029262a61ea0678972}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Jinjuan\bibnamedelima Heidi},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=caf03a46fc0673b901b4fe9a3b6cf8a9}{%
+           family={Hochheiser},
+           familyi={H\bibinitperiod},
+           given={Harry},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann}%
+      }
+      \strng{namehash}{5eed39c0ebbb27994ef601fd658e1351}
+      \strng{fullhash}{5eed39c0ebbb27994ef601fd658e1351}
+      \strng{bibnamehash}{5eed39c0ebbb27994ef601fd658e1351}
+      \strng{authorbibnamehash}{5eed39c0ebbb27994ef601fd658e1351}
+      \strng{authornamehash}{5eed39c0ebbb27994ef601fd658e1351}
+      \strng{authorfullhash}{5eed39c0ebbb27994ef601fd658e1351}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Research Methods in Human-Computer Interaction}
+      \field{year}{2017}
+      \field{dateera}{ce}
     \endentry
     \entry{wixon2003evaluating}{article}{}
       \name{author}{1}{}{%
@@ -759,41 +644,6 @@
       \field{pages}{206\bibrangedash 213}
       \range{pages}{8}
     \endentry
-    \entry{lazar2017research}{book}{}
-      \name{author}{3}{}{%
-        {{hash=175d78d4e118a77f3ba5b6d04fb21a0b}{%
-           family={Lazar},
-           familyi={L\bibinitperiod},
-           given={Jonathan},
-           giveni={J\bibinitperiod}}}%
-        {{hash=b73f0dbfc4f08d029262a61ea0678972}{%
-           family={Feng},
-           familyi={F\bibinitperiod},
-           given={Jinjuan\bibnamedelima Heidi},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
-        {{hash=caf03a46fc0673b901b4fe9a3b6cf8a9}{%
-           family={Hochheiser},
-           familyi={H\bibinitperiod},
-           given={Harry},
-           giveni={H\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Morgan Kaufmann}%
-      }
-      \strng{namehash}{5eed39c0ebbb27994ef601fd658e1351}
-      \strng{fullhash}{5eed39c0ebbb27994ef601fd658e1351}
-      \strng{bibnamehash}{5eed39c0ebbb27994ef601fd658e1351}
-      \strng{authorbibnamehash}{5eed39c0ebbb27994ef601fd658e1351}
-      \strng{authornamehash}{5eed39c0ebbb27994ef601fd658e1351}
-      \strng{authorfullhash}{5eed39c0ebbb27994ef601fd658e1351}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Research Methods in Human-Computer Interaction}
-      \field{year}{2017}
-      \field{dateera}{ce}
-    \endentry
     \entry{rombautsKarlRombautsFigmaSCSSGenerator2021}{software}{}
       \name{author}{1}{}{%
         {{hash=2984162063c06da3c0165584311f7e50}{%
@@ -845,8 +695,8 @@
       \list{organization}{1}{%
         {Postman}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{abstract}{Postman makes API development easy. Our platform offers the tools to simplify each step of the API building process and streamlines collaboration so you can create better APIs faster.}
       \field{langid}{english}

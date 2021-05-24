@@ -126,7 +126,7 @@ Figma has a feature that lets the user store colors, texts, and effects as \text
 \subsection{Develop}%
 \label{sub:Develop}
 
-Developing something from a design is essential to make the design functional with code. A design is often more like an image rather than an application. A website is usually built using the three main languages of the web: HTML, CSS, and JavaScript. HTML is a \textit{''tagging''} language meaning all code is written with tags. All information is written between or in opening and closing tags. An opening tag signifies a tag with  <\textit{nameOfTag}> and a closing tag </\textit{nameOfTag}>. Within the opening tag, attributes can be assigned, such as a class or an id. 
+Developing something from a design is essential to make the design functional with code. A design is often more like an image rather than an application. A website is usually built using the three main languages of the web: \acrfull{html}, CSS, and JavaScript. HTML is a \textit{''tagging''} language meaning all code is written with tags. All information is written between or in opening and closing tags. An opening tag signifies a tag with  <\textit{nameOfTag}> and a closing tag </\textit{nameOfTag}>. Within the opening tag, attributes can be assigned, such as a class or an id. 
 HTML is often referred to as the body of a website. This is where the majority of the information on the web pages is stored. CSS is the clothes to the body. CSS is what defines the style for the website, such as sizes, paddings, and colors.\\
 \textit{"CSS describes how HTML elements are to be displayed on screen, paper, or in other media"}\cite{CSSIntroduction}.\\
 JavaScript is a scripting language that enables us to create complex features on web pages. JavaScript enables us to update the content of the website dynamically. 
@@ -273,15 +273,21 @@ Web components can be manually built using custom elements, shadow DOM, and HTML
 
 \subsection{Distribute}%
 \label{sub:Distribute}
-After a component has been designed and developed, the components can now be used in a project. Often the created component is used by more than one part, and therefore it should be distributed seamlessly. There are many ways to distribute a component, but the most widely used way is to use a package manager.
+After a \gls{component} has been designed and developed, the components can now be used in a project. Often the created component is used by more than one part, and therefore it should be distributed seamlessly. There are many ways to distribute a component, but the most widely used way is to use a package manager.
 
 
 % To be able to use the components created from the designer the developers need to be able to get a hold of them. A lot of reusable code that is crated for the web can be accessed from the internet with the help of package managers.
 \subsubsection{Package Manager}%
 \label{sub:Package Manager}
-\cite{PackageManager2020} 
+% \cite{PackageManager2020} 
 
-A package manager is a way to install and update programs with ease. The package manager that this project will use is Node Package Manager (NPM) which is the world's largest software registry\cite{NpmNpmDocs}. A package manager lets you bundle your code up to a package and distribute it over the Internet. NPM has a very easy interface whereas if you want to install something you can just type: 
+The most traditional way of installing and updating software is to download an installer. This installer will then install the software to the system, which can then be used. If an update is needed, the software can notify the user to update or update itself in the background.
+
+A package manager is a way to install and update software with ease compared to a more traditional installer. A package manager bundles up the source code into a package. This package can then be distributed over the Internet and installed and updated without an internal installer. 
+
+The package manager that this project will use is Node Package Manager (NPM), which is the world's largest software registry\cite{NpmNpmDocs}.
+NPM has a straightforward interface, whereas if something needs to be installed, the following can be typed: 
+
 
 \begin{lstlisting}[style=htmlcssjs]
 \$npm install PACKAGE-NAME
@@ -292,9 +298,7 @@ A package manager is a way to install and update programs with ease. The package
 
 \textit{The term open source refers to something people can modify and share because its design is publicly accessible.} - Opensource.com 
 
-Open source originated from developers creating software that was designed to be open and could be modified by anyone. Nowadays the term \textit{open-source} is broader where almost all projects can be open-source. 
-
-Making software open-source is quite easy. The source code for the software must be available for others to use. Often the software has an open-source license attached to it. These licenses affect how the user can use, study, distribute and modify the source code of the software. The most used licenses state that the user can do anything they wish with the software. Some licenses state that if there are alterations done on the software that alteration must also be open-source.
+Open source originated from developers creating software that was designed to be open and modified by anyone. In an open-source project, the source code for the software must be available for others to use. To signify that the project is open-source, an open-source license is added to the source code. These licenses affect how the user can use, study, distribute, and modify the software's source code. The most used licenses state that the user can do anything they wish with the software. Some licenses state that if alterations are done on the software, the altered version must also be open-source. 
 
 % \subsection{Semi-Structured Interviews}%
 % \label{sub:inteviews}
@@ -308,22 +312,22 @@ Making software open-source is quite easy. The source code for the software must
 
 \subsection{Testing}%
 \label{sub:Testing}
-When a product has been created it's a good idea to test the product before going out to production. Testing can mean many different things but almost all forms of testing have the common gene of making sure the assumptions taken when creating the product are verified. 
+When a product has been created, tests can be run on the product. The test's main objective is to find contingent bugs in the software and flaws with the UI. Further, the testing is done to ensure that assumptions taken when creating the product are verified.
 
 \subsubsection{Usability testing}%
 \label{ssub:User testing}
-Usability testing or "user research" is a very broad term. As Lewis \cite{lewis2006usability} described it: "Usability testing, in general, involves representative users attempting representative tasks in representative environments, on early prototypes or working versions of computer interfaces."
+Usability testing or "user research" is a broad term. As Lewis\cite{lewis2006usability} described it: "Usability testing, in general, involves representative users attempting representative tasks in representative environments, on early prototypes or working versions of computer interfaces." 
 
-Usability testing is essentially done to find flaws in an interface by putting the user in the environment of using the interface. Usability testing is done in all stages of development. From paper prototypes to screen mock-ups with no functionality to implemented existing systems. 
+Usability testing is essentially performed to find flaws in an interface by putting the user in the environment of using the interface. Usability testing is done in all stages of development, from paper prototypes to high-fidelity screen mock-ups. 
 
-Usability testing can be considered a cousin to traditional research methods. When similarities can be found in experimental design with measurement of task performance and time performance, surveys, and observation techniques from ethnography. The participants in usability testing, as in traditional research, must remain anonymous, be informed of their rights, and can leave the research at any time. 
-What separates usability testing from traditional research is often the end goals. For usability testing, the end goals are to create the best product possible, with the time and resources at hand, while the traditional research methods want to find answers to questions that are universal for the field researched. 
+Lazar et al.\cite[Chapter~10]{lazar2017research}  consider usability testing a cousin to traditional research methods, where traditional research refers to methods such as experimental design\cite[Chapter~3]{lazar2017research}  and ethnography\cite[Chapter~9]{lazar2017research}.
+Similarities can be found in experimental design with measurement of task performance and time performance, surveys, and observation techniques from ethnography. The participants in usability testing, as in traditional research, must remain anonymous, be informed of their rights, and can leave the research at any time. What separates usability testing from traditional research is often the end goals. For usability testing, the end goals are to create the best product possible, with the time and resources at hand, while the traditional research methods want to find answers to questions that are universal for the field researched. 
+	
+Wixson proclaims in his study that usability testing is closer to engineering than traditional research \cite{wixon2003evaluating}. Usability testing, as engineering, is focused on creating a successful product with limited time and resources. Tests are done in iterations where the prototype will be changed between each test to fix the flaws found during the test. The next iteration of tests will then be used to verify the fixed flaws simultaneously as it searches for other flaws. This is, in most if not all traditional research, considered unacceptable. 
 
-Wixson proclaims in his study that usability testing is closer to engineering than traditional research \cite{wixon2003evaluating}. Usability testing, as engineering, is involved with creating a successful product, with limited time, and resources. Often in a real-world scenario, the prototype will be changed between each test to fix the flaws that were found during the test. The next test will then be used to verify the fixed flaws simultaneously as it searches for further flaws. This is, in most if not all traditional research, considered unacceptable. 
+To get more credible data out of a test and not just for improving the product, the test environment should be kept as similar as possible for each user. By doing this, the data can be statistically analyzed, making it easier to make more accurate decisions of what to do next.
 
-To get more credible data out of a test and not just for improving the product the test environment should be kept as similar as possible for each user. This is closer to the experimental design approach. 
-
-Usability testing can collect quantitative data such as time- and task performance. However, the majority of data that is collected is qualitative. As mentioned before the biggest end goal for a usability test is to uncover flaws in the user interface which is often subjective for the user.
+Usability testing can collect quantitative data such as time- and task performance. However, the majority of data that is collected is qualitative. As mentioned before, the most significant end goal for a usability test is to uncover flaws in the user interface, which is often subjective for the user. 
 
 \textit{"Often in industry, schedule and resource issues, rather than theoretical discussions of methodology, drive the development process \cite{wixon2003evaluating}."}
 
@@ -399,3 +403,4 @@ When data has been collected a statistical analysis needs to be done to be able 
 %   \item Analyze and compare
 %   \item Summary and results
 % \end{itemize}
+

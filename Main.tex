@@ -15,6 +15,39 @@
 \addbibresource{bibLibrary.bib}
 \setlength\bibitemsep{1.5\baselineskip}
 
+% Adding glossery to report
+\usepackage[acronym]{glossaries}
+\makeglossaries
+\newglossaryentry{element}
+{
+    name=element,
+    description={ An elemenetray part of a design (?)}
+}
+ 
+\newglossaryentry{component}
+{
+    name=component,
+    description={ A set of elements aranged in a destinct layout }
+}
+
+
+\newacronym{html}{HTML}{ Hyper Text Markup Language. The standard markup language for creating Web pages }
+
+
+\newglossaryentry{css}
+{
+	name={CSS},
+	description={ Cascading Style Sheets. Describes how HTML elements are to be displayed on screen, paper, or in other media },
+}
+
+\newglossaryentry{gui}
+{
+	name={GUI},
+	description={  },
+}
+
+ 
+
 % Make use of paragraph for four levels of indentation
 \usepackage{titlesec}
 \setcounter{secnumdepth}{4}
