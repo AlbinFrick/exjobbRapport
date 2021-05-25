@@ -75,15 +75,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.4.3}Statistical Analysis}{18}{subsubsection.3.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Method}{18}{section.4}%
+\contentsline {section}{\numberline {4}Method}{19}{section.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.1}Initial Research}{19}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.2}Creating the tool}{19}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Building the skeleton of the component}{20}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1}Building the skeleton of the component}{21}{subsubsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2}Styling the Component}{20}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2}Styling the Component}{21}{subsubsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.3}Variables}{21}{subsubsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
@@ -91,11 +91,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {4.2.5}Userguide}{21}{subsubsection.4.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Semi-Structured Interviews}{21}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Semi-Structured Interviews}{22}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}Usability Testing}{22}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5} A/B Testing }{22}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.5} A/B Testing }{23}{subsection.4.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5}Result}{23}{section.5}%
 \defcounter {refsection}{0}\relax 
@@ -103,9 +103,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2}Initial interviews}{23}{subsection.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}User Testing}{23}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.3}User Testing}{24}{subsection.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1}Iteration one}{23}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1}Iteration one}{24}{subsubsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.3.2}Iteration two}{24}{subsubsection.5.3.2}%
 \defcounter {refsection}{0}\relax 

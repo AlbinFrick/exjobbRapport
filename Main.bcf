@@ -2206,19 +2206,20 @@
     <bcf:citekey order="20">lazar2017research</bcf:citekey>
     <bcf:citekey order="21">wixon2003evaluating</bcf:citekey>
     <bcf:citekey order="22">wixon2003evaluating</bcf:citekey>
-    <bcf:citekey order="23">virzi1992refining</bcf:citekey>
-    <bcf:citekey order="24">nielsen1993mathematical</bcf:citekey>
+    <bcf:citekey order="23">nielsen1993mathematical</bcf:citekey>
+    <bcf:citekey order="24">experienceDiscountUsability20</bcf:citekey>
     <bcf:citekey order="25">lazar2017research</bcf:citekey>
     <bcf:citekey order="26">lazar2017research</bcf:citekey>
-    <bcf:citekey order="27">rombautsKarlRombautsFigmaSCSSGenerator2021</bcf:citekey>
-    <bcf:citekey order="28">figmaFigma</bcf:citekey>
-    <bcf:citekey order="29">PostmanCollaborationPlatform</bcf:citekey>
-    <bcf:citekey order="30">VisualStudioCode</bcf:citekey>
-    <bcf:citekey order="31">ConvertJSONSwift</bcf:citekey>
-    <bcf:citekey order="32">ArrayPrototypeMap</bcf:citekey>
-    <bcf:citekey order="33">MITLicenseOpen</bcf:citekey>
-    <bcf:citekey order="34">BuildSoftwareBetter</bcf:citekey>
-    <bcf:citekey order="35">galletta2013mastering</bcf:citekey>
+    <bcf:citekey order="27">lazar2017research</bcf:citekey>
+    <bcf:citekey order="28">rombautsKarlRombautsFigmaSCSSGenerator2021</bcf:citekey>
+    <bcf:citekey order="29">figmaFigma</bcf:citekey>
+    <bcf:citekey order="30">PostmanCollaborationPlatform</bcf:citekey>
+    <bcf:citekey order="31">VisualStudioCode</bcf:citekey>
+    <bcf:citekey order="32">ConvertJSONSwift</bcf:citekey>
+    <bcf:citekey order="33">ArrayPrototypeMap</bcf:citekey>
+    <bcf:citekey order="34">MITLicenseOpen</bcf:citekey>
+    <bcf:citekey order="35">BuildSoftwareBetter</bcf:citekey>
+    <bcf:citekey order="36">galletta2013mastering</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

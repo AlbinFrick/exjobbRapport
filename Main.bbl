@@ -644,6 +644,45 @@
       \field{pages}{206\bibrangedash 213}
       \range{pages}{8}
     \endentry
+    \entry{experienceDiscountUsability20}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ef05154b3796d35505f05b26cbea7c61}{%
+           family={Experience},
+           familyi={E\bibinitperiod},
+           given={World\bibnamedelimb Leaders\bibnamedelimb in\bibnamedelimb Research-Based\bibnamedelima User},
+           giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim i\bibinitperiod\bibinitdelim R\bibinithyphendelim B\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Nielsen Norman Group}%
+      }
+      \strng{namehash}{ef05154b3796d35505f05b26cbea7c61}
+      \strng{fullhash}{ef05154b3796d35505f05b26cbea7c61}
+      \strng{bibnamehash}{ef05154b3796d35505f05b26cbea7c61}
+      \strng{authorbibnamehash}{ef05154b3796d35505f05b26cbea7c61}
+      \strng{authornamehash}{ef05154b3796d35505f05b26cbea7c61}
+      \strng{authorfullhash}{ef05154b3796d35505f05b26cbea7c61}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Simple user testing with 5 participants, paper prototyping, and heuristic evaluation offer a cheap, fast, and early focus on usability, as well as many rounds of iterative design.}
+      \field{langid}{english}
+      \field{shorttitle}{Discount {{Usability}}}
+      \field{title}{Discount {{Usability}}: 20 {{Years}}}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/59Q28E8J/discount-usability-20-years.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nngroup.com/articles/discount-usability-20-years/
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/discount-usability-20-years/
+      \endverb
+    \endentry
     \entry{rombautsKarlRombautsFigmaSCSSGenerator2021}{software}{}
       \name{author}{1}{}{%
         {{hash=2984162063c06da3c0165584311f7e50}{%
@@ -695,8 +734,8 @@
       \list{organization}{1}{%
         {Postman}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{abstract}{Postman makes API development easy. Our platform offers the tools to simplify each step of the API building process and streamlines collaboration so you can create better APIs faster.}
       \field{langid}{english}
