@@ -103,7 +103,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.2}Initial interviews}{23}{subsection.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}User Testing}{24}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.3}Usability Testing}{24}{subsection.5.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.3.1}Iteration one}{24}{subsubsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
