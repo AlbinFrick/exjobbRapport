@@ -12,7 +12,13 @@ When a prototype was somewhat complete, iterations of usability testing were per
 \subsection{Initial Research}%
 \label{sub:Initial Research}
 
-At the start of the project, a meeting was held with a team at Knowit on what their needs were and what requirements they had on the project. After some discussion, there was an interest in creating an automated generating of code from their UI design program, Figma. With this in mind, research began on what competitors there were in the field of code generation for web applications, here two competitors were most interesting, Webflow and Visly,(see section \ref{sub:Competitors}). Some interesting small projects were also found that were saved and used as inspiration for creating the tool. One project especially of creating color variables from Figma made by Karl Rombauts was used \cite{rombautsKarlRombautsFigmaSCSSGenerator2021}. How to encapsulate the Figma design elements into code was one of the biggest problems. Many different technologies were researched to find the fit for Knowit's requirements.
+At the start of the project, a meeting was held with a team at Knowit to determine their needs and their requirements on the project. After some discussion, there was an interest in creating an automated generating of code from their UI design program, Figma. 
+
+With this in mind, research began on what competitors there were in the field of code generation for web applications, and two competitors were most interesting, Webflow and Visly (see section \ref{sub:Competitors}). Some interesting small projects were also found that were used as inspiration for creating the tool. One project, especially creating color variables from Figma made by Karl Rombauts, was used \cite{rombautsKarlRombautsFigmaSCSSGenerator2021}.
+
+How to encapsulate the Figma design elements into code was one of the most severe difficulties.  Different technologies were considered to find the fit for Knowit's requirements.  These technologies were using a JavaScript framework (such as Angular or React), plain HTML-CSS-JavaScript, or Web components with LitElement. 
+
+One of the requirements was that the tool could be applicable for all types of projects. Using a JavaScript framework would mean that some projects would not support the tool. Therefore that technology was counted out. Using plain HTML-CSS-JavaScript could work for all projects, but it would be hard to manage since the generated code would be static and hard to encapsulate. LitElement was chosen as the technology for encapsulating de Figma design elements into code. LitElement is run natively in HTML-CSS-JavaScript, and therefore works with all projects. LitElement is also much easier to manage than just generating plain HTML-CSS-JavaScript.
 
 
 % \begin{itemize}
@@ -29,36 +35,36 @@ At the start of the project, a meeting was held with a team at Knowit on what th
 % After the interviews and research phase a clear understanding of the tools that would be used was had. (<--haha what) For creating the tool it self TypeScript was used to be able to use types to find problems before they crashed the code. LitElement was then used to 
 
 
-Meetings with Knowit and where discussions of what could be possible to do under the 20 weeks of work that should be carried out. As seen from the literature study the big problem was how to condense the elements from the code to easily be used. 
+The first step of creating the tool was discussing with Knowit what could be possible to achieve under the 20 week project time. As seen from the literature study, the big problem was how to condense the elements from the code to be used efficiently. 
 
-Identifying the tools that should be used.
-\begin{itemize}
-  \item TypeScript - for building the tool.
-  \item Exploring Figmas API.
-  \item LitElement - For building the components. 
-  \item Building the HTML elements and styling with recursive functions
-\end{itemize}
+The tool that was to be built would fetch data from Figmas REST-API, interpret the response from the API, and build LitElement objects from the interpretation.
 
-To build the tool an experimental approach with \textbf{TypeScript} was used. This means that code where tested and possibilities where explored during the building of the program. Why \textbf{TypeScript}? because of the unknown possibilities at the start of the development, there were some thoughts on making the generator part of the component itself. Thereby the browser had to be able to run the code which made JavaScript a good match. Because of the error-prone nature of JavaScript (discussed in section \ref{ssub:JavaScript and TypeScript}) TypeScript, the supercharged version of JavaScript was chosen. TypeScript needs to be compiled to JavaScript before it can be run in a browser but that hassle is worth the benefits of getting error warnings before runtime.
+The tool was built using an experimental approach, meaning that code was tested, and possibilities were explored during the development of the program. TypeScript was chosen as the programming language because Knowit uses it in most projects and would therefore be familiar to them.
 
-To understand what could be done with Figmas API it first had to be examined. Figmas website for developers\cite{figmaFigma} was read through and also some initial HTTP-requests were sent to the API, using platform Postman \cite{PostmanCollaborationPlatform}. The initial response from the API was quite large. This meant that setting the TypeScript types correct for all values in the response would take a lot of time. To mitigate this the Visual Studio Code \cite{VisualStudioCode} extension quicktype\cite{ConvertJSONSwift} was used to generate types from the JSON response. 
+Figmas API was examined to understand what was possible to do with it. Figmas website for developers\cite{figmaFigma} was read through and also some initial HTTP-requests were sent to the API, using platform Postman \cite{PostmanCollaborationPlatform}. The initial response from the API was quite large. This meant that setting the TypeScript types correct for all values in the response would take much time. To mitigate this the Visual Studio Code \cite{VisualStudioCode} extension quicktype\cite{ConvertJSONSwift} was used to generate types from the JSON response. 
 
-From the response, we could see that most, or at least enough, of the data were the same as styling in CSS. This meant that styling elements with CSS were possible from the API. To create a website we need some markup, HTML, to attach the styling too. HTML was created in 1993, back then modularity and component compatibility was not important. The first suggestion to solve this issue was to build a separate HTML file and then use that as a sub-file to the main HTML file. This could've worked for a static page with some browsers. But the requirements for the project are that the components can be used for all frameworks too. To solve this the tool LitElement was used. LitElement (\ref{ssub:LitElement}) is a class that builds web-components (\ref{ssub:Custom Elements}), HTML templates (\ref{ssub:HMTL Templates}) and shadow-DOM (\ref{ssub:Shadow DOM}). Which combined makes for a really good way of building components. LitElement is a class in TypeScript and JavaScript where we choose to use the TypeScript version to keep the program code consistent. 
+From the API response, we could see that most, or at least enough, of the data were the same as styling in CSS. This meant that styling elements with CSS were possible from the API.
 
-The information from Figmas API is stored as classes of colors, typographies, and components. Where the component's class can contain the other two.  The strategy was to generate a string that contained the LitElement. Essentially the program generated code as a string. This string is later written into a new file.
+The information from Figmas API was interpreted and stored as classes of colors, typographies, and components. The strategy was to generate a string that contained the LitElement. Essentially the program generated code as a string. This string is later written into a new TypeScript file that is then compiled into a JavaScript file that could be run in a browser.
 
-\subsubsection{Building the skeleton of the component}%
+\subsubsection{Building the HTML for the component}%
 \label{ssub:building the skeleton of the component}
-To build the HTML inside the LitElement the data object from Figmas API was run through a recursive function that is run on the component and all its children (elements).
+The Figma components have a parent-children structure, meaning that all elements in the component are related. A recursive function was used to search through each element and their children dynamically. This replicates the relationship between the elements and thereby creating a proper HTML structure.
+
 
 \subsubsection{Styling the Component}%
 \label{ssub:Styling the component}
-For the first ''attempt'' styling was similarly but because of the nature of the shadow-DOM, every CSS-attribute where assigns a property that was reachable from outside the component. This was later redesigned because of the fact that the user could not add a new CSS attribute to the component if they wished to. To fix this the CSS attributes were stored in maps \cite{ArrayPrototypeMap} and then pushed into a style element. Instead of creating a property for each style attribute, only one property for each element is created. If the user wishes to add and/or change the styling of a component they target the Figma element as an attribute to the component and inserts regular CSS. The component then creates a duplicate of the styling map for the targeted element and inserts the new styling attributes into the component.
+One of the requirements from Knowit was that the components should be easy to alter. This meant that the style of the developer must be able to alter the style of the generated component. 
+
+In the first attempt to make this happen, all CSS rules for an element were assigned a \textit{property} in LitElement. A property allows the developer to pass data into the LitElement. By assigning a property for all CSS rules of the element, the style could be changed after generating the component.
+
+This was later redesigned because the user could not add \textit{new} CSS rules to the component if they wished to. This problem was fixed by storing the CSS rules in maps\cite{ArrayPrototypeMap} and pushing them into the correct CSS selector. Instead of creating a property for each style attribute, only one property for each element is created. If the user wishes to add or change the styling of a component, they target the Figma element as an attribute to the component and inserts regular CSS. The component then creates a duplicate of the styling map for the targeted element and inserts the new styling attributes into the component.
 
 
 \subsubsection{Variables}%
 \label{ssub:Variables}
-Figma has a feature called styles. This is a way for the user to store and reuse, colors, texts, and effects. This is something that is also very normal to do in a developer environment. Therefore a decision was made to create an SCSS \textit{variable} file where these would be stored. Because of the time constraint of the project only colors and texts were implemented. This was done similar to the components where the ''code'' for the SCSS variables was written to a string that later was written into an SCSS file. 
+Figma has a feature called styles. This is a way for the user to store and reuse colors, texts, and effects. This is something that is also very normal to do in a developer environment. Therefore a decision was made to create an SCSS \textit{variable} file where these would be stored. Because of the time constraint of the project, only colors and texts were implemented. This was done similarly to the components where the ''code'' for the SCSS variables was written to a string that later was written into an SCSS file. 
+
 
 \subsubsection{Open Source}%
 \label{ssub:Open Source}
@@ -66,21 +72,16 @@ One of Knowit's initial requirements where that the software produced should be 
  
 \subsubsection{Userguide}%
 \label{ssub:Userguide}
-The program built does not have a graphical user interface, again because of the time constraint. The user is instead using a command-line interface (CLI). This makes it a bit harder to learn because there are no visual queues of what to input into the program. To solve this a user guide was created in the form of a README on GitHub\cite{BuildSoftwareBetter}. Alon side the prototype itself this user guide was altered after the usability tests.
+The program built does not have a graphical user interface, again because of the time constraint. The user is instead using a command-line interface (CLI). This makes it a bit harder to learn because there are no visual queues of what to input into the program.  A user guide was created in the form of a README on GitHub\cite{BuildSoftwareBetter} to solve this issue. Alon side the prototype itself, this user guide was altered after the usability tests.
 
 % knowit uses a supercharged version of css called scss in most of their projects (section \ref{sub:sass}). scss handles variables in a more intuitive way than regular  css which made it the clear choice for storing styling variables moving forward.
 
 
-
-
-
-
-
 \subsection{Semi-Structured Interviews}%
 \label{sub:inteviews}
-This tool is involved with people in many different areas of expertise, from designers to front-end developers to back-end developers. To get a better view of how these people work and create the best tool for them a semi-structured interview model was used \cite{galletta2013mastering}. The semi-structured interview is done with a script of questions that are asked to every interviewee. Unlike the structured interview, the semi-structured interview allows for further explanation and follow-up questions from the interviewer. These interviews were done on seven employees of Knowit Experience Umeå and Sundsvall. 
+This tool is intended to be used by people in many different areas of expertise, from designers to front-end developers to back-end developers. A semi-structured interview model was used \cite{galletta2013mastering} to understand the work these people do in their respective roles to be able to build/develop a tool that is functional for all parts of the workflow (all the different roles in the workflow). The semi-structured interview was carried out with a script of questions that are asked to every interviewee. Unlike the structured interview, the semi-structured interview allows for further explanation and follow-up questions from the interviewer. These interviews were done with seven employees of Knowit Experience Umeå and Sundsvall. 
 
-Because of the broad nature of the tool created it was important to get participants that worked with all affected areas of expertise. The interviews were done digitally over Microsoft Teams. The script used for these interviews can be found in the appendix (The script is only in Swedish). (\todo{lägg till appendix}).
+Because of the broad nature of the tool created, it was important to get participants that worked with all affected areas of expertise. The interviews were done digitally over Microsoft Teams. The script used for these interviews can be found in the appendix (The script is only in Swedish). (\todo{lägg till appendix}).
 
 
 % \subsection{interviews from knowit}%
@@ -90,15 +91,20 @@ Because of the broad nature of the tool created it was important to get particip
 
 
 
+
 \subsection{Usability Testing}%
 \label{sub:usertesting}
-To make a great product it must have great functionality but also great usability. These tests were done to make sure that the prototype was usable for somebody else than the author. Furthermore to set up the prototype for further testing regarding the effectiveness of the prototype.
+Usability tests were done to make sure that the prototype was usable for somebody else than the author. Furthermore, to set up the prototype for further testing regarding the effectiveness of the prototype.
 
-Two iterations of usability testing were carried out on nine participants, four the first iteration and five the second. The participants had to have a background in web development, NPM, and Figma. Therefore the participants that were chosen for the tests were employees of Knowit and students from the interaction and design program at the University of Umeå. The test was laid out as a scenario with four different tasks. The participant first got a link to the GitHub repository where the tool and the user guide were situated. The tasks were to create a viable Figma component that could be converted to a web component using the created tool. Thereafter the participant should install the tool on their computer. Use the tool to convert the Figma component and then insert the component, using NPM locally, in a test project supplied by the test administrator.
+Two iterations of usability testing were carried out on nine participants, four in the first iteration and five in the second iteration. The participants had to have a background in web development, NPM, and Figma. Therefore, the participants chosen for the tests were employees of Knowit and students from the interaction and design program at the University of Umeå. The test was designed as a scenario with four different tasks. The participant first got a link to the GitHub repository where the tool and the user guide were situated. The tasks were to create a viable Figma component that could be converted to a web component using the created tool. After that, the participant should install the tool on their computer. Use the tool to convert the Figma component and then insert the component, using NPM locally, in a test project supplied by the test administrator.
 
-This was a way to test the whole chain from design to component usage for the tool and to determine what was working and not in the user guide. After the tasks were done the questions about the experience were asked. Finally, the test administrator opened up for suggestions regarding improvements to the tool or the user guide. 
+This was a way to test the whole chain from designing Figma components, converting these to web components, and to finally using the components in a project. These tests could also be used to determine what was working and not in the user guide. After the tasks were done, the questions about the experience were asked. Finally, the test administrator opened up for suggestions regarding improvements to the tool or the user guide. 
 
-The test script was altered after the first iteration to target more features of the prototype. These features where the use of color and text styles. The questions from the first iteration were still asked. This to confirm that the changes made between iteration one and two were effective. 
+The test script was altered after the first iteration to target more features of the prototype. These features were the use of color and text styles. The questions from the first iteration were still asked. This was done to confirm that the changes made between iteration one and iteration two were effective. 
+
+
+
+
 
 
 
