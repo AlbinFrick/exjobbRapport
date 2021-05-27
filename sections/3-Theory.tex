@@ -123,6 +123,7 @@ Figma has a feature that lets the user store colors, texts, and effects as \text
 % \subsubsection{Components}%
 % \label{sub:Components}
 
+
 \subsection{Develop}%
 \label{sub:Develop}
 
@@ -360,9 +361,56 @@ So instead of saying, “how many users must you have?,” maybe the correct que
 
 \subsubsection{A/B Testing}%
 \label{sub:A/B Testing}
-A/B testing, or bucket testing, is a user experience (UX) research method where two variants of a program/interface are tested. These two variants are referred to as A and B, hence the name A/B testing. The A and the B variant are tested on the user and then their responses are compared and evaluated. Often just a small change is made in a UI and evaluated on a lot of people 
+% A/B testing, or bucket testing, is a user experience (UX) research method where two variants of a program/interface are tested. These two variants are referred to as A and B, hence the name A/B testing. The A and the B variant are tested on the user and then their responses are compared and evaluated. Often just a small change is made in a UI and evaluated on a lot of people 
  
-A/B testing is verified using two-sample hypothesis testing from the field of statistics. This means that decisions be made completely based on data. Then there is no guessing on where to go next.
+% A/B testing is verified using two-sample hypothesis testing from the field of statistics. This means that decisions be made completely based on data. Then there is no guessing on where to go next.
+
+A/B testing, or bucket testing, is a user experience (UX) research method where two variants of a program/interface are tested. These two variants are referred to as A and B, hence the name A/B testing. The A and the B variant are tested on the user, and then their responses are compared and evaluated. Often just a small change is made in a UI and evaluated on many users. 
+
+A/B testing is verified using two-sample hypothesis testing from the field of statistics. This means that decisions that will be made are entirely based on data. Then there is no guessing on where to go next.
+
+To explain this further, we will use an example.
+This example will follow five steps: 
+\begin{enumerate}
+  \item Identifying the goal of the test. 
+  \item What will be tested? 
+ \item Create a ''control'' and ''challenger''. 
+ \item Split users into equally large sample groups.
+ \item Decide how significant the result of the test needs to be.
+\end{enumerate}
+ 
+In this example, we will use an user interface of a data management application, see figure \ref{fig:images/A}. 
+
+\textbf{Identifying goal}
+We want more users to try the digital solutions in the application. Therefore the goal for the test will be to optimize the click rate on the ''Try now'' button.
+
+\textbf{What will be tested?}
+We will only focus on the color of the ''Try now'' button. This is the only change that will be done. Because of this, we can be sure what effect the color of the button has on click rate. 
+
+\textbf{Create a ''control'' and ''challenger''. }
+The two variants tested are often called the ''control'' and the ''challenger''. In our example, the ''control'', which has not changed, is variant A and the ''challenger'' is variant B, which has a green button instead of blue. These variants can be seen in figures \ref{fig:images/A} and \ref{fig:images/B}.
+
+\textbf{Split users into sample groups.}
+The users are split into equally large sample groups where they either are shown variant A or variant B. 
+
+\textbf{Decide how significant the result of the test needs to be.}
+An A/B test has a \textit{p-value} which tells us the probability that something \textbf{as or more extreme} occurs as occurred in our experiment. The 
+
+
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\linewidth]{images/A.png}
+    \caption{Variant A for the A/B-test}
+    \label{fig:images/A}
+  \end{minipage}
+  \hfill
+  \begin{minipage}[b]{0.45\textwidth}
+    \includegraphics[width=\linewidth]{images/B.png}
+    \caption{Variant B for the A/B-test}
+    \label{fig:images/B}
+  \end{minipage}
+\end{figure}
 
 
 
