@@ -48,7 +48,7 @@ In this thesis, Figma is the UI design application that is used because Knowit i
 \label{sub:Figma}
 Figma is a UI Design application that is web-based, which means that the whole program is run over a network. 
 
-Figma has an open REST-API (Representational State Transfer) that supplies the information of the Figma document over the Internet\cite{figmaFigma, RepresentationalStateTransfer2021} ( \textit{\todo{Yes men i första hand till en...ja vadå?}} - server?). Figma is also web-based, meaning that Figma itself also runs over a network connection. The API is then constantly updated after each design change, which is great for collaboration and keeping the REST-API updated.
+Figma has an open REST-API (Representational State Transfer) that supplies the information of the Figma document over the Internet\cite{figmaFigma, RepresentationalStateTransfer2021}. Figma is also web-based, meaning that Figma itself also runs over a network connection. The API is then constantly updated after each design change, which is great for collaboration and keeping the REST-API updated.
 
 \paragraph{Figma Components}%
 \label{ssub:Figma Components}
@@ -250,7 +250,6 @@ When the browser reads in an HTML page, a document object model tree (DOM tree) 
   \label{fig:shadow}
 \end{figure}
 
-\todo{Lägga till bättre bild}
 
 
 
@@ -381,68 +380,6 @@ This example will follow five steps:
  
 In this example, we will use an user interface of a data management application, see figure \ref{fig:images/A}. 
 
-\textbf{Identifying goal} \\
-We want more users to try the digital solutions in the application. Therefore the goal for the test will be to optimize the click rate on the ''Try now'' button.
-
-\textbf{What will be tested?}\\
-We will only focus on the color of the ''Try now'' button. This is the only change that will be done. Because of this, we can be sure what effect the color of the button has on click rate. 
-
-\textbf{Create a ''control'' and ''challenger''. }\\
-The two variants tested are often called the ''control'' and the ''challenger''. In our example, the ''control'', which has not changed, is variant A and the ''challenger'' is variant B, which has a green button instead of blue. These variants can be seen in figures \ref{fig:images/A} and \ref{fig:images/B}.
-
-\textbf{Split users into sample groups.}\\
-The users are split into equally large sample groups where they either are shown variant A or variant B. 
-
-\textbf{Decide how significant the result of the test needs to be.}\\
-Before the test begins, a statistical significance must be established. Usually, this number is set to 95%-99%, meaning a 5%-1% chance that the test is showing a false positive. 
-
-Let's say we run the test on 20000 users, where 10000 gets variant A, and 10000 gets variant B. We record every time a user presses the button. In table \ref{tab:ab}, we can see a small portion of these recordings.
-
-\begin{table}[H]
-\begin{tabular}{lll}
-        & Group & Pressed \\
-user 1  & A     & yes     \\
-user 2  & A     &         \\
-user 3  & B     & yes     \\
-user 4  & A     &         \\
-user 5  & B     &         \\
-user 6  & B     & yes     \\
-user 7  & A     &         \\
-user 8  & B     & yes     \\
-user 9  & A     & yes     \\
-user 10 & B     & yes    
-\end{tabular}
-\caption{Table of a sample of users.}
-\label{tab:ab}
-\end{table}
-
-To establish the significance value for the test, we remove all values in the \textit{group} column. Then we can simulate the group for each user, e.g., randomly apply a group to each user, see table \ref{tab:abProg}. 
-
-\begin{table}[H]
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
-\cline{1-3} \cline{5-7} \cline{9-11}
-        & Group & Pressed &                  &         & Group & Pressed &                  &         & Group & Pressed \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-user 1  & A     & yes     &                  & user 1  &       & yes     &                  & user 1  & A     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-user 2  & A     &         &                  & user 2  &       &         &                  & user 2  & A     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-user 3  & B     & yes     &                  & user 3  &       & yes     &                  & user 3  & A     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-user 4  & A     &         &                  & user 4  &       &         &                  & user 4  & B     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-user 5  & B     &         & --\textgreater{} & user 5  &       &         & --\textgreater{} & user 5  & A     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-user 6  & B     & yes     &                  & user 6  &       & yes     &                  & user 6  & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-user 7  & A     &         &                  & user 7  &       &         &                  & user 7  & A     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-user 8  & B     & yes     &                  & user 8  &       & yes     &                  & user 8  & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-user 9  & A     & yes     &                  & user 9  &       & yes     &                  & user 9  & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-user 10 & B     & yes     &                  & user 10 &       & yes     &                  & user 10 & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-\end{tabular}
-\caption{Table over the test and removed AB}
-\label{tab:abProg}
-\end{table}
-
-
-By doing this simulation, a distribution of the combination of A and B can be observed. When the distribution is known, we can estimate the probability of all A and B combinations. In our example, we saw that in the empirical test, two users in group A pressed the button, and four users in group B pressed the button.  We then look at our simulated distribution of what probability there is that the empirical test results or more extreme occurred.  
-
-\textit{\textbf{The probability that, given a chance model, results as extreme as the observed results could occur.}}
-
-
 \begin{figure}[H]
   \centering
   \begin{minipage}[b]{0.45\textwidth}
@@ -457,6 +394,73 @@ By doing this simulation, a distribution of the combination of A and B can be ob
     \label{fig:images/B}
   \end{minipage}
 \end{figure}
+
+\textbf{Identifying goal} \\
+We want more users to try the digital solutions in the application. Therefore the goal for the test will be to optimize the click rate on the ''Try now'' button.
+
+\textbf{What will be tested?}\\
+We will only focus on the color of the ''Try now'' button. This is the only change that will be done. Because of this, we can be sure what effect the color of the button has on click rate. 
+
+\textbf{Create a ''control'' and ''challenger''. }\\
+The two variants tested are often called the ''control'' and the ''challenger''. In our example, the ''control'', which has not changed, is variant A and the ''challenger'' is variant B, which has a green button instead of blue. These variants can be seen in figures \ref{fig:images/A} and \ref{fig:images/B}.
+
+\textbf{Split users into sample groups.}\\
+The users are split into equally large sample groups where they either are shown variant A or variant B. 
+
+\textbf{Decide how significant the result of the test needs to be.}\\
+Before the test begins, a statistical significance must be established. Usually, this number is set to 95\%-99\%, meaning a 5\%-1\% chance that the test is showing a false positive. 
+
+Let's say we run the test on 20000 users, where 10000 gets variant A, and 10000 gets variant B. We record every time a user presses the button. In table \ref{tab:ab}, we can see a small portion of these recordings.
+
+\begin{table}[H]
+  \centering
+\begin{tabular}{|l|l|l|}
+\cline{1-3} 
+        & Group & Pressed \\\cline{1-3} 
+user 1  & A     & yes     \\\cline{1-3} 
+user 2  & A     &         \\\cline{1-3} 
+user 3  & B     & yes     \\\cline{1-3} 
+user 4  & A     &         \\\cline{1-3} 
+user 5  & B     &         \\\cline{1-3} 
+user 6  & B     & yes     \\\cline{1-3} 
+user 7  & A     &         \\\cline{1-3} 
+user 8  & B     & yes     \\\cline{1-3} 
+user 9  & A     & yes     \\\cline{1-3} 
+user 10 & B     & yes     \\\cline{1-3}  
+\end{tabular}
+\caption{Table of a sample of users.}
+\label{tab:ab}
+\end{table}
+
+To establish the significance value for the test, we remove all values in the \textit{group} column. Then we can simulate the group for each user, e.g., randomly apply a group to each user. 
+
+% \begin{table}[H]
+% \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
+% \cline{1-3} \cline{5-7} \cline{9-11}
+%         & Group & Pressed &                  &         & Group & Pressed &                  &         & Group & Pressed \\ \cline{1-3} \cline{5-7} \cline{9-11} 
+% user 1  & A     & yes     &                  & user 1  &       & yes     &                  & user 1  & A     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
+% user 2  & A     &         &                  & user 2  &       &         &                  & user 2  & A     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
+% user 3  & B     & yes     &                  & user 3  &       & yes     &                  & user 3  & A     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
+% user 4  & A     &         &                  & user 4  &       &         &                  & user 4  & B     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
+% user 5  & B     &         & --\textgreater{} & user 5  &       &         & --\textgreater{} & user 5  & A     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
+% user 6  & B     & yes     &                  & user 6  &       & yes     &                  & user 6  & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
+% user 7  & A     &         &                  & user 7  &       &         &                  & user 7  & A     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
+% user 8  & B     & yes     &                  & user 8  &       & yes     &                  & user 8  & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
+% user 9  & A     & yes     &                  & user 9  &       & yes     &                  & user 9  & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
+% user 10 & B     & yes     &                  & user 10 &       & yes     &                  & user 10 & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
+% \end{tabular}
+% \caption{Table over the test and removed AB}
+% \label{tab:abProg}
+% \end{table}
+
+
+By doing this simulation, a distribution of the combination of A and B can be observed. When the distribution is known, we can estimate the probability of all A and B combinations. In our example, we saw that in the empirical test, two users in group A pressed the button, and four users in group B pressed the button.  We then look at our simulated distribution of what probability there is that the empirical test results or more extreme occurred.  
+
+\textit{\textbf{The probability that, given a chance model, results as extreme as the observed results could occur.}}
+
+
+
+
 
 
 
