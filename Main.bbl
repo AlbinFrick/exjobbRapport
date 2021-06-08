@@ -102,6 +102,25 @@
       \verb https://uxplanet.org/simple-design-tips-for-crafting-better-ui-cards-19c1ac31a44e
       \endverb
     \endentry
+    \entry{ManifestoAgileSoftware}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{title}{Manifesto for {{Agile Software Development}}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/WT7JSUCN/agilemanifesto.org.html
+      \endverb
+      \verb{urlraw}
+      \verb https://agilemanifesto.org/
+      \endverb
+      \verb{url}
+      \verb https://agilemanifesto.org/
+      \endverb
+    \endentry
     \entry{fanguyComprehensiveGuideDesign}{online}{}
       \name{author}{1}{}{%
         {{hash=50caa373bc4487c86beaeb49e71896db}{%
@@ -116,8 +135,8 @@
       \strng{authorbibnamehash}{50caa373bc4487c86beaeb49e71896db}
       \strng{authornamehash}{50caa373bc4487c86beaeb49e71896db}
       \strng{authorfullhash}{50caa373bc4487c86beaeb49e71896db}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{$<$}p{$>$}By utilizing a collection of repeatable components and a set of standards guiding the use of those components, companies are changing the pace of creation and innovation within their teams.{$<$}/p{$>$}}
@@ -138,8 +157,8 @@
       \endverb
     \endentry
     \entry{ResponsiveWebDesign}{online}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labeltitlesource}{title}
       \field{title}{Responsive Web Design Tool, {{CMS}}, and Hosting Platform | {{Webflow}}}
       \field{urlday}{26}
@@ -167,8 +186,8 @@
       \strng{authorbibnamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
       \strng{authornamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
       \strng{authorfullhash}{6a2c4d8b39538e1ab369a0cf62a49e46}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A JavaScript library for building user interfaces}
@@ -203,8 +222,8 @@
       \strng{authorbibnamehash}{4dbea7a3d6ec42e000074e34713ec776}
       \strng{authornamehash}{4dbea7a3d6ec42e000074e34713ec776}
       \strng{authorfullhash}{4dbea7a3d6ec42e000074e34713ec776}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Sketch is a design toolkit built to help you create your best work — from your earliest ideas, through to final artwork.}
@@ -237,8 +256,8 @@
       \strng{authornamehash}{a86fc3430821f57f16c0c8b000acf401}
       \strng{authorfullhash}{a86fc3430821f57f16c0c8b000acf401}
       \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Figma: The Collaborative Interface Design Tool.}
@@ -271,8 +290,8 @@
       \strng{authorbibnamehash}{71f698950c9cdadc3d19bb7411177a78}
       \strng{authornamehash}{71f698950c9cdadc3d19bb7411177a78}
       \strng{authorfullhash}{71f698950c9cdadc3d19bb7411177a78}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Download Adobe XD free with the starter plan. XD is your UI/UX design solution for designing websites and mobile apps. Design, prototype, and share for free.}
