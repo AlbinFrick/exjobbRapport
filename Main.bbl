@@ -311,6 +311,30 @@
       \verb https://www.adobe.com/se/products/xd.html
       \endverb
     \endentry
+    \entry{FigmaCollaborativeInterface}{online}{}
+      \list{organization}{1}{%
+        {Figma}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The story of the web-based design tool—built to make design accessible to everyone.}
+      \field{langid}{american}
+      \field{title}{About {{Figma}}, the Collaborative Interface Design Tool.}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/T23TME58/about.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.figma.com/about/
+      \endverb
+      \verb{url}
+      \verb https://www.figma.com/about/
+      \endverb
+    \endentry
     \entry{figmaFigma}{online}{}
       \name{author}{1}{}{%
         {{hash=a86fc3430821f57f16c0c8b000acf401}{%
@@ -396,6 +420,94 @@
       \verb https://www.w3schools.com/css/css_intro.asp
       \endverb
     \endentry
+    \entry{fieldingFieldingDissertationCHAPTER}{online}{}
+      \name{author}{1}{}{%
+        {{hash=c6055872081cf3b6db6ba40e9af2fad9}{%
+           family={Fielding},
+           familyi={F\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{fullhash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{bibnamehash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{authorbibnamehash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{authornamehash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \strng{authorfullhash}{c6055872081cf3b6db6ba40e9af2fad9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fielding {{Dissertation}}: {{CHAPTER}} 5: {{Representational State Transfer}} ({{REST}})}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/T95I4UDK/rest_arch_style.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+      \endverb
+      \verb{url}
+      \verb https://www.ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm
+      \endverb
+    \endentry
+    \entry{restfulapi.netWhatREST}{online}{}
+      \name{author}{1}{}{%
+        {{hash=68f278f6460b521815dd0d789b6ba337}{%
+           family={{restfulapi.net}},
+           familyi={r\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {REST API Tutorial}%
+      }
+      \strng{namehash}{68f278f6460b521815dd0d789b6ba337}
+      \strng{fullhash}{68f278f6460b521815dd0d789b6ba337}
+      \strng{bibnamehash}{68f278f6460b521815dd0d789b6ba337}
+      \strng{authorbibnamehash}{68f278f6460b521815dd0d789b6ba337}
+      \strng{authornamehash}{68f278f6460b521815dd0d789b6ba337}
+      \strng{authorfullhash}{68f278f6460b521815dd0d789b6ba337}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{REST is an architecture style for designing networked applications. REST is a lightweight alternative to mechanisms like RPC (Remote Procedure Calls) and Web Services (SOAP) etc.}
+      \field{langid}{american}
+      \field{title}{What Is {{REST}}}
+      \field{urlday}{11}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/8WL7GDD4/restfulapi.net.html
+      \endverb
+      \verb{urlraw}
+      \verb https://restfulapi.net/
+      \endverb
+      \verb{url}
+      \verb https://restfulapi.net/
+      \endverb
+    \endentry
+    \entry{WhatREST}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{What Is {{REST}}?}
+      \field{urlday}{8}
+      \field{urlmonth}{5}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/J7I94YKH/whatisrest.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.restapitutorial.com/lessons/whatisrest.html#
+      \endverb
+      \verb{url}
+      \verb https://www.restapitutorial.com/lessons/whatisrest.html#
+      \endverb
+    \endentry
     \entry{taivalsaari2008web}{inproceedings}{}
       \name{author}{4}{}{%
         {{hash=589905c4a0a0935b2fd77abfe437d5f9}{%
@@ -439,9 +551,69 @@
       \field{pages}{293\bibrangedash 302}
       \range{pages}{10}
     \endentry
-    \entry{WebComponentsMDN}{online}{}
+    \entry{WhyYouShould}{online}{}
+      \list{organization}{1}{%
+        {Serokell Software Development Company}%
+      }
       \field{sortinit}{1}
       \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Learn about TypeScript and the reasons why you should choose it over JavaScript for your next software project.}
+      \field{langid}{english}
+      \field{title}{Why {{You Should Use TypeScript}} in 2021}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/INNLHZKK/why-typescript.html
+      \endverb
+      \verb{urlraw}
+      \verb https://serokell.io/blog/why-typescript
+      \endverb
+      \verb{url}
+      \verb https://serokell.io/blog/why-typescript
+      \endverb
+    \endentry
+    \entry{node.js}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4b00bbf4971bea7d45e4ee343c881d44}{%
+           family={Node.js},
+           familyi={N\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {Node.js}%
+      }
+      \strng{namehash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \strng{fullhash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \strng{bibnamehash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \strng{authorbibnamehash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \strng{authornamehash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \strng{authorfullhash}{4b00bbf4971bea7d45e4ee343c881d44}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.}
+      \field{langid}{english}
+      \field{title}{About}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/XWRD5DXC/about.html
+      \endverb
+      \verb{urlraw}
+      \verb https://nodejs.org/en/about/
+      \endverb
+      \verb{url}
+      \verb https://nodejs.org/en/about/
+      \endverb
+    \endentry
+    \entry{WebComponentsMDN}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{title}{Web {{Components}} | {{MDN}}}
       \field{urlday}{9}
@@ -470,8 +642,8 @@
       \strng{authorbibnamehash}{6ac9fb6e69374501bea0bcad9749c0a7}
       \strng{authornamehash}{6ac9fb6e69374501bea0bcad9749c0a7}
       \strng{authorfullhash}{6ac9fb6e69374501bea0bcad9749c0a7}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Polymer {{Project}}}
@@ -490,8 +662,8 @@
       \endverb
     \endentry
     \entry{NpmNpmDocs}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{abstract}{Documentation for the npm registry, website, and command-line interface}
       \field{title}{About Npm | Npm {{Docs}}}
@@ -526,8 +698,8 @@
       \strng{authorbibnamehash}{f106a761a58d4041d103c16ce4f11cf1}
       \strng{authornamehash}{f106a761a58d4041d103c16ce4f11cf1}
       \strng{authorfullhash}{f106a761a58d4041d103c16ce4f11cf1}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Handbook of human factors and ergonomics}
@@ -565,8 +737,8 @@
       \strng{authorbibnamehash}{5eed39c0ebbb27994ef601fd658e1351}
       \strng{authornamehash}{5eed39c0ebbb27994ef601fd658e1351}
       \strng{authorfullhash}{5eed39c0ebbb27994ef601fd658e1351}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Research Methods in Human-Computer Interaction}
@@ -622,8 +794,8 @@
       \strng{authorbibnamehash}{f2a5683ee7c93ce6cb8b96e419ed5e5a}
       \strng{authornamehash}{f2a5683ee7c93ce6cb8b96e419ed5e5a}
       \strng{authorfullhash}{f2a5683ee7c93ce6cb8b96e419ed5e5a}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the {{INTERACT}}'93 and {{CHI}}'93 Conference on {{Human}} Factors in Computing Systems}
@@ -650,8 +822,8 @@
       \strng{authorbibnamehash}{ef05154b3796d35505f05b26cbea7c61}
       \strng{authornamehash}{ef05154b3796d35505f05b26cbea7c61}
       \strng{authorfullhash}{ef05154b3796d35505f05b26cbea7c61}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Simple user testing with 5 participants, paper prototyping, and heuristic evaluation offer a cheap, fast, and early focus on usability, as well as many rounds of iterative design.}
@@ -686,8 +858,8 @@
       \strng{authorbibnamehash}{2984162063c06da3c0165584311f7e50}
       \strng{authornamehash}{2984162063c06da3c0165584311f7e50}
       \strng{authorfullhash}{2984162063c06da3c0165584311f7e50}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Contribute to KarlRombauts/Figma-SCSS-Generator development by creating an account on GitHub.}
@@ -765,8 +937,8 @@
       \endverb
     \endentry
     \entry{ConvertJSONSwift}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{title}{Convert {{JSON}} to {{Swift}}, {{C}}\#, {{TypeScript}}, {{Objective}}-{{C}}, {{Go}}, {{Java}}, {{C}}++ and More • Quicktype}
       \field{urlday}{23}
@@ -784,8 +956,8 @@
       \endverb
     \endentry
     \entry{ArrayPrototypeMap}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{title}{Array.Prototype.Map() - {{JavaScript}} | {{MDN}}}
       \field{urlday}{25}
@@ -802,9 +974,44 @@
       \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
       \endverb
     \endentry
+    \entry{KnowitExperienceNorrlandFigmaConverter2021}{software}{}
+      \list{organization}{1}{%
+        {Knowit-Experience-Norrland}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{hour}{12}
+      \field{minute}{9}
+      \field{month}{5}
+      \field{origday}{1}
+      \field{orighour}{11}
+      \field{origminute}{9}
+      \field{origmonth}{5}
+      \field{origsecond}{3}
+      \field{origtimezone}{Z}
+      \field{origyear}{2021}
+      \field{second}{8}
+      \field{timezone}{Z}
+      \field{title}{Knowit-{{Experience}}-{{Norrland}}/{{FigmaConverter}}}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{origdateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/Knowit-Experience-Norrland/FigmaConverter
+      \endverb
+      \verb{url}
+      \verb https://github.com/Knowit-Experience-Norrland/FigmaConverter
+      \endverb
+    \endentry
     \entry{MITLicenseOpen}{online}{}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{title}{The {{MIT License}} | {{Open Source Initiative}}}
       \field{urlday}{12}
@@ -825,8 +1032,8 @@
       \list{organization}{1}{%
         {GitHub}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{abstract}{GitHub is where people build software. More than 65 million people use GitHub to discover, fork, and contribute to over 200 million projects.}
       \field{langid}{english}
@@ -862,8 +1069,8 @@
       \strng{authorbibnamehash}{20b258878efe6c64698d087654b2d213}
       \strng{authornamehash}{20b258878efe6c64698d087654b2d213}
       \strng{authorfullhash}{20b258878efe6c64698d087654b2d213}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mastering the Semi-Structured Interview and beyond: {{From}} Research Design to Analysis and Publication}

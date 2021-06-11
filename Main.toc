@@ -21,7 +21,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.2}Visly}{6}{subsubsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3}Competitors summery}{6}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3}Competitors summary}{6}{subsubsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Theory}{7}{section.3}%
 \defcounter {refsection}{0}\relax 

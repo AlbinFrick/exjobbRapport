@@ -18,7 +18,7 @@ With this in mind, research began on what competitors there were in the field of
 
 How to encapsulate the Figma design elements into code was one of the most severe difficulties.  Different technologies were considered to find the fit for Knowit's requirements.  These technologies were using a JavaScript framework (such as Angular or React), plain HTML-CSS-JavaScript, or Web components with LitElement. 
 
-One of the requirements was that the tool could be applicable for all types of projects. Using a JavaScript framework would mean that some projects would not support the tool. Therefore that technology was counted out. Using plain HTML-CSS-JavaScript could work for all projects, but it would be hard to manage since the generated code would be static and hard to encapsulate. LitElement was chosen as the technology for encapsulating de Figma design elements into code. LitElement is run natively in HTML-CSS-JavaScript, and therefore works with all projects. LitElement is also much easier to manage than just generating plain HTML-CSS-JavaScript.
+One of the requirements was that the tool could be applicable for all types of projects. Using a JavaScript framework would mean that some projects would not support the tool. Therefore that technology was counted out. Using plain HTML-CSS-JavaScript could work for all projects, but it would be hard to manage since the generated code would be static and hard to encapsulate. LitElement was chosen as the technology for encapsulating the Figma design elements into code. LitElement is run natively in HTML-CSS-JavaScript, and therefore works with all projects. LitElement is also much easier to manage than just generating plain HTML-CSS-JavaScript.
 
 
 % \begin{itemize}
@@ -33,7 +33,6 @@ One of the requirements was that the tool could be applicable for all types of p
 \subsection{Creating the tool}%
 \label{sub:}
 % After the interviews and research phase a clear understanding of the tools that would be used was had. (<--haha what) For creating the tool it self TypeScript was used to be able to use types to find problems before they crashed the code. LitElement was then used to 
-
 
 The first step of creating the tool was discussing with Knowit what could be possible to achieve under the 20 week project time. As seen from the literature study, the big problem was how to condense the elements from the code to be used efficiently. 
 
@@ -50,6 +49,8 @@ The information from Figmas API was interpreted and stored as classes of colors,
 \subsubsection{Building the HTML for the component}%
 \label{ssub:building the skeleton of the component}
 The Figma components have a parent-children structure, meaning that all elements in the component are related. A recursive function was used to search through each element and their children dynamically. This replicates the relationship between the elements and thereby creating a proper HTML structure.
+
+If the implementation of the before mentioned structure is not done correctly, the elements would not be nested into each other.
 
 
 \subsubsection{Styling the Component}%
@@ -68,7 +69,7 @@ Figma has a feature called styles. This is a way for the user to store and reuse
 
 \subsubsection{Open Source}%
 \label{ssub:Open Source}
-One of Knowit's initial requirements where that the software produced should be open source (see section \ref{ssub:Open Source}). The project was handed access to Knowit Experience Norrlands GitHub page. The software was uploaded publicly to this GitHub repository. The MIT\cite{MITLicenseOpen} open source license where then attached to the repository stating that the software is free to use but has no liability or warranty.
+One of Knowit's initial requirements where that the software produced should be open source (see section \ref{ssub:Open Source}). The project was handed access to Knowit Experience Norrlands GitHub page. The software was uploaded publicly to this GitHub repository\cite{KnowitExperienceNorrlandFigmaConverter2021}. The MIT\cite{MITLicenseOpen} open source license where then attached to the repository stating that the software is free to use but has no liability or warranty.
  
 \subsubsection{Userguide}%
 \label{ssub:Userguide}
