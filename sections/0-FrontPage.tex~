@@ -1,0 +1,54 @@
+% Keywords command
+\providecommand{\keywords}[1]
+{
+  \small	
+  \textbf{\textit{Keywords---}} #1
+}
+
+\title{
+    \Large MASTER THESIS\\
+    \vspace{5mm}
+    \huge \bf
+From Design to Code: A Study on Generating Production Code From User Interface Design Software\\
+        \noindent\rule{\textwidth}{0.4pt}
+
+}
+
+\date{} %no automatic date
+\author{
+    \LARGE\bf{Albin Frick}\\
+    \today
+}
+
+\maketitle
+\vspace*{\fill}
+\begin{center}
+Master Thesis in Interaction Technology and Design, 30 ECTS\\
+Master of Science in Interaction Technology and Design, 300 ECTS\\
+UMEÅ UNIVERSITY
+\end{center}
+\pagenumbering{gobble}
+\newpage
+\begin{abstract}
+\textit{Creating modern web applications is often done with a modular mindset using components (such as buttons, lists, layouts). These components are beneficial and do not need to be redesigned between projects if the design language is the same. However, if there is a need to have components with different design languages between each project, creating components can feel unnecessary. In collaboration with Knowit Experience, this thesis tries to solve this problem by creating an open-source prototype that converts components from the user interface design program Figma into web components. The thesis shows how to make this prototype user-friendly by usability testing. In addition to this, the thesis shows how to measure the effectiveness of this prototype with A/B testing. The results of the thesis are a working open-source prototype that is user-tested for all essential features.}
+\end{abstract}
+
+\vspace*{\fill}
+\keywords{Web components, Figma, Web development, UI/UX, Code Generation}
+\newpage
+\tableofcontents
+% \newpage
+% \printglossary
+\newpage
+\section*{Acknowledgments}
+Throughout the writing of this thesis, I have received a lot of support and assistance.
+
+First of all, I would like to thank my supervisor, Mattias Andersson, whose expertise has been invaluable throughout the whole writing process. Your patience and insightful feedback brought my work to a higher level.
+
+I would also like to thank the employees of Knowit Experience Norrland, who have enabled me to write this thesis. Thank you for your warm welcome, answers to all my questions, and high availability.
+
+I would like to thank my fellow students and colleagues at the University of Umeå, who have given me valuable feedback for the thesis and the usability test done.  
+
+Last but not least, I would like to thank my fantastic parents, wonderful sisters, and lovely fiance. Without you, I would not have been able to complete my thesis. Thank you for your immense patient, feedback, and support.
+\newpage
+\pagenumbering{arabic}
