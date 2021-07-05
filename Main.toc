@@ -5,122 +5,124 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.1}The Company \& the Problem}{1}{subsection.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1}Knowit Initial Requirements}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Knowit Initial Requirements}{3}{subsubsection.1.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.2}Objective}{3}{subsection.1.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {1.3}Demarcations}{3}{subsection.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Background}{4}{section.2}%
+\contentsline {section}{\numberline {2}Background}{5}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Prototype data flow}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Prototype data flow}{5}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Competitors}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Competitors}{6}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Webflow}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}Webflow}{6}{subsubsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2}Visly}{6}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2}Visly}{7}{subsubsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3}Competitors summary}{6}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.3}Competitors summary}{8}{subsubsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Theory}{7}{section.3}%
+\contentsline {section}{\numberline {3}Theory}{8}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Design}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Design}{8}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}UI Design Applications}{8}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}UI Design Applications}{9}{subsubsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2}Figma}{8}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2}Figma}{9}{subsubsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.1.2.1}Figma Components}{8}{paragraph.3.1.2.1}%
+\contentsline {paragraph}{\numberline {3.1.2.1}Figma Components}{9}{paragraph.3.1.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.1.2.2}Figma Styles}{9}{paragraph.3.1.2.2}%
+\contentsline {paragraph}{\numberline {3.1.2.2}Figma Styles}{10}{paragraph.3.1.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Develop}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Develop}{10}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}REST API}{10}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1}REST API}{11}{subsubsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}JavaScript and TypeScript}{10}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2}JavaScript and TypeScript}{11}{subsubsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3}Node.js}{11}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3}Node.js}{12}{subsubsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4}Syntactically Awesome Style Sheets (SASS)}{11}{subsubsection.3.2.4}%
+\contentsline {subsubsection}{\numberline {3.2.4}Syntactically Awesome Style Sheets (SASS)}{12}{subsubsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.4.1}Variables}{11}{paragraph.3.2.4.1}%
+\contentsline {paragraph}{\numberline {3.2.4.1}Variables}{12}{paragraph.3.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.4.2}Mixin and Include}{12}{paragraph.3.2.4.2}%
+\contentsline {paragraph}{\numberline {3.2.4.2}Mixin and Include}{13}{paragraph.3.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.5}Web Components}{12}{subsubsection.3.2.5}%
+\contentsline {subsubsection}{\numberline {3.2.5}Web Components}{13}{subsubsection.3.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.5.1}Custom Elements}{12}{paragraph.3.2.5.1}%
+\contentsline {paragraph}{\numberline {3.2.5.1}Custom Elements}{14}{paragraph.3.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.5.2}Shadow DOM}{13}{paragraph.3.2.5.2}%
+\contentsline {paragraph}{\numberline {3.2.5.2}Shadow DOM}{14}{paragraph.3.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.5.3}HTML Templates}{13}{paragraph.3.2.5.3}%
+\contentsline {paragraph}{\numberline {3.2.5.3}HTML Templates}{14}{paragraph.3.2.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.6}LitElement}{13}{subsubsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.6}LitElement}{14}{subsubsection.3.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Distribute}{14}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Distribute}{15}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1}Package Manager}{14}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1}Package Manager}{15}{subsubsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2}Open Source}{14}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2}Open Source}{15}{subsubsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4}Testing}{14}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.4}Testing}{15}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.1}Usability testing}{15}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.1}Usability testing}{16}{subsubsection.3.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.4.1.1}Sufficient Amount of Test Users}{15}{paragraph.3.4.1.1}%
+\contentsline {paragraph}{\numberline {3.4.1.1}Sufficient Amount of Test Users}{17}{paragraph.3.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2}A/B Testing}{16}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.2}A/B Testing}{17}{subsubsection.3.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.4.3}Statistical Analysis}{18}{subsubsection.3.4.3}%
+\contentsline {subsubsection}{\numberline {3.4.3}Statistical Analysis}{19}{subsubsection.3.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Method}{19}{section.4}%
+\contentsline {section}{\numberline {4}Method}{20}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Initial Research}{19}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Initial Research}{20}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Creating the tool}{20}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Creating the tool}{21}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Building the HTML for the component}{21}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1}Building the HTML for the component}{22}{subsubsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2}Styling the Component}{21}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2}Styling the Component}{22}{subsubsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}Variables}{21}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3}Variables}{22}{subsubsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4}Open Source}{21}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4}Open Source}{22}{subsubsection.4.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.5}Userguide}{22}{subsubsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.5}Userguide}{23}{subsubsection.4.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Semi-Structured Interviews}{22}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Semi-Structured Interviews}{23}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Usability Testing}{22}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.4}Usability Testing}{23}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5} A/B Testing }{23}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.5} A/B Testing }{24}{subsection.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Result}{23}{section.5}%
+\contentsline {section}{\numberline {5}Result}{24}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Prototype}{23}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.1}Prototype}{24}{subsection.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Initial interviews}{24}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.2}Initial interviews}{25}{subsection.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Usability Testing}{24}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.3}Usability Testing}{25}{subsection.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1}Iteration one}{24}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1}Iteration one}{25}{subsubsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.2}Iteration two}{25}{subsubsection.5.3.2}%
+\contentsline {subsubsection}{\numberline {5.3.2}Iteration two}{26}{subsubsection.5.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}A/B Testing}{26}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.4}A/B Testing}{27}{subsection.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Discussion}{26}{section.6}%
+\contentsline {section}{\numberline {6}Discussion}{27}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}The Prototype}{26}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.1}The Prototype}{27}{subsection.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Interviews}{27}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}Interviews}{28}{subsection.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Usability testing}{28}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.3}Usability testing}{29}{subsection.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}A/B testing}{29}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.4}A/B testing}{30}{subsection.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusion}{30}{section.7}%
+\contentsline {section}{\numberline {7}Conclusion}{31}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Future Work}{30}{section.8}%
+\contentsline {section}{\numberline {8}Future Work}{31}{section.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendices}{37}{section*.3}%

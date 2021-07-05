@@ -9,6 +9,9 @@
 \usepackage{parskip}
 \usepackage{csquotes} %silence warning
 \usepackage{graphicx}
+\usepackage[final]{pdfpages}
+\usepackage[toc,page]{appendix}
+\setboolean{@twoside}{false}
 \usepackage{float}
 \usepackage[style=ieee]{biblatex}
 
@@ -33,17 +36,22 @@
 
 \newglossaryentry{div-tag}
 {
-    name=div,
+    name=div-tag,
     description={ A <div> tag defines a division or a section in an HTML document. The <div> tag is used as a container for HTML elements, where any content is aloud. }
 }
+\newglossaryentry{p-tag}
+{
+    name=p-tag,
+    description={The <p> tag defines a paragraph. Browsers automatically add a single blank line before and after each <p> element.}
+}
 
-\newacronym{html}{HTML}{ Hyper Text Markup Language. The standard markup language for creating Web pages }
-
-\newacronym{css}{CSS}{ Cascading Style Sheets. Describes how HTML elements are to be displayed on screen, paper, or in other media }
-
+\newacronym{html}{HTML}{ Hyper Text Markup Language}
+\newacronym{css}{CSS}{ Cascading Style Sheets }
 \newacronym{gui}{GUI}{ Graphical User Interface }
-
+\newacronym{ui}{UI}{ User Interface }
 \newacronym{dom}{DOM}{ Document Object Model }
+\newacronym{www}{WWW}{World Wide Web}
+\newacronym{svg}{SVG}{Scalable Vector Graphics}
  
 
 % Make use of paragraph for four levels of indentation
@@ -163,13 +171,13 @@
   breaklines=true,
   % German umlauts
   literate=%
-  {…}{{\"O}}1
-  {€}{{\"A}}1
-  {†}{{\"U}}1
-  {§}{{\ss}}1
-  {Ÿ}{{\"u}}1
-  {Š}{{\"a}}1
-  {š}{{\"o}}1
+  {ï¿½}{{\"O}}1
+  {ï¿½}{{\"A}}1
+  {ï¿½}{{\"U}}1
+  {ï¿½}{{\ss}}1
+  {ï¿½}{{\"u}}1
+  {ï¿½}{{\"a}}1
+  {ï¿½}{{\"o}}1
 }
 %
 
@@ -187,5 +195,6 @@
 \subfile{sections/5-Result}
 \subfile{sections/6-Discussion}
 \subfile{sections/7-References}
+\subfile{sections/8-Appendix}
 
 \end{document}

@@ -1,11 +1,19 @@
 \newpage
 \section{Background}
-As mentioned in section \ref{sub:company}, Kowit uses an agile work form. The broader perspective for Knowit, not taking the iterative part of the process into account. The process of creating a web application is done in three main steps: 
-\begin{enumerate}
-  \item Design
-  \item Develop 
-  \item Publish
-\end{enumerate}
+As mentioned in section \ref{sub:company}, Kowit uses an agile work form. The broader perspective for Knowit, not taking the iterative part of the process into account. The process of creating a web application is done in three main steps, shown in figure \ref{fig:ddp}. 
+% \begin{enumerate}
+%   \item Design
+%   \item Develop 
+%   \item Publish
+% \end{enumerate}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\linewidth]{images/ddp.png}
+  \caption{Simplified view over the process of making a web-application}%
+  \label{fig:ddp}
+\end{figure}
+
 
 \textbf{Design:} The designer does the majority of design work at the beginning of the project. The designer and customer collaborate to create an interface until they are both satisfied.  Some developers are also present during this first part of the process to give insight into what is possible to create for the desired system.
 
@@ -29,7 +37,7 @@ A data flowchart for the system is shown in figure \ref{fig:flow}.
 
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\linewidth]{images/flow.png}
+  \includegraphics[width=0.8\linewidth]{images/flow2.png}
   \caption{Flowchart for data flow in the system.}%
   \label{fig:flow}
 \end{figure}
@@ -40,7 +48,7 @@ A data flowchart for the system is shown in figure \ref{fig:flow}.
 The idea of making a design program generate functional code is not new. To get inspired and understand how these software work, we will look at two competitors in this field. 
 
 \subsubsection{Webflow}
-Webflow was founded in 2013 and is a product of the famous Y Combinator program. Webflow allows the user to design, create and publish a website all from their web application. Webflow is a visual editing tool. The user does not need to know how to program since Webflow generates HTML, CSS, and JavaScript from the design. Most UI applications let the user move elements freely around the canvas. Webflow is a more static build tool where the elements in the design \textit{snap} in place. Most of the design is made through the control panel, which can be seen in figure \ref{fig:webflow}, and not on the canvas itself \cite{ResponsiveWebDesign}. 
+Webflow was founded in 2013 and is a product of the famous Y Combinator program\cite{Combinator}. Webflow allows the user to design, create and publish a website all from their web application. Webflow is a visual editing tool. The user does not need to know how to program since Webflow generates HTML, CSS, and JavaScript from the design. Most \acrshort{ui} applications let the user move elements freely around the canvas. Webflow is a more static build tool where the elements in the design \textit{snap} in place. Most of the design is made through the control panel, which can be seen on the right in figure \ref{fig:webflow}, and not on the canvas itself \cite{ResponsiveWebDesign}. 
 
 \begin{figure}[H]
   \centering
@@ -51,7 +59,7 @@ Webflow was founded in 2013 and is a product of the famous Y Combinator program.
 
 \subsubsection{Visly}%
 \label{ssub:Visly}
-Visly was founded in 2018 and is very similar to Figma in how the user designs the product. Visly uses the design to create React components \cite{facebookincReactJavaScriptLibrary}. React is a component-based JavaScript framework made by Facebook. Visly essentially makes it possible to create these components visually. 
+Visly was founded in 2018 creates React components \cite{facebookincReactJavaScriptLibrary} from the the created design. React is a component-based JavaScript library made by Facebook. Visly essentially makes it possible to create these components visually. 
 
 \begin{figure}[H]
   \centering
@@ -71,9 +79,9 @@ Visly was founded in 2018 and is very similar to Figma in how the user designs t
 
 \subsubsection{Competitors summary}%
 \label{ssub:Comparison}
-Visly and Webflow generate functional code from a graphical user interface (GUI) but in very separate ways. Webflow's service does not require experience with software development, whereas Visly does. Webflow places all functionality in the GUI, which becomes very extensive. Visly, on the other hand, requires the user to know software development and can therefore have a sleek and straightforward GUI.
+Visly and Webflow generate functional code from a \acrfull{gui} but in very separate ways. Webflow's service does not require experience with software development, whereas Visly does. Webflow places all functionality in the \acrshort{gui}, which can become very extensive. Visly, on the other hand, requires the user to know software development and can therefore have a sleek and straightforward \acrshort{gui}.
 
-The disadvantages of both of these competitors are that they are locked with either a framework or software. This dependency is something that we want to avoid as far as possible because of the reason, stated in section \ref{ssub:Knowit Initial Requirements}, that Knowit wants to use the software in all projects. Knowit uses the UI program Figma when designing UI's for their projects. Knowit is happy with the functionality within Figma and does not want to change the software. Therefore the prototype was built around Figma as a UI design platform. 
+The disadvantages of both competitors are that they are locked with either a library/framework or software. This dependency is something that we want to avoid as far as possible since knowit want to be able to use the product in all project, stated in section \ref{ssub:Knowit Initial Requirements}. Knowit uses the \acrshort{ui} program Figma when designing \acrshortpl{ui} for their projects. Knowit is happy with the functionality within Figma and does not want to change the software. Therefore the prototype was built around Figma as a \acrshort{ui} design platform. Figma is described in section \ref{sec:figma}.
 
 
 
