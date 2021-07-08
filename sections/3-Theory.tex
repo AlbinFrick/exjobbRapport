@@ -25,15 +25,15 @@ The design work of a project is primarily held at the start of the project. The 
 
 A fairly common way of making the design of websites is first to create prototypes with little details, called low fidelity prototypes. More details are added to the prototype through iterations until the design could be mistaken for an actual application. This is called a high-fidelity prototype.
 
-The medium with which these prototypes are created varies, but a User Interface (UI) design application is often used to make the final high fidelity prototype. This high-fidelity prototype is visually accurate with the final product meaning that all colors, typographies, and layout are complete. The design prototype then needs to be translated into code by the developer. 
+The medium with which these prototypes are created varies, but a \acrfull{ui} design application is often used to make the final high fidelity prototype. This high-fidelity prototype is visually accurate with the final product meaning that all colors, typographies, and layout are complete. The developer then translates the design prototype into a functional application.
 
 \subsubsection{UI Design Applications}%
 \label{ssub:Apps}
-User interface (UI) design is often the first step in building an application. By designing the UI first, the designer can collaborate with the customer iteratively until they have a design agreed upon to move forward to development.
+\acrshort{ui} design is often the first step in building an application. By designing the \acrshort{ui} first, the designer can collaborate with the customer iteratively until they have a design agreed upon to move forward to development.
 
-Sketch\cite{sketchDigitalDesignToolkit} was released in 2010 and was one of the first UI design applications and lead the market for many years. In later years applications such as Figma\cite{figmaFigmaCollaborativeInterface}  (released 2016) and Adobe XD\cite{adobeAdobeXDFast} (released 2015) have come to overtake Sketch's dominance. 
+Sketch\cite{sketchDigitalDesignToolkit} was released in 2010 and was one of the first \acrshort{ui} design applications and lead the market for many years. In later years applications such as Figma\cite{figmaFigmaCollaborativeInterface}  (released 2016) and Adobe XD\cite{adobeAdobeXDFast} (released 2015) have come to overtake Sketch's dominance\cite{SketchVsFigma0200}. 
 
-In this thesis, Figma is the UI design application that is used because Knowit is already using this tool. Figma is also one of few design applications that have an open API which makes this project possible. 
+In this thesis, Figma is the \acrshort{ui} design application that is used because Knowit is already using this tool. Figma is also one of few design applications that have an open \acrshort{api} which makes this project possible. 
 
  
 % Since the early 10's the UI design applications have been around to make this easier.
@@ -46,13 +46,13 @@ In this thesis, Figma is the UI design application that is used because Knowit i
 
 \subsubsection{Figma}%
 \label{sub:Figma}
-Figma is a vector based UI Design application that is web-based, which means that the whole program is run over a network\cite{FigmaCollaborativeInterface} . 
+Figma is a vector based \acrshort{ui} Design application that is web-based, which means that the whole program is run over a network\cite{FigmaCollaborativeInterface} . 
 
-Figma has an open REST-API (Representational State Transfer) that supplies the information of the Figma document to a server over the Internet\cite{figmaFigma, RepresentationalStateTransfer2021}. Figma is also web-based, meaning that Figma itself also runs over a network connection. The API is then constantly updated after each design change, which is great for collaboration and keeping the REST-API updated.
+Figma has an open \acrshort{rest}-\acrshort{api} (Representational State Transfer) that supplies the information of the Figma document to servers over the Internet\cite{figmaFigma, RepresentationalStateTransfer2021}. Figma was chosen as the \acrshort{api} design application since it is web-based and Knowit uses it today. The \acrshort{api} is then constantly updated after each design change, which is great for collaboration and keeping the \acrshort{rest}-\acrshort{api} updated.
 
 \paragraph{Figma Components}%
 \label{ssub:Figma Components}
-Figma also allows its users to create components. A component is a set of elements that are combined. Figures \ref{fig:images/cardComp} and \ref{fig:images/cardCompElements} show an example of a card\cite{babichSimpleDesignTips2020} component in Figma. The card component consists of four elements, two text elements, and two frame elements. 
+Figma also allows its users to create \glspl{component}. A \gls{component} is, as explained earlier, a set of fundamental elements that are combined. Figures \ref{fig:images/cardComp} and \ref{fig:images/cardCompElements} show an example of a card\cite{babichSimpleDesignTips2020} \gls{component} in Figma. The card \gls{component} consists of four elements, two text elements, and two frame elements. 
 
 \begin{figure}[H]
   \centering
@@ -70,12 +70,12 @@ Figma also allows its users to create components. A component is a set of elemen
 \end{figure}
 
 
-When copying a component, the copied component is \textit{attached} to the original component. When making changes to the original component, all \textit{attached} components will get the updates. The attached components can be changed without affecting the original component. 
+When copying a \gls{component}, the copied \gls{component} is \textit{attached} to the original \gls{component}. When making changes to the original \gls{component}, all \textit{attached} \glspl{component} will get the updates. The attached \glspl{component} can be changed without affecting the original \gls{component}. 
 
 \paragraph{Figma Styles}%
 \label{ssub:Styles}
 
-Figma has a feature that lets the user store colors, texts, and effects as \textit{styles}. This is a way for the user to store default styles for their design.  For example, if the default color for a design is green, the user can store this green color as a color style. The user can use the color style throughout their user interface (UI). If they later want to change the default color for the UI, they only need to change the color of the color \textit{style}, not all colored elements individually. Effectively the changes between figure \ref{fig:images/layoutBlue} and \ref{fig:images/layoutGreen} are from changing the color style. The same principle extends to typographies and effects such as shadows and blurs. 
+Figma has a feature that lets the user store colors, texts, and effects as \textit{styles}. This is a way for the user to store default styles for their design.  For example, if the default color for a design is green, the user can store this green color as a color style. The user can use the color style throughout their \acrfull{ui}. If they later want to change the default color for the \acrshort{ui}, they only need to change the color of the color \textit{style}, not all colored elements individually. Effectively the changes between figure \ref{fig:images/layoutBlue} and \ref{fig:images/layoutGreen} are from changing the color style. The same principle extends to typographies and effects such as shadows and blurs. 
 
 \begin{figure}[H]
   \centering
@@ -127,19 +127,19 @@ Figma has a feature that lets the user store colors, texts, and effects as \text
 \subsection{Develop}%
 \label{sub:Develop}
 
-Developing something from a design is essential to make the design functional with code. A design is often more like an image rather than an application. A website is usually built using the three main languages of the web: \acrfull{html}, CSS, and JavaScript. HTML is a \textit{''tagging''} language meaning all code is written with tags. All information is written between or in opening and closing tags. An opening tag signifies a tag with  <\textit{nameOfTag}> and a closing tag </\textit{nameOfTag}>. Within the opening tag, attributes can be assigned, such as a class or an id. 
-HTML is often referred to as the body of a website. This is where the majority of the information on the web pages is stored. CSS is the clothes to the body. CSS is what defines the style for the website, such as sizes, paddings, and colors.\\
-\textit{"CSS describes how HTML elements are to be displayed on screen, paper, or in other media"}\cite{CSSIntroduction}.\\
+Developing something from a design is essential to make the design functional with code. A design is often more like an image rather than an application. A website is usually built using the three main languages of the web: \acrfull{html}, CSS, and JavaScript. \acrshort{html} is a \textit{''tagging''} language meaning all code is written with tags. All information is written between or in opening and closing tags. An opening tag signifies a tag with  <\textit{nameOfTag}> and a closing tag </\textit{nameOfTag}>. Within the opening tag, attributes can be assigned, such as a class or an id. 
+\acrshort{html} is often referred to as the body of a website. This is where the majority of the information on the web pages is stored. \acrshort{css} is the clothes to the body. \acrshort{css} is what defines the style for the website, such as sizes, paddings, and colors.\\
+\textit{"\acrshort{css} describes how \acrshort{html} elements are to be displayed on screen, paper, or in other media"}\cite{CSSIntroduction}.\\
 JavaScript is a scripting language that enables us to create complex features on web pages. JavaScript enables us to update the content of the website dynamically. 
 
-In modern web design, many different frameworks and languages make it easier for developers to create products.  All these tools have one thing in common. They all convert to the three browser languages mentioned above. 
+In modern web design, many different frameworks, libraries, and, languages make it easier for developers to create products.  All these tools have one thing in common. They all convert to the three standard browser languages mentioned above. 
 
 One of the thesis objectives is to create a tool that could be used in as many projects as possible. Knowit is, as explained in the intro, a large company that has many different projects using lots of different frameworks. 
 
 
 \subsubsection{REST API}%
 \label{sub:REST API}
-REST stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and is anarchitectural style of distributed hypermedia systems. Roy Fielding created this in 2000 with the release of his dissertation\cite{fieldingFieldingDissertationCHAPTER}. For an API to be called RESTful, it needs to fill the following six requirements\cite{fieldingFieldingDissertationCHAPTER,restfulapi.netWhatREST}. 
+\gls{rest} stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and is anarchitectural style of distributed hypermedia systems. Roy Fielding created this in 2000 with the release of his dissertation\cite{fieldingFieldingDissertationCHAPTER}. For an \acrshort{api} to be called RESTful, it needs to fill the following six requirements\cite{fieldingFieldingDissertationCHAPTER,restfulapi.netWhatREST}. 
 
 \begin{enumerate}
   \item Client-server - the UI and data storage are separated:w. 
@@ -155,8 +155,7 @@ These requirements make it lightweight and easy to understand and thereby introd
 
 \subsubsection{JavaScript and TypeScript}%
 \label{ssub:JavaScript and TypeScript}
-
-JavaScript is a programming language that reports its error much later than many other languages. Variables can take any shape in JavaScript. That is, for instance, a number or a string. This can at first seem as good that the language is highly dynamic and flexible. This flexibility is also very error-prone, where most of the errors are discovered after the code is run. This results in being obliged to test running the code after every change\cite{taivalsaari2008web}. TypeScript was created to fix the error-prone nature of JavaScript. TypeScript is an open-source programming language that is built upon JavaScript. TypeScript allows for the creation of types for variables, functions, etc., and thereby helps to find more errors before runtime\cite{WhyYouShould}. TypeScript then complies back to JavaScript before it is run and can thereby run everywhere JavaScript is run\cite{WhyYouShould}.  
+JavaScript is a programming language that reports its error much later than many other languages. Variables can take any shape in JavaScript. That is, for instance, a number or a string. This can at first seem as good that the language is highly dynamic and flexible. This flexibility is also very error-prone, where most of the errors are discovered after the code is run. This results in being obliged to test running the code after every change\cite{taivalsaari2008web}. TypeScript was created to fix the error-prone nature of JavaScript. TypeScript is an open-source superset of JavaScript. TypeScript allows for the creation of types for variables, functions, etc., and thereby helps to find more errors before runtime\cite{WhyYouShould}. TypeScript then complies back to JavaScript before it is run and can thereby run everywhere JavaScript is run\cite{WhyYouShould}.  
 
 
 % \textit{Incremental testing is required. Due to its highly permissive, error-tolerant nature, JavaScript programming requires an incremental, evolutionary approach to testing as well. Since errors are reported much later than usual, by the time an error is reported it is often surprisingly difficult to pinpoint the original location of the error. Error detection is made harder by the dynamic nature of JavaScript, for instance, by the option to change some of the system features on the fly. Furthermore, in the absence of strong, static typing, it is possible to execute a program and only at runtime realize that some parts of the program are missing. For all these reasons, the best way to write JavaScript programs is to proceed step by step, by writing (and immediately testing) each new piece of code. If such an incremental, evolutionary approach is not used, debugging and testing can become quite tedious even for relatively small JavaScript applications.} 
@@ -165,20 +164,19 @@ JavaScript is a programming language that reports its error much later than many
 
 \subsubsection{Node.js}%
 \label{ssub:Node}
-\todo{asynchronously till ordlistan}
-Node.js is an open-source project that lets its users run code on the server asynchronously\cite{node.js}. This allows for a more efficient way of running JavaScript code without a browser. Node.js is designed to handle HTTP effectively. Streaming and low latency have therefore been a high priority. 
+Node.js is an open-source project that lets its users run code on the server asynchronously\cite{node.js}. JavaScript is a single threaded language, meaning that the compiler runs the program from top to bottom. If then a function is dependent on another function the latter function needs to wait for the first function to finish. This is called blocking and can become frustrating for the user \cite{GeneralAsynchronousProgramming}. By using asynchronous programming this can be avoided by running the different functions on different threads, this is what node.js does. This allows for a more efficient way of running JavaScript code without a browser. Node.js is designed to handle HTTP effectively. Streaming and low latency have therefore been a high priority. 
 
 
 \subsubsection{Syntactically Awesome Style Sheets (SASS)}%
 \label{sub:sass}
-SASS is an extension language to CSS that adds more functionality to regular CSS. With SASS, it is possible to have a stylesheet split up into multiple files, create functions, etc. SASS is then compiled to regular CSS so the browser can understand it. SASS is also called a preprocessor for CSS because of this. SASS has two different syntaxes; the indented syntax, commonly referred to as SASS, and Sassy CSS, referred to as SCSS. The indented syntax was the original syntax for SASS and is only dependent on indentation. SCSS syntax is very similar to regular CSS but with the qualities of SASS. Because of the resembles of standard CSS, SCSS is the easiest to learn and most famous of the two syntaxes. For this project, SCSS will be used because it resembles CSS. 
+\acrfull{sass} is an extension language to \acrshort{css} that adds more functionality to regular \acrshort{css}. With \acrshort{sass}, it is possible to have a stylesheet split up into multiple files, create functions, etc. \acrshort{sass} is then compiled to regular \acrshort{css} so the browser can understand it. \acrshort{sass} is also called a preprocessor for \acrshort{css} because of this. \acrshort{sass} has two different syntaxes; the indented syntax, commonly referred to as \acrshort{sass}, and sassy \acrshort{css}, referred to as \acrshort{scss}. The indented syntax was the original syntax for \acrshort{sass} and is only dependent on indentation. \acrshort{scss} syntax is very similar to regular \acrshort{css} but with the qualities of \acrshort{sass}. Because of the resembles of standard \acrshort{css}, \acrshort{scss} is the easiest to learn and most famous of the two syntaxes. For these reasons \acrshort{scss} will be used in this project.
 
 \paragraph{Variables}
-Variables in a stylesheet are helpful, especially when dealing with colors. Often websites have color schemes from their design. By assigning each color to a variable, only one row of code needs to be changed if the color scheme is updated. Regular CSS does support variables, but they can be cumbersome to use, especially if the variables will be used globally in the stylesheet.
+Variables in a stylesheet are helpful, especially when dealing with colors. Often websites have color schemes from their design. By assigning each color to a variable, only one row of code needs to be changed if the color scheme is updated. Regular \acrshort{css} does support variables, but they can be cumbersome to use, especially if the variables will be used globally in the stylesheet.
 
-To style an element in CSS, we must first target the element with a CSS selector. A selector could be an HTML element such as a div or a heading. CSS also has additional selectors called pseudo-elements. Pseudo-elements are defined by a colon before their name, such as :after, :before, and :root. These elements do not add additional data to the website but help the developer to style it. 
+To style an element in \acrshort{css}, we must first target the element with a \acrshort{css} selector. A selector could be an HTML element such as a div or a heading. \acrshort{css} also has additional selectors called \glspl{pseudo}. \Glspl{pseudo} are defined by a colon before their name, such as :after, :before, and :root. These elements do not add additional data to the website but help the developer to style it. 
 
-A variable in CSS is defined by adding two dashed before the variable name.  The variable must also be defined within a selector and thereby only operate within that selector. The :root pseudo-element can be used to define variables globally within the stylesheet. When using the variables, they must be put inside the var()-function to work.
+A variable in \acrshort{css} is defined by adding two dashed before the variable name.  The variable must also be defined within a selector and thereby only operate within that selector. The :root \gls{pseudo} can be used to define variables globally within the stylesheet. When using the variables, they must be put inside the var()-function to work.
 Below an example of defining and using a variable can be seen. 
 
 \begin{lstlisting}[style=htmlcssjs]
@@ -193,7 +191,7 @@ div{
 \end{lstlisting}
 
 
-SCSS variables are not required to be defined within a selector, making them globally reachable within the stylesheet by default. The dollar-sign (''\$'') is used to define an SCSS variable. We can use an SCSS variable by simply adding the variable where we want to use it. The example below is achieving the same result as the previous example.
+\acrshort{scss} variables are not required to be defined within a selector, making them globally reachable within the stylesheet by default. The dollar-sign (''\$'') is used to define an \acrshort{scss} variable. We can use an \acrshort{scss} variable by simply adding the variable where we want to use it. The example below is achieving the same result as the previous example.
 
 
 \begin{lstlisting}[style=htmlcssjs]
@@ -206,7 +204,7 @@ div{
 
 
 \paragraph{Mixin and Include}
-CSS is notoriously known for having many code duplications. These duplications occur when the same styling for different elements is needed. SCSS has a solution to this called mixins. A mixin is a sort of function that stores multiple CSS rules defined with @mixin before the function name and used with @include. Below is an example of centering all children in an element with a mixin. 
+\acrshort{css} is notoriously known for having numerous code duplications. These duplications occur when the same styling for different elements is needed. \acrshort{scss} has a solution to this called \glspl{mixin}. A \gls{mixin} is a sort of function that stores multiple \acrshort{css} rules defined with @mixin before the function name and used with @include. Below is an example of centering all children in an element with a \gls{mixin}. 
 
 \begin{lstlisting}[style=htmlcssjs]
 @mixin centered {
@@ -226,7 +224,7 @@ div{
 
 % \subsubsection{SCSS}%
 % \label{ssub:SCSS}
-% \cite{SassSyntacticallyAwesome} 
+% \cite{\acrshort{sass}SyntacticallyAwesome} 
 
 % \subsubsection{Webpack}%
 % \label{sub:Webpack}
@@ -236,14 +234,14 @@ div{
 
 \subsubsection{Web Components}%
 \label{sub:Web Components}
-Web Components are a set of different JavaScript APIs and HTML features that make it possible to create reusable custom elements\cite{WebComponentsMDN}. These elements are encapsulated away from the rest of the code. All major browsers support these web components. Because web components are run natively on HTML, CSS, and JavaScript, they are compatible with all JavaScript frameworks, such as React, Vue, and Angular. Web components are built with three technologies: Custom elements, shadow DOM, and HTML Templates. 
+Web Components are a set of different JavaScript \acrshortpl{api} and \acrshort{html} features that make it possible to create reusable custom elements\cite{WebComponentsMDN}. These elements are encapsulated away from the rest of the code. All major browsers support these web components. Because web components are run natively on \acrshort{html}, \acrshort{css}, and JavaScript, they are compatible with all JavaScript frameworks, such as React, Vue, and Angular. Web components are built with three technologies: Custom elements, shadow DOM, and \acrshort{html} Templates. 
 
 \paragraph{Custom Elements}
-With the help of a set of JavaScript APIs, we can define custom elements and their behavior. By creating custom elements, we can encapsulate HTML functionality outside of the main page itself. By doing this, the HTML code becomes much more readable. 
+With the help of a set of JavaScript \acrshortpl{api}, we can define custom elements and their behavior. By creating custom elements, we can encapsulate \acrshort{html} functionality outside of the main page itself. By doing this, the \acrshort{html} code becomes much more readable. 
 
 \paragraph{Shadow DOM}%
 \label{ssub:Shadow DOM}
-When the browser reads in an HTML page, a document object model tree (DOM tree) is created.  In figure \ref{fig:shadow}, we can see this tree. Shadow DOM is a set of JavaScript APIs that lets us attach an encapsulated ''shadow'' DOM tree to an existing node in the DOM tree. This ''shadow'' DOM extends the main document DOM like a branch. The difference from a regular branch is that the main DOM is not aware of the ''shadow'' DOMs data or functionality and vice versa. The ''shadow'' DOM is then essentially its own tree with its own stylesheet that cannot be modified or overwritten from the main DOM.\\
+When the browser reads in an \acrshort{html} page, a document object model tree (\acrshort{dom} tree) is created.  In figure \ref{fig:shadow}, we can see this tree. Shadow \acrshort{dom} is a set of JavaScript \acrshortpl{api} that lets us attach an encapsulated ''shadow'' \acrshort{dom} tree to an existing node in the \acrshort{dom} tree. This ''shadow'' \acrshort{dom} extends the main document \acrshort{dom} like a branch. The difference from a regular branch is that the main \acrshort{dom} is not aware of the ''shadow'' \acrshort{dom}s data or functionality and vice versa. The ''shadow'' \acrshort{dom} is then essentially its own tree with its own stylesheet that cannot be modified or overwritten from the main \acrshort{dom}.\\
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\linewidth]{images/shadow.png}
@@ -256,11 +254,11 @@ When the browser reads in an HTML page, a document object model tree (DOM tree) 
 
 \paragraph{HTML Templates}%
 \label{ssub:HMTL Templates}
-The HTML \textit{template}-tag and \textit{slot}-tag enable you to write markup templates that are not displayed on the rendered HTML page. Which then can be reused throughout the HTML page. HTML templates enable web components to be reused multiple times, with different instances, in the DOM tree.
+The \acrshort{html} \textit{template}-tag and \textit{slot}-tag enable you to write markup templates that are not displayed on the rendered \acrshort{html} page. Which then can be reused throughout the \acrshort{html} page. \acrshort{html} templates enable web components to be reused multiple times, with different instances, in the \acrshort{dom} tree.
 
 \subsubsection{LitElement}%
 \label{ssub:LitElement}
-Web components can be manually built using custom elements, shadow DOM, and HTML templates mentioned above. A group of engineers from the Google Chrome team in the Polymer Project \cite{polymerPolymerProject} have built a lightweight class called LitElement. LitElement combines functionality from the web components technologies to a class that makes it easy to create web components with concise and malleable code.
+Web components can be manually built using custom elements, shadow \acrshort{dom}, and \acrshort{html} templates mentioned above. A group of engineers from the Google Chrome team in the Polymer Project \cite{polymerPolymerProject} have built a lightweight class called LitElement. LitElement combines functionality from the web components technologies to a class that makes it easy to create web components with concise and malleable code.
 
 
 % \subsubsection{Recursive functions}%
@@ -274,7 +272,7 @@ Web components can be manually built using custom elements, shadow DOM, and HTML
 
 \subsection{Distribute}%
 \label{sub:Distribute}
-After a \gls{component} has been designed and developed, the components can now be used in a project. Often the created component is used by more than one part, and therefore it should be distributed seamlessly. There are many ways to distribute a component, but the most widely used way is to use a package manager.
+After a \gls{component} has been designed and developed, the \glspl{component} can now be used in a project. Often the created \gls{component} is used by more than one part, and therefore it should be distributed seamlessly. There are many ways to distribute a \gls{component}, but the most widely used way is to use a package manager.
 
 
 % To be able to use the components created from the designer the developers need to be able to get a hold of them. A lot of reusable code that is crated for the web can be accessed from the internet with the help of package managers.
@@ -282,12 +280,12 @@ After a \gls{component} has been designed and developed, the components can now 
 \label{sub:Package Manager}
 % \cite{PackageManager2020} 
 
-The most traditional way of installing and updating software is to download an installer. This installer will then install the software to the system, which can then be used. If an update is needed, the software can notify the user to update or update itself in the background.
+The most traditional way of installing and updating software is to download an installer. The installer will then install the software to the system, which can then be used. If an update is needed, the software can notify the user to update or update itself in the background.
 
-A package manager is a way to install and update software with ease compared to a more traditional installer. A package manager bundles up the source code into a package. This package can then be distributed over the Internet and installed and updated without an internal installer. 
+A package manager is a way to install and update software with ease compared to a more traditional installer. A package manager bundles up the source code into a package. This package can then be distributed over the Internet and installed and updated without the need of an internal installer. 
 
-The package manager that this project will use is Node Package Manager (NPM), which is the world's largest software registry\cite{NpmNpmDocs}.
-NPM has a straightforward interface, whereas if something needs to be installed, the following can be typed: 
+The package manager that this project will use is \acrfull{npm}, which is the world's largest software registry\cite{NpmNpmDocs}.
+\acrshort{npm} has a straightforward interface, whereas if something needs to be installed, the following can be typed: 
 
 
 \begin{lstlisting}[style=htmlcssjs]
@@ -297,7 +295,7 @@ NPM has a straightforward interface, whereas if something needs to be installed,
 \subsubsection{Open Source}%
 \label{ssub:Open Source}
 
-\textit{The term open source refers to something people can modify and share because its design is publicly accessible.} - Opensource.com 
+\textit{The term open source refers to something people can modify and share because its design is publicly accessible.} - Opensource.com\cite{WhatOpenSource}
 
 Open source originated from developers creating software that was designed to be open and modified by anyone. In an open-source project, the source code for the software must be available for others to use. To signify that the project is open-source, an open-source license is added to the source code. These licenses affect how the user can use, study, distribute, and modify the software's source code. The most used licenses state that the user can do anything they wish with the software. Some licenses state that if alterations are done on the software, the altered version must also be open-source. 
 
@@ -313,7 +311,7 @@ Open source originated from developers creating software that was designed to be
 
 \subsection{Testing}%
 \label{sub:Testing}
-When a product has been created, tests can be run on the product. The test's main objective is to find contingent bugs in the software and flaws with the UI. Further, the testing is done to ensure that assumptions taken when creating the product are verified.
+When a product has been created, tests can be run on the product. The test's main objective is to find contingent bugs in the software and flaws with the UI. Further, the testing is done to ensure that assumptions taken when creating the product are verified or debunked.
 
 \subsubsection{Usability testing}%
 \label{ssub:User testing}
@@ -324,7 +322,7 @@ Usability testing is essentially performed to find flaws in an interface by putt
 Lazar et al.\cite[Chapter~10]{lazar2017research}  consider usability testing a cousin to traditional research methods, where traditional research refers to methods such as experimental design\cite[Chapter~3]{lazar2017research}  and ethnography\cite[Chapter~9]{lazar2017research}.
 Similarities can be found in experimental design with measurement of task performance and time performance, surveys, and observation techniques from ethnography. The participants in usability testing, as in traditional research, must remain anonymous, be informed of their rights, and can leave the research at any time. What separates usability testing from traditional research is often the end goals. For usability testing, the end goals are to create the best product possible, with the time and resources at hand, while the traditional research methods want to find answers to questions that are universal for the field researched. 
 	
-Wixson proclaims in his study that usability testing is closer to engineering than traditional research \cite{wixon2003evaluating}. Usability testing, as engineering, is focused on creating a successful product with limited time and resources. Tests are done in iterations where the prototype will be changed between each test to fix the flaws found during the test. The next iteration of tests will then be used to verify the fixed flaws simultaneously as it searches for other flaws. This is, in most if not all traditional research, considered unacceptable. 
+Wixson proclaims in his study that usability testing is closer to engineering than traditional research \cite{wixon2003evaluating}. Usability testing, as engineering, is focused on creating a successful product with limited time and resources. Tests are done in iterations where the prototype will be changed between each test to fix the flaws found during the test. The next iteration of tests will then be used to verify the fixed flaws simultaneously as it searches for other flaws. This is, in most if not all traditional research, considered unacceptable. This because there is no way of knowing or statistically verifying the results from the first tests. 
 
 To get more credible data out of a test and not just for improving the product, the test environment should be kept as similar as possible for each user. By doing this, the data can be statistically analyzed, making it easier to make more accurate decisions of what to do next.
 
@@ -343,7 +341,7 @@ Where \textit{N} is the total number of usability problems and  \textit{L} is th
 
 Lazar, et al. explains that many researchers disagree with the assertion of five test users for successful usability testing because of Nielsen and Landauer approximation of the total number of usability problems\cite[Chapter~10.5.3]{lazar2017research}. This number \textit{N} is probably unknown, and therefore the number of test users \textit{n} cannot be found.
 
-The topic of what number of test users are sufficient for usability testing has been discussed for over 30 years. What is important to point out is that performing usability testing is valuable to do than not to do. 
+The topic of what number of test users are sufficient for usability testing has been discussed for over 30 years. What is important to point out is that performing usability testing is more valuable to do than not to do. 
 
 
 \textit{
@@ -365,7 +363,7 @@ So instead of saying, “how many users must you have?,” maybe the correct que
  
 % A/B testing is verified using two-sample hypothesis testing from the field of statistics. This means that decisions be made completely based on data. Then there is no guessing on where to go next.
 
-A/B testing, or bucket testing, is a user experience (UX) research method where two variants of a program/interface are tested. These two variants are referred to as A and B, hence the name A/B testing. The A and the B variant are tested on the user, and then their responses are compared and evaluated. Often just a small change is made in a UI and evaluated on many users. 
+A/B testing, or bucket testing, is a user experience (UX) research method where two variants of a program/interface are tested. These two variants are referred to as A and B, hence the name A/B testing. The A and the B variant are tested on the user, and then their responses are compared and evaluated. Often just a small change is made in a \acrshort{ui} and evaluated on many users. 
 
 A/B testing is verified using two-sample hypothesis testing from the field of statistics. This means that decisions that will be made are entirely based on data. Then there is no guessing on where to go next.
 
