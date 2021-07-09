@@ -14,7 +14,7 @@ In this section, the results from the project will be presented. These results a
 
 \subsection{Prototype}%
 \label{sub:Prototype}
-The prototype created in this project can create web components dynamically from a Figma document, create SCSS variables, and mixins from Figmas colors and text styles. The components, variables, and mixins are ready to be used as a package out of the box with NPM. This prototype is available on Knowit- experience-norrlands GitHub page and is free to use and modify under the MIT open source license. 
+The prototype created in this project can create web components dynamically from a Figma document, create \acrshort{scss} variables, and \glspl{mixin} from Figmas colors and text styles. The components, variables, and \glspl{mixin} are ready to be used as a package out of the box with \acrshort{npm}. This prototype is available on Knowit- experience-norrlands GitHub page and is free to use and modify under the MIT open source license. 
 
 The prototype has been usability tested, see section \ref{sub:Usability Testing}, which showed indications of being arbitrarily usable for all essential functions. 
 
@@ -22,11 +22,11 @@ The prototype has been usability tested, see section \ref{sub:Usability Testing}
 \label{sub:Initial interviews}
 The interviews were done to get an understanding of how this tool could be structured around the employee's workflow for all competence groups.
 
-From the interviews, there was found that the majority liked the idea and thought that the created prototype could be a helpful tool.  The interviews involved three different competence groups, designers, front-end developers, and back-end developers. The interviewees that were back-end developers were the ones with the most hesitation. There where much uncertainty about whether or not a tool like this could be helpful. The main concerns were the responsiveness of the components and to have a link between Figma and the components directly.
+From the interviews, there was found that the majority liked the idea and thought that the created prototype could be a helpful tool.  The interviews involved three different competence groups, designers, front-end developers, and back-end developers. The interviewees that were back-end developers were the ones with the most hesitation. There where much uncertainty about whether or not a tool like this could be helpful. The main concerns were the responsiveness of the \glspl{component} and to have a link between Figma and the \glspl{component} directly. As of now, the \glspl{component} outer container is static, which means that the width or height of the display showing the \gls{component} does not affect it, which often becomes a problem.   
 
 The interviewees that were designers and front-end developers were more positive. They thought that the tool was interesting and could potentially help with communication between them and the developers.
 
-There was no objection to the implementation at the time because this way of working is a lot different from what they were used to.  
+There was no objection to the implementation at the time because this way of working were a lot different from what these employees were used to.  
 
 
 \subsection{Usability Testing}%
@@ -42,10 +42,10 @@ The first iteration of the test gave a list of flaws with the interface.
    \item When setting up a new Figma document, all users had a hard time what they were allowed to name their document.
    \item TypeScript must be installed globally to run the TypeScript compiler. This was not mentioned in the documentation. 
       \begin{itemize}
-         \item When the generation has been completed, the TypeScript files must be compiled using the \textit{tsc}-command. This needs to be done to use as a package but was misunderstood.
+         \item When the generation has been completed, the TypeScript files must be compiled using the \textbf{T}ype \textbf{S}cript \textbf{C}ompiler (tsc)-command. This needs to be done to use as a package but was misunderstood.
       \end{itemize}
-   \item When creating a local NPM-package, there was no way for the users to understand what the name for the package was. 
-   \item When styling the parent of the component, the target string is the component's name in camel-case, which was not described. The styling of the parent can also be done with the regular \textit{Style} attribute, which was suggested by one of the users.
+   \item When creating a local \acrshort{npm}-package, there was no way for the users to understand what the name for the package was. 
+   \item When styling the parent of the component, the target string is the component's name in \gls{camel}, which was not described. The styling of the parent can also be done with the regular \textit{Style} attribute, which was suggested by one of the users.
 \end{itemize}
 
 All of the flaws found could be corrected for the next iteration of the test. The questions after each test revealed that the users thought the prototype had a logical flow but that there was a high learning curve. They liked the use of pictures in the user guide and suggested adding more if possible.  
@@ -62,12 +62,12 @@ The second iteration of the test had five participants, where one was a develope
    \item When creating a Figma access token, users now found where to create the token but not how to do it.
    \item When using color and text styles, the users found it hard how to implement them. They often confused the implementation of the two. 
    \item When styling or changing text on the component, the examples are based on an image at the start of the user guide. The users did not understand that the image at the start was connected to the examples. A suggestion from the user was to duplicate the image and show it again further down.
-   \item Most users had a hard time understanding why and when to compile the TypeScript component files. A suggestion from a user was to incorporate the compilation within the \textit{''convert''}-script.
-   \item Two users thought that the components should be used with camelCase instead of kebab-case when initiating the component in the HTML.
+   \item Most users had a hard time understanding why and when to compile the TypeScript component files. A suggestion from a user was to incorporate the compilation within the main script of the prototype.
+   \item Two users thought that the components should be used with \gls{camel} instead of \gls{kebab} when initiating the component in the \acrshort{html}.
    \item Some users found it hard to find different headings in the user guide. Their suggestion was to make the headings bigger and thought it unnecessary to have them nested.
 \end{itemize}
 
-The flaws that were found in the second iteration of the tests could all be fixed. Changing the \textit{''convert''}-script was one of the most significant changes but allowed the user guide to be shortened and the prototype to be run faster.
+The flaws that were found in the second iteration of the tests could all be fixed. Changing the main script was one of the most significant changes but allowed the user guide to be shortened and the prototype to be run faster.
 
 
 \subsection{A/B Testing}%

@@ -97,7 +97,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.5} A/B Testing }{24}{subsection.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Result}{24}{section.5}%
+\contentsline {section}{\numberline {5}Result}{25}{section.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1}Prototype}{25}{subsection.5.1}%
 \defcounter {refsection}{0}\relax 
@@ -105,7 +105,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3}Usability Testing}{25}{subsection.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1}Iteration one}{25}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1}Iteration one}{26}{subsubsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.3.2}Iteration two}{26}{subsubsection.5.3.2}%
 \defcounter {refsection}{0}\relax 

@@ -829,6 +829,9 @@
       \field{urlmonth}{7}
       \field{urlyear}{2021}
       \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/KZJBI2AZ/what-open-source.html
+      \endverb
       \verb{urlraw}
       \verb https://opensource.com/resources/what-open-source
       \endverb
@@ -1232,6 +1235,70 @@
       \field{volume}{18}
       \field{year}{2013}
       \field{dateera}{ce}
+    \endentry
+    \entry{VideoConferencingMeetings}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Microsoft Teams is the hub for team collaboration in Microsoft 365 that integrates the people, content, and tools your team needs to be more engaged and effective.}
+      \field{langid}{english}
+      \field{title}{Video {{Conferencing}}, {{Meetings}}, {{Calling}} | {{Microsoft Teams}}}
+      \field{urlday}{9}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/NAIC263G/group-chat-software.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.microsoft.com/en-ww/microsoft-teams/group-chat-software
+      \endverb
+      \verb{url}
+      \verb https://www.microsoft.com/en-ww/microsoft-teams/group-chat-software
+      \endverb
+    \endentry
+    \entry{Webpack}{online}{}
+      \list{organization}{1}{%
+        {webpack}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{abstract}{webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset., webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.}
+      \field{langid}{english}
+      \field{title}{Webpack}
+      \field{urlday}{9}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/32MJY3TK/webpack.js.org.html
+      \endverb
+      \verb{urlraw}
+      \verb https://webpack.js.org/
+      \endverb
+      \verb{url}
+      \verb https://webpack.js.org/
+      \endverb
+    \endentry
+    \entry{RollupJs}{online}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{title}{Rollup.Js}
+      \field{urlday}{9}
+      \field{urlmonth}{7}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/B8WAAHZE/en.html
+      \endverb
+      \verb{urlraw}
+      \verb https://rollupjs.org/guide/en/
+      \endverb
+      \verb{url}
+      \verb https://rollupjs.org/guide/en/
+      \endverb
     \endentry
   \enddatalist
 \endrefsection

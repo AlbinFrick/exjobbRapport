@@ -7,17 +7,28 @@ In this section, a discussion about the results of the study will be taken place
 \subsection{The Prototype}%
 \label{sub:The Prototype}
 Most time and effort for this project went into creating the prototype. 
-There were a lot of problems that needed to be solved where the biggest one was; How can a component be built that works for all JavaScript frameworks, including static pages. The research focused on finding solutions that made it possible to work with static pages. Because if a solution that works natively within HTML-CSS-JavaScript has a much higher chance of working together with frameworks. The web component was a clear choice.
+There were a lot of problems that needed to be solved where the biggest one was; How can a component be built that works for all JavaScript frameworks, including static pages. The research focused on finding solutions that made it possible to work with static pages. Because a solution that works natively within \acrshort{html}-\acrshort{css}-JavaScript has a much higher chance of working together with frameworks. The web component was a clear choice.
 
-As explained in the theory section, Web components are a mixture of three technologies, custom elements, shadow DOM, and HTML templates. This would work natively for all frameworks and static pages. The problem with using web components is that it is complicated to make the components loosely coupled between projects. The LitElement class from Polymer provided a solution. In addition, this also made the creation of the components much more straightforward. A problem with LitElement was that to use them \textit{open imports} need to be handled. This is when the import does not target a file or a function from a module. This is only supported when running in node.js, not in browsers at the moment. To solve this issue, a bundler must be used, such as Webpack or Rollup. This was not optimal, but the upside of LitElement still transcends this downside. This answers two of the research questions stated at the beginning of the project:
+As explained in the theory section, Web components are a mixture of three technologies, custom elements, shadow \acrshort{dom}, and \acrshort{html} templates. This would work natively for all frameworks and static pages. The problem with using web components is that it is complicated to make the components loosely coupled between projects. The LitElement class from Polymer provided a solution. In addition, this also made the creation of the components much more straightforward. A problem with LitElement was that to use them \textit{open imports} need to be handled. This is when the import does not target a file or a function from a module.
+
+
+\begin{lstlisting}[style=htmlcssjs]
+\\ Normal import
+import React from 'react';
+
+\\ Open import 
+import 'LitElement';
+\end{lstlisting}
+
+This is only supported when running in node.js, not in browsers at the moment. To solve this issue, a bundler can be used, such as Webpack\cite{Webpack} or Rollup\cite{RollupJs}. This was not optimal, but the upside of LitElement still transcends this downside. This answers two of the research questions stated at the beginning of the project:
 \begin{itemize}
   \item \textit{Can components be built that works for all JavaScript frameworks and static pages?} 
   \item \textit{Is it possible to automate the whole process from UI design program to browser runnable code?}.
 \end{itemize}
 
-One of the biggest struggles with creating the tool was to make sure that the prototype built the right amount of elements in the right place. This was solved with recursive functions. These functions call themself until they handle the ''youngest'' child and build the elements from there and go from generation to generation. This is a good way of building the components but it can become a performance taxing function if the components become too big. This has not been tested, but there have been indications of slow performance. Optimizing these functions needs to be carried out to make the prototype viable for more extensive components and projects.
+One of the biggest struggles with creating the tool was to make sure that the prototype built the right amount of elements in the right place. This was solved with recursive functions. These functions call themselves until a requirement of the function is met. This is a good way of building the components but it can become a performance taxing function if the components become too big. This has not been tested, but there have been indications of slow performance. Optimizing these functions needs to be carried out to make the prototype viable for more extensive components and projects.
 
-The prototype has some features that, unfortunately, could not be tested within the project timeframe. Such as slotting. Where the user can decide a slot in the component where the user can insert an element or another component into it. This feature was believed to be necessary for carrying out the required task in later tests, which was a wrong assumption. The time spent on developing the feature could have been used for further testing, which would have been more efficient.
+The prototype has some features that, unfortunately, could not be tested within the project timeframe. Such as slotting. Where the user can decide a slot in the component where the user can insert an element or another component into it. This feature was believed to be necessary for carrying out the required task in later tests, which was wrong to assume. The time spent on developing the feature could have been used for further testing, which would have been more efficient.
 
 
 
@@ -63,7 +74,7 @@ The test is designed to be performed in pairs of a developer and designer so the
 \label{sub:conclusion}
 This thesis had five research questions.  
 \begin{itemize}
-  \item Is it possible to automate the whole process from UI design program to browser runnable code? 
+  \item Is it possible to automate the whole process from \acrshort{ui} design program to browser runnable code? 
  \item Can components be built that works for all JavaScript frameworks and static pages?
   \item How can a user-friendly tool be built that automates component generation?  
   \item Will automation between design and development increase communication between designers and developers?
@@ -77,10 +88,10 @@ The indications from users and interviewees have been positive about what the pr
 \section{Future Work}%
 \label{sub:Future Work}
 
-From the interviews and tests that have been performed, there have been many positive indications that the tool could be helpful. The next step for the prototype is either to create a graphical user interface (GUI) or to expand on the functionality of the component generation. The benefits of creating a GUI are that the user does not need to rely on a user guide. It also makes it much easier to handle Figma documents stored in the program. Creating a GUI would take more time, but usability testing would be easier to perform, and the user experience has more potential to be better. It would be easier to steer the user in the right direction. The learning curve for the user could be shortened to be most about using and altering the generated components. 
+From the interviews and tests that have been performed, there have been many positive indications that the tool could be helpful. The next step for the prototype is either to create a graphical user interface (\acrshort{gui}) or to expand on the functionality of the component generation. The benefits of creating a \acrshort{gui} are that the user does not need to rely on a user guide. It also makes it much easier to handle Figma documents stored in the program. Creating a \acrshort{gui} would take more time, but usability testing would be easier to perform, and the user experience has more potential to be better. It would be easier to steer the user in the right direction. The learning curve for the user could be shortened to be most about using and altering the generated components. 
 
 The tool as of now only supports the most basic styling parameters such as width, height, positioning, etc., but there would not be much work to add more of these. The ones that would be a great addition are gradients, shadows, and rotation because these can become tricky to do manually, especially for more complex components. 
 
 The prototype as of now is highly dependent on the auto-layout feature in Figma. There are possible to work around this and make for a more general solution. This could mean less work for the designer to adapt their design to work with the generator and make development more efficient. 
 
-Depending on the situation, there are arguments to go ahead with A/B testing before and after developing a GUI. If there are resources to do both, the recommendation is to develop the GUI first. Having a GUI potentially makes the learning curve smaller and thereby gets less spread on the results. If there only is resources to do the tests or the GUI, the argument could be made to do the tests first. In the worst case, this would give indications on the efficiency of the tool and at best statistically establish the tool as efficient. Then the question becomes easier if there is an opportunity to invest in the tool. 
+Depending on the situation, there are arguments to go ahead with A/B testing before and after developing a \acrshort{gui}. If there are resources to do both, the recommendation is to develop the \acrshort{gui} first. Having a \acrshort{gui} potentially makes the learning curve smaller and thereby gets less spread on the results. If there only is resources to do the tests or the \acrshort{gui}, the argument could be made to do the tests first. In the worst case, this would give indications on the efficiency of the tool and at best statistically establish the tool as efficient. Then the question becomes easier if there is an opportunity to invest in the tool. 
