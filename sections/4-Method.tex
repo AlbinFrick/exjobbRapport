@@ -3,11 +3,19 @@
 % This system was thought of as a tool to be used in many different projects. Because of this the mark on accessibility was big. The developer should not be constrained on what framework or lack there of he or she is using. This should work on all platforms.
 % }
 
-In this section, the methods used to answer the research questions (see section \ref{sub:Objective}) will be presented. At the beginning of the project, a literature study was performed. This to get an overview of what similar work existed in the field. Knowit, the company connected to the study, wanted an easier way to create components for web development projects. A tool was built to fulfill this want. 
+This section will present the methods used to answer the research questions (see section \ref{sub:Objective}). At the beginning of the project, a literature study was performed. This was done to get an overview of similar work in the field. Knowit, the company connected to the study, wanted an easier way to create components for web development projects. A tool was built to fulfill this need. 
 
 Throughout this process, Knowit was involved with semi-weekly checkups for support. Semi-Structured interviews were carried out on the employees of Knowit to steer the development of the tool to fit their needs. 
 
-When a prototype was somewhat complete, iterations of usability testing were performed. This was done to ensure that the tool was usable for more people than just the author. Lastly, to investigate what impacted the created tool could have, an A/B test was designed.
+When a prototype was functional, iterations of usability testing were performed. This was done to ensure that the tool was usable for more people than just the author. Lastly, to investigate what impact the created tool could have, an A/B test was designed.
+
+
+\begin{figure}[H]
+  \includegraphics[width=\linewidth]{../images/Project flow chart.png}
+  \caption{Flow chart over the project}
+  \label{fig:projectFlowChart}
+\end{figure}
+
 
 \subsection{Initial Research}%
 \label{sub:Initial Research}
@@ -29,9 +37,14 @@ One of the requirements was that the tool could be applicable for all types of p
 
 % \end{itemize}
 
+\subsection{Semi-Structured Interviews}%
+\label{sub:inteviews}
+This tool is intended to be used by people in many different areas of expertise, from designers to front-end developers to back-end developers. A semi-structured interview model was used \cite{galletta2013mastering} to understand the work these people do in their respective roles to be able to build/develop a tool that is functional for all parts of the workflow (all the different roles in the workflow). The semi-structured interview was carried out with a script of questions that were asked to every interviewee. Unlike the structured interview, the semi-structured interview allows for further explanation and follow-up questions from the interviewer. These interviews were done with seven employees of Knowit Experience Umeå and Sundsvall. 
+
+Because of the broad nature of the tool created, it was important to get participants that worked with all affected areas of expertise. The interviews were done digitally over Microsoft Teams \cite{VideoConferencingMeetings}. The scripts used for these interviews can be found in the appendix (The scripts are only in Swedish). 
 
 \subsection{Creating the tool}%
-\label{sub:}
+\label{sub:creatingTool}
 % After the interviews and research phase a clear understanding of the tools that would be used was had. (<--haha what) For creating the tool it self TypeScript was used to be able to use types to find problems before they crashed the code. LitElement was then used to 
 
 The first step of creating the tool was discussing with Knowit what could be possible to achieve under the 20 week project time. As seen from the literature study, the big problem was how to condense the elements from the code to be used efficiently. 
@@ -78,11 +91,7 @@ The program built does not have a graphical user interface, again because of the
 % knowit uses a supercharged version of css called scss in most of their projects (section \ref{sub:sass}). scss handles variables in a more intuitive way than regular  css which made it the clear choice for storing styling variables moving forward.
 
 
-\subsection{Semi-Structured Interviews}%
-\label{sub:inteviews}
-This tool is intended to be used by people in many different areas of expertise, from designers to front-end developers to back-end developers. A semi-structured interview model was used \cite{galletta2013mastering} to understand the work these people do in their respective roles to be able to build/develop a tool that is functional for all parts of the workflow (all the different roles in the workflow). The semi-structured interview was carried out with a script of questions that were asked to every interviewee. Unlike the structured interview, the semi-structured interview allows for further explanation and follow-up questions from the interviewer. These interviews were done with seven employees of Knowit Experience Umeå and Sundsvall. 
 
-Because of the broad nature of the tool created, it was important to get participants that worked with all affected areas of expertise. The interviews were done digitally over Microsoft Teams \cite{VideoConferencingMeetings}. The scripts used for these interviews can be found in the appendix (The scripts are only in Swedish). 
 
 % \subsection{interviews from knowit}%
 % \label{sub:}

@@ -33,7 +33,7 @@ The medium with which these prototypes are created varies, but a \acrfull{ui} de
 
 Sketch\cite{sketchDigitalDesignToolkit} was released in 2010 and was one of the first applications that mainly focused on \acrshort{ui} design. In later years applications such as Figma\cite{figmaFigmaCollaborativeInterface}  (released 2016) and Adobe XD\cite{adobeAdobeXDFast} (released 2015) have come to overtake Sketch's dominance\cite{SketchVsFigma0200}. 
 
-In this thesis, Figma is the \acrshort{ui} design application that is used because Knowit is already using this tool. Figma is also one of few design applications that have an open \acrshort{api} which makes this project possible. 
+In this thesis, Figma is the \acrshort{ui} design application that is used because Knowit is already using this tool. Figma is also one of few design applications with an open \acrshort{rest}-\acrshort{api} that gives access to all prototype elements. This makes the project possible because all design data is accessible for a third-party tool that can create functional web components.  
 
  
 % Since the early 10's the UI design applications have been around to make this easier.
@@ -46,7 +46,7 @@ In this thesis, Figma is the \acrshort{ui} design application that is used becau
 
 \subsubsection{Figma}%
 \label{sub:Figma}
-Figma is a vector based \acrshort{ui} Design application that is web-based, which means that the whole program is run over a network\cite{FigmaCollaborativeInterface} . 
+Figma is a vector-based \acrshort{ui} Design application that is web-based, which means that the whole software is run over a network\cite{FigmaCollaborativeInterface} . 
 
 Figma has an open \acrshort{rest}-\acrshort{api} (Representational State Transfer) that supplies the information of the Figma document to servers over the Internet\cite{figmaFigma, RepresentationalStateTransfer2021}. Figma was chosen as the \acrshort{api} design application since it is web-based and Knowit uses it today. The \acrshort{api} is then constantly updated after each design change, which is great for collaboration and keeping the \acrshort{rest}-\acrshort{api} updated.
 
@@ -132,30 +132,30 @@ Developing something from a design is essential to make the design functional wi
 \textit{"\acrshort{css} describes how \acrshort{html} elements are to be displayed on screen, paper, or in other media"}\cite{CSSIntroduction}.\\
 JavaScript is a scripting language that enables us to create complex features on web pages. JavaScript enables us to update the content of the website dynamically. 
 
-In modern web design, many different frameworks, libraries, and, languages make it easier for developers to create products.  All these tools have one thing in common. They all convert to the three standard browser languages mentioned above. 
+In modern web design, many different frameworks, libraries, and, languages make it easier for developers to create products.  All these tools have one thing in common. They all convert their design to the three standard browser languages mentioned above. 
 
 One of the thesis objectives is to create a tool that could be used in as many projects as possible. Knowit is, as explained in the intro, a large company that has many different projects using lots of different frameworks. 
 
 
 \subsubsection{REST API}%
 \label{sub:REST API}
-\gls{rest} stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and is anarchitectural style of distributed hypermedia systems. Roy Fielding created this in 2000 with the release of his dissertation\cite{fieldingFieldingDissertationCHAPTER}. For an \acrshort{api} to be called RESTful, it needs to fill the following six requirements\cite{fieldingFieldingDissertationCHAPTER,restfulapi.netWhatREST}. 
+\gls{rest} stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and is an architectural style of distributed hypermedia systems. Roy Fielding created this in 2000 with the release of his dissertation\cite{fieldingFieldingDissertationCHAPTER}. An \acrshort{api} to be called RESTful needs to fill the following six requirements\cite{fieldingFieldingDissertationCHAPTER,restfulapi.netWhatREST}. 
 
 \begin{enumerate}
-  \item Client-server - the UI and data storage are separated:w. 
+  \item Client-server - the UI and data storage are separated. 
   \item Stateless - The server does not store any information about the client. The client must provide all information for every request. 
   \item Cacheable - A response can be explicitly or implicitly labeled as cacheable or non-cacheable. If the response is cacheable, the client has the right to store and reuse the response data for later. 
-  \item Uniform interface - Simplifies and decouples the architecture between clients and servers, which enables each part to evolve independently. Four principles guide this: Resource-Based, Manipulation of Resources Through Representation, Self-descriptive Messages, Hypermedia as the Engine of Application State\cite{WhatREST} . 
+  \item Uniform interface - Simplifies and decouples the architecture between clients and servers, which enables each part to evolve independently. Four principles guides this: Resource-Based, Manipulation of Resources Through Representation, Self-descriptive Messages, Hypermedia as the Engine of Application State\cite{WhatREST} . 
   \item Layered system - This architecture consists of hierarchical layers that constrain what each component can do, such as; a component can only interact with the layer it is on. 
   \item Code on demand (optional) - This allows the client to download and execute applets or scripts and therefore extending client functionality 
 \end{enumerate}
 
-These requirements make it lightweight and easy to understand and thereby introduce fewer problems into the system. 
+These requirements makes the \acrshort{api} lightweight and easy to understand and thereby introduce fewer problems into the system. 
 
 
 \subsubsection{JavaScript and TypeScript}%
 \label{ssub:JavaScript and TypeScript}
-JavaScript is a programming language that reports its error much later than many other languages. Variables can take any shape in JavaScript. That is, for instance, a number or a string. This can at first seem as good that the language is highly dynamic and flexible. This flexibility is also very error-prone, where most of the errors are discovered after the code is run. This results in being obliged to test running the code after every change\cite{taivalsaari2008web}. TypeScript was created to fix the error-prone nature of JavaScript. TypeScript is an open-source superset of JavaScript. TypeScript allows for the creation of types for variables, functions, etc., and thereby helps to find more errors before runtime\cite{WhyYouShould}. TypeScript then complies back to JavaScript before it is run and can thereby run everywhere JavaScript is run\cite{WhyYouShould}.  
+JavaScript is a programming language that reports its error much later than many other languages. Variables can take any shape in JavaScript. That is, for instance, a number or a string. This can at first seem promising, that the language is highly dynamic and flexible. This flexibility is also very error-prone, where most of the errors are discovered after the code is run. This results in being obliged to test running the code after every change\cite{taivalsaari2008web}. TypeScript was created to fix the error-prone nature of JavaScript. TypeScript is an open-source superset of JavaScript. TypeScript allows for the creation of types for variables, functions, etc., and thereby helps to find more errors before runtime\cite{WhyYouShould}. TypeScript then complies back to JavaScript before it is run and can thereby run everywhere JavaScript is run\cite{WhyYouShould}.  
 
 
 % \textit{Incremental testing is required. Due to its highly permissive, error-tolerant nature, JavaScript programming requires an incremental, evolutionary approach to testing as well. Since errors are reported much later than usual, by the time an error is reported it is often surprisingly difficult to pinpoint the original location of the error. Error detection is made harder by the dynamic nature of JavaScript, for instance, by the option to change some of the system features on the fly. Furthermore, in the absence of strong, static typing, it is possible to execute a program and only at runtime realize that some parts of the program are missing. For all these reasons, the best way to write JavaScript programs is to proceed step by step, by writing (and immediately testing) each new piece of code. If such an incremental, evolutionary approach is not used, debugging and testing can become quite tedious even for relatively small JavaScript applications.} 
@@ -164,19 +164,19 @@ JavaScript is a programming language that reports its error much later than many
 
 \subsubsection{Node.js}%
 \label{ssub:Node}
-Node.js is an open-source project that lets its users run code on the server asynchronously\cite{node.js}. JavaScript is a single threaded language, meaning that the compiler runs the program from top to bottom. If then a function is dependent on another function the latter function needs to wait for the first function to finish. This is called blocking and can become frustrating for the user \cite{GeneralAsynchronousProgramming}. By using asynchronous programming this can be avoided by running the different functions on different threads, this is what node.js does. This allows for a more efficient way of running JavaScript code without a browser. Node.js is designed to handle HTTP effectively. Streaming and low latency have therefore been a high priority. 
+Node.js is an open-source project that lets its users run code on the server asynchronously\cite{node.js}. JavaScript is a single-threaded language, meaning that the compiler runs the program from top to bottom. If a function is dependent on another function, the latter function needs to wait for the first function to finish. This is called blocking and can become frustrating for the user \cite{GeneralAsynchronousProgramming}. Using asynchronous programming blocking can be avoided by running the different functions on different threads, which is what node.js does. This allows for a more efficient way of running JavaScript code without a browser. Node.js is designed to handle HTTP effectively. Streaming and low latency have therefore been a high priority. 
 
 
 \subsubsection{Syntactically Awesome Style Sheets (SASS)}%
 \label{sub:sass}
-\acrfull{sass} is an extension language to \acrshort{css} that adds more functionality to regular \acrshort{css}. With \acrshort{sass}, it is possible to have a stylesheet split up into multiple files, create functions, etc. \acrshort{sass} is then compiled to regular \acrshort{css} so the browser can understand it. \acrshort{sass} is also called a preprocessor for \acrshort{css} because of this. \acrshort{sass} has two different syntaxes; the indented syntax, commonly referred to as \acrshort{sass}, and sassy \acrshort{css}, referred to as \acrshort{scss}. The indented syntax was the original syntax for \acrshort{sass} and is only dependent on indentation. \acrshort{scss} syntax is very similar to regular \acrshort{css} but with the qualities of \acrshort{sass}. Because of the resembles of standard \acrshort{css}, \acrshort{scss} is the easiest to learn and most famous of the two syntaxes. For these reasons \acrshort{scss} will be used in this project.
+\acrfull{sass} is an extension language to \acrshort{css} that adds more functionality to regular \acrshort{css}. With \acrshort{sass}, it is possible to have a stylesheet split up into multiple files, create functions, etc. \acrshort{sass} is then compiled to regular \acrshort{css} so the browser can understand it. \acrshort{sass} is also called a preprocessor for \acrshort{css} because of this. \acrshort{sass} has two different syntaxes; the indented syntax, commonly referred to as \acrshort{sass}, and sassy \acrshort{css}, referred to as \acrshort{scss}. The indented syntax was the original syntax for \acrshort{sass} and is only dependent on indentation. \acrshort{scss} syntax is very similar to regular \acrshort{css} but with the qualities of \acrshort{sass}. Because of the resemblance of standard \acrshort{css}, \acrshort{scss} is the easiest to learn and therefore the more popular of the two syntaxes. For these reasons \acrshort{scss} will be used in this project.
 
 \paragraph{Variables}
 Variables in a stylesheet are helpful, especially when dealing with colors. Often websites have color schemes from their design. By assigning each color to a variable, only one row of code needs to be changed if the color scheme is updated. Regular \acrshort{css} does support variables, but they can be cumbersome to use, especially if the variables will be used globally in the stylesheet.
 
 To style an element in \acrshort{css}, we must first target the element with a \acrshort{css} selector. A selector could be an HTML element such as a div or a heading. \acrshort{css} also has additional selectors called \glspl{pseudo}. \Glspl{pseudo} are defined by a colon before their name, such as :after, :before, and :root. These elements do not add additional data to the website but help the developer to style it. 
 
-A variable in \acrshort{css} is defined by adding two dashed before the variable name.  The variable must also be defined within a selector and thereby only operate within that selector. The :root \gls{pseudo} can be used to define variables globally within the stylesheet. When using the variables, they must be put inside the var()-function to work.
+A variable in \acrshort{css} is defined by adding two dashes before the variable name.  The variable must also be defined within a selector and thereby only operate within that selector. The :root \gls{pseudo} can be used to define variables globally within the stylesheet. When using the variables, they must be put inside the var()-function to work.
 Below an example of defining and using a variable can be seen. 
 
 \begin{lstlisting}[style=htmlcssjs]
@@ -228,6 +228,7 @@ div{
 
 % \subsubsection{Webpack}%
 % \label{sub:Webpack}
+
 
 
 
@@ -295,7 +296,7 @@ The package manager that this project will use is \acrfull{npm}, which is the wo
 \subsubsection{Open Source}%
 \label{ssub:Open Source}
 
-\textit{The term open source refers to something people can modify and share because its design is publicly accessible.} - Opensource.com\cite{WhatOpenSource}
+\textit{"The term open source refers to something people can modify and share because its design is publicly accessible."} - Opensource.com\cite{WhatOpenSource}
 
 Open source originated from developers creating software that was designed to be open and modified by anyone. In an open-source project, the source code for the software must be available for others to use. To signify that the project is open-source, an open-source license is added to the source code. These licenses affect how the user can use, study, distribute, and modify the software's source code. The most used licenses state that the user can do anything they wish with the software. Some licenses state that if alterations are done on the software, the altered version must also be open-source. 
 
@@ -363,7 +364,7 @@ So instead of saying, “how many users must you have?,” maybe the correct que
  
 % A/B testing is verified using two-sample hypothesis testing from the field of statistics. This means that decisions be made completely based on data. Then there is no guessing on where to go next.
 
-A/B testing, or bucket testing, is a \acrfull{ux} research method where two variants of a program/interface are tested. These two variants are referred to as A and B, hence the name A/B testing. The A and the B variant are tested on the user, and then their responses are compared and evaluated. Often just a small change is made in a \acrshort{ui} and evaluated on many users. 
+A/B testing, or bucket testing, is a statistical method often used in \acrfull{ux} research where two variants of a program/interface are tested. These two variants are referred to as A and B, hence the name A/B testing. The A and the B variant are tested on the user, and then their responses are compared and evaluated. Often just a small change is made in a \acrshort{ui} and evaluated on many users. 
 
 A/B testing is verified using two-sample hypothesis testing from the field of statistics. This means that decisions that will be made are entirely based on data. Then there is no guessing on where to go next.
 
@@ -407,9 +408,11 @@ The two variants tested are often called the ''control'' and the ''challenger''.
 The users are split into equally large sample groups where they either are shown variant A or variant B. 
 
 \textbf{Decide how significant the result of the test needs to be.}\\
-Before the test begins, a statistical significance must be established. Usually, this number is set to 95\%-99\%, meaning a 5\%-1\% chance that the test is showing a false positive. 
+Before the test begins, a statistical significance must be established. Usually, this number is set to 95\%-99\%, meaning a 5\%-1\% chance that the test is showing a false positive. A false positive is a test result that wrongly indicates that a particular condition or attribute is present. For example, if a person tests positive for Covid-19 without actually having the disease.
 
-Let's say we run the test on 20000 users, where 10000 gets variant A, and 10000 gets variant B. We record every time a user presses the button. In table \ref{tab:ab}, we can see a small portion of these recordings.
+
+
+Our hypothesis for the test is that variant B will get a higher click rate than variant A. We run the test on 20000 users, where 10000 gets variant A, and 10000 gets variant B. We record every time a user presses the button.In table \ref{tab:ab}, we can see a small portion of these recordings.
 
 \begin{table}[H]
   \centering
@@ -500,4 +503,5 @@ When data has been collected a statistical analysis needs to be done to be able 
 %   \item Analyze and compare
 %   \item Summary and results
 % \end{itemize}
+
 
