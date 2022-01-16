@@ -12,8 +12,19 @@
 
 In this section, the results from the project will be presented. These results are in sections of interviews, prototyping, and usability testing.
 
+\subsection{Initial research}
+\label{sub:Initial research}
 
-\subsection{Initial interviews}%
+At the start of the project, a meeting was held with a team at Knowit to determine their needs and their requirements on the project. After some discussion, there was an interest in creating an automated generating of code from their \acrshort{ui} design program, Figma. 
+
+With this in mind, research began on what competitors there were in the field of code generation for web applications, and two competitors were most interesting, Webflow and Visly (see section \ref{sub:Competitors}). Some interesting small projects were also found that were used as inspiration for creating the tool. One project, especially creating color variables from Figma made by Karl Rombauts, was used \cite{rombautsKarlRombautsFigmaSCSSGenerator2021}.
+
+How to encapsulate the Figma design elements into code was one of the most severe difficulties.  Different technologies were considered to find the fit for Knowit's requirements.  These technologies were using a JavaScript framework (such as Angular or React), plain \acrshort{html}-\acrshort{css}-JavaScript, or Web \glspl{component} with LitElement. 
+
+One of the requirements was that the tool could be applicable for all types of projects. Using a JavaScript framework would mean that some projects would not support the tool. Therefore that technology was counted out. Using plain \acrshort{html}-\acrshort{css}-JavaScript could work for all projects, but it would be hard to manage since the generated code would be static and hard to encapsulate. Web \glspl{component} was chosen as the technology for encapsulating the Figma design elements into code. The lightweight JavaScript class LitElement was then chosen to make the creation of web components easier. LitElement is run natively in \acrshort{html}-\acrshort{css}-JavaScript, and therefore works with all projects. LitElement is also much easier to manage than just generating plain \acrshort{html}-\acrshort{css}-JavaScript.
+
+
+\subsection{Semi-Structured interviews}%
 \label{sub:Initial interviews}
 The interviews were done to get an understanding of how this tool could be structured around the employee's workflow for all competence groups.
 
@@ -25,7 +36,18 @@ There was no objection to the implementation at the time because this way of wor
 
 \subsection{Prototype}%
 \label{sub:Prototype}
-The prototype created in this project can create web components dynamically from a Figma document, create \acrshort{scss} variables, and \glspl{mixin} from Figmas colors and text styles. The components, variables, and \glspl{mixin} are ready to be used as a package out of the box with \acrshort{npm}. This prototype is available on Knowit- experience-norrlands GitHub page and is free to use and modify under the MIT open source license. 
+The prototype created in this project can create web components dynamically from a Figma document, create \acrshort{scss} variables, and \glspl{mixin} from Figmas colors and text styles. The components, variables, and \glspl{mixin} are ready to be used as a package out of the box with \acrshort{npm}. This prototype is available on Knowit-experience-norrlands GitHub page and is free to use and modify under the MIT open source license. 
+
+The first step of creating the tool was discussing with Knowit what could be possible to achieve under the 20 week project time. As seen from the literature study, the big problem was how to condense the elements from the code to be used efficiently. 
+
+The tool that was to be built would fetch data from Figmas \acrshort{rest}-\acrshort{api}, interpret the response from the \acrshort{api}, and build LitElement objects from the interpretation.
+
+Figmas \acrshort{api} was examined to understand what was possible to do with it. Figmas website for developers\cite{figmaFigma} was read through and also some initial \acrshort{http}-requests were sent to the \acrshort{api}, using platform Postman \cite{PostmanCollaborationPlatform}. The initial response from the \acrshort{api} was large. This meant that setting the TypeScript types correct for all values in the response would be inefficient. To mitigate this the Visual Studio Code \cite{VisualStudioCode} extension quicktype\cite{ConvertJSONSwift} was used to generate types from the JSON response. 
+
+From the \acrshort{api} response, we could see that most, or at least enough, of the data were the same as styling in \acrshort{css}. This meant that styling elements with \acrshort{css} were possible from the \acrshort{api}.
+
+The information from Figmas \acrshort{api} was interpreted and stored as classes of colors, typographies, and \glspl{component}. The strategy was to generate a string that contained the LitElement. Essentially the program generated code as a string. This string is later written into a new TypeScript file that is then compiled into a JavaScript file that could be run in a browser.
+
 
 The prototype has been usability tested, see section \ref{sub:Usability Testing}, which showed indications of being arbitrarily usable for all essential functions. 
 

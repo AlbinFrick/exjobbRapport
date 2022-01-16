@@ -30,7 +30,7 @@
 \BOOKMARK [1][-]{section.4}{Method}{}% 30
 \BOOKMARK [2][-]{subsection.4.1}{Initial Research}{section.4}% 31
 \BOOKMARK [2][-]{subsection.4.2}{Semi-Structured Interviews}{section.4}% 32
-\BOOKMARK [2][-]{subsection.4.3}{Creating the tool}{section.4}% 33
+\BOOKMARK [2][-]{subsection.4.3}{Prototype}{section.4}% 33
 \BOOKMARK [3][-]{subsubsection.4.3.1}{Building the HTML for the component}{subsection.4.3}% 34
 \BOOKMARK [3][-]{subsubsection.4.3.2}{Styling the Component}{subsection.4.3}% 35
 \BOOKMARK [3][-]{subsubsection.4.3.3}{Variables}{subsection.4.3}% 36
@@ -39,17 +39,18 @@
 \BOOKMARK [2][-]{subsection.4.4}{Usability Testing}{section.4}% 39
 \BOOKMARK [2][-]{subsection.4.5}{ A/B Testing }{section.4}% 40
 \BOOKMARK [1][-]{section.5}{Result}{}% 41
-\BOOKMARK [2][-]{subsection.5.1}{Initial interviews}{section.5}% 42
-\BOOKMARK [2][-]{subsection.5.2}{Prototype}{section.5}% 43
-\BOOKMARK [2][-]{subsection.5.3}{Usability Testing}{section.5}% 44
-\BOOKMARK [3][-]{subsubsection.5.3.1}{Iteration one}{subsection.5.3}% 45
-\BOOKMARK [3][-]{subsubsection.5.3.2}{Iteration two}{subsection.5.3}% 46
-\BOOKMARK [2][-]{subsection.5.4}{A/B Testing}{section.5}% 47
-\BOOKMARK [1][-]{section.6}{Discussion}{}% 48
-\BOOKMARK [2][-]{subsection.6.1}{The Prototype}{section.6}% 49
-\BOOKMARK [2][-]{subsection.6.2}{Interviews}{section.6}% 50
-\BOOKMARK [2][-]{subsection.6.3}{Usability testing}{section.6}% 51
-\BOOKMARK [2][-]{subsection.6.4}{A/B testing}{section.6}% 52
-\BOOKMARK [1][-]{section.7}{Conclusion}{}% 53
-\BOOKMARK [1][-]{section.8}{Future Work}{}% 54
-\BOOKMARK [1][-]{section*.3}{Appendices}{}% 55
+\BOOKMARK [2][-]{subsection.5.1}{Initial research}{section.5}% 42
+\BOOKMARK [2][-]{subsection.5.2}{Semi-Structured interviews}{section.5}% 43
+\BOOKMARK [2][-]{subsection.5.3}{Prototype}{section.5}% 44
+\BOOKMARK [2][-]{subsection.5.4}{Usability Testing}{section.5}% 45
+\BOOKMARK [3][-]{subsubsection.5.4.1}{Iteration one}{subsection.5.4}% 46
+\BOOKMARK [3][-]{subsubsection.5.4.2}{Iteration two}{subsection.5.4}% 47
+\BOOKMARK [2][-]{subsection.5.5}{A/B Testing}{section.5}% 48
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 49
+\BOOKMARK [2][-]{subsection.6.1}{The Prototype}{section.6}% 50
+\BOOKMARK [2][-]{subsection.6.2}{Interviews}{section.6}% 51
+\BOOKMARK [2][-]{subsection.6.3}{Usability testing}{section.6}% 52
+\BOOKMARK [2][-]{subsection.6.4}{A/B testing}{section.6}% 53
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 54
+\BOOKMARK [1][-]{section.8}{Future Work}{}% 55
+\BOOKMARK [1][-]{section*.3}{Appendices}{}% 56
