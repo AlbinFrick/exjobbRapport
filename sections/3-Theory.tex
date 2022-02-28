@@ -1,6 +1,6 @@
 \section{Theory}
 
-The method of this study is being made possible from the theory described in this section. This section will go through all theory surrounding the building and testing the prototype built in this thesis. These theories are: 
+The method of this study is being made possible from the theory described in this section. This section will cover all theory surrounding the building and testing the prototype built in this thesis. These theories are: 
 \begin{itemize}
   \item Design
   \item Design software
@@ -21,9 +21,9 @@ The method of this study is being made possible from the theory described in thi
 
 \subsection{Design}%
 \label{sub:Design}
-The design work of a project is primarily held at the start of the project. The project team is in contact with the customer and hash out what functionality and appearance the application will have. With software, it is often hard for customers to know what they want and what is possible to do. Therefore this design segment is often done in iterations.
+The design work is primarily done at the start of the project. After that, the project team contacts the customer and hash out what functionality and appearance the application will have. However, it is often problematic for customers to know what they want and what is possible with software. Therefore this design segment is often done in iterations. 
 
-A fairly common way of designing a website is to create prototypes with low fidelity first. Then add more details to the prototype through iterations until the design is of high fidelity and could be mistaken for an actual website.
+A fairly common way of designing a website is to first create prototypes with low fidelity. Then add more details to the prototype through iterations until the design is of high fidelity and could be mistaken for an actual website. 
 
 The medium with which these prototypes are created varies, but a \acrfull{ui} design application is often used to make the final high fidelity prototype. This high-fidelity prototype is accurate with the final product meaning that all colors, typographies, and layout are complete. The developer then translates the design prototype into a functional website.
 
@@ -48,11 +48,11 @@ In this thesis, Figma is the \acrshort{ui} design application that is used becau
 \label{sub:Figma}
 Figma is a vector-based \acrshort{ui} Design application that is web-based, which means that the whole software is run over a network\cite{FigmaCollaborativeInterface} . 
 
-Figma has an open \acrshort{rest}-\acrshort{api} (Representational State Transfer) that supplies the information of the Figma document to servers over the Internet\cite{figmaFigma, RepresentationalStateTransfer2021}. Figma was chosen as the \acrshort{api} design application since it is web-based and Knowit uses it today. The \acrshort{api} is then constantly updated after each design change, which is great for collaboration and keeping the \acrshort{rest}-\acrshort{api} updated.
+Figma has an open \acrshort{rest}-\acrshort{api} (Representational State Transfer) that supplies the information of the Figma document to servers over the Internet\cite{figmaFigma, RepresentationalStateTransfer2021}. Figma was chosen as the \acrshort{api} design application since it is web-based and Knowit uses it today. The \acrshort{api} is then updated after each design change, which is great for collaboration and keeping the \acrshort{rest}-\acrshort{api} updated.
 
 \paragraph{Figma Components}%
 \label{ssub:Figma Components}
-Figma also allows its users to create \glspl{component}. A \gls{component} is, as explained earlier, a set of fundamental elements that are combined. Figures \ref{fig:images/cardComp} and \ref{fig:images/cardCompElements} show an example of a card\cite{babichSimpleDesignTips2020} \gls{component} in Figma. The card \gls{component} consists of four elements, two text elements, and two frame elements. 
+Figma allows its users to create \glspl{component}. A \gls{component} is, as explained earlier, a set of fundamental elements that are combined. Figures \ref{fig:images/cardComp} and \ref{fig:images/cardCompElements} show an example of a card\cite{babichSimpleDesignTips2020} \gls{component} in Figma. The card \gls{component} consists of four elements, two text elements, and two frame elements. 
 
 \begin{figure}[H]
   \centering
@@ -75,7 +75,7 @@ When copying a \gls{component}, the copied \gls{component} is \textit{attached} 
 \paragraph{Figma Styles}%
 \label{ssub:Styles}
 
-Figma has a feature that lets the user store colors, texts, and effects as \textit{styles}. This is a way for the user to store default styles for their design.  For example, if the default color for a design is green, the user can store this green color as a color style. The user can use the color style throughout their \acrfull{ui}. If they later want to change the default color for the \acrshort{ui}, they only need to change the color of the color \textit{style}, not all colored elements individually. Effectively the changes between figure \ref{fig:images/layoutBlue} and \ref{fig:images/layoutGreen} are from changing the color style. The same principle extends to typographies and effects such as shadows and blurs. 
+Figma has a feature that lets the user store colors, texts, and effects as \textit{styles}. This is a way for the user to store default styles for their design.  For example, if the default color for a design is green, the user can store this green color as a color style. The user can use the color style throughout their \acrfull{ui}. If they later want to change the default color for the \acrshort{ui}, they only need to change the color of the color \textit{style}, not all colored elements individually. The changes between Figures \ref{fig:images/layoutBlue} and \ref{fig:images/layoutGreen} are from changing the color style. The same principle extends to typographies and effects such as shadows and blurs. 
 
 \begin{figure}[H]
   \centering
@@ -122,6 +122,7 @@ Figma has a feature that lets the user store colors, texts, and effects as \text
 
 % \subsubsection{Components}%
 % \label{sub:Components}
+
 
 
 \subsection{Develop}%
