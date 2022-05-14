@@ -94,7 +94,7 @@
       \field{booktitle}{2009 {{First International Confernce}} on {{Advances}} in {{Databases}}, {{Knowledge}}, and {{Data Applications}}}
       \field{eventtitle}{2009 {{First International Confernce}} on {{Advances}} in {{Databases}}, {{Knowledge}}, and {{Data Applications}}}
       \field{month}{3}
-      \field{title}{A {{Classification}} of {{Object}}-{{Relational Impedance Mismatch}}}
+      \field{title}{A {{Classification}} of {{Object-Relational Impedance Mismatch}}}
       \field{year}{2009}
       \field{dateera}{ce}
       \field{pages}{36\bibrangedash 43}
@@ -273,6 +273,30 @@
       \endverb
       \verb{url}
       \verb https://www.invisionapp.com/inside-design/guide-to-design-systems/
+      \endverb
+    \endentry
+    \entry{FigmaCollaborativeInterface}{online}{}
+      \list{organization}{1}{%
+        {Figma}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The story of the web-based design tool—built to make design accessible to everyone.}
+      \field{langid}{american}
+      \field{title}{About {{Figma}}, the Collaborative Interface Design Tool.}
+      \field{urlday}{10}
+      \field{urlmonth}{6}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/T23TME58/about.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.figma.com/about/
+      \endverb
+      \verb{url}
+      \verb https://www.figma.com/about/
       \endverb
     \endentry
     \entry{Combinator}{online}{}
@@ -472,30 +496,6 @@
       \endverb
       \verb{url}
       \verb https://www.smashingmagazine.com/2019/04/sketch-figma-adobe-xd-ui-design-applications/
-      \endverb
-    \endentry
-    \entry{FigmaCollaborativeInterface}{online}{}
-      \list{organization}{1}{%
-        {Figma}%
-      }
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The story of the web-based design tool—built to make design accessible to everyone.}
-      \field{langid}{american}
-      \field{title}{About {{Figma}}, the Collaborative Interface Design Tool.}
-      \field{urlday}{10}
-      \field{urlmonth}{6}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/albin/Zotero/storage/T23TME58/about.html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.figma.com/about/
-      \endverb
-      \verb{url}
-      \verb https://www.figma.com/about/
       \endverb
     \endentry
     \entry{figmaFigma}{online}{}
@@ -756,8 +756,8 @@
       \endverb
     \endentry
     \entry{GeneralAsynchronousProgramming}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{abstract}{In this article, we'll run through a number of important concepts relating to asynchronous programming, and how this looks in web browsers and JavaScript. You should understand these concepts before working through the other articles in the module.}
       \field{langid}{american}
@@ -1064,8 +1064,8 @@
       \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{abstract}{Microsoft Teams is the hub for team collaboration in Microsoft 365 that integrates the people, content, and tools your team needs to be more engaged and effective.}
-      \field{langid}{english}
-      \field{title}{Video {{Conferencing}}, {{Meetings}}, {{Calling}} | {{Microsoft Teams}}}
+      \field{langid}{en-ww}
+      \field{title}{Video Conferencing, Meetings, Calling | Microsoft Teams}
       \field{urlday}{9}
       \field{urlmonth}{7}
       \field{urlyear}{2021}
@@ -1100,7 +1100,7 @@
       \field{origyear}{2021}
       \field{second}{8}
       \field{timezone}{Z}
-      \field{title}{Knowit-{{Experience}}-{{Norrland}}/{{FigmaConverter}}}
+      \field{title}{Knowit-{{Experience-Norrland}}/{{FigmaConverter}}}
       \field{urlday}{10}
       \field{urlmonth}{6}
       \field{urlyear}{2021}
@@ -1138,8 +1138,8 @@
       \list{organization}{1}{%
         {GitHub}%
       }
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labeltitlesource}{title}
       \field{abstract}{GitHub is where people build software. More than 65 million people use GitHub to discover, fork, and contribute to over 200 million projects.}
       \field{langid}{english}
@@ -1190,7 +1190,7 @@
       \field{origyear}{2018}
       \field{second}{52}
       \field{timezone}{Z}
-      \field{title}{{{KarlRombauts}}/{{Figma}}-{{SCSS}}-{{Generator}}}
+      \field{title}{{{KarlRombauts}}/{{Figma-SCSS-Generator}}}
       \field{urlday}{9}
       \field{urlmonth}{5}
       \field{urlyear}{2021}
@@ -1254,7 +1254,7 @@
       \field{sortinit}{5}
       \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labeltitlesource}{title}
-      \field{title}{Convert {{JSON}} to {{Swift}}, {{C}}\#, {{TypeScript}}, {{Objective}}-{{C}}, {{Go}}, {{Java}}, {{C}}++ and More • Quicktype}
+      \field{title}{Convert {{JSON}} to {{Swift}}, {{C}}\#, {{TypeScript}}, {{Objective-C}}, {{Go}}, {{Java}}, {{C}}++ and More • Quicktype}
       \field{urlday}{23}
       \field{urlmonth}{4}
       \field{urlyear}{2021}
@@ -1310,6 +1310,41 @@
       \endverb
       \verb{url}
       \verb https://rollupjs.org/guide/en/
+      \endverb
+    \endentry
+    \entry{FigmaConverter2021}{software}{}
+      \list{organization}{1}{%
+        {Knowit-Experience-Norrland}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{day}{17}
+      \field{hour}{12}
+      \field{minute}{9}
+      \field{month}{5}
+      \field{origday}{1}
+      \field{orighour}{11}
+      \field{origminute}{9}
+      \field{origmonth}{5}
+      \field{origsecond}{3}
+      \field{origtimezone}{Z}
+      \field{origyear}{2021}
+      \field{second}{8}
+      \field{timezone}{Z}
+      \field{title}{{{FigmaConverter}}}
+      \field{urlday}{5}
+      \field{urlmonth}{3}
+      \field{urlyear}{2022}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{origdateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/Knowit-Experience-Norrland/FigmaConverter
+      \endverb
+      \verb{url}
+      \verb https://github.com/Knowit-Experience-Norrland/FigmaConverter
       \endverb
     \endentry
   \enddatalist
