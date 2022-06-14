@@ -1,3 +1,4 @@
+\newpage
 \section{Theory}
 
 The method of this study is being made possible from the theory described in this section. This section will cover all theory surrounding the building and testing the prototype built in this thesis. These theories are: 
@@ -31,7 +32,7 @@ The medium with which these prototypes are created varies, but a \acrfull{ui} de
 \label{ssub:Apps}
 \acrshort{ui} design is often the first step in building an application. By designing the \acrshort{ui} first, the designer can collaborate with the customer iteratively until they have a design agreed upon to move forward to development.
 
-Sketch\cite{sketchDigitalDesignToolkit} was released in 2010 and was one of the first applications that mainly focused on \acrshort{ui} design. In later years applications such as Figma\cite{figmaFigmaCollaborativeInterface}  (released 2016) and Adobe XD\cite{adobeAdobeXDFast} (released 2015) have come to overtake Sketch's dominance\cite{SketchVsFigma0200}. 
+Sketch \cite{sketchDigitalDesignToolkit} was released in 2010 and was one of the first applications that mainly focused on \acrshort{ui} design. In later years applications such as Figma \cite{figmaFigmaCollaborativeInterface}  (released 2016) and Adobe XD \cite{adobeAdobeXDFast} (released 2015) have come to overtake Sketch's dominance \cite{SketchVsFigma0200}. 
 
 In this thesis, Figma is the \acrshort{ui} design application that is used because Knowit is already using this tool. Figma is also one of few design applications with an open \acrshort{rest}-\acrshort{api} that gives access to all prototype elements. This makes the project possible because all design data is accessible for a third-party tool that can create functional web components.  
 
@@ -46,29 +47,48 @@ In this thesis, Figma is the \acrshort{ui} design application that is used becau
 
 \subsubsection{Figma}%
 \label{sub:Figma}
-Figma is a vector-based \acrshort{ui} Design application that is web-based, which means that the whole software is run over a network\cite{FigmaCollaborativeInterface} . 
+Figma is a vector-based \acrshort{ui} Design application that is web-based, which means that the whole software is run over a network \cite{FigmaCollaborativeInterface} . 
 
-Figma has an open \acrshort{rest}-\acrshort{api} (Representational State Transfer) that supplies the information of the Figma document to servers over the Internet\cite{figmaFigma, RepresentationalStateTransfer2021}. Figma was chosen as the \acrshort{api} design application since it is web-based and Knowit uses it today. The \acrshort{api} is then updated after each design change, which is great for collaboration and keeping the \acrshort{rest}-\acrshort{api} updated.
+Figma has an open \acrshort{rest}-\acrshort{api} (Representational State Transfer) that supplies the information of the Figma document to servers over the Internet \cite{figmaFigma, RepresentationalStateTransfer2021}. Figma was chosen as the \acrshort{api} design application since it is web-based and Knowit uses it today. The \acrshort{api} is then updated after each design change, which is great for collaboration and keeping the \acrshort{rest}-\acrshort{api} updated.
 
 \paragraph{Figma Components}%
 \label{ssub:Figma Components}
-Figma allows its users to create \glspl{component}. A \gls{component} is, as explained earlier, a set of fundamental elements that are combined. Figures \ref{fig:images/cardComp} and \ref{fig:images/cardCompElements} show an example of a card\cite{babichSimpleDesignTips2020} \gls{component} in Figma. The card \gls{component} consists of four elements, two text elements, and two frame elements. 
+Figma allows its users to create \glspl{component}. A \gls{component} is, as explained earlier, a set of fundamental elements that are combined. Figure \ref{fig:figmaComponent} shows an example of a card \cite{babichSimpleDesignTips2020} \gls{component} in Figma. The card \gls{component} consists of four elements, two text elements, and two frame elements.
+
+ %\begin{figure}[H]
+ %  \centering
+ %  \begin{minipage}[b]{0.48\textwidth}
+ %    \includegraphics[width=\linewidth]{images/cardComp.png}
+ %    \caption{Figma component}
+ %    \label{fig:images/cardComp}
+ %  \end{minipage}
+ %  \hfill
+ %  \begin{minipage}[b]{0.48\textwidth}
+ %    \includegraphics[width=\linewidth]{images/cardCompElements.png}
+ %    \caption{Elements of a component}
+ %    \label{fig:images/cardCompElements}
+ %  \end{minipage}
+ %\end{figure}
+
 
 \begin{figure}[H]
   \centering
-  \begin{minipage}[b]{0.48\textwidth}
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
     \includegraphics[width=\linewidth]{images/cardComp.png}
     \caption{Figma component}
     \label{fig:images/cardComp}
-  \end{minipage}
+  \end{subfigure}
   \hfill
-  \begin{minipage}[b]{0.48\textwidth}
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
     \includegraphics[width=\linewidth]{images/cardCompElements.png}
     \caption{Elements of a component}
     \label{fig:images/cardCompElements}
-  \end{minipage}
+  \end{subfigure}
+  \caption{Figma component and its elements}
+  \label{fig:figmaComponent}
 \end{figure}
-
 
 When copying a \gls{component}, the copied \gls{component} is \textit{attached} to the original \gls{component}. When making changes to the original \gls{component}, all \textit{attached} \glspl{component} will get the updates. The attached \glspl{component} can be changed without affecting the original \gls{component}. 
 
@@ -130,7 +150,7 @@ Figma has a feature that lets the user store colors, texts, and effects as \text
 
 A website is usually built using the three main languages of the web: \acrfull{html}, CSS, and JavaScript. \acrshort{html} is a \textit{''tagging''} language meaning all code is written with tags. All information is written between or in opening and closing tags. An opening tag signifies a tag with  <\textit{nameOfTag}> and a closing tag </\textit{nameOfTag}>. Attributes can be assigned within the opening tag, such as a class or an id.  
 \acrshort{html} is often referred to as the body of a website. This is where the majority of the information on the web pages is stored. \acrshort{css} is the clothes to the body. \acrshort{css} is what defines the style for the website, such as sizes, paddings, and colors.\\
-\textit{"\acrshort{css} describes how \acrshort{html} elements are to be displayed on screen, paper, or in other media"} - W3school.com\cite{CSSIntroduction}.\\
+\textit{"\acrshort{css} describes how \acrshort{html} elements are to be displayed on screen, paper, or in other media"} - W3school.com \cite{CSSIntroduction}.\\
 JavaScript is a scripting language that enables the developer to create complex features on web pages. JavaScript enables us to update the content of the website dynamically. 
 
 In modern web design, many different frameworks, libraries, and, languages make it easier for developers to create products.  All these tools have one thing in common. They all convert their design to the three standard browser languages, \acrshort{html}, \acrshort{css}, and JavaScript. 
@@ -140,7 +160,7 @@ One of the thesis objectives is to create a tool that could be used in as many p
 
 \subsubsection{REST API}%
 \label{sub:REST API}
-\gls{rest} stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and is an architectural style of distributed hypermedia systems. Roy Fielding created this in 2000 with the release of his dissertation\cite{fieldingFieldingDissertationCHAPTER}. An \acrshort{api} to be called RESTful needs to fill the following six requirements\cite{fieldingFieldingDissertationCHAPTER,restfulapi.netWhatREST}. 
+\gls{rest} stands for \textbf{Re}presentational \textbf{S}tate \textbf{T}ransfer and is an architectural style of distributed hypermedia systems. Roy Fielding created this in 2000 with the release of his dissertation \cite{fieldingFieldingDissertationCHAPTER}. An \acrshort{api} to be called RESTful needs to fill the following six requirements \cite{fieldingFieldingDissertationCHAPTER,restfulapi.netWhatREST}. 
 
 \begin{enumerate}
   \item Client-server - the UI and data storage are separated. 
@@ -156,7 +176,7 @@ These requirements make the \acrshort{api} lightweight and easy to understand an
 
 \subsubsection{JavaScript and TypeScript}%
 \label{ssub:JavaScript and TypeScript}
-JavaScript is a programming language that reports its error much later than many other languages. This is because variables can take any shape in JavaScript. That is, for instance, a number or a string. This can at first seem promising, that the language is highly dynamic and flexible. However, this flexibility is also very error-prone, where most of the errors are discovered after the code is run. Because of this, the developer is obliged to test running the code after every change\cite{taivalsaari2008web}. TypeScript was created to fix the error-prone nature of JavaScript. TypeScript is an open-source superset of JavaScript. TypeScript allows for the creation of types for variables, functions, etc., and thereby helps to find more errors before runtime\cite{WhyYouShould}. TypeScript then complies back to JavaScript before it is run and can thereby run everywhere JavaScript is run\cite{WhyYouShould}. 
+JavaScript is a programming language that reports its error much later than many other languages. This is because variables can take any shape in JavaScript. That is, for instance, a number or a string. This can at first seem promising, that the language is highly dynamic and flexible. However, this flexibility is also very error-prone, where most of the errors are discovered after the code is run. Because of this, the developer is obliged to test running the code after every change \cite{taivalsaari2008web}. TypeScript was created to fix the error-prone nature of JavaScript. TypeScript is an open-source superset of JavaScript. TypeScript allows for the creation of types for variables, functions, etc., and thereby helps to find more errors before runtime \cite{WhyYouShould}. TypeScript then complies back to JavaScript before it is run and can thereby run everywhere JavaScript is run \cite{WhyYouShould}. 
 
 
 % \textit{Incremental testing is required. Due to its highly permissive, error-tolerant nature, JavaScript programming requires an incremental, evolutionary approach to testing as well. Since errors are reported much later than usual, by the time an error is reported it is often surprisingly difficult to pinpoint the original location of the error. Error detection is made harder by the dynamic nature of JavaScript, for instance, by the option to change some of the system features on the fly. Furthermore, in the absence of strong, static typing, it is possible to execute a program and only at runtime realize that some parts of the program are missing. For all these reasons, the best way to write JavaScript programs is to proceed step by step, by writing (and immediately testing) each new piece of code. If such an incremental, evolutionary approach is not used, debugging and testing can become quite tedious even for relatively small JavaScript applications.} 
@@ -165,7 +185,7 @@ JavaScript is a programming language that reports its error much later than many
 
 \subsubsection{Node.js}%
 \label{ssub:Node}
-Node.js is an open-source project that lets its users run code on the server asynchronously\cite{node.js}. JavaScript is a single-threaded language, meaning that the compiler runs the program from top to bottom. If a function is dependent on another function, the latter function needs to wait for the first function to finish. This is called blocking and can become frustrating for the user\cite{GeneralAsynchronousProgramming}. For example, an application has a flow of scrollable pictures and a button for saving a picture on the cloud. If this is implemented incorrectly and blocking occurs, the user will not be able to scroll through new pictures until the application has completed the process of saving the image. Using asynchronous programming blocking can be avoided by running the different functions on different threads, which is what node.js does. This allows for a more efficient way of running JavaScript code without a browser. Node.js is designed to handle HTTP effectively. Streaming and low latency have therefore been a high priority. 
+Node.js is an open-source project that lets its users run code on the server asynchronously \cite{node.js}. JavaScript is a single-threaded language, meaning that the compiler runs the program from top to bottom. If a function is dependent on another function, the latter function needs to wait for the first function to finish. This is called blocking and can become frustrating for the user \cite{GeneralAsynchronousProgramming}. For example, an application has a flow of scrollable pictures and a button for saving a picture on the cloud. If this is implemented incorrectly and blocking occurs, the user will not be able to scroll through new pictures until the application has completed the process of saving the image. Using asynchronous programming blocking can be avoided by running the different functions on different threads, which is what node.js does. This allows for a more efficient way of running JavaScript code without a browser. Node.js is designed to handle HTTP effectively. Streaming and low latency have therefore been a high priority. 
 
 
 \subsubsection{Syntactically Awesome Style Sheets (SASS)}%
@@ -237,7 +257,7 @@ div{
 
 \subsubsection{Web Components}%
 \label{sub:Web Components}
-Web Components are a set of different JavaScript \acrshortpl{api} and \acrshort{html} features that make it possible to create reusable custom elements\cite{WebComponentsMDN}. These elements are encapsulated away from the rest of the code. All major browsers support these web components. Because web components are run natively on \acrshort{html}, \acrshort{css}, and JavaScript, they are compatible with all JavaScript frameworks, such as React, Vue, and Angular. Web components are built with three technologies: Custom elements, shadow DOM, and \acrshort{html} Templates. 
+Web Components are a set of different JavaScript \acrshortpl{api} and \acrshort{html} features that make it possible to create reusable custom elements \cite{WebComponentsMDN}. These elements are encapsulated away from the rest of the code. All major browsers support these web components. Because web components are run natively on \acrshort{html}, \acrshort{css}, and JavaScript, they are compatible with all JavaScript frameworks, such as React, Vue, and Angular. Web components are built with three technologies: Custom elements, shadow DOM, and \acrshort{html} Templates. 
 
 \paragraph{Custom Elements}
 With the help of a set of JavaScript \acrshortpl{api}, we can define custom elements and their behavior. By creating custom elements, we can encapsulate \acrshort{html} functionality outside of the main page itself. By doing this, the \acrshort{html} code becomes much more readable. 
@@ -247,8 +267,8 @@ With the help of a set of JavaScript \acrshortpl{api}, we can define custom elem
 When the browser reads in an \acrshort{html} page, a document object model tree (\acrshort{dom} tree) is created.  In figure \ref{fig:shadow}, we can see this tree. Shadow \acrshort{dom} is a set of JavaScript \acrshortpl{api} that lets us attach an encapsulated ''shadow'' \acrshort{dom} tree to an existing node in the \acrshort{dom} tree. This ''shadow'' \acrshort{dom} extends the main document \acrshort{dom} like a branch. The difference from a regular branch is that the main \acrshort{dom} is not aware of the ''shadow'' \acrshort{dom}s data or functionality and vice versa. The ''shadow'' \acrshort{dom} is then essentially its own tree with its own stylesheet that cannot be modified or overwritten from the main \acrshort{dom}.\\
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\linewidth]{images/shadow.png}
-  \caption{Depiction of a shadow DOM attached to the main DOM}%
+  \includegraphics[width=0.9\linewidth]{images/ShadowDomIllustration.png}
+  \caption{Depiction of a shadow DOM attached to the main DOM (based on \cite{UsingShadowDOM}).}%
   \label{fig:shadow}
 \end{figure}
 
@@ -288,7 +308,7 @@ The most traditional way of installing and updating software is by downloading a
 
 A package manager can install and update software with ease compared to a more traditional installer. A package manager bundles up the source code into a package. This package can then be distributed over the Internet and installed and updated without an internal installer. 
 
-The package manager that this project will use is \acrfull{npm}, which is the world's largest software registry\cite{NpmNpmDocs}.
+The package manager that this project will use is \acrfull{npm}, which is the world's largest software registry \cite{NpmNpmDocs}.
 \acrshort{npm} has a straightforward interface, whereas if something needs to be installed, the following can be typed in the terminal: 
 
 \begin{lstlisting}[style=htmlcssjs]
@@ -298,7 +318,7 @@ The package manager that this project will use is \acrfull{npm}, which is the wo
 \subsubsection{Open Source}%
 \label{ssub:Open Source}
 
-\textit{"The term open source refers to something people can modify and share because its design is publicly accessible."} - Opensource.com\cite{WhatOpenSource}
+\textit{"The term open source refers to something people can modify and share because its design is publicly accessible."} - Opensource.com \cite{WhatOpenSource}
 
 Open source originated from developers creating software that was designed to be open and modified by anyone. In an open-source project, the source code for the software must be available for others to use. To signify that the project is open-source, an open-source license is added to the source code. These licenses affect how the user can use, study, distribute, and modify the software's source code. The most used licenses state that the user can do anything they wish with the software. Some licenses state that if alterations are done on the software, the altered version must also be open-source. 
 
@@ -318,11 +338,11 @@ When a product has been created, tests can be run on the product. The test's mai
 
 \subsubsection{Usability testing}%
 \label{ssub:User testing}
-Usability testing or "user research" is a broad term. As Lewis\cite{lewis2006usability} described it: "Usability testing, in general, involves representative users attempting representative tasks in representative environments, on early prototypes or working versions of computer interfaces." 
+Usability testing or "user research" is a broad term. As Lewis \cite{lewis2006usability} described it: "Usability testing, in general, involves representative users attempting representative tasks in representative environments, on early prototypes or working versions of computer interfaces." 
 
 Usability testing is essentially performed to find flaws in an interface by putting the user in the environment of using the interface. Usability testing is done in all stages of development, from paper prototypes to high-fidelity screen mock-ups to the finished product. 
 
-Lazar et al.\cite[Chapter~10]{lazar2017research}  consider usability testing a cousin to traditional research methods, where traditional research refers to methods such as experimental design\cite[Chapter~3]{lazar2017research}  and ethnography\cite[Chapter~9]{lazar2017research}.
+Lazar et al. \cite[Chapter~10]{lazar2017research}  consider usability testing a cousin to traditional research methods, where traditional research refers to methods such as experimental design \cite[Chapter~3]{lazar2017research}  and ethnography \cite[Chapter~9]{lazar2017research}.
 Similarities can be found in experimental design with measurement of task performance and time performance, surveys, and observation techniques from ethnography. The participants in usability testing, as in traditional research, must remain anonymous, be informed of their rights, and can leave the research at any time. What separates usability testing from traditional research is often the end goals. For usability testing, the end goals are to create the best product possible, with the time and resources at hand, while the traditional research methods want to find answers to questions that are universal for the field researched. 
 	
 Wixson proclaims in his study that usability testing is closer to engineering than traditional research \cite{wixon2003evaluating}. Usability testing, as engineering, is focused on creating a successful product with limited time and resources. Tests are done in iterations where the prototype will be changed between each test to fix the flaws found during the test. The next iteration of tests will then be used to verify the fixed flaws simultaneously as it searches for other flaws. This is, in most if not all traditional research, considered unacceptable. This because there is no way of knowing or statistically verifying the results from the first tests. 
@@ -336,13 +356,13 @@ Usability testing can collect quantitative data such as time- and task performan
 \paragraph{Sufficient Amount of Test Users}
 \label{ssub:Sufficient Amount of Test Users}
 
-In usability testing, it has become widely accepted that five users are the most efficient number of participants for usability testing.  Nielsen and Landauer suggest the number five out of a cost ratio to numbers of tests\cite{nielsen1993mathematical}. Nielsen started the \textit{''discount usability movement''} in 1989 with his presentation of the paper: "Usability Engineering at a Discount"\cite{experienceDiscountUsability20}. This \textit{movement} tries to find cost-effective methods for usability testing. 
+In usability testing, it has become widely accepted that five users are the most efficient number of participants for usability testing.  Nielsen and Landauer suggest the number five out of a cost ratio to numbers of tests \cite{nielsen1993mathematical}. Nielsen started the \textit{''discount usability movement''} in 1989 with his presentation of the paper: "Usability Engineering at a Discount" \cite{experienceDiscountUsability20}. This \textit{movement} tries to find cost-effective methods for usability testing. 
 From Nielsen and Landauer's study, they found that the number of usability problems found in a usability test with n users is:
 \[ N (1-(1- L ) n ) \]
 
 Where \textit{N} is the total number of usability problems and  \textit{L} is the proportion of problems found by one test user. With this, they determined that when using five users, 80\% of usability problems are found.
 
-Lazar, et al. explains that many researchers disagree with the assertion of five test users for successful usability testing because of Nielsen and Landauer approximation of the total number of usability problems\cite[Chapter~10.5.3]{lazar2017research}. This number \textit{N} is probably unknown, and therefore the number of test users \textit{n} cannot be found.
+Lazar, et al. explains that many researchers disagree with the assertion of five test users for successful usability testing because of Nielsen and Landauer approximation of the total number of usability problems \cite[Chapter~10.5.3]{lazar2017research}. This number \textit{N} is probably unknown, and therefore the number of test users \textit{n} cannot be found.
 
 The topic of what number of test users are sufficient for usability testing has been discussed for over 30 years. What is important to point out is that performing usability testing is more valuable to do than not to do. 
 
@@ -380,7 +400,7 @@ This example will follow five steps:
  \item Decide how significant the result of the test needs to be.
 \end{enumerate}
  
-In this example, we will use an user interface of a data management application, see figure \ref{fig:images/A}. 
+In this example, we will use a user interface of a data management application, see figure \ref{fig:images/A}. 
 
 \begin{figure}[H]
   \centering
@@ -414,7 +434,7 @@ Before the test begins, a statistical significance must be established. Usually,
 
 
 
-Our hypothesis for the test is that variant B will get a higher click rate than variant A. We run the test on 20000 users, where 10000 gets variant A, and 10000 gets variant B. We record every time a user presses the button.In table \ref{tab:ab}, we can see a small portion of these recordings.
+Our hypothesis for the test is that variant B will get a higher click rate than variant A. We run the test on 20000 users, where 10000 gets variant A, and 10000 gets variant B. We record every time a user presses the button. In table \ref{tab:ab}, we can see a small portion of these recordings.
 
 \begin{table}[H]
   \centering

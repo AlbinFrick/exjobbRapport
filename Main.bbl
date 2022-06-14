@@ -334,6 +334,23 @@
       \verb https://webflow.com/
       \endverb
     \endentry
+    \entry{ResponsiveWebDesigna}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Screenshot by author.}
+      \field{title}{Responsive Web Design Tool, {{CMS}}, and Hosting Platform | {{Webflow}}}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://webflow.com/
+      \endverb
+      \verb{url}
+      \verb https://webflow.com/
+      \endverb
+    \endentry
     \entry{facebookincReactJavaScriptLibrary}{online}{}
       \name{author}{1}{}{%
         {{hash=6a2c4d8b39538e1ab369a0cf62a49e46}{%
@@ -369,6 +386,35 @@
       \verb https://reactjs.org/
       \endverb
     \endentry
+    \entry{vislyVislya}{software}{}
+      \name{author}{1}{}{%
+        {{hash=077ce4c5f733b3a3eb7f0e3861e85a4f}{%
+           family={Visly},
+           familyi={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{fullhash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{bibnamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{authorbibnamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{authornamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \strng{authorfullhash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{addendum}{Screenshot by author.}
+      \field{title}{Visly}
+      \field{urlday}{3}
+      \field{urlmonth}{3}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.visly.app
+      \endverb
+      \verb{url}
+      \verb https://www.visly.app
+      \endverb
+    \endentry
     \entry{sketchDigitalDesignToolkit}{online}{}
       \name{author}{1}{}{%
         {{hash=4dbea7a3d6ec42e000074e34713ec776}{%
@@ -384,8 +430,8 @@
       \strng{authorbibnamehash}{4dbea7a3d6ec42e000074e34713ec776}
       \strng{authornamehash}{4dbea7a3d6ec42e000074e34713ec776}
       \strng{authorfullhash}{4dbea7a3d6ec42e000074e34713ec776}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Sketch is a design toolkit built to help you create your best work — from your earliest ideas, through to final artwork.}
@@ -418,8 +464,8 @@
       \strng{authornamehash}{a86fc3430821f57f16c0c8b000acf401}
       \strng{authorfullhash}{a86fc3430821f57f16c0c8b000acf401}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Figma: The Collaborative Interface Design Tool.}
@@ -452,8 +498,8 @@
       \strng{authorbibnamehash}{71f698950c9cdadc3d19bb7411177a78}
       \strng{authornamehash}{71f698950c9cdadc3d19bb7411177a78}
       \strng{authorfullhash}{71f698950c9cdadc3d19bb7411177a78}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Download Adobe XD free with the starter plan. XD is your UI/UX design solution for designing websites and mobile apps. Design, prototype, and share for free.}
@@ -477,8 +523,8 @@
       \list{organization}{1}{%
         {Smashing Magazine}%
       }
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labeltitlesource}{title}
       \field{abstract}{For a while now, Sketch has been the de facto application of choice for UX and UI designers. But in the last year or two, we have seen many new contenders for the Sketch’s crown. Two of them that have made the biggest strides are Figma and Adobe XD. In this article, I’ll try to summarize my thoughts on how these apps compete with Sketch and what are their unique features.}
       \field{langid}{english}
@@ -684,8 +730,8 @@
       \strng{authorbibnamehash}{6a6a31c0b321f419f1d9addd1643a51d}
       \strng{authornamehash}{f2ee577cf10f3b47f1035c5415ad8843}
       \strng{authorfullhash}{6a6a31c0b321f419f1d9addd1643a51d}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2008 34th Euromicro Conference Software Engineering and Advanced Applications}
@@ -699,8 +745,8 @@
       \list{organization}{1}{%
         {Serokell Software Development Company}%
       }
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labeltitlesource}{title}
       \field{abstract}{Learn about TypeScript and the reasons why you should choose it over JavaScript for your next software project.}
       \field{langid}{english}
@@ -734,8 +780,8 @@
       \strng{authorbibnamehash}{4b00bbf4971bea7d45e4ee343c881d44}
       \strng{authornamehash}{4b00bbf4971bea7d45e4ee343c881d44}
       \strng{authorfullhash}{4b00bbf4971bea7d45e4ee343c881d44}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.}
@@ -795,6 +841,27 @@
       \verb https://developer.mozilla.org/en-US/docs/Web/Web_Components
       \endverb
     \endentry
+    \entry{UsingShadowDOM}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An important aspect of web components is encapsulation — being able to keep the markup structure, style, and behavior hidden and separate from other code on the page so that different parts do not clash, and the code can be kept nice and clean. The Shadow DOM API is a key part of this, providing a way to attach a hidden separated DOM to an element. This article covers the basics of using the Shadow DOM.}
+      \field{langid}{american}
+      \field{title}{Using Shadow {{DOM}} - {{Web Components}} | {{MDN}}}
+      \field{urlday}{21}
+      \field{urlmonth}{5}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/albin/Zotero/storage/I6BEZTBK/Using_shadow_DOM.html
+      \endverb
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM
+      \endverb
+    \endentry
     \entry{polymerPolymerProject}{online}{}
       \name{author}{1}{}{%
         {{hash=6ac9fb6e69374501bea0bcad9749c0a7}{%
@@ -850,8 +917,8 @@
       \list{organization}{1}{%
         {Opensource.com}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labeltitlesource}{title}
       \field{abstract}{What is open source?}
       \field{langid}{english}
@@ -887,8 +954,8 @@
       \strng{authorbibnamehash}{f106a761a58d4041d103c16ce4f11cf1}
       \strng{authornamehash}{f106a761a58d4041d103c16ce4f11cf1}
       \strng{authorfullhash}{f106a761a58d4041d103c16ce4f11cf1}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Handbook of human factors and ergonomics}
@@ -926,8 +993,8 @@
       \strng{authorbibnamehash}{5eed39c0ebbb27994ef601fd658e1351}
       \strng{authornamehash}{5eed39c0ebbb27994ef601fd658e1351}
       \strng{authorfullhash}{5eed39c0ebbb27994ef601fd658e1351}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Research Methods in Human-Computer Interaction}
@@ -951,8 +1018,8 @@
       \strng{authorbibnamehash}{4d07abd669ba921106d63b04a8590dc8}
       \strng{authornamehash}{4d07abd669ba921106d63b04a8590dc8}
       \strng{authorfullhash}{4d07abd669ba921106d63b04a8590dc8}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{interactions}
@@ -1050,8 +1117,8 @@
       \strng{authorbibnamehash}{20b258878efe6c64698d087654b2d213}
       \strng{authornamehash}{20b258878efe6c64698d087654b2d213}
       \strng{authorfullhash}{20b258878efe6c64698d087654b2d213}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mastering the Semi-Structured Interview and beyond: {{From}} Research Design to Analysis and Publication}
@@ -1060,8 +1127,8 @@
       \field{dateera}{ce}
     \endentry
     \entry{VideoConferencingMeetings}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labeltitlesource}{title}
       \field{abstract}{Microsoft Teams is the hub for team collaboration in Microsoft 365 that integrates the people, content, and tools your team needs to be more engaged and effective.}
       \field{langid}{en-ww}
@@ -1084,8 +1151,8 @@
       \list{organization}{1}{%
         {Knowit-Experience-Norrland}%
       }
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labeltitlesource}{title}
       \field{day}{17}
       \field{hour}{12}
@@ -1116,8 +1183,8 @@
       \endverb
     \endentry
     \entry{MITLicenseOpen}{online}{}
-      \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
       \field{labeltitlesource}{title}
       \field{title}{The {{MIT License}} | {{Open Source Initiative}}}
       \field{urlday}{12}
@@ -1230,8 +1297,8 @@
       \endverb
     \endentry
     \entry{VisualStudioCode}{online}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labeltitlesource}{title}
       \field{abstract}{Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.~ Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.}
       \field{langid}{english}
@@ -1251,8 +1318,8 @@
       \endverb
     \endentry
     \entry{ConvertJSONSwift}{online}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labeltitlesource}{title}
       \field{title}{Convert {{JSON}} to {{Swift}}, {{C}}\#, {{TypeScript}}, {{Objective-C}}, {{Go}}, {{Java}}, {{C}}++ and More • Quicktype}
       \field{urlday}{23}
@@ -1273,8 +1340,8 @@
       \list{organization}{1}{%
         {webpack}%
       }
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labeltitlesource}{title}
       \field{abstract}{webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset., webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.}
       \field{langid}{english}
@@ -1294,8 +1361,8 @@
       \endverb
     \endentry
     \entry{RollupJs}{online}{}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labeltitlesource}{title}
       \field{title}{Rollup.Js}
       \field{urlday}{9}
@@ -1316,8 +1383,8 @@
       \list{organization}{1}{%
         {Knowit-Experience-Norrland}%
       }
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labeltitlesource}{title}
       \field{day}{17}
       \field{hour}{12}
