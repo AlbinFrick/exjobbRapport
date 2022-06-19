@@ -1,15 +1,18 @@
 \section{Discussion}
 % Discussion about the results and why it turned out the way it did. Hopefully this created a great tool that will take over the world
 
-In this section, a discussion about the results of the study will be taken place. Furthermore, a discussion on what could have been done differently. What was done well, and what could have been improved for all the stages of the study. The prototype that was produced, the usability, and the A/B testing that unfortunately could not be executed.
+In this section, a discussion about the results of the study will take place. Furthermore, a discussion on what could have been done differently. What was done well, and what could have been improved for all the stages of the study. The prototype that was produced, the usability, and the A/B testing that unfortunately could not be executed. 
 
 
 \subsection{The Prototype}%
 \label{sub:The Prototype}
-Most time and effort for this project went into creating the prototype. 
-There were a lot of problems that needed to be solved where the biggest one was; How can a component be built that works for all JavaScript frameworks, including static pages. The research focused on finding solutions that made it possible to work with static pages. Because a solution that works natively within \acrshort{html}-\acrshort{css}-JavaScript has a much higher chance of working together with frameworks. The web component was a clear choice.
+% Most time and effort for this project went into creating the prototype. 
+% There were a lot of problems that needed to be solved where the biggest one was; How can a component be built that works for all JavaScript frameworks, including static pages. The research focused on finding solutions that made it possible to work with static pages. Because a solution that works natively within \acrshort{html}-\acrshort{css}-JavaScript has a much higher chance of working together with frameworks. The web component was a clear choice.
 
-As explained in the theory section, Web components are a mixture of three technologies, custom elements, shadow \acrshort{dom}, and \acrshort{html} templates. This would work natively for all frameworks and static pages. The problem with using web components is that it is complicated to make the components loosely coupled between projects. The LitElement class from Polymer provided a solution. In addition, this also made the creation of the components much more straightforward. A problem with LitElement was that to use them \textit{open imports} need to be handled. This is when the import does not target a file or a function from a module.
+Most time and effort for this project were directed toward creating the prototype. Many problems had to be solved, and the most significant was; How can a component be built that works for all JavaScript frameworks, including static pages. The research focused on finding solutions that made it possible to work with static pages. Because a solution that works natively within \acrshort{html}-\acrshort{css}-JavaScript has a much higher chance of working together with frameworks. The web component was a clear choice. 
+
+
+As explained in the theory section, Web components are a mixture of three technologies, custom elements, shadow \acrshort{dom}, and \acrshort{html} templates. This would work natively for all frameworks and static pages. The problem with using web components is that it is complicated to make the components loosely coupled between projects. The LitElement class from Polymer provided a solution. In addition, this also made the creation of the components much more straightforward. A problem with LitElement is that it is dependent on \textit{open imports}. An open import is when the import does not target a specific file or function from a module.
 
 
 \begin{lstlisting}[style=htmlcssjs]
@@ -35,7 +38,7 @@ The prototype has some features that, unfortunately, could not be tested within 
 \subsection{Interviews}%
 \label{sub:Interviews}
 
-The interviews intended to find out how the employees of Knowit work, what their day-to-day routines were. The hope was that the interviews could help shape the prototype into something that felt more familiar to them. There was not as much gathered from the interviews as hoped. Because the new way of making the components with this tool was very new, it was hard to get any similarities with the work they do today. The way of using components and controlling them through properties is something they are working on within some React projects. This was already planned to be done for the components in the prototype but was a good verification. 
+The interviews intended to find out how the employees of Knowit work and their day-to-day routines. The goal was that the interviews could help shape the prototype into something that felt more familiar to the employees as Knowit. Unfortunately, there was not as much gathered from the interviews as hypothesized because the new way of making the components with this tool was significantly different. Therefore it was hard to get any similarities with the work the employees do today hence the small amount of data gathered. The way of using components and controlling them through properties is something the employees were working with within some React projects. This was already planned to be done for the components in the prototype but was a valid verification. 
 
 The interviews were carried out when the tool had been built for a while. Because of this, some assumptions built up of what the results of the interviews would be. These assumptions were discussed with Knowit, where the majority agreed with prior project experiences. These discussions were held before any interviews took place. The results from the interviews were not discussed with Knowit until all interviews were completed. 
 
@@ -55,7 +58,7 @@ Both of these assumptions were wrong, and from the interviews, opposite viewpoin
 \label{sub:Usability testing}
 The usability testing in this thesis was done with the more industrial style of working with the resources at hand. The project was carried out over 20 weeks during the Covid 19 pandemic meaning that all testing was done remotely. As a result of this, it was harder to get users to do the tests. All test that was made where a walkthrough for the whole prototype, from design to web component. Smaller tests were considered to check individual parts of the system. This was not used because there were not enough users and time. Because of the broadness of the prototype, it was also crucial that the users could make it from start to finish without any help. 
 
-From the two iterations, seven flaws were found in each iteration. This seems as though the supposedly fixed flaws from the first iteration remained. What is important to note is that the second iteration had added tasks. There were tasks added in the second iteration to maximize the range of the test. The second iteration could confirm the fixes for the flaws in the first iteration and find new flaws in untested features of the system. 
+From the two iterations, seven flaws were found in each iteration. This seems as though the supposedly fixed flaws from the first iteration remained. What is important to note is that the second iteration had added tasks to maximize the range of the test. The second iteration could confirm the fixes for the flaws in the first iteration and find new flaws in untested features of the system. 
 
 To say that the whole system is user-friendly would be an overstatement since the testing has only been performed on the system's essential functions. The usability tests showed that these essential functions, such as setting up a Figma document and converting its components, are usable and achievable for novice users. The tests also show that altering the components after they have been generated is logical for the users. 
 
@@ -67,7 +70,7 @@ I would argue that this is a very efficient way of building a tool that automate
 \label{sub:A/B testing}
 Unfortunately, there was no time to do A/B testing. This is still in the study because we found it important that to point out that this could be a good next step. This test was first and foremost supposed to answer the  research question: \textit{Does this tool speed up the development process and if so how much?} With the results from these tests, we could answer this question with statistical significance. This test would be very demanding on finding users but if the results show that it is more efficient to develop with the prototype there is a good incentive to invest in developing it into a real product. 
 
-The test is designed to be performed in pairs of a developer and designer so there was also a hope to get some answers to the research question: \textit{Will automation between design and development increase communication between designers and developers?} This would be done by observing the users during testing. If there is more or less conversation and if the pair find it easier to solve the problem.
+The test is designed to be performed in pairs of a developer and designer so there was also a goal to get some answers to the research question: \textit{Will automation between design and development increase communication between designers and developers?} This would be done by observing the users during testing. If there is more or less conversation and if the pair find it easier to solve the problem.
 
 \newpage
 \section{Conclusion}
@@ -81,7 +84,7 @@ This thesis had five research questions.
   \item Does this tool speed up the development process, and if so, how much? 
 \end{itemize}
 
-The three first questions could be answered by researching web technologies, creating a prototype that converts Figma components to web components, and ran usability tests on the prototype. The last two research questions did not get answered. However, the thesis supplies steps on how to get these answers through A/B testing. 
+The three first questions were answered by researching web technologies, creating a prototype that converts Figma components to web components, and running usability tests on the prototype. Unfortunately, the last two research questions did not get answered. However, the thesis supply steps to get these answers through A/B testing. 
 
 The indications from users and interviewees have been positive about what the prototype can do and become a helpful tool for developers and designers. 
 
@@ -92,6 +95,6 @@ From the interviews and tests that have been performed, there have been many pos
 
 The tool as of now only supports the most basic styling parameters such as width, height, positioning, etc., but there would not be much work to add more of these. The ones that would be a great addition are gradients, shadows, and rotation because these can become tricky to do manually, especially for more complex components. 
 
-The prototype as of now is highly dependent on the auto-layout feature in Figma. There are possible to work around this and make for a more general solution. This could mean less work for the designer to adapt their design to work with the generator and make development more efficient. 
+The prototype, as of now, is highly dependent on the auto-layout feature in Figma. However, it should be possible to work around this and provide a more general solution. A more general solution should result in less work for the designer to adapt their design to work with the generator and make development more efficient. 
 
 Depending on the situation, there are arguments to go ahead with A/B testing before and after developing a \acrshort{gui}. If there are resources to do both, the recommendation is to develop the \acrshort{gui} first. Having a \acrshort{gui} potentially makes the learning curve smaller and thereby gets less spread on the results. If there only is resources to do the tests or the \acrshort{gui}, the argument could be made to do the tests first. In the worst case, this would give indications on the efficiency of the tool and at best statistically establish the tool as efficient. Then the question becomes easier if there is an opportunity to invest in the tool. 

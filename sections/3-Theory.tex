@@ -99,20 +99,22 @@ Figma has a feature that lets the user store colors, texts, and effects as \text
 
 \begin{figure}[H]
   \centering
-  \begin{minipage}[b]{0.48\textwidth}
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
     \includegraphics[width=\linewidth]{images/layoutBlue.png}
     \caption{UI with blue color style}
     \label{fig:images/layoutBlue}
-  \end{minipage}
+  \end{subfigure}
   \hfill
-  \begin{minipage}[b]{0.48\textwidth}
+  \begin{subfigure}[b]{0.48\textwidth}
+    \centering
     \includegraphics[width=\linewidth]{images/layoutGreen.png}
     \caption{UI with green color style}
     \label{fig:images/layoutGreen}
-  \end{minipage}
+  \end{subfigure}
+  \caption{Example of UI's with different colors styles}
+  \label{fig:UIsWithDifferentColors}
 \end{figure}
-
-
 
 % \subsection{Competitors}%
 % \label{sub:Competitors}
@@ -338,7 +340,7 @@ When a product has been created, tests can be run on the product. The test's mai
 
 \subsubsection{Usability testing}%
 \label{ssub:User testing}
-Usability testing or "user research" is a broad term. As Lewis \cite{lewis2006usability} described it: "Usability testing, in general, involves representative users attempting representative tasks in representative environments, on early prototypes or working versions of computer interfaces." 
+Usability testing or "user research" is a broad term. As Lewis  described it: "Usability testing, in general, involves representative users attempting representative tasks in representative environments, on early prototypes or working versions of computer interfaces." \cite{lewis2006usability} 
 
 Usability testing is essentially performed to find flaws in an interface by putting the user in the environment of using the interface. Usability testing is done in all stages of development, from paper prototypes to high-fidelity screen mock-ups to the finished product. 
 
@@ -351,7 +353,7 @@ To get more credible data out of a test and not just for improving the product, 
 
 Usability testing can collect quantitative data such as time- and task performance. However, the majority of data that is collected is qualitative. As mentioned before, the most significant end goal for a usability test is to uncover flaws in the user interface, which is often subjective for the user. 
 
-\textit{"Often in industry, schedule and resource issues, rather than theoretical discussions of methodology, drive the development process \cite{wixon2003evaluating}."}
+\textit{"Often in industry, schedule and resource issues, rather than theoretical discussions of methodology, drive the development process."} \cite{wixon2003evaluating}
 
 \paragraph{Sufficient Amount of Test Users}
 \label{ssub:Sufficient Amount of Test Users}
@@ -404,18 +406,22 @@ In this example, we will use a user interface of a data management application, 
 
 \begin{figure}[H]
   \centering
-  \begin{minipage}[b]{0.45\textwidth}
+  \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\linewidth]{images/A.png}
     \caption{Variant A for the A/B-test}
     \label{fig:images/A}
-  \end{minipage}
+  \end{subfigure}
   \hfill
-  \begin{minipage}[b]{0.45\textwidth}
+  \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\linewidth]{images/B.png}
     \caption{Variant B for the A/B-test}
     \label{fig:images/B}
-  \end{minipage}
+  \end{subfigure}
+
+  \caption{Illustration for varient A and B for A/B-test}
+  \label{fig:VariantsForABtest}
 \end{figure}
+
 
 \textbf{Identifying goal} \\
 We want more users to try the digital solutions in the application. Therefore the goal for the test will be to optimize the click rate on the ''Try now'' button.
@@ -483,14 +489,13 @@ By doing this simulation, a distribution of the combination of A and B can be ob
 
 \subsubsection{Statistical Analysis}%
 \label{sub:Statistical analysis}
-When data has been collected a statistical analysis needs to be done to be able to make any ''hard'' conclusions. A lot of decisions need to be made when analyzing the collected data. What statistical method to be used, the confidence threshold, and how the interpretation and significance of the test results should be. If the wrong method is used or if the interpretation of the results is inappropriate the conclusions drawn from the study can be erroneous \cite{lazar2017research}. 
+When data has been collected, a statistical analysis is done to be able to draw any hard conclusions. Many decisions need to be made when analyzing the collected data. What statistical method to be used, the confidence threshold, and how the interpretation and significance of the test results should be. If the wrong method is used or if the interpretation of the results is inappropriate, the conclusions drawn from the study can be erroneous \cite{lazar2017research}. 
 
-
-\textbf{Preparing Data:} before we can do anything with the data often the data must be cleaned and organized.\\
+\textbf{Preparing Data:} before we can do anything with the data often the data must be cleaned and organized. Depending on the data that is collected this could mean, removing irrelevant data, fix structural error, correct for missing data and filter out data outliers.\\
 \textbf{Descriptive statistic:} when the data has been cleaned and organized it can be a good idea to run some tests to understand the nature of the data. This can unfold what patterns or tendencies lays in the data. This makes it easier to choose the correct statistical method for the collected data at hand.\\
 % Skillnad mellan analys och resultat: Analys = laga mat, Resultat = servera mat.
 \textbf{Analyze:} when we understand the nature of the data we can analyze the data with the help of a statistical analysis method. This method could be a T- or F-tests, chi-squared test, etc. depending on the data collected.\\ 
-\textbf{Results:} when the analysis is done the results must be interpreted according to the methods used.\\
+\textbf{Results:} when the analysis is complete the results must be interpreted according to the methods used.\\
 
 
 % \paragraph{Preparing Data}%

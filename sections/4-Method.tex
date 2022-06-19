@@ -16,17 +16,17 @@ These steps is shown in figure \ref{fig:projectFlowChart} below.
 
 \begin{figure}[H]
   \includegraphics[width=\linewidth]{../images/Project flow chart.png}
-  \caption{Flow chart over the project}
+  \caption{Flowchart for the project}
   \label{fig:projectFlowChart}
 \end{figure}
 
-
+\newpage
 \subsection{Initial Research}%
 \label{sub:Initial Research}
 
-Meetings with Knowit were held to figure out the exact scope of the project. We did two one-hour meetings one week apart from each other. It was chosen to do two one-hour meetings instead of one two-hour, so the participants had the opportunity to reflect on the first meeting and come with new insights.
+Meetings with Knowit were held to figure out the exact scope of the project. The researcher and Knowit did two one-hour meetings one week apart from each other. The conversation was held on two separate occasions, so the participants could reflect on the first meeting and develop new insights for the second meeting. 
 
-Some research was done to determine the competitors in the field, if this project was unique, and get inspiration for the project. The research consisted of searching the web with keywords that could also describe the tool created in this project. 
+Some research was done to determine the competitors in the field, if this project was unique, and get inspiration for the project. The research consisted of searching the web with keywords that could also describe the tool created in this project.  
 
 To build the tool that Knowit requested, research on the technologies that could be useful in the project needed to be done. Knowit would manage this tool, so we prioritized programming languages and tools they were familiar with.
 
@@ -40,7 +40,7 @@ To build the tool that Knowit requested, research on the technologies that could
 
 \subsection{Semi-Structured Interviews}%
 \label{sub:inteviews}
-This tool is intended to be used by people in many different areas of expertise, from designers to front-end developers to back-end developers. A semi-structured interview model was used \cite{galletta2013mastering} to understand the work these people do in their respective roles to be able to build/develop a tool that is functional for all parts of the workflow (all the different roles in the workflow). The semi-structured interview was carried out with a script of questions that were asked to every interviewee. Unlike the structured interview, the semi-structured interview allows for further explanation and follow-up questions from the interviewer. These interviews were done with seven employees of Knowit Experience Umeå and Sundsvall. 
+This tool is intended to be used by people in many different areas of expertise, from designers to front-end developers to back-end developers. A semi-structured interview model was used \cite{galletta2013mastering} to understand the work these people do in their respective roles to be able to build/develop a tool that is functional for all parts of the workflow (all the different roles in the workflow). The semi-structured interviews were carried out with a script of questions that were asked to every interviewee. Unlike the structured interview, the semi-structured interview allows for further explanation and follow-up questions from the interviewer. These interviews were done with seven employees of Knowit Experience Umeå and Sundsvall. These employees had competence in Design, front-end, and back-end development.
 
 Because of the broad nature of the tool created, it was important to get participants that worked with all affected areas of expertise. The interviews were done digitally over Microsoft Teams \cite{VideoConferencingMeetings}. The scripts used for these interviews can be found in the appendix (The scripts are only in Swedish). 
 
@@ -76,7 +76,7 @@ Figma has a feature called styles. This is a way for the user to store and reuse
 \label{ssub:Open Source}
 One of Knowit's initial requirements where that the software produced should be open source (see section \ref{ssub:Open Source}). The project was handed access to Knowit Experience Norrlands GitHub page. The software was uploaded publicly to this GitHub repository \cite{KnowitExperienceNorrlandFigmaConverter2021}. The MIT \cite{MITLicenseOpen} open source license where then attached to the repository stating that the software is free to use but has no liability or warranty.
  
-\subsubsection{Userguide}%
+\subsubsection{User guide}%
 \label{ssub:Userguide}
 The program built does not have a graphical user interface, again because of the time constraint. The user is instead using a command-line interface (CLI). This makes it a bit harder to learn because there are no visual queues of what to input into the program.  A user guide was created in the form of a README on GitHub \cite{BuildSoftwareBetter} to solve this issue. Along side the prototype itself, this user guide was altered after the usability tests.
 
@@ -99,14 +99,14 @@ Usability tests were done to make sure that the prototype was usable for somebod
 
 Two iterations of usability testing were carried out on nine participants, four in the first iteration and five in the second iteration. The participants had to have a background in web development, \acrshort{npm}, and \acrshort{ui}-design software. Therefore, the participants chosen for the tests were employees of Knowit and students from the interaction and design program at the University of Umeå. The test was designed as a scenario with four different tasks. The participant first got a link to the GitHub repository where the prototype and the user guide were situated. The tasks were to create a viable Figma \gls{component} that could be converted to a web \gls{component} using the prototype. After that, the participant should install the prototype on their computer. Use the prototype to convert the Figma \gls{component} and then insert the \gls{component}, using \acrshort{npm} locally, in a test project supplied by the test administrator.
 
-This was a way to test the whole chain from designing Figma \glspl{component}, converting these to web \glspl{component}, and to finally using the \glspl{component} in a project. These tests could also be used to determine what was working and not in the user guide. After the tasks were done, the questions about the experience were asked. Finally, the test administrator opened up for suggestions regarding improvements to the tool or the user guide. 
+This was a way to test the entire chain from designing Figma \glspl{component}, converting these to web \glspl{component}, and finally using the \glspl{component} in a project. These tests could also be used to determine what was working and not in the user guide. After the tasks were done, the questions about the experience were asked. Finally, the test administrator opened up for suggestions regarding improvements to the tool or the user guide. 
 
 The test script was expanded in the second iteration to cover more features. These features were the use of color and text styles. The questions from the first iteration were still asked. This was done to confirm that the changes made between iteration one and iteration two were effective. 
 
 
 \subsection{ A/B Testing }%
 \label{sub:ab-testing}
-To have a metric that can be measured, discussed, and statistically verifiable whether or not the prototype is effective in real-world use, A/B tests will be planned. There will not be time to perform these test in the scope of this project but could be usefull in later development. The primary goal of the test is the efficiency of the prototype. This will be an abnormal test, where instead of changing a small variable in an interface, the whole system will be tested. 
+To have a metric that can be measured, discussed, and statistically verify whether or not the prototype is effective in real-world use, A/B tests were planned to be done. Unfortunately, there was no time to perform these tests in this project's scope, but they could be helpful in later development. The primary goal of the test is the efficiency of the prototype. This A/B-test is an abnormal test where the whole system will be tested instead of changing a small variable in an interface. 
 
 % The task for the participants of the test is to create a simple website from a description. The test participants will be working in pairs of designers and developers, where they ought to collaborate to complete the task. The task will be built using react, since 
 
@@ -114,7 +114,7 @@ To have a metric that can be measured, discussed, and statistically verifiable w
 
 % The significance value for the test will be set to 95\%, meaning that the test will be performed until this value is met. 
 
-The task for the participants of the test is to create a simple website from a description. The test participants will be working in pairs of designers and developers, where they ought to collaborate to complete the task. The participants would build the website using React.js since Knowit would use React.js for smaller projects.  
+The task for the participants of the test is to create a simple website from a description. If the test were to be performed, the test participants would be working in pairs with designers and developers, where they ought to collaborate to complete the task. The participants would build the website using React.js since Knowit would use React.js for smaller projects. 
 
 The A variant for the test would be building the website using React.js and the B variant using React.js and the prototype. The website would be built with a set of components. Then, a pilot test would be performed To understand how many and complicated these components should be.  This pilot test would be only on the A variant, where the description of the website would be changed according to how long each test took. The aim is to keep the tests under one hour to lower the fatigue of the test participants.
 
