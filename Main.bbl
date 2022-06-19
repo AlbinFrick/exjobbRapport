@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.1 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -44,7 +44,7 @@
       \strng{authornamehash}{32b8ecdeb5db99182081752ac2d3e1cf}
       \strng{authorfullhash}{32b8ecdeb5db99182081752ac2d3e1cf}
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Advances in Computers, Vol 83}
@@ -87,7 +87,7 @@
       \strng{authornamehash}{3b82ae0ff00e0cbf8fab09e72a5909cb}
       \strng{authorfullhash}{32f20aa60942125bf4818fb2ae03d857}
       \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Object and relational technologies are grounded in different paradigms. Each technology mandates that those who use it take a particular view of a universe of discourse. Incompatibilities between these views manifest as problems of an object-relational impedance mismatch. In this paper we propose a conceptual framework for the problem space of object-relational impedance mismatch and consequently distinguish four kinds of impedance mismatch. We show that each kind of impedance mismatch needs to be addressed using a different object-relational mapping strategy. Our framework provides a mechanism to explore issues of fidelity, integrity and completeness in the design and implementation of existing and new strategy choices. Our framework will be of benefit to standards bodies, tool vendors, designers and programmers as it will provide them with new insights into how to address problems of an object-relational impedance mismatch both at the most appropriate levels of abstraction and in the most appropriate way.}
@@ -109,7 +109,7 @@
     \endentry
     \entry{WebD2BriefHistory}{online}{}
       \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{title}{{{WebD2}}: {{A Brief History}} of {{HTML}}}
       \field{urlday}{27}
@@ -128,7 +128,7 @@
     \endentry
     \entry{JavaScript2021}{inreference}{}
       \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{abstract}{JavaScript (), often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions. Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. Over 97\% of websites use it client-side for web page behavior, often incorporating third-party libraries. All major web browsers have a dedicated JavaScript engine to execute the code on the user's device. As a multi-paradigm language, JavaScript supports event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O. JavaScript engines were originally used only in web browsers, but they are now core components of other software systems, most notably servers and a variety of applications. Although there are similarities between JavaScript and Java, including language name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.}
       \field{annotation}{Page Version ID: 1030323362}
@@ -159,7 +159,7 @@
     \endentry
     \entry{BriefHistoryCSS}{online}{}
       \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{title}{A Brief History of {{CSS}} until~2016}
       \field{urlday}{27}
@@ -194,7 +194,7 @@
       \strng{authornamehash}{9cac386feba4a607877226b8f91b3338}
       \strng{authorfullhash}{9cac386feba4a607877226b8f91b3338}
       \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Cars are box containers that hold pieces of information. Recently this simple UI component became an essential part of the web and mobile…}
@@ -223,7 +223,7 @@
     \endentry
     \entry{ManifestoAgileSoftware}{online}{}
       \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labeltitlesource}{title}
       \field{title}{Manifesto for {{Agile Software Development}}}
       \field{urlday}{8}
@@ -255,7 +255,7 @@
       \strng{authornamehash}{50caa373bc4487c86beaeb49e71896db}
       \strng{authorfullhash}{50caa373bc4487c86beaeb49e71896db}
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{{$<$}p{$>$}By utilizing a collection of repeatable components and a set of standards guiding the use of those components, companies are changing the pace of creation and innovation within their teams.{$<$}/p{$>$}}
@@ -280,7 +280,7 @@
         {Figma}%
       }
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{abstract}{The story of the web-based design tool—built to make design accessible to everyone.}
       \field{langid}{american}
@@ -301,7 +301,7 @@
     \endentry
     \entry{Combinator}{online}{}
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{Y {{Combinator}}}
       \field{urlday}{5}
@@ -320,7 +320,7 @@
     \endentry
     \entry{ResponsiveWebDesign}{online}{}
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{Responsive Web Design Tool, {{CMS}}, and Hosting Platform | {{Webflow}}}
       \field{urlday}{26}
@@ -336,7 +336,7 @@
     \endentry
     \entry{ResponsiveWebDesigna}{online}{}
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{addendum}{Screenshot by author.}
       \field{title}{Responsive Web Design Tool, {{CMS}}, and Hosting Platform | {{Webflow}}}
@@ -366,7 +366,7 @@
       \strng{authornamehash}{6a2c4d8b39538e1ab369a0cf62a49e46}
       \strng{authorfullhash}{6a2c4d8b39538e1ab369a0cf62a49e46}
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A JavaScript library for building user interfaces}
@@ -399,7 +399,7 @@
       \strng{authornamehash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
       \strng{authorfullhash}{077ce4c5f733b3a3eb7f0e3861e85a4f}
       \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{addendum}{Screenshot by author.}
@@ -431,7 +431,7 @@
       \strng{authornamehash}{4dbea7a3d6ec42e000074e34713ec776}
       \strng{authorfullhash}{4dbea7a3d6ec42e000074e34713ec776}
       \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Sketch is a design toolkit built to help you create your best work — from your earliest ideas, through to final artwork.}
@@ -465,7 +465,7 @@
       \strng{authorfullhash}{a86fc3430821f57f16c0c8b000acf401}
       \field{extraname}{1}
       \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Figma: The Collaborative Interface Design Tool.}
@@ -499,7 +499,7 @@
       \strng{authornamehash}{71f698950c9cdadc3d19bb7411177a78}
       \strng{authorfullhash}{71f698950c9cdadc3d19bb7411177a78}
       \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Download Adobe XD free with the starter plan. XD is your UI/UX design solution for designing websites and mobile apps. Design, prototype, and share for free.}
@@ -524,7 +524,7 @@
         {Smashing Magazine}%
       }
       \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{abstract}{For a while now, Sketch has been the de facto application of choice for UX and UI designers. But in the last year or two, we have seen many new contenders for the Sketch’s crown. Two of them that have made the biggest strides are Figma and Adobe XD. In this article, I’ll try to summarize my thoughts on how these apps compete with Sketch and what are their unique features.}
       \field{langid}{english}
@@ -561,7 +561,7 @@
       \strng{authorfullhash}{a86fc3430821f57f16c0c8b000acf401}
       \field{extraname}{2}
       \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Figma}
@@ -581,7 +581,7 @@
     \endentry
     \entry{RepresentationalStateTransfer2021}{inreference}{}
       \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{abstract}{Representational state transfer (REST) is a de-facto standard for a software architecture for interactive applications that typically use multiple Web services. In order to be used in a REST-based application, a Web Service needs to meet certain constraints; such a Web Service is called RESTful. A RESTful Web service is required to provide an application access to its Web resources in a textual representation and support reading and modification of them with a stateless protocol and a predefined set of operations. By being RESTful, Web Services provide interoperability between the computer systems on the internet that provide these services. REST offers an alternative to, for instance, SOAP as method of access to a Web Service."Web resources" were first defined on the World Wide Web as documents or files identified by their URLs. However, today they have a much more generic and abstract definition that encompasses every thing, entity, or action that can be identified, named, addressed, handled, or performed, in any way whatsoever, on the Web. In a RESTful Web service, requests made to a resource's URI will elicit a response with a payload formatted in HTML, XML, JSON, or some other format. The response can confirm that some alteration has been made to the resource state, and the response can provide hypertext links to other related resources. When HTTP is used, as is most common, the operations (HTTP methods) available are GET, HEAD, POST, PUT, PATCH, DELETE, CONNECT, OPTIONS and TRACE.By using a stateless protocol and standard operations, RESTful systems aim for fast performance, reliability, and the ability to grow by reusing components that can be managed and updated without affecting the system as a whole, even while it is running. The term representational state transfer was introduced and defined in 2000 by Roy Fielding in his doctoral dissertation. Fielding's dissertation explained the REST principles that were known as the "HTTP object model" beginning in 1994, and were used in designing the HTTP 1.1 and Uniform Resource Identifiers (URI) standards. The term is intended to evoke an image of how a well-designed Web application behaves: it is a network of Web resources (a virtual state-machine) where the user progresses through the application by selecting resource identifiers such as http://www.example.com/articles/21 and resource operations such as GET or POST (application state transitions), resulting in the next resource's representation (the next application state) being transferred to the end user for their use.}
       \field{annotation}{Page Version ID: 1004990383}
@@ -612,7 +612,7 @@
     \endentry
     \entry{CSSIntroduction}{online}{}
       \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{title}{{{CSS Introduction}}}
       \field{urlday}{8}
@@ -644,7 +644,7 @@
       \strng{authornamehash}{c6055872081cf3b6db6ba40e9af2fad9}
       \strng{authorfullhash}{c6055872081cf3b6db6ba40e9af2fad9}
       \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Fielding {{Dissertation}}: {{CHAPTER}} 5: {{Representational State Transfer}} ({{REST}})}
@@ -678,7 +678,7 @@
       \strng{authornamehash}{68f278f6460b521815dd0d789b6ba337}
       \strng{authorfullhash}{68f278f6460b521815dd0d789b6ba337}
       \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{REST is an architecture style for designing networked applications. REST is a lightweight alternative to mechanisms like RPC (Remote Procedure Calls) and Web Services (SOAP) etc.}
@@ -731,7 +731,7 @@
       \strng{authornamehash}{f2ee577cf10f3b47f1035c5415ad8843}
       \strng{authorfullhash}{6a6a31c0b321f419f1d9addd1643a51d}
       \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2008 34th Euromicro Conference Software Engineering and Advanced Applications}
@@ -746,7 +746,7 @@
         {Serokell Software Development Company}%
       }
       \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{abstract}{Learn about TypeScript and the reasons why you should choose it over JavaScript for your next software project.}
       \field{langid}{english}
@@ -781,7 +781,7 @@
       \strng{authornamehash}{4b00bbf4971bea7d45e4ee343c881d44}
       \strng{authorfullhash}{4b00bbf4971bea7d45e4ee343c881d44}
       \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.}
@@ -803,7 +803,7 @@
     \endentry
     \entry{GeneralAsynchronousProgramming}{online}{}
       \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{abstract}{In this article, we'll run through a number of important concepts relating to asynchronous programming, and how this looks in web browsers and JavaScript. You should understand these concepts before working through the other articles in the module.}
       \field{langid}{american}
@@ -824,7 +824,7 @@
     \endentry
     \entry{WebComponentsMDN}{online}{}
       \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{title}{Web {{Components}} | {{MDN}}}
       \field{urlday}{9}
@@ -843,7 +843,7 @@
     \endentry
     \entry{UsingShadowDOM}{online}{}
       \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{abstract}{An important aspect of web components is encapsulation — being able to keep the markup structure, style, and behavior hidden and separate from other code on the page so that different parts do not clash, and the code can be kept nice and clean. The Shadow DOM API is a key part of this, providing a way to attach a hidden separated DOM to an element. This article covers the basics of using the Shadow DOM.}
       \field{langid}{american}
@@ -875,7 +875,7 @@
       \strng{authornamehash}{6ac9fb6e69374501bea0bcad9749c0a7}
       \strng{authorfullhash}{6ac9fb6e69374501bea0bcad9749c0a7}
       \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Polymer {{Project}}}
@@ -895,7 +895,7 @@
     \endentry
     \entry{NpmNpmDocs}{online}{}
       \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{abstract}{Documentation for the npm registry, website, and command-line interface}
       \field{title}{About Npm | Npm {{Docs}}}
@@ -918,7 +918,7 @@
         {Opensource.com}%
       }
       \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{abstract}{What is open source?}
       \field{langid}{english}
@@ -955,7 +955,7 @@
       \strng{authornamehash}{f106a761a58d4041d103c16ce4f11cf1}
       \strng{authorfullhash}{f106a761a58d4041d103c16ce4f11cf1}
       \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Handbook of human factors and ergonomics}
@@ -994,7 +994,7 @@
       \strng{authornamehash}{5eed39c0ebbb27994ef601fd658e1351}
       \strng{authorfullhash}{5eed39c0ebbb27994ef601fd658e1351}
       \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Research Methods in Human-Computer Interaction}
@@ -1019,7 +1019,7 @@
       \strng{authornamehash}{4d07abd669ba921106d63b04a8590dc8}
       \strng{authorfullhash}{4d07abd669ba921106d63b04a8590dc8}
       \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{interactions}
@@ -1051,7 +1051,7 @@
       \strng{authornamehash}{f2a5683ee7c93ce6cb8b96e419ed5e5a}
       \strng{authorfullhash}{f2a5683ee7c93ce6cb8b96e419ed5e5a}
       \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the {{INTERACT}}'93 and {{CHI}}'93 Conference on {{Human}} Factors in Computing Systems}
@@ -1079,7 +1079,7 @@
       \strng{authornamehash}{ef05154b3796d35505f05b26cbea7c61}
       \strng{authorfullhash}{ef05154b3796d35505f05b26cbea7c61}
       \field{sortinit}{4}
-      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{Simple user testing with 5 participants, paper prototyping, and heuristic evaluation offer a cheap, fast, and early focus on usability, as well as many rounds of iterative design.}
@@ -1118,7 +1118,7 @@
       \strng{authornamehash}{20b258878efe6c64698d087654b2d213}
       \strng{authorfullhash}{20b258878efe6c64698d087654b2d213}
       \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mastering the Semi-Structured Interview and beyond: {{From}} Research Design to Analysis and Publication}
@@ -1128,7 +1128,7 @@
     \endentry
     \entry{VideoConferencingMeetings}{online}{}
       \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{abstract}{Microsoft Teams is the hub for team collaboration in Microsoft 365 that integrates the people, content, and tools your team needs to be more engaged and effective.}
       \field{langid}{en-ww}
@@ -1152,7 +1152,7 @@
         {Knowit-Experience-Norrland}%
       }
       \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{day}{17}
       \field{hour}{12}
@@ -1184,7 +1184,7 @@
     \endentry
     \entry{MITLicenseOpen}{online}{}
       \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{title}{The {{MIT License}} | {{Open Source Initiative}}}
       \field{urlday}{12}
@@ -1206,7 +1206,7 @@
         {GitHub}%
       }
       \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{abstract}{GitHub is where people build software. More than 65 million people use GitHub to discover, fork, and contribute to over 200 million projects.}
       \field{langid}{english}
@@ -1240,7 +1240,7 @@
       \strng{authornamehash}{2984162063c06da3c0165584311f7e50}
       \strng{authorfullhash}{2984162063c06da3c0165584311f7e50}
       \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Contribute to KarlRombauts/Figma-SCSS-Generator development by creating an account on GitHub.}
@@ -1277,7 +1277,7 @@
         {Postman}%
       }
       \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labeltitlesource}{title}
       \field{abstract}{Postman makes API development easy. Our platform offers the tools to simplify each step of the API building process and streamlines collaboration so you can create better APIs faster.}
       \field{langid}{english}
@@ -1298,7 +1298,7 @@
     \endentry
     \entry{VisualStudioCode}{online}{}
       \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{abstract}{Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.~ Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.}
       \field{langid}{english}
@@ -1319,7 +1319,7 @@
     \endentry
     \entry{ConvertJSONSwift}{online}{}
       \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{title}{Convert {{JSON}} to {{Swift}}, {{C}}\#, {{TypeScript}}, {{Objective-C}}, {{Go}}, {{Java}}, {{C}}++ and More • Quicktype}
       \field{urlday}{23}
@@ -1341,7 +1341,7 @@
         {webpack}%
       }
       \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{abstract}{webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset., webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.}
       \field{langid}{english}
@@ -1362,7 +1362,7 @@
     \endentry
     \entry{RollupJs}{online}{}
       \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{title}{Rollup.Js}
       \field{urlday}{9}
@@ -1384,7 +1384,7 @@
         {Knowit-Experience-Norrland}%
       }
       \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labeltitlesource}{title}
       \field{day}{17}
       \field{hour}{12}

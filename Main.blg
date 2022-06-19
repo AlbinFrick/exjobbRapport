@@ -1,19 +1,17 @@
-[0] Config.pm:304> INFO - This is Biber 2.14
-[0] Config.pm:307> INFO - Logfile is 'Main.blg'
-[79] biber-darwin:322> INFO - === Sat May 21, 2022, 15:19:11
-[92] Biber.pm:415> INFO - Reading 'Main.bcf'
-[177] Biber.pm:943> INFO - Found 49 citekeys in bib section 0
-[189] Biber.pm:4256> INFO - Processing section 0
-[189] Utils.pm:75> INFO - Globbing data source 'bibLibrary.bib'
-[189] Utils.pm:91> INFO - Globbed data source 'bibLibrary.bib' to bibLibrary.bib
-[198] Biber.pm:4455> INFO - Looking for bibtex format file 'bibLibrary.bib' for section 0
-[202] bibtex.pm:1653> INFO - LaTeX decoding ...
-[276] bibtex.pm:1471> INFO - Found BibTeX data source 'bibLibrary.bib'
-[331] Utils.pm:304> WARN - year field '11:00:16 +0200 +0200' in entry 'SketchVsFigma0200' is not an integer - this will probably not sort properly.
-[434] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[435] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[435] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[435] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
-[468] bbl.pm:652> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
-[486] bbl.pm:755> INFO - Output to Main.bbl
-[486] Biber.pm:128> INFO - WARNINGS: 1
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'Main.blg'
+[83] biber-darwin:340> INFO - === Sun Jun 19, 2022, 10:21:33
+[104] Biber.pm:418> INFO - Reading 'Main.bcf'
+[195] Biber.pm:972> INFO - Found 49 citekeys in bib section 0
+[207] Biber.pm:4383> INFO - Processing section 0
+[218] Biber.pm:4574> INFO - Looking for bibtex file 'bibLibrary.bib' for section 0
+[223] bibtex.pm:1713> INFO - LaTeX decoding ...
+[281] bibtex.pm:1518> INFO - Found BibTeX data source 'bibLibrary.bib'
+[430] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[430] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[430] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[430] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[458] bbl.pm:654> INFO - Writing 'Main.bbl' with encoding 'UTF-8'
+[471] bbl.pm:757> INFO - Output to Main.bbl
+[471] Biber.pm:130> WARN - legacy year field '11:00:16 +0200 +0200' in entry 'SketchVsFigma0200' is not an integer - this will probably not sort properly.
+[471] Biber.pm:132> INFO - WARNINGS: 1

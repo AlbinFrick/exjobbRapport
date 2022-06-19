@@ -347,11 +347,11 @@ Usability testing is essentially performed to find flaws in an interface by putt
 Lazar et al. \cite[Chapter~10]{lazar2017research}  consider usability testing a cousin to traditional research methods, where traditional research refers to methods such as experimental design \cite[Chapter~3]{lazar2017research}  and ethnography \cite[Chapter~9]{lazar2017research}.
 Similarities can be found in experimental design with measurement of task performance and time performance, surveys, and observation techniques from ethnography. The participants in usability testing, as in traditional research, must remain anonymous, be informed of their rights, and can leave the research at any time. What separates usability testing from traditional research is often the end goals. For usability testing, the end goals are to create the best product possible, with the time and resources at hand, while the traditional research methods want to find answers to questions that are universal for the field researched. 
 	
-Wixson proclaims in his study that usability testing is closer to engineering than traditional research \cite{wixon2003evaluating}. Usability testing, as engineering, is focused on creating a successful product with limited time and resources. Tests are done in iterations where the prototype will be changed between each test to fix the flaws found during the test. The next iteration of tests will then be used to verify the fixed flaws simultaneously as it searches for other flaws. This is, in most if not all traditional research, considered unacceptable. This because there is no way of knowing or statistically verifying the results from the first tests. 
+Wixson proclaims in his study that usability testing is closer to engineering than traditional research \cite{wixon2003evaluating}. Usability testing, as engineering, is focused on creating a successful product with limited time and resources. Tests are done in iterations, where the prototype will be changed between each test to fix the flaws found during the test. The next iteration of tests will then be used to verify the fixed flaws simultaneously as it searches for other flaws. This is considered unacceptable in most, if not all, traditional research because there is no way of knowing or statistically verifying the results from the first tests \cite{lazar2017research}.  
 
 To get more credible data out of a test and not just for improving the product, the test environment should be kept as similar as possible for each user. By doing this, the data can be statistically analyzed, making it easier to make more accurate decisions of what to do next.
 
-Usability testing can collect quantitative data such as time- and task performance. However, the majority of data that is collected is qualitative. As mentioned before, the most significant end goal for a usability test is to uncover flaws in the user interface, which is often subjective for the user. 
+Usability testing can collect both quantitative and qualitative data. Quantitative data such as time- and task performance are often collected. Qualitative data are often collected by asking the user to think aloud while doing the task. When collecting quantitative and qualitative data, it should be the moderator's job to let the user explain what they are doing but not to the extent that the user talks so much that it affects the task time \cite{lazar2017research}.
 
 \textit{"Often in industry, schedule and resource issues, rather than theoretical discussions of methodology, drive the development process."} \cite{wixon2003evaluating}
 
@@ -402,9 +402,21 @@ This example will follow five steps:
  \item Decide how significant the result of the test needs to be.
 \end{enumerate}
  
-In this example, we will use a user interface of a data management application, see figure \ref{fig:images/A}. 
+In this example, we will use a user interface of a data management application, see figure \ref{fig:VariantsForABtest}. 
 
-\begin{figure}[H]
+
+
+\textbf{Identifying goal} \\
+We want more users to try the digital solutions in the application. Therefore the goal for the test will be to optimize the click rate on the ''Try now'' button.
+
+\textbf{What will be tested?}\\
+We will only focus on the color of the ''Try now'' button. This is the only change that will be done. Because of this, we can be sure what effect the color of the button has on click rate. 
+
+\textbf{Create a ''control'' and ''challenger''. }\\
+The two variants tested are often called the ''control'' and the ''challenger''. In our example, the ''control'', which has not changed, is variant A and the ''challenger'' is variant B, which has a green button instead of blue. These variants can be seen in figures \ref{fig:images/A} and \ref{fig:images/B}.
+
+
+\begin{figure}[t]
   \centering
   \begin{subfigure}[b]{0.45\textwidth}
     \includegraphics[width=\linewidth]{images/A.png}
@@ -422,18 +434,9 @@ In this example, we will use a user interface of a data management application, 
   \label{fig:VariantsForABtest}
 \end{figure}
 
-
-\textbf{Identifying goal} \\
-We want more users to try the digital solutions in the application. Therefore the goal for the test will be to optimize the click rate on the ''Try now'' button.
-
-\textbf{What will be tested?}\\
-We will only focus on the color of the ''Try now'' button. This is the only change that will be done. Because of this, we can be sure what effect the color of the button has on click rate. 
-
-\textbf{Create a ''control'' and ''challenger''. }\\
-The two variants tested are often called the ''control'' and the ''challenger''. In our example, the ''control'', which has not changed, is variant A and the ''challenger'' is variant B, which has a green button instead of blue. These variants can be seen in figures \ref{fig:images/A} and \ref{fig:images/B}.
-
 \textbf{Split users into sample groups.}\\
 The users are split into equally large sample groups where they either are shown variant A or variant B. 
+
 
 \textbf{Decide how significant the result of the test needs to be.}\\
 Before the test begins, a statistical significance must be established. Usually, this number is set to 95\%-99\%, meaning a 5\%-1\% chance that the test is showing a false positive. A false positive is a test result that wrongly indicates that a particular condition or attribute is present. For example, if a person tests positive for Covid-19 without actually having the disease.
@@ -463,25 +466,6 @@ user 10 & B     & yes     \\\cline{1-3}
 \end{table}
 
 To establish the significance value for the test, we remove all values in the \textit{group} column. Then we can simulate the group for each user, e.g., randomly apply a group to each user. 
-
-% \begin{table}[H]
-% \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|}
-% \cline{1-3} \cline{5-7} \cline{9-11}
-%         & Group & Pressed &                  &         & Group & Pressed &                  &         & Group & Pressed \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-% user 1  & A     & yes     &                  & user 1  &       & yes     &                  & user 1  & A     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-% user 2  & A     &         &                  & user 2  &       &         &                  & user 2  & A     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-% user 3  & B     & yes     &                  & user 3  &       & yes     &                  & user 3  & A     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-% user 4  & A     &         &                  & user 4  &       &         &                  & user 4  & B     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-% user 5  & B     &         & --\textgreater{} & user 5  &       &         & --\textgreater{} & user 5  & A     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-% user 6  & B     & yes     &                  & user 6  &       & yes     &                  & user 6  & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-% user 7  & A     &         &                  & user 7  &       &         &                  & user 7  & A     &         \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-% user 8  & B     & yes     &                  & user 8  &       & yes     &                  & user 8  & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-% user 9  & A     & yes     &                  & user 9  &       & yes     &                  & user 9  & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-% user 10 & B     & yes     &                  & user 10 &       & yes     &                  & user 10 & B     & yes     \\ \cline{1-3} \cline{5-7} \cline{9-11} 
-% \end{tabular}
-% \caption{Table over the test and removed AB}
-% \label{tab:abProg}
-% \end{table}
 
 
 By doing this simulation, a distribution of the combination of A and B can be observed. When the distribution is known, we can estimate the probability of all A and B combinations. In our example, we saw that in the empirical test, two users in group A pressed the button, and four users in group B pressed the button.  We then look at our simulated distribution of what probability there is that the empirical test results or more extreme occurred.  
